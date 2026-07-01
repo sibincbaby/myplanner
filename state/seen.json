@@ -43,5 +43,55 @@
     "url": "https://github.com/merendamattia/personal-financial-ai-agent",
     "title": "personal-financial-ai-agent — Multi-LLM Personal Finance Conversational Agent",
     "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/inkeep/open-knowledge",
+    "title": "OpenKnowledge — AI-Native Markdown Editor with MCP (Obsidian/Notion alternative)",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/ZhuJHua/moodiary",
+    "title": "Moodiary — Open-Source Cross-Platform Flutter + Rust Diary App with Local AI",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "title": "Skill_Seekers — Convert Docs/Repos/PDFs into Claude AI Skills with Conflict Detection",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/b0x42/Super-Productivity-MCP",
+    "title": "Super-Productivity-MCP — MCP Server Connecting AI to Super Productivity Task Manager",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/ninehills/claude-agent-ui",
+    "title": "claude-agent-ui — Browser-Based UI + SSE Server for Claude Agent SDK",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/siteboon/claudecodeui",
+    "title": "CloudCLI / claudecodeui — Web + Mobile UI for Claude Code Remote Sessions",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/Ngxba/claude-code-cli-ui",
+    "title": "claude-code-cli-ui — Visual Dashboard for Managing Claude Code Agents and Workflows",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/777genius/claude_agent_teams_ui",
+    "title": "agent-teams-ai — Multi-Agent Claude Orchestration with Kanban Board UI",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/czlonkowski/n8n-mcp",
+    "title": "n8n-mcp — MCP for Claude to Build n8n Automation Workflows",
+    "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/zilliztech/claude-context",
+    "title": "claude-context — Semantic Code Search MCP for Claude Code (Full Codebase Context)",
+    "date_seen": "2026-07-01"
   }
 ]
