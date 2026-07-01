@@ -6,6 +6,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },
+  "type": "module",
   "devDependencies": {
     "vitepress": "^1.6.3"
   },

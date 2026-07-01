@@ -16,4 +16,4 @@ Browse **Project Plans** for viable projects with full implementation plans.
 
 ---
 
-*Powered by Claude multi-agent workflow*
+*Powered by Claude multi-agent workflow · [Design spec](superpowers/specs/2026-07-01-ai-project-discovery-design.md)*
