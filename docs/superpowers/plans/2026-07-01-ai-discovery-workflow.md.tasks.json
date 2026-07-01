@@ -1,0 +1,33 @@
+{
+  "planPath": "docs/superpowers/plans/2026-07-01-ai-discovery-workflow.md",
+  "tasks": [
+    {
+      "id": 7,
+      "subject": "Task 1: VitePress site scaffold",
+      "status": "pending",
+      "description": "**Goal:** Working VitePress site with correct structure; `pnpm dev` opens the dashboard at localhost:5173.\n\n**Files:**\n- Create: `package.json`\n- Create: `.vitepress/config.ts`\n- Create: `docs/index.md`\n- Create: `.gitignore`\n\n**Acceptance Criteria:**\n- [ ] `pnpm install` completes without errors\n- [ ] `pnpm dev` starts VitePress at `http://localhost:5173`\n- [ ] Landing page renders with title \"AI Discovery\"\n- [ ] `.gitignore` excludes `node_modules/` and `.vitepress/cache/`\n\n**Verify:** `pnpm dev` → VitePress starts, browser shows \"AI Discovery\" at localhost:5173\n\n```json:metadata\n{\"files\": [\"package.json\", \".vitepress/config.ts\", \"docs/index.md\", \".gitignore\"], \"verifyCommand\": \"pnpm dev\", \"acceptanceCriteria\": [\"pnpm install completes without errors\", \"pnpm dev starts VitePress at localhost:5173\", \"Landing page renders with title AI Discovery\"], \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 8,
+      "subject": "Task 2: State & environment init",
+      "status": "pending",
+      "blockedBy": [7],
+      "description": "**Goal:** `state/seen.json` initialized as empty dedup tracker; `.env.example` documents the GitHub token.\n\n**Files:**\n- Create: `state/seen.json`\n- Create: `.env.example`\n\n**Acceptance Criteria:**\n- [ ] `state/seen.json` is valid JSON containing empty array `[]`\n- [ ] `.env.example` documents GITHUB_TOKEN with instructions\n\n**Verify:** `python3 -c \"import json; json.load(open('state/seen.json'))\"` → exits 0\n\n```json:metadata\n{\"files\": [\"state/seen.json\", \".env.example\"], \"verifyCommand\": \"python3 -c \\\"import json; json.load(open('state/seen.json'))\\\"\", \"acceptanceCriteria\": [\"state/seen.json is valid JSON empty array\", \".env.example documents GITHUB_TOKEN\"], \"modelTier\": \"mechanical\"}\n```"
+    },
+    {
+      "id": 9,
+      "subject": "Task 3: Discovery workflow script",
+      "status": "pending",
+      "blockedBy": [7, 8],
+      "description": "**Goal:** `.claude/workflows/ai-discovery.js` — 4-phase workflow script that takes `args.date` and produces all discovery output as committed markdown files.\n\n**Files:**\n- Create: `.claude/workflows/ai-discovery.js`\n\n**Acceptance Criteria:**\n- [ ] `node --check .claude/workflows/ai-discovery.js` exits 0\n- [ ] `export const meta` is a pure literal with `name: 'ai-discovery'`\n- [ ] Script uses only `args.date` for dates — never `Date.now()` or `new Date()`\n- [ ] DISCOVERY_SCHEMA and VIABILITY_SCHEMA defined with `required` arrays\n- [ ] Empty-result path: digest written even when no candidates found\n\n**Verify:** `node --check .claude/workflows/ai-discovery.js` → exits 0\n\n```json:metadata\n{\"files\": [\".claude/workflows/ai-discovery.js\"], \"verifyCommand\": \"node --check .claude/workflows/ai-discovery.js\", \"acceptanceCriteria\": [\"node --check exits 0\", \"meta.name is ai-discovery\", \"args.date used throughout\", \"all 4 phases defined\", \"empty-result path works\"], \"modelTier\": \"standard\"}\n```"
+    },
+    {
+      "id": 10,
+      "subject": "Task 4: Register daily schedule",
+      "status": "pending",
+      "blockedBy": [9],
+      "description": "**Goal:** Daily 7am cron routine that invokes the ai-discovery workflow automatically every morning.\n\n**Files:** None — registered via schedule skill.\n\n**Acceptance Criteria:**\n- [ ] Routine named `ai-discovery-daily` exists\n- [ ] Schedule is `0 7 * * *`\n- [ ] Prompt passes `args.date` to Workflow tool\n\n**Verify:** schedule skill list → `ai-discovery-daily` appears with correct cron\n\n```json:metadata\n{\"files\": [], \"verifyCommand\": \"schedule skill list\", \"acceptanceCriteria\": [\"routine ai-discovery-daily exists\", \"schedule is 0 7 * * *\", \"prompt invokes ai-discovery workflow with args.date\"], \"modelTier\": \"standard\"}\n```"
+    }
+  ],
+  "lastUpdated": "2026-07-01T00:00:00Z"
+}
