@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "url": "https://github.com/fujibee/agmsg",
+    "title": "agmsg — Cross-Vendor Messaging for CLI AI Coding Agents",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/adospace/vs-agentic",
+    "title": "vs-agentic — Claude Code Extension for Visual Studio 2026",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "title": "CopilotKit — Frontend Stack for Agents & Generative UI (AG-UI Protocol)",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://www.ycombinator.com/launches/QKg-hyper-the-self-driving-company-brain",
+    "title": "Hyper (YC P26) — Self-Driving Company Brain for Agentic Development",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/rohitg00/agentmemory",
+    "title": "agentmemory — Persistent MCP Memory Server for AI Coding Agents",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
+    "title": "pi_agent_rust — High-Performance AI Coding Agent CLI Written in Rust",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+    "title": "X (Twitter) Official Hosted MCP Server",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/google/agents-cli",
+    "title": "google/agents-cli — CLI and Skills for Building and Deploying AI Agents on Google Cloud",
+    "date_seen": "no-date-provided"
+  },
+  {
+    "url": "https://github.com/merendamattia/personal-financial-ai-agent",
+    "title": "personal-financial-ai-agent — Multi-LLM Personal Finance Conversational Agent",
+    "date_seen": "no-date-provided"
+  }
+]
