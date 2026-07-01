@@ -10,7 +10,8 @@ export const meta = {
 }
 
 const DATE = args?.date ?? 'no-date-provided'
-const REPO_ROOT = '/home/sibin/my-works/myplanner'
+// ponytail: repoRoot passed by caller so this works in both local and cloud environments
+const REPO_ROOT = args?.repoRoot ?? '/home/sibin/my-works/myplanner'
 
 const INTEREST_PROFILE = `
 Interest profile (from analysis of 168+ personal projects in ~/my-works):
