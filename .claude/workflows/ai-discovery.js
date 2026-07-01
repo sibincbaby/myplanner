@@ -21,7 +21,8 @@ Interest profile (from analysis of 168+ personal projects in ~/my-works):
 - Flutter + web AI apps: mobile-first AI-powered personal tools
 
 EXECUTOR CONTEXT: Claude is the builder. Viability and planning are scoped to what
-Claude can execute autonomously. No stack constraint.
+Claude can execute autonomously. No stack constraint — user works in Flutter, Nuxt 4,
+Node.js, Python, Rust all via Claude.
 `
 
 phase('Discovery')
@@ -72,8 +73,12 @@ Projects and tools involving: LLMs, AI agents, MCP servers, Claude integrations,
 DEDUPLICATION:
 Previously seen items (skip any URL from this list): ${seenRaw}
 
-SCORING (interest_score = 0 to 4):
-Count how many of the 5 interest areas above this project hits.
+SCORING (interest_score = 0 to 4, one point per interest area hit):
+- Claude/LLM tooling: +1
+- Agent UI: +1
+- Dev productivity: +1
+- Personal finance AI: +1
+- Flutter/web AI app: +1
 Only include candidates with interest_score >= 2.
 Return top 8-10 candidates ranked by interest_score descending.
 `, {
@@ -127,13 +132,26 @@ Description: ${c.description}
 ${INTEREST_PROFILE}
 
 SCORING CRITERIA (0 or 1 each):
-1. weekend_buildable: Clear MVP achievable in 1-2 Claude Code sessions. Score 0 if months of work or requires specialized infra.
-2. fills_gap: Fills a real gap in user's existing toolkit. Score 0 if they almost certainly have an equivalent already.
-3. novel: Not already a widely-used polished open-source tool. Score 0 if a popular mature equivalent exists.
-4. daily_utility: User would genuinely use this every single day. Score 0 if niche or occasional use.
+1. weekend_buildable: Can a clear MVP be built in 1-2 Claude Code sessions (a day or two of Claude work)?
+   Score 1 if: the core useful thing is achievable in a focused sprint with clear scope.
+   Score 0 if: requires months of work, specialized infrastructure, or a large team.
+2. fills_gap: Would this fill a real gap in the user's existing toolkit?
+   Score 1 if: this would genuinely add a capability they're clearly missing based on their profile.
+   Score 0 if: they almost certainly have something equivalent already.
+3. novel: Is this meaningfully distinct from widely-used polished open-source alternatives?
+   Score 1 if: the concept is fresh or existing tools are poor/incomplete.
+   Score 0 if: a popular, mature, well-maintained open-source version already exists.
+4. daily_utility: Would the user genuinely open and use this every single day?
+   Score 1 if: it solves a daily workflow problem they encounter constantly.
+   Score 0 if: it solves a niche problem they'd reach for once a month.
 
 viable = true when total >= 3.
-Write 2-3 sentences of reasoning.
+
+For each criterion, provide BOTH sides:
+- Score 1 if: [positive condition]
+- Score 0 if: [negative condition]
+
+Be honest and strict — most projects should score 2. Reserve viable=true for genuinely strong fits where the user would immediately want to build it. Write 2-3 sentences of reasoning.
 `, {
     label: `viability:${c.title.slice(0, 25)}`,
     schema: VIABILITY_SCHEMA,
@@ -144,7 +162,7 @@ Write 2-3 sentences of reasoning.
 
 const scored = viabilityResults.filter(Boolean)
 const viable = scored.filter(v => v.viable)
-log(`Viability: ${viable.length}/${scored.length} passed`)
+log(`Viability: ${viable.length}/${scored.length} passed (threshold: 3/4)`)
 
 phase('Planning')
 
@@ -166,9 +184,24 @@ Write in markdown with these sections:
 ## Overview
 ## Stack Recommendation
 ## MVP Scope
-## Implementation Phases (3-5 phases, each with Goal/Files/Key steps/Verify)
-## Estimated Effort (in Claude sessions, 1 session = 2-4 hours of Claude work)
+## Implementation Phases
+
+3-5 phases. For each phase use this exact format:
+
+### Phase N: [Name]
+**Goal:** one sentence describing what works at the end of this phase
+**Files to create/modify:**
+- \`path/to/file.ext\` — what it does
+**Key steps:**
+1. Numbered implementation step with enough detail to execute
+2. ...
+**Verify:** exact command or observable action to confirm this phase works
+
+## Estimated Effort
+X Claude Code sessions (1 session ≈ 2-4 hours of Claude work). Briefly describe what fills each session.
+
 ## Potential Blockers
+Auth requirements, external APIs, complexity spikes, or anything that could derail. Be specific.
 
 Be specific: name actual files, commands, libraries. Claude executes this directly.
 `, {
@@ -204,7 +237,7 @@ const digestMd = `# Discovery Digest — ${DATE}\n\n## Candidates Screened\n\n| 
 
 const projectFiles = viable.map((v, i) => {
   const c = candidates.find(c => c.url === v.url)
-  const plan = successfulPlans[i] ?? '_Plan generation failed — will retry tomorrow._'
+  const plan = planResults[i] ?? '_Plan generation failed — will retry tomorrow._'
   const slug = v.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')
   return {
     slug,
@@ -227,7 +260,7 @@ await parallel([
 ])
 
 await agent(
-  `Read ${REPO_ROOT}/state/seen.json. Parse as JSON array. Append these entries: ${JSON.stringify(newSeen)}. Write the updated array back to ${REPO_ROOT}/state/seen.json as pretty-printed JSON.`,
+  `Read ${REPO_ROOT}/state/seen.json. Parse as JSON array. Append these entries: ${JSON.stringify(newSeen, null, 2)}. Write the updated array back to ${REPO_ROOT}/state/seen.json as pretty-printed JSON.`,
   { label: 'update-seen', phase: 'Write', effort: 'low' }
 )
 
