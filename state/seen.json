@@ -143,5 +143,50 @@
     "url": "https://github.com/kirill-markin/expense-budget-tracker",
     "title": "expense-budget-tracker — Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
     "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/loppo-llc/kojo",
+    "title": "kojo — Mobile Remote Control for AI Coding CLIs with Persistent Scheduled Agents",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/jpincas/calstakk",
+    "title": "calstakk — Local-First CalDAV/VTODO Server with 29-Tool MCP Layer for Claude",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/cjtrowbridge/apparat",
+    "title": "apparat — Voice-Driven Agentic Git Manager with Local STT/TTS + LLM",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/akshajsrivastava-exe/wikix",
+    "title": "wikix — LLM Agent that Curates Sources into a Structured Personal Wiki",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/twidi/twicc",
+    "title": "twicc — Web UI to Browse and Interact with Claude Code and Codex Sessions",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/jazzenchen/VibeAround",
+    "title": "VibeAround — Launch and Keep Multiple AI Coding CLIs (Claude Code, Codex, Gemini, Pi)",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/RobertIlisei/MARVIN",
+    "title": "MARVIN — Native macOS SwiftUI AI Pair-Programming IDE on the Claude Agent SDK",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/Adarsh457/FinPilot",
+    "title": "FinPilot — AI-Powered Personal Finance Assistant with Natural-Language Queries",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/bug-ops/zeph",
+    "title": "zeph — Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
+    "date_seen": "2026-07-03"
   }
 ]

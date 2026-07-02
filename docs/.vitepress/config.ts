@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-03', link: '/daily/2026-07-03' },
           { text: '2026-07-02', link: '/daily/2026-07-02' },
           { text: '2026-07-01', link: '/daily/2026-07-01' }
         ]
@@ -21,6 +22,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'kojo — Mobile Cron for Coding Agents', link: '/projects/2026-07-03-kojo' },
+          { text: 'CalStakk — AI-Managed Calendar (MCP)', link: '/projects/2026-07-03-calstakk' },
+          { text: 'Apparat — Voice-Driven Agentic Git', link: '/projects/2026-07-03-apparat' },
+          { text: 'Wikix — LLM-Curated Personal Wiki', link: '/projects/2026-07-03-wikix' },
           { text: 'expense-budget-tracker — Finance + AI SQL API', link: '/projects/2026-07-02-expense-budget-tracker' },
           { text: 'natively — AI Meeting Assistant', link: '/projects/2026-07-02-natively' },
           { text: 'claudish — Claude Code × 580 Models', link: '/projects/2026-07-02-claudish' },
