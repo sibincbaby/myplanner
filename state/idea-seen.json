@@ -10,5 +10,17 @@
   { "app": "n8n", "date_seen": "2026-07-02" },
   { "app": "Paperless-ngx", "date_seen": "2026-07-02" },
   { "app": "Prometheus", "date_seen": "2026-07-02" },
-  { "app": "QGIS", "date_seen": "2026-07-02" }
+  { "app": "QGIS", "date_seen": "2026-07-02" },
+  { "app": "Immich", "date_seen": "2026-07-03" },
+  { "app": "OBS Studio", "date_seen": "2026-07-03" },
+  { "app": "Blender", "date_seen": "2026-07-03" },
+  { "app": "Kubernetes (kubectl)", "date_seen": "2026-07-03" },
+  { "app": "Odoo", "date_seen": "2026-07-03" },
+  { "app": "Apache Airflow", "date_seen": "2026-07-03" },
+  { "app": "Nextcloud", "date_seen": "2026-07-03" },
+  { "app": "Wireshark / tshark", "date_seen": "2026-07-03" },
+  { "app": "Calibre", "date_seen": "2026-07-03" },
+  { "app": "DaVinci Resolve", "date_seen": "2026-07-03" },
+  { "app": "FreeCAD", "date_seen": "2026-07-03" },
+  { "app": "GIMP", "date_seen": "2026-07-03" }
 ]
