@@ -13,7 +13,7 @@ if [ -f "docs/daily/$DATE.md" ]; then
   exit 0
 fi
 
-/home/sibin/.local/bin/claude --dangerouslySkipPermissions -p "
+/home/sibin/.local/bin/claude --dangerously-skip-permissions -p "
 You are the daily AI project discovery agent. Today's date is $DATE. Repo is at /home/sibin/my-works/myplanner.
 
 Your job: run the full discovery pipeline and commit results.
