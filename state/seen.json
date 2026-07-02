@@ -93,5 +93,55 @@
     "url": "https://github.com/zilliztech/claude-context",
     "title": "claude-context — Semantic Code Search MCP for Claude Code (Full Codebase Context)",
     "date_seen": "2026-07-01"
+  },
+  {
+    "url": "https://github.com/browser-use/video-use",
+    "title": "video-use — Edit Videos with Coding Agents (FFmpeg + ElevenLabs + Claude Code)",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "title": "Vibe-Trading — Personal AI Trading Agent with 29 Pre-built Agent Teams",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/orailnoor/private-agent",
+    "title": "private-agent — Flutter Android Automation Agent via LLM + Accessibility Services",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/Pimzino/agentic-tools-mcp",
+    "title": "agentic-tools-mcp — MCP Server for Hierarchical Task Management + Semantic Agent Memory",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/coder/anyclaude",
+    "title": "anyclaude — Claude Code with Any LLM Provider (OpenAI, Google, xAI)",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/MadAppGang/claudish",
+    "title": "claudish — Claude Code Proxy Supporting 580+ Models via OpenRouter/Gemini/OpenAI/Ollama",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/jamiepine/voicebox",
+    "title": "voicebox — Open-Source AI Voice Studio with Cloning, Dictation, and Agent Integration",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+    "title": "natively — Free Open-Source AI Meeting Assistant and Interview Copilot (Cluely alternative)",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/OpenCoworkAI/open-codesign",
+    "title": "open-codesign — Open-Source Claude Design Alternative (Electron + React, BYOK, MIT)",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "url": "https://github.com/kirill-markin/expense-budget-tracker",
+    "title": "expense-budget-tracker — Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
+    "date_seen": "2026-07-02"
   }
 ]

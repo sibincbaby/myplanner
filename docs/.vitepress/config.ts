@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-02', link: '/daily/2026-07-02' },
           { text: '2026-07-01', link: '/daily/2026-07-01' }
         ]
       },
@@ -20,6 +21,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'expense-budget-tracker — Finance + AI SQL API', link: '/projects/2026-07-02-expense-budget-tracker' },
+          { text: 'natively — AI Meeting Assistant', link: '/projects/2026-07-02-natively' },
+          { text: 'claudish — Claude Code × 580 Models', link: '/projects/2026-07-02-claudish' },
+          { text: 'agentic-tools-mcp — Task + Memory MCP', link: '/projects/2026-07-02-agentic-tools-mcp' },
+          { text: 'private-agent — Flutter Android Agent', link: '/projects/2026-07-02-private-agent' },
           { text: 'agent-teams-ai', link: '/projects/2026-07-01-agent-teams-ai' },
           { text: 'CloudCLI — Claude Code Mobile UI', link: '/projects/2026-07-01-cloudcli-claude-code-mobile-ui' },
           { text: 'Moodiary — Flutter AI Diary', link: '/projects/2026-07-01-moodiary' },
