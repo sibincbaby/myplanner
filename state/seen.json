@@ -188,5 +188,45 @@
     "url": "https://github.com/bug-ops/zeph",
     "title": "zeph — Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
     "date_seen": "2026-07-03"
+  },
+  {
+    "url": "https://github.com/jordiboehme/crystalline",
+    "title": "crystalline — Local-First Rust Memory System for AI Agents (CLI + MCP Server + Hybrid Search)",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/tomascupr/sous-chef",
+    "title": "sous-chef — Claude Code Plugin that Splits Planning (Claude) from Implementation (Codex/GLM)",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/YuanpingSong/ultracodex",
+    "title": "ultracodex — Run Claude Code Workflow Scripts on OpenAI Codex CLI with Parallel Agent Fleets + TUI",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/yynxxxxx/Codex-X",
+    "title": "Codex-X — Cross-Platform Tauri Desktop Manager for Coding-Agent CLIs (Providers, Sessions, Config)",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/ai4s-research/open-science",
+    "title": "open-science — Local-First Tauri AI Research Workbench (Plan → Approve → Execute → Artifacts)",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/Kulaxyz/token-diet",
+    "title": "token-diet — Always-On Token-Efficiency Skill for Claude Code / Codex / Cursor (~31% Savings)",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/dabit3/cloud-stacked-diffs",
+    "title": "cloud-stacked-diffs — Agent Skill that Turns Big Tasks into Reviewable Stacked Draft PRs",
+    "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/Brain0-ai/brain0",
+    "title": "brain0 — Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
+    "date_seen": "2026-07-05"
   }
 ]
