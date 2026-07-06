@@ -9,7 +9,12 @@ export const meta = {
   ],
 }
 
-const DATE = args?.date ?? 'no-date-provided'
+// ponytail: workflow scripts can't call Date.now(); when the caller omits the date, derive it
+// from the shell so filenames/commits are never the placeholder 'no-date-provided'.
+const DATE = args?.date ?? (await agent(
+  `Run the command \`date +%F\` and return ONLY its output (a YYYY-MM-DD date), nothing else.`,
+  { label: 'today', effort: 'low' }
+)).trim()
 // ponytail: repoRoot passed by caller so this works in both local and cloud environments
 const REPO_ROOT = args?.repoRoot ?? '/home/sibin/my-works/myplanner'
 
