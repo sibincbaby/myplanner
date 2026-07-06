@@ -268,5 +268,45 @@
     "url": "https://github.com/ama2",
     "title": "AMA2 — Thread-Context-Aware Messenger Built for AI Agent Conversations",
     "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/op7418/CodePilot",
+    "title": "CodePilot — Multi-Model AI Agent Desktop Client (Electron + Next.js)",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://github.com/Fergana-Labs/claude_agent_desktop",
+    "title": "claude_agent_desktop — GUI wrapper on the Claude Agent SDK (Fergana Labs)",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://github.com/ctxrs/ctx",
+    "title": "ctx — Search the coding-agent history already on your machine",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://macuse.app/",
+    "title": "Macuse — give any MCP AI client on-device control of Mac apps",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48762862",
+    "title": "Manufact (YC S25) — MCP Cloud ('Vercel for MCP')",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://github.com/topics/claude-code-desktop",
+    "title": "agents-ui — Nuxt visual dashboard for managing Claude Code config",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm",
+    "title": "ZCode — free 'Agentic Development Environment' powered by GLM-5.2",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://github.com/baryhuang/claude-code-by-agents",
+    "title": "claude-code-by-agents — desktop app for multi-agent Claude Code orchestration",
+    "date_seen": "2026-07-07"
   }
 ]

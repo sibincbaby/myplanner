@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-07', link: '/daily/2026-07-07' },
           { text: '2026-07-06', link: '/daily/2026-07-06' },
           { text: '2026-07-05', link: '/daily/2026-07-05' },
           { text: '2026-07-03', link: '/daily/2026-07-03' },
@@ -24,10 +25,12 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
-          { text: 'Agent Messenger CLI', link: '/projects/2026-07-06-agent-messenger' },
+          { text: 'Claude Code By Agents', link: '/projects/2026-07-07-claude-code-by-agents' },
+          { text: 'Agents UI', link: '/projects/2026-07-07-agents-ui' },
+          { text: 'Statewright', link: '/projects/2026-07-06-statewright' },
           { text: 'Finance Agent', link: '/projects/2026-07-06-finance-agent' },
           { text: 'Dune Hotkeys', link: '/projects/2026-07-06-dune-hotkeys' },
-          { text: 'Statewright', link: '/projects/2026-07-06-statewright' },
+          { text: 'Agent Messenger', link: '/projects/2026-07-06-agent-messenger' },
           { text: 'Wikix', link: '/projects/2026-07-03-wikix' },
           { text: 'Kojo', link: '/projects/2026-07-03-kojo' },
           { text: 'Calstakk', link: '/projects/2026-07-03-calstakk' },
