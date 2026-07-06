@@ -228,5 +228,45 @@
     "url": "https://github.com/Brain0-ai/brain0",
     "title": "brain0 — Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
     "date_seen": "2026-07-05"
+  },
+  {
+    "url": "https://github.com/statewright/statewright",
+    "title": "Statewright — Visual State Machine Guardrails for AI Agents (MCP + Claude Code)",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://www.projectmirage.ai/",
+    "title": "Dune Keypad — Context-Aware 3-Key Mac Keypad with Claude MCP + Marketplace",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/nirajdsouza/personal-finance-assistant-ai-agent",
+    "title": "Personal Finance AI Agent — Budget, Expense Categorisation + Forecasting via LLM",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/devxoul/agent-messenger",
+    "title": "Agent Messenger CLI — Multi-Platform Messaging Automation CLI for AI Agents",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/the-banana-tool/king-louie",
+    "title": "King Louie — Cross-Platform Electron Desktop AI with 20 Agent Tools, No Cloud",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/callstack/agent-device",
+    "title": "agent-device — CLI for AI Agents to Control iOS/Android/Flutter Apps",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/OpenWhispr/openwhispr",
+    "title": "OpenWhispr — Privacy-First Voice Dictation + AI Agents + Meeting Transcription",
+    "date_seen": "2026-07-06"
+  },
+  {
+    "url": "https://github.com/ama2",
+    "title": "AMA2 — Thread-Context-Aware Messenger Built for AI Agent Conversations",
+    "date_seen": "2026-07-06"
   }
 ]
