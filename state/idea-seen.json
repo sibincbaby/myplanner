@@ -1,26 +1,146 @@
 [
-  { "app": "Anki", "date_seen": "2026-07-02" },
-  { "app": "FFmpeg", "date_seen": "2026-07-02" },
-  { "app": "ERPNext (Frappe)", "date_seen": "2026-07-02" },
-  { "app": "Obsidian + Dataview", "date_seen": "2026-07-02" },
-  { "app": "Home Assistant", "date_seen": "2026-07-02" },
-  { "app": "Metabase", "date_seen": "2026-07-02" },
-  { "app": "Grafana", "date_seen": "2026-07-02" },
-  { "app": "PrusaSlicer / Cura", "date_seen": "2026-07-02" },
-  { "app": "n8n", "date_seen": "2026-07-02" },
-  { "app": "Paperless-ngx", "date_seen": "2026-07-02" },
-  { "app": "Prometheus", "date_seen": "2026-07-02" },
-  { "app": "QGIS", "date_seen": "2026-07-02" },
-  { "app": "Immich", "date_seen": "2026-07-03" },
-  { "app": "OBS Studio", "date_seen": "2026-07-03" },
-  { "app": "Blender", "date_seen": "2026-07-03" },
-  { "app": "Kubernetes (kubectl)", "date_seen": "2026-07-03" },
-  { "app": "Odoo", "date_seen": "2026-07-03" },
-  { "app": "Apache Airflow", "date_seen": "2026-07-03" },
-  { "app": "Nextcloud", "date_seen": "2026-07-03" },
-  { "app": "Wireshark / tshark", "date_seen": "2026-07-03" },
-  { "app": "Calibre", "date_seen": "2026-07-03" },
-  { "app": "DaVinci Resolve", "date_seen": "2026-07-03" },
-  { "app": "FreeCAD", "date_seen": "2026-07-03" },
-  { "app": "GIMP", "date_seen": "2026-07-03" }
+  {
+    "app": "Anki",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "FFmpeg",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "ERPNext (Frappe)",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Obsidian + Dataview",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Home Assistant",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Metabase",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Grafana",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "PrusaSlicer / Cura",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "n8n",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Paperless-ngx",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Prometheus",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "QGIS",
+    "date_seen": "2026-07-02"
+  },
+  {
+    "app": "Immich",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "OBS Studio",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Blender",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Kubernetes (kubectl)",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Odoo",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Apache Airflow",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Nextcloud",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Wireshark / tshark",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "Calibre",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "DaVinci Resolve",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "FreeCAD",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "GIMP",
+    "date_seen": "2026-07-03"
+  },
+  {
+    "app": "LaTeX / Overleaf",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Elasticsearch / Kibana",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Proxmox VE",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Dolibarr",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "REAPER",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Node-RED",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "DBeaver (NL\u2192SQL)",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Excel / Google Sheets Power Query",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Ansible AWX",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "OpenSCAD",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Zotero",
+    "date_seen": "2026-07-07"
+  },
+  {
+    "app": "OPNsense",
+    "date_seen": "2026-07-07"
+  }
 ]
