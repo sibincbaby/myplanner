@@ -308,5 +308,45 @@
     "url": "https://github.com/baryhuang/claude-code-by-agents",
     "title": "claude-code-by-agents — desktop app for multi-agent Claude Code orchestration",
     "date_seen": "2026-07-07"
+  },
+  {
+    "url": "https://github.com/nexu-io/open-design",
+    "title": "open-design — Open-Source Claude Design Alternative (Local-First, 40k+ Stars, DESIGN.md Pattern)",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/kerlenton/mcpsnoop",
+    "title": "mcpsnoop — Wireshark for MCP: Transparent In-Path Proxy for Live JSON-RPC Tool-Call Inspection",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/snyk/agent-scan",
+    "title": "snyk/agent-scan — Security Scanner for AI Agents, MCP Servers and Skills (15+ Risk Types)",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/Arthur-Ficial/apfel",
+    "title": "apfel — Free On-Device AI CLI + OpenAI-Compatible Server via Apple Intelligence (macOS Tahoe)",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/shivamprasad1001/expense-mcp-server",
+    "title": "expense-mcp-server — AI Expense Tracker MCP Server for Claude (Natural Language Finance)",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/jamiew/monarch-mcp",
+    "title": "monarch-mcp — Monarch Money MCP Server for Claude (Token-Efficient, Multi-Month Trend Analysis)",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/FlowLLM-AI/finance-mcp",
+    "title": "finance-mcp — LLM-Powered MCP Server for Financial Deep-Research Agents",
+    "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/theshivamlko/flutter-ai-labs",
+    "title": "flutter-ai-labs — Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
+    "date_seen": "2026-07-08"
   }
 ]
