@@ -348,5 +348,55 @@
     "url": "https://github.com/theshivamlko/flutter-ai-labs",
     "title": "flutter-ai-labs — Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
     "date_seen": "2026-07-08"
+  },
+  {
+    "url": "https://github.com/rowboatlabs/rowboat",
+    "title": "Rowboat — Open-Source, Local-First Alternative to Claude Desktop (AI Coworker with Memory)",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://punkcode.rocks",
+    "title": "PUNK — iOS Remote Control for Local Claude Code with Voice Dictation",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/LoganYangBo/rh-trading-agent",
+    "title": "rh-trading-agent — AI Trading Desk of Claude Code Sub-Agents + Robinhood MCP",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/shofer-dev/claude-code-live-memory",
+    "title": "claude-code-live-memory — Always-On Model That Learns Your Repo So Agents Stop Re-Reading",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/bradautomates/claude-video",
+    "title": "claude-video — Give Claude Video Analysis (Download, Frame Extraction, Transcription)",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/sannabotdev/sannabotapp",
+    "title": "Sanna — Open-Source Voice-First Android AI Assistant That Controls Your Phone",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/abi/lilo",
+    "title": "Lilo — Self-Hosted Personal AI Assistant in Telegram (Voice Notes, Scheduling, Receipts)",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/afairai/afair",
+    "title": "afair — Self-Organizing Memory Vault Shared Across Every AI Tool (MCP)",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://terminai.app",
+    "title": "terminai — Invisible AI Overlay for Any Terminal (Claude Code / Codex, MCP, Approval-Gated)",
+    "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/runtypelabs/persona",
+    "title": "Persona.js — Vanilla-JS Agentic Chat UI Library with Native WebMCP",
+    "date_seen": "2026-07-09"
   }
 ]
