@@ -398,5 +398,55 @@
     "url": "https://github.com/runtypelabs/persona",
     "title": "Persona.js — Vanilla-JS Agentic Chat UI Library with Native WebMCP",
     "date_seen": "2026-07-09"
+  },
+  {
+    "url": "https://github.com/puffinsoft/peek-cli",
+    "title": "peek-cli — Give Claude Code Eyes on the Live Browser Tab (Screenshot-Only Skill)",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/Rodiun/frugon",
+    "title": "frugon — Local CLI That Shows Which LLM Calls a Cheaper Model Could've Handled",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/chrismbryant/claude-journal-mcp",
+    "title": "claude-journal-mcp — Zero-ML Journal Plugin for Claude Code with Auto-Capture Hooks",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://shellular.dev/",
+    "title": "Shellular — Run Claude Code, Codex, Pi from Your Phone",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://abralo.com/",
+    "title": "Abralo — Run Several Claude Code Agents in One Window",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/Northwood-Systems/foreman",
+    "title": "Foreman — Self-Hosted LLM Gateway for Cost-Aware Model Routing",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/animesh-94/Onboard-CLI",
+    "title": "Onboard-CLI — LLM-Powered Tool to Visualize Codebase Structure",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/kklimuk/docx-cli",
+    "title": "docx-cli — Let AI Agents Read/Edit Word Documents Efficiently",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/ronak-create/FableCut",
+    "title": "FableCut — Browser Video Editor AI Agents Can Drive (Zero Deps)",
+    "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/valmishq/valmis",
+    "title": "Valmis — Open-Source Alternative to Claude Cowork",
+    "date_seen": "2026-07-10"
   }
 ]

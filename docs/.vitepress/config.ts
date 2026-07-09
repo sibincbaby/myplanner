@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-10', link: '/daily/2026-07-10' },
           { text: '2026-07-09', link: '/daily/2026-07-09' },
           { text: '2026-07-08', link: '/daily/2026-07-08' },
           { text: '2026-07-07', link: '/daily/2026-07-07' },
@@ -27,6 +28,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Peek Cli', link: '/projects/2026-07-10-peek-cli' },
+          { text: 'Frugon', link: '/projects/2026-07-10-frugon' },
+          { text: 'Claude Journal Mcp', link: '/projects/2026-07-10-claude-journal-mcp' },
           { text: 'Open Design', link: '/projects/2026-07-08-open-design' },
           { text: 'Monarch Mcp', link: '/projects/2026-07-08-monarch-mcp' },
           { text: 'Mcpsnoop', link: '/projects/2026-07-08-mcpsnoop' },
