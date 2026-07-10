@@ -448,5 +448,50 @@
     "url": "https://github.com/valmishq/valmis",
     "title": "Valmis — Open-Source Alternative to Claude Cowork",
     "date_seen": "2026-07-10"
+  },
+  {
+    "url": "https://github.com/agent-of-empires/agent-of-empires",
+    "title": "agent-of-empires — TUI + Web Manager for Fleets of Claude Code / OpenCode Agents (Mobile-Friendly)",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/asheshgoplani/agent-deck",
+    "title": "agent-deck — Terminal Mission Control for AI Coding Agents (MCP Mgmt, Cost Tracking, Web UI)",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/tcsenpai/claudeconfigurator",
+    "title": "claudeconfigurator — Tauri Desktop GUI for Editing the Whole ~/.claude Config Surface",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/machulav/accountant24",
+    "title": "accountant24 — Local-First AI Agent for Personal Finance (Plain-Text Ledger, Git History, Any LLM)",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/openaccountant/wilson",
+    "title": "wilson (openaccountant) — Privacy-First AI Bookkeeper, All Data Local in SQLite",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/sarim2000/pennywiseai-tracker",
+    "title": "pennywiseai-tracker (PennyWise) — On-Device AI SMS Expense Tracker for Android",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/mocasus/paleo",
+    "title": "paleo — Composable Token-Saving Skills for Claude Code / Codex / Gemini (~50-70% Output Reduction)",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/gregtuc/memsync",
+    "title": "memsync — One Shared, Encrypted, Local-First Memory for Claude Code and Codex",
+    "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/ucsandman/marketing-studio",
+    "title": "marketing-studio — One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
+    "date_seen": "2026-07-11"
   }
 ]
