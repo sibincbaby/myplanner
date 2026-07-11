@@ -142,5 +142,53 @@
   {
     "app": "OPNsense",
     "date_seen": "2026-07-07"
+  },
+  {
+    "app": "Keycloak",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Traefik",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Cal.com",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Adobe After Effects",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Invoice Ninja",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "AdGuard Home",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "HashiCorp Vault",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Apache Superset",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "TrueNAS SCALE",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Kong Gateway",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Zammad",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "app": "Logseq",
+    "date_seen": "2026-07-12"
   }
 ]
