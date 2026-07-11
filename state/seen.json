@@ -493,5 +493,55 @@
     "url": "https://github.com/ucsandman/marketing-studio",
     "title": "marketing-studio — One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
     "date_seen": "2026-07-11"
+  },
+  {
+    "url": "https://github.com/dogtorjonah/context-warp-drive",
+    "title": "Context Warp Drive — Deterministic, Cache-Preserving Context Folding for Claude Code",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/emson/claudoro",
+    "title": "Claudoro — Pomodoro Timer Embedded in the Claude Code Status Line",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/ayushh0110/ScreenMind",
+    "title": "ScreenMind — Privacy-First Microsoft Recall Alternative (Local Gemma 4 + SQLite FTS)",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/AdhamAfis/curiopay",
+    "title": "CurioPay — Open-Source LLM Budget Tracker with Chat-Based Financial Insights",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/ritesh-kanwar/Cashiro",
+    "title": "Cashiro — On-Device AI Expense Tracker: Bank SMS/PDF to Searchable Money Timeline",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/rafal-qa/slopo",
+    "title": "slopo — Embedding-Based Non-Exact Code Duplication Detector (Ollama/BYOK)",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/weirdGuy/kastor",
+    "title": "Kastor — Terraform-Style HCL Specs for AI Agents (Build/Plan/Apply to LangGraph)",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/mozilla-ai/otari",
+    "title": "Otari — Open-Source LLM Control Plane (mozilla-ai)",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/clidey/deptrust",
+    "title": "deptrust — Keep AI Agents Off Vulnerable Dependencies",
+    "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://ghostmeet.sshlab.dev/",
+    "title": "Ghostmeet — Self-Hosted Meeting Transcription and Summarization",
+    "date_seen": "2026-07-12"
   }
 ]

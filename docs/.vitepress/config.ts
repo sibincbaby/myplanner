@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-12', link: '/daily/2026-07-12' },
           { text: '2026-07-11', link: '/daily/2026-07-11' },
           { text: '2026-07-10', link: '/daily/2026-07-10' },
           { text: '2026-07-09', link: '/daily/2026-07-09' },
@@ -29,6 +30,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Context Warp Drive Deterministic Cache Preserving Context Folding', link: '/projects/2026-07-12-context-warp-drive-deterministic-cache-preserving-context-folding' },
           { text: 'Paleo Composable Token Saving Skills For Claude Code Codex Gemini 50 70 Output Reduction', link: '/projects/2026-07-11-paleo-composable-token-saving-skills-for-claude-code-codex-gemini-50-70-output-reduction-' },
           { text: 'Memsync One Shared Encrypted Local First Memory For Claude Code And Codex', link: '/projects/2026-07-11-memsync-one-shared-encrypted-local-first-memory-for-claude-code-and-codex' },
           { text: 'Peek Cli', link: '/projects/2026-07-10-peek-cli' },
