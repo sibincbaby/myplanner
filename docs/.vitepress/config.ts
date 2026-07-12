@@ -30,6 +30,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Herdr Terminal Native Agent Multiplexer With Agent State Awareness', link: '/projects/2026-07-13-herdr-terminal-native-agent-multiplexer-with-agent-state-awareness' },
+          { text: 'Aura Git Native Semantic Version Control Ide For Ai Coding Agents', link: '/projects/2026-07-13-aura-git-native-semantic-version-control-ide-for-ai-coding-agents' },
           { text: 'Context Warp Drive Deterministic Cache Preserving Context Folding', link: '/projects/2026-07-12-context-warp-drive-deterministic-cache-preserving-context-folding' },
           { text: 'Paleo Composable Token Saving Skills For Claude Code Codex Gemini 50 70 Output Reduction', link: '/projects/2026-07-11-paleo-composable-token-saving-skills-for-claude-code-codex-gemini-50-70-output-reduction-' },
           { text: 'Memsync One Shared Encrypted Local First Memory For Claude Code And Codex', link: '/projects/2026-07-11-memsync-one-shared-encrypted-local-first-memory-for-claude-code-and-codex' },

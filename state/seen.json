@@ -543,5 +543,45 @@
     "url": "https://ghostmeet.sshlab.dev/",
     "title": "Ghostmeet — Self-Hosted Meeting Transcription and Summarization",
     "date_seen": "2026-07-12"
+  },
+  {
+    "url": "https://github.com/CarpseDeam/Aura-IDE",
+    "title": "Aura — Git-Native Semantic Version Control / IDE for AI Coding Agents",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://github.com/ogulcancelik/herdr",
+    "title": "herdr — Terminal-Native Agent Multiplexer with Agent-State Awareness",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://toyo.ai/",
+    "title": "Toyo — AI Exec Assistant that Lives in iMessage and Calls Your Phone",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://lispr.ai/",
+    "title": "Lispr — Free Push-to-Talk Voice Dictation + Live Translation for Mac/Windows",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://agentic.ai/news",
+    "title": "AgentPrizm AgentMemory + AgentSkills — Persistent Memory API/MCP for Agents",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://github.com/PocketLLM/PocketLLM",
+    "title": "PocketLLM — Flutter On-Device / Local-Server LLM Chat App",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://dev.to/allanninal/building-wisecashai-an-open-source-ai-powered-personal-finance-tracker-57g0",
+    "title": "WiseCashAI — Privacy-First, Browser-Local AI Personal Finance Tracker",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://expense-budget-tracker.com/blog/self-hosted-open-source-budget-tracker-for-developers/",
+    "title": "Expense Budget Tracker — SQL-API Self-Hosted Finance App Designed for AI-Agent Access",
+    "date_seen": "2026-07-13"
   }
 ]
