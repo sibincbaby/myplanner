@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL\u2192SQL)",
+    "app": "DBeaver (NL→SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -190,5 +190,53 @@
   {
     "app": "Logseq",
     "date_seen": "2026-07-12"
+  },
+  {
+    "app": "rclone",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Jellyfin",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "dbt (dbt-core)",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "ImageMagick",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Pandoc",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Zabbix",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Mautic",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Kdenlive",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Frigate NVR",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "KiCad",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "GNU Radio",
+    "date_seen": "2026-07-13"
+  },
+  {
+    "app": "Terraform / OpenTofu",
+    "date_seen": "2026-07-13"
   }
 ]
