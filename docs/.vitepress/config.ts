@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-14', link: '/daily/2026-07-14' },
           { text: '2026-07-13', link: '/daily/2026-07-13' },
           { text: '2026-07-12', link: '/daily/2026-07-12' },
           { text: '2026-07-11', link: '/daily/2026-07-11' },
@@ -31,6 +32,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Claude Video Let Claude Process Videos Via Frame Extraction Transcription', link: '/projects/2026-07-14-claude-video-let-claude-process-videos-via-frame-extraction-transcription' },
           { text: 'Herdr Terminal Native Agent Multiplexer With Agent State Awareness', link: '/projects/2026-07-13-herdr-terminal-native-agent-multiplexer-with-agent-state-awareness' },
           { text: 'Aura Git Native Semantic Version Control Ide For Ai Coding Agents', link: '/projects/2026-07-13-aura-git-native-semantic-version-control-ide-for-ai-coding-agents' },
           { text: 'Context Warp Drive Deterministic Cache Preserving Context Folding', link: '/projects/2026-07-12-context-warp-drive-deterministic-cache-preserving-context-folding' },

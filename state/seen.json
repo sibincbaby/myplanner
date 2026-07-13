@@ -1,32 +1,32 @@
 [
   {
     "url": "https://github.com/fujibee/agmsg",
-    "title": "agmsg — Cross-Vendor Messaging for CLI AI Coding Agents",
+    "title": "agmsg \u2014 Cross-Vendor Messaging for CLI AI Coding Agents",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/adospace/vs-agentic",
-    "title": "vs-agentic — Claude Code Extension for Visual Studio 2026",
+    "title": "vs-agentic \u2014 Claude Code Extension for Visual Studio 2026",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/CopilotKit/CopilotKit",
-    "title": "CopilotKit — Frontend Stack for Agents & Generative UI (AG-UI Protocol)",
+    "title": "CopilotKit \u2014 Frontend Stack for Agents & Generative UI (AG-UI Protocol)",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://www.ycombinator.com/launches/QKg-hyper-the-self-driving-company-brain",
-    "title": "Hyper (YC P26) — Self-Driving Company Brain for Agentic Development",
+    "title": "Hyper (YC P26) \u2014 Self-Driving Company Brain for Agentic Development",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/rohitg00/agentmemory",
-    "title": "agentmemory — Persistent MCP Memory Server for AI Coding Agents",
+    "title": "agentmemory \u2014 Persistent MCP Memory Server for AI Coding Agents",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
-    "title": "pi_agent_rust — High-Performance AI Coding Agent CLI Written in Rust",
+    "title": "pi_agent_rust \u2014 High-Performance AI Coding Agent CLI Written in Rust",
     "date_seen": "no-date-provided"
   },
   {
@@ -36,552 +36,597 @@
   },
   {
     "url": "https://github.com/google/agents-cli",
-    "title": "google/agents-cli — CLI and Skills for Building and Deploying AI Agents on Google Cloud",
+    "title": "google/agents-cli \u2014 CLI and Skills for Building and Deploying AI Agents on Google Cloud",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/merendamattia/personal-financial-ai-agent",
-    "title": "personal-financial-ai-agent — Multi-LLM Personal Finance Conversational Agent",
+    "title": "personal-financial-ai-agent \u2014 Multi-LLM Personal Finance Conversational Agent",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/inkeep/open-knowledge",
-    "title": "OpenKnowledge — AI-Native Markdown Editor with MCP (Obsidian/Notion alternative)",
+    "title": "OpenKnowledge \u2014 AI-Native Markdown Editor with MCP (Obsidian/Notion alternative)",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/ZhuJHua/moodiary",
-    "title": "Moodiary — Open-Source Cross-Platform Flutter + Rust Diary App with Local AI",
+    "title": "Moodiary \u2014 Open-Source Cross-Platform Flutter + Rust Diary App with Local AI",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-    "title": "Skill_Seekers — Convert Docs/Repos/PDFs into Claude AI Skills with Conflict Detection",
+    "title": "Skill_Seekers \u2014 Convert Docs/Repos/PDFs into Claude AI Skills with Conflict Detection",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/b0x42/Super-Productivity-MCP",
-    "title": "Super-Productivity-MCP — MCP Server Connecting AI to Super Productivity Task Manager",
+    "title": "Super-Productivity-MCP \u2014 MCP Server Connecting AI to Super Productivity Task Manager",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/ninehills/claude-agent-ui",
-    "title": "claude-agent-ui — Browser-Based UI + SSE Server for Claude Agent SDK",
+    "title": "claude-agent-ui \u2014 Browser-Based UI + SSE Server for Claude Agent SDK",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/siteboon/claudecodeui",
-    "title": "CloudCLI / claudecodeui — Web + Mobile UI for Claude Code Remote Sessions",
+    "title": "CloudCLI / claudecodeui \u2014 Web + Mobile UI for Claude Code Remote Sessions",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/Ngxba/claude-code-cli-ui",
-    "title": "claude-code-cli-ui — Visual Dashboard for Managing Claude Code Agents and Workflows",
+    "title": "claude-code-cli-ui \u2014 Visual Dashboard for Managing Claude Code Agents and Workflows",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/777genius/claude_agent_teams_ui",
-    "title": "agent-teams-ai — Multi-Agent Claude Orchestration with Kanban Board UI",
+    "title": "agent-teams-ai \u2014 Multi-Agent Claude Orchestration with Kanban Board UI",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/czlonkowski/n8n-mcp",
-    "title": "n8n-mcp — MCP for Claude to Build n8n Automation Workflows",
+    "title": "n8n-mcp \u2014 MCP for Claude to Build n8n Automation Workflows",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/zilliztech/claude-context",
-    "title": "claude-context — Semantic Code Search MCP for Claude Code (Full Codebase Context)",
+    "title": "claude-context \u2014 Semantic Code Search MCP for Claude Code (Full Codebase Context)",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/browser-use/video-use",
-    "title": "video-use — Edit Videos with Coding Agents (FFmpeg + ElevenLabs + Claude Code)",
+    "title": "video-use \u2014 Edit Videos with Coding Agents (FFmpeg + ElevenLabs + Claude Code)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/HKUDS/Vibe-Trading",
-    "title": "Vibe-Trading — Personal AI Trading Agent with 29 Pre-built Agent Teams",
+    "title": "Vibe-Trading \u2014 Personal AI Trading Agent with 29 Pre-built Agent Teams",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/orailnoor/private-agent",
-    "title": "private-agent — Flutter Android Automation Agent via LLM + Accessibility Services",
+    "title": "private-agent \u2014 Flutter Android Automation Agent via LLM + Accessibility Services",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/Pimzino/agentic-tools-mcp",
-    "title": "agentic-tools-mcp — MCP Server for Hierarchical Task Management + Semantic Agent Memory",
+    "title": "agentic-tools-mcp \u2014 MCP Server for Hierarchical Task Management + Semantic Agent Memory",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/coder/anyclaude",
-    "title": "anyclaude — Claude Code with Any LLM Provider (OpenAI, Google, xAI)",
+    "title": "anyclaude \u2014 Claude Code with Any LLM Provider (OpenAI, Google, xAI)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/MadAppGang/claudish",
-    "title": "claudish — Claude Code Proxy Supporting 580+ Models via OpenRouter/Gemini/OpenAI/Ollama",
+    "title": "claudish \u2014 Claude Code Proxy Supporting 580+ Models via OpenRouter/Gemini/OpenAI/Ollama",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/jamiepine/voicebox",
-    "title": "voicebox — Open-Source AI Voice Studio with Cloning, Dictation, and Agent Integration",
+    "title": "voicebox \u2014 Open-Source AI Voice Studio with Cloning, Dictation, and Agent Integration",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-    "title": "natively — Free Open-Source AI Meeting Assistant and Interview Copilot (Cluely alternative)",
+    "title": "natively \u2014 Free Open-Source AI Meeting Assistant and Interview Copilot (Cluely alternative)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/OpenCoworkAI/open-codesign",
-    "title": "open-codesign — Open-Source Claude Design Alternative (Electron + React, BYOK, MIT)",
+    "title": "open-codesign \u2014 Open-Source Claude Design Alternative (Electron + React, BYOK, MIT)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/kirill-markin/expense-budget-tracker",
-    "title": "expense-budget-tracker — Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
+    "title": "expense-budget-tracker \u2014 Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/loppo-llc/kojo",
-    "title": "kojo — Mobile Remote Control for AI Coding CLIs with Persistent Scheduled Agents",
+    "title": "kojo \u2014 Mobile Remote Control for AI Coding CLIs with Persistent Scheduled Agents",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jpincas/calstakk",
-    "title": "calstakk — Local-First CalDAV/VTODO Server with 29-Tool MCP Layer for Claude",
+    "title": "calstakk \u2014 Local-First CalDAV/VTODO Server with 29-Tool MCP Layer for Claude",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/cjtrowbridge/apparat",
-    "title": "apparat — Voice-Driven Agentic Git Manager with Local STT/TTS + LLM",
+    "title": "apparat \u2014 Voice-Driven Agentic Git Manager with Local STT/TTS + LLM",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/akshajsrivastava-exe/wikix",
-    "title": "wikix — LLM Agent that Curates Sources into a Structured Personal Wiki",
+    "title": "wikix \u2014 LLM Agent that Curates Sources into a Structured Personal Wiki",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/twidi/twicc",
-    "title": "twicc — Web UI to Browse and Interact with Claude Code and Codex Sessions",
+    "title": "twicc \u2014 Web UI to Browse and Interact with Claude Code and Codex Sessions",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jazzenchen/VibeAround",
-    "title": "VibeAround — Launch and Keep Multiple AI Coding CLIs (Claude Code, Codex, Gemini, Pi)",
+    "title": "VibeAround \u2014 Launch and Keep Multiple AI Coding CLIs (Claude Code, Codex, Gemini, Pi)",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/RobertIlisei/MARVIN",
-    "title": "MARVIN — Native macOS SwiftUI AI Pair-Programming IDE on the Claude Agent SDK",
+    "title": "MARVIN \u2014 Native macOS SwiftUI AI Pair-Programming IDE on the Claude Agent SDK",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/Adarsh457/FinPilot",
-    "title": "FinPilot — AI-Powered Personal Finance Assistant with Natural-Language Queries",
+    "title": "FinPilot \u2014 AI-Powered Personal Finance Assistant with Natural-Language Queries",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/bug-ops/zeph",
-    "title": "zeph — Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
+    "title": "zeph \u2014 Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jordiboehme/crystalline",
-    "title": "crystalline — Local-First Rust Memory System for AI Agents (CLI + MCP Server + Hybrid Search)",
+    "title": "crystalline \u2014 Local-First Rust Memory System for AI Agents (CLI + MCP Server + Hybrid Search)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/tomascupr/sous-chef",
-    "title": "sous-chef — Claude Code Plugin that Splits Planning (Claude) from Implementation (Codex/GLM)",
+    "title": "sous-chef \u2014 Claude Code Plugin that Splits Planning (Claude) from Implementation (Codex/GLM)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/YuanpingSong/ultracodex",
-    "title": "ultracodex — Run Claude Code Workflow Scripts on OpenAI Codex CLI with Parallel Agent Fleets + TUI",
+    "title": "ultracodex \u2014 Run Claude Code Workflow Scripts on OpenAI Codex CLI with Parallel Agent Fleets + TUI",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/yynxxxxx/Codex-X",
-    "title": "Codex-X — Cross-Platform Tauri Desktop Manager for Coding-Agent CLIs (Providers, Sessions, Config)",
+    "title": "Codex-X \u2014 Cross-Platform Tauri Desktop Manager for Coding-Agent CLIs (Providers, Sessions, Config)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/ai4s-research/open-science",
-    "title": "open-science — Local-First Tauri AI Research Workbench (Plan → Approve → Execute → Artifacts)",
+    "title": "open-science \u2014 Local-First Tauri AI Research Workbench (Plan \u2192 Approve \u2192 Execute \u2192 Artifacts)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/Kulaxyz/token-diet",
-    "title": "token-diet — Always-On Token-Efficiency Skill for Claude Code / Codex / Cursor (~31% Savings)",
+    "title": "token-diet \u2014 Always-On Token-Efficiency Skill for Claude Code / Codex / Cursor (~31% Savings)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/dabit3/cloud-stacked-diffs",
-    "title": "cloud-stacked-diffs — Agent Skill that Turns Big Tasks into Reviewable Stacked Draft PRs",
+    "title": "cloud-stacked-diffs \u2014 Agent Skill that Turns Big Tasks into Reviewable Stacked Draft PRs",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/Brain0-ai/brain0",
-    "title": "brain0 — Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
+    "title": "brain0 \u2014 Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/statewright/statewright",
-    "title": "Statewright — Visual State Machine Guardrails for AI Agents (MCP + Claude Code)",
+    "title": "Statewright \u2014 Visual State Machine Guardrails for AI Agents (MCP + Claude Code)",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://www.projectmirage.ai/",
-    "title": "Dune Keypad — Context-Aware 3-Key Mac Keypad with Claude MCP + Marketplace",
+    "title": "Dune Keypad \u2014 Context-Aware 3-Key Mac Keypad with Claude MCP + Marketplace",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/nirajdsouza/personal-finance-assistant-ai-agent",
-    "title": "Personal Finance AI Agent — Budget, Expense Categorisation + Forecasting via LLM",
+    "title": "Personal Finance AI Agent \u2014 Budget, Expense Categorisation + Forecasting via LLM",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/devxoul/agent-messenger",
-    "title": "Agent Messenger CLI — Multi-Platform Messaging Automation CLI for AI Agents",
+    "title": "Agent Messenger CLI \u2014 Multi-Platform Messaging Automation CLI for AI Agents",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/the-banana-tool/king-louie",
-    "title": "King Louie — Cross-Platform Electron Desktop AI with 20 Agent Tools, No Cloud",
+    "title": "King Louie \u2014 Cross-Platform Electron Desktop AI with 20 Agent Tools, No Cloud",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/callstack/agent-device",
-    "title": "agent-device — CLI for AI Agents to Control iOS/Android/Flutter Apps",
+    "title": "agent-device \u2014 CLI for AI Agents to Control iOS/Android/Flutter Apps",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/OpenWhispr/openwhispr",
-    "title": "OpenWhispr — Privacy-First Voice Dictation + AI Agents + Meeting Transcription",
+    "title": "OpenWhispr \u2014 Privacy-First Voice Dictation + AI Agents + Meeting Transcription",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/ama2",
-    "title": "AMA2 — Thread-Context-Aware Messenger Built for AI Agent Conversations",
+    "title": "AMA2 \u2014 Thread-Context-Aware Messenger Built for AI Agent Conversations",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/op7418/CodePilot",
-    "title": "CodePilot — Multi-Model AI Agent Desktop Client (Electron + Next.js)",
+    "title": "CodePilot \u2014 Multi-Model AI Agent Desktop Client (Electron + Next.js)",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/Fergana-Labs/claude_agent_desktop",
-    "title": "claude_agent_desktop — GUI wrapper on the Claude Agent SDK (Fergana Labs)",
+    "title": "claude_agent_desktop \u2014 GUI wrapper on the Claude Agent SDK (Fergana Labs)",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/ctxrs/ctx",
-    "title": "ctx — Search the coding-agent history already on your machine",
+    "title": "ctx \u2014 Search the coding-agent history already on your machine",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://macuse.app/",
-    "title": "Macuse — give any MCP AI client on-device control of Mac apps",
+    "title": "Macuse \u2014 give any MCP AI client on-device control of Mac apps",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48762862",
-    "title": "Manufact (YC S25) — MCP Cloud ('Vercel for MCP')",
+    "title": "Manufact (YC S25) \u2014 MCP Cloud ('Vercel for MCP')",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/topics/claude-code-desktop",
-    "title": "agents-ui — Nuxt visual dashboard for managing Claude Code config",
+    "title": "agents-ui \u2014 Nuxt visual dashboard for managing Claude Code config",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm",
-    "title": "ZCode — free 'Agentic Development Environment' powered by GLM-5.2",
+    "title": "ZCode \u2014 free 'Agentic Development Environment' powered by GLM-5.2",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/baryhuang/claude-code-by-agents",
-    "title": "claude-code-by-agents — desktop app for multi-agent Claude Code orchestration",
+    "title": "claude-code-by-agents \u2014 desktop app for multi-agent Claude Code orchestration",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/nexu-io/open-design",
-    "title": "open-design — Open-Source Claude Design Alternative (Local-First, 40k+ Stars, DESIGN.md Pattern)",
+    "title": "open-design \u2014 Open-Source Claude Design Alternative (Local-First, 40k+ Stars, DESIGN.md Pattern)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/kerlenton/mcpsnoop",
-    "title": "mcpsnoop — Wireshark for MCP: Transparent In-Path Proxy for Live JSON-RPC Tool-Call Inspection",
+    "title": "mcpsnoop \u2014 Wireshark for MCP: Transparent In-Path Proxy for Live JSON-RPC Tool-Call Inspection",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/snyk/agent-scan",
-    "title": "snyk/agent-scan — Security Scanner for AI Agents, MCP Servers and Skills (15+ Risk Types)",
+    "title": "snyk/agent-scan \u2014 Security Scanner for AI Agents, MCP Servers and Skills (15+ Risk Types)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/Arthur-Ficial/apfel",
-    "title": "apfel — Free On-Device AI CLI + OpenAI-Compatible Server via Apple Intelligence (macOS Tahoe)",
+    "title": "apfel \u2014 Free On-Device AI CLI + OpenAI-Compatible Server via Apple Intelligence (macOS Tahoe)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/shivamprasad1001/expense-mcp-server",
-    "title": "expense-mcp-server — AI Expense Tracker MCP Server for Claude (Natural Language Finance)",
+    "title": "expense-mcp-server \u2014 AI Expense Tracker MCP Server for Claude (Natural Language Finance)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/jamiew/monarch-mcp",
-    "title": "monarch-mcp — Monarch Money MCP Server for Claude (Token-Efficient, Multi-Month Trend Analysis)",
+    "title": "monarch-mcp \u2014 Monarch Money MCP Server for Claude (Token-Efficient, Multi-Month Trend Analysis)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/FlowLLM-AI/finance-mcp",
-    "title": "finance-mcp — LLM-Powered MCP Server for Financial Deep-Research Agents",
+    "title": "finance-mcp \u2014 LLM-Powered MCP Server for Financial Deep-Research Agents",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/theshivamlko/flutter-ai-labs",
-    "title": "flutter-ai-labs — Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
+    "title": "flutter-ai-labs \u2014 Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/rowboatlabs/rowboat",
-    "title": "Rowboat — Open-Source, Local-First Alternative to Claude Desktop (AI Coworker with Memory)",
+    "title": "Rowboat \u2014 Open-Source, Local-First Alternative to Claude Desktop (AI Coworker with Memory)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://punkcode.rocks",
-    "title": "PUNK — iOS Remote Control for Local Claude Code with Voice Dictation",
+    "title": "PUNK \u2014 iOS Remote Control for Local Claude Code with Voice Dictation",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/LoganYangBo/rh-trading-agent",
-    "title": "rh-trading-agent — AI Trading Desk of Claude Code Sub-Agents + Robinhood MCP",
+    "title": "rh-trading-agent \u2014 AI Trading Desk of Claude Code Sub-Agents + Robinhood MCP",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/shofer-dev/claude-code-live-memory",
-    "title": "claude-code-live-memory — Always-On Model That Learns Your Repo So Agents Stop Re-Reading",
+    "title": "claude-code-live-memory \u2014 Always-On Model That Learns Your Repo So Agents Stop Re-Reading",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/bradautomates/claude-video",
-    "title": "claude-video — Give Claude Video Analysis (Download, Frame Extraction, Transcription)",
+    "title": "claude-video \u2014 Give Claude Video Analysis (Download, Frame Extraction, Transcription)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/sannabotdev/sannabotapp",
-    "title": "Sanna — Open-Source Voice-First Android AI Assistant That Controls Your Phone",
+    "title": "Sanna \u2014 Open-Source Voice-First Android AI Assistant That Controls Your Phone",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/abi/lilo",
-    "title": "Lilo — Self-Hosted Personal AI Assistant in Telegram (Voice Notes, Scheduling, Receipts)",
+    "title": "Lilo \u2014 Self-Hosted Personal AI Assistant in Telegram (Voice Notes, Scheduling, Receipts)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/afairai/afair",
-    "title": "afair — Self-Organizing Memory Vault Shared Across Every AI Tool (MCP)",
+    "title": "afair \u2014 Self-Organizing Memory Vault Shared Across Every AI Tool (MCP)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://terminai.app",
-    "title": "terminai — Invisible AI Overlay for Any Terminal (Claude Code / Codex, MCP, Approval-Gated)",
+    "title": "terminai \u2014 Invisible AI Overlay for Any Terminal (Claude Code / Codex, MCP, Approval-Gated)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/runtypelabs/persona",
-    "title": "Persona.js — Vanilla-JS Agentic Chat UI Library with Native WebMCP",
+    "title": "Persona.js \u2014 Vanilla-JS Agentic Chat UI Library with Native WebMCP",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/puffinsoft/peek-cli",
-    "title": "peek-cli — Give Claude Code Eyes on the Live Browser Tab (Screenshot-Only Skill)",
+    "title": "peek-cli \u2014 Give Claude Code Eyes on the Live Browser Tab (Screenshot-Only Skill)",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/Rodiun/frugon",
-    "title": "frugon — Local CLI That Shows Which LLM Calls a Cheaper Model Could've Handled",
+    "title": "frugon \u2014 Local CLI That Shows Which LLM Calls a Cheaper Model Could've Handled",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/chrismbryant/claude-journal-mcp",
-    "title": "claude-journal-mcp — Zero-ML Journal Plugin for Claude Code with Auto-Capture Hooks",
+    "title": "claude-journal-mcp \u2014 Zero-ML Journal Plugin for Claude Code with Auto-Capture Hooks",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://shellular.dev/",
-    "title": "Shellular — Run Claude Code, Codex, Pi from Your Phone",
+    "title": "Shellular \u2014 Run Claude Code, Codex, Pi from Your Phone",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://abralo.com/",
-    "title": "Abralo — Run Several Claude Code Agents in One Window",
+    "title": "Abralo \u2014 Run Several Claude Code Agents in One Window",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/Northwood-Systems/foreman",
-    "title": "Foreman — Self-Hosted LLM Gateway for Cost-Aware Model Routing",
+    "title": "Foreman \u2014 Self-Hosted LLM Gateway for Cost-Aware Model Routing",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/animesh-94/Onboard-CLI",
-    "title": "Onboard-CLI — LLM-Powered Tool to Visualize Codebase Structure",
+    "title": "Onboard-CLI \u2014 LLM-Powered Tool to Visualize Codebase Structure",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/kklimuk/docx-cli",
-    "title": "docx-cli — Let AI Agents Read/Edit Word Documents Efficiently",
+    "title": "docx-cli \u2014 Let AI Agents Read/Edit Word Documents Efficiently",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/ronak-create/FableCut",
-    "title": "FableCut — Browser Video Editor AI Agents Can Drive (Zero Deps)",
+    "title": "FableCut \u2014 Browser Video Editor AI Agents Can Drive (Zero Deps)",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/valmishq/valmis",
-    "title": "Valmis — Open-Source Alternative to Claude Cowork",
+    "title": "Valmis \u2014 Open-Source Alternative to Claude Cowork",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/agent-of-empires/agent-of-empires",
-    "title": "agent-of-empires — TUI + Web Manager for Fleets of Claude Code / OpenCode Agents (Mobile-Friendly)",
+    "title": "agent-of-empires \u2014 TUI + Web Manager for Fleets of Claude Code / OpenCode Agents (Mobile-Friendly)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/asheshgoplani/agent-deck",
-    "title": "agent-deck — Terminal Mission Control for AI Coding Agents (MCP Mgmt, Cost Tracking, Web UI)",
+    "title": "agent-deck \u2014 Terminal Mission Control for AI Coding Agents (MCP Mgmt, Cost Tracking, Web UI)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/tcsenpai/claudeconfigurator",
-    "title": "claudeconfigurator — Tauri Desktop GUI for Editing the Whole ~/.claude Config Surface",
+    "title": "claudeconfigurator \u2014 Tauri Desktop GUI for Editing the Whole ~/.claude Config Surface",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/machulav/accountant24",
-    "title": "accountant24 — Local-First AI Agent for Personal Finance (Plain-Text Ledger, Git History, Any LLM)",
+    "title": "accountant24 \u2014 Local-First AI Agent for Personal Finance (Plain-Text Ledger, Git History, Any LLM)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/openaccountant/wilson",
-    "title": "wilson (openaccountant) — Privacy-First AI Bookkeeper, All Data Local in SQLite",
+    "title": "wilson (openaccountant) \u2014 Privacy-First AI Bookkeeper, All Data Local in SQLite",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/sarim2000/pennywiseai-tracker",
-    "title": "pennywiseai-tracker (PennyWise) — On-Device AI SMS Expense Tracker for Android",
+    "title": "pennywiseai-tracker (PennyWise) \u2014 On-Device AI SMS Expense Tracker for Android",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/mocasus/paleo",
-    "title": "paleo — Composable Token-Saving Skills for Claude Code / Codex / Gemini (~50-70% Output Reduction)",
+    "title": "paleo \u2014 Composable Token-Saving Skills for Claude Code / Codex / Gemini (~50-70% Output Reduction)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/gregtuc/memsync",
-    "title": "memsync — One Shared, Encrypted, Local-First Memory for Claude Code and Codex",
+    "title": "memsync \u2014 One Shared, Encrypted, Local-First Memory for Claude Code and Codex",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/ucsandman/marketing-studio",
-    "title": "marketing-studio — One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
+    "title": "marketing-studio \u2014 One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/dogtorjonah/context-warp-drive",
-    "title": "Context Warp Drive — Deterministic, Cache-Preserving Context Folding for Claude Code",
+    "title": "Context Warp Drive \u2014 Deterministic, Cache-Preserving Context Folding for Claude Code",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/emson/claudoro",
-    "title": "Claudoro — Pomodoro Timer Embedded in the Claude Code Status Line",
+    "title": "Claudoro \u2014 Pomodoro Timer Embedded in the Claude Code Status Line",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/ayushh0110/ScreenMind",
-    "title": "ScreenMind — Privacy-First Microsoft Recall Alternative (Local Gemma 4 + SQLite FTS)",
+    "title": "ScreenMind \u2014 Privacy-First Microsoft Recall Alternative (Local Gemma 4 + SQLite FTS)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/AdhamAfis/curiopay",
-    "title": "CurioPay — Open-Source LLM Budget Tracker with Chat-Based Financial Insights",
+    "title": "CurioPay \u2014 Open-Source LLM Budget Tracker with Chat-Based Financial Insights",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/ritesh-kanwar/Cashiro",
-    "title": "Cashiro — On-Device AI Expense Tracker: Bank SMS/PDF to Searchable Money Timeline",
+    "title": "Cashiro \u2014 On-Device AI Expense Tracker: Bank SMS/PDF to Searchable Money Timeline",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/rafal-qa/slopo",
-    "title": "slopo — Embedding-Based Non-Exact Code Duplication Detector (Ollama/BYOK)",
+    "title": "slopo \u2014 Embedding-Based Non-Exact Code Duplication Detector (Ollama/BYOK)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/weirdGuy/kastor",
-    "title": "Kastor — Terraform-Style HCL Specs for AI Agents (Build/Plan/Apply to LangGraph)",
+    "title": "Kastor \u2014 Terraform-Style HCL Specs for AI Agents (Build/Plan/Apply to LangGraph)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/mozilla-ai/otari",
-    "title": "Otari — Open-Source LLM Control Plane (mozilla-ai)",
+    "title": "Otari \u2014 Open-Source LLM Control Plane (mozilla-ai)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/clidey/deptrust",
-    "title": "deptrust — Keep AI Agents Off Vulnerable Dependencies",
+    "title": "deptrust \u2014 Keep AI Agents Off Vulnerable Dependencies",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://ghostmeet.sshlab.dev/",
-    "title": "Ghostmeet — Self-Hosted Meeting Transcription and Summarization",
+    "title": "Ghostmeet \u2014 Self-Hosted Meeting Transcription and Summarization",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/CarpseDeam/Aura-IDE",
-    "title": "Aura — Git-Native Semantic Version Control / IDE for AI Coding Agents",
+    "title": "Aura \u2014 Git-Native Semantic Version Control / IDE for AI Coding Agents",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://github.com/ogulcancelik/herdr",
-    "title": "herdr — Terminal-Native Agent Multiplexer with Agent-State Awareness",
+    "title": "herdr \u2014 Terminal-Native Agent Multiplexer with Agent-State Awareness",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://toyo.ai/",
-    "title": "Toyo — AI Exec Assistant that Lives in iMessage and Calls Your Phone",
+    "title": "Toyo \u2014 AI Exec Assistant that Lives in iMessage and Calls Your Phone",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://lispr.ai/",
-    "title": "Lispr — Free Push-to-Talk Voice Dictation + Live Translation for Mac/Windows",
+    "title": "Lispr \u2014 Free Push-to-Talk Voice Dictation + Live Translation for Mac/Windows",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://agentic.ai/news",
-    "title": "AgentPrizm AgentMemory + AgentSkills — Persistent Memory API/MCP for Agents",
+    "title": "AgentPrizm AgentMemory + AgentSkills \u2014 Persistent Memory API/MCP for Agents",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://github.com/PocketLLM/PocketLLM",
-    "title": "PocketLLM — Flutter On-Device / Local-Server LLM Chat App",
+    "title": "PocketLLM \u2014 Flutter On-Device / Local-Server LLM Chat App",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://dev.to/allanninal/building-wisecashai-an-open-source-ai-powered-personal-finance-tracker-57g0",
-    "title": "WiseCashAI — Privacy-First, Browser-Local AI Personal Finance Tracker",
+    "title": "WiseCashAI \u2014 Privacy-First, Browser-Local AI Personal Finance Tracker",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://expense-budget-tracker.com/blog/self-hosted-open-source-budget-tracker-for-developers/",
-    "title": "Expense Budget Tracker — SQL-API Self-Hosted Finance App Designed for AI-Agent Access",
+    "title": "Expense Budget Tracker \u2014 SQL-API Self-Hosted Finance App Designed for AI-Agent Access",
     "date_seen": "2026-07-13"
+  },
+  {
+    "url": "https://github.com/noeltg77/project-clyde",
+    "title": "Project Clyde \u2014 self-hosting multi-agent Claude platform (Next.js UI)",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/jamiepine/voicebox",
+    "title": "Voicebox \u2014 open-source local AI voice studio (clone, dictate, give agents a voice)",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/sarim2000/pennywiseai-tracker",
+    "title": "PennyWise AI \u2014 privacy-first on-device SMS expense tracker",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://moneymatter.app/",
+    "title": "MoneyMatter \u2014 open-source budget app with native MCP for Claude/LLMs",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "title": "Hermes Agent \u2014 self-improving open-source agent with persistent memory (Nous Research)",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/can1357/oh-my-pi",
+    "title": "oh-my-pi \u2014 terminal coding agent with hash-anchored edits + LSP + browser",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "title": "Graphify \u2014 turn codebases/docs/media into searchable knowledge graphs for AI coding assistants",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/bradautomates/claude-video",
+    "title": "claude-video \u2014 let Claude process videos via frame extraction + transcription",
+    "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://www.producthunt.com/categories/ai-voice-agents",
+    "title": "Flow \u2014 private, local-first voice assistant for Cursor/Claude/ChatGPT",
+    "date_seen": "2026-07-14"
   }
 ]
