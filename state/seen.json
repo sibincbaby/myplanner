@@ -628,5 +628,45 @@
     "url": "https://www.producthunt.com/categories/ai-voice-agents",
     "title": "Flow \u2014 private, local-first voice assistant for Cursor/Claude/ChatGPT",
     "date_seen": "2026-07-14"
+  },
+  {
+    "url": "https://github.com/stablyai/orca",
+    "title": "Orca \u2014 parallel coding-agent development environment",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48612844",
+    "title": "Pulse \u2014 phone-based approval dashboard for Claude Code tool calls",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48612231",
+    "title": "Persona.js \u2014 UI framework for agent interfaces with native WebMCP",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48622590",
+    "title": "Recall \u2014 local project memory layer for Claude Code",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://osaurus.ai",
+    "title": "Osaurus \u2014 open-source agents running 100% locally on Mac",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48688700",
+    "title": "Smart Model Routing \u2014 in-editor AI model router for Claude/Codex/Cursor",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://spokenly.app/blog/voice-coding",
+    "title": "Spokenly \u2014 system-wide dictation + MCP voice input for terminal agents",
+    "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://design.withfudge.com",
+    "title": "Fudge MCP \u2014 give AI agents design taste from existing websites",
+    "date_seen": "2026-07-15"
   }
 ]
