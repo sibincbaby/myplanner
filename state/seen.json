@@ -668,5 +668,50 @@
     "url": "https://design.withfudge.com",
     "title": "Fudge MCP \u2014 give AI agents design taste from existing websites",
     "date_seen": "2026-07-15"
+  },
+  {
+    "url": "https://github.com/memex-lab/memex",
+    "title": "Memex \u2014 Local-First AI Journal App (iOS/Android, Text/Photo/Voice \u2192 Timeline Cards, BYO LLM)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/primaprashant/hns",
+    "title": "hns \u2014 Speech-to-Text CLI for Driving Coding Agents (claude \"$(hns)\")",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/Open-Less/openless",
+    "title": "openless \u2014 Hold-Hotkey Speak-to-Insert AI-Polished Text in Any App (Local/Cloud ASR)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/cosmicstack-labs/mercury-agent",
+    "title": "mercury-agent \u2014 Self-Hosted Personal Agent via CLI + Web Dashboard + Telegram (Markdown Persona)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "title": "omnigent \u2014 Meta-Harness Orchestrating Multiple Coding Agents (Claude Code, Cursor, Codex)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/moltis-org/moltis",
+    "title": "moltis \u2014 Persistent Personal AI-Agent Server in Rust (Single Binary, Telegram/Discord/Signal)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://nobie.com",
+    "title": "Nobie \u2014 Excel-Compatible Runtime for Agents and Humans",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "title": "compound-engineering-plugin \u2014 Claude Code Plugin (Every)",
+    "date_seen": "2026-07-16"
+  },
+  {
+    "url": "https://github.com/volcengine/OpenViking",
+    "title": "OpenViking \u2014 Self-Evolving Context DB Unifying Agent Memory + RAG (volcengine)",
+    "date_seen": "2026-07-16"
   }
 ]

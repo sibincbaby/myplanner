@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-16', link: '/daily/2026-07-16' },
           { text: '2026-07-15', link: '/daily/2026-07-15' },
           { text: '2026-07-14', link: '/daily/2026-07-14' },
           { text: '2026-07-13', link: '/daily/2026-07-13' },
@@ -33,6 +34,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Memex Local First Ai Journal App With Byo Llm', link: '/projects/2026-07-16-memex-local-first-ai-journal-app-with-byo-llm' },
           { text: 'Pulse Phone Based Approval Dashboard For Claude Code Tool Calls', link: '/projects/2026-07-15-pulse-phone-based-approval-dashboard-for-claude-code-tool-calls' },
           { text: 'Claude Video Let Claude Process Videos Via Frame Extraction Transcription', link: '/projects/2026-07-14-claude-video-let-claude-process-videos-via-frame-extraction-transcription' },
           { text: 'Herdr Terminal Native Agent Multiplexer With Agent State Awareness', link: '/projects/2026-07-13-herdr-terminal-native-agent-multiplexer-with-agent-state-awareness' },
