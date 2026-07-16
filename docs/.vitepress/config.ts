@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-17', link: '/daily/2026-07-17' },
           { text: '2026-07-16', link: '/daily/2026-07-16' },
           { text: '2026-07-15', link: '/daily/2026-07-15' },
           { text: '2026-07-14', link: '/daily/2026-07-14' },
@@ -34,6 +35,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Radar Mcp Personal Discovery Feed Mcp For Claude', link: '/projects/2026-07-17-radar-mcp-personal-discovery-feed-mcp-for-claude' },
           { text: 'Memex Local First Ai Journal App With Byo Llm', link: '/projects/2026-07-16-memex-local-first-ai-journal-app-with-byo-llm' },
           { text: 'Pulse Phone Based Approval Dashboard For Claude Code Tool Calls', link: '/projects/2026-07-15-pulse-phone-based-approval-dashboard-for-claude-code-tool-calls' },
           { text: 'Claude Video Let Claude Process Videos Via Frame Extraction Transcription', link: '/projects/2026-07-14-claude-video-let-claude-process-videos-via-frame-extraction-transcription' },
