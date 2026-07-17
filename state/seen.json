@@ -763,5 +763,55 @@
     "url": "https://news.ycombinator.com/item?id=48727140",
     "title": "AMA2 — messenger built for AI agents as first-class participants",
     "date_seen": "2026-07-17"
+  },
+  {
+    "url": "https://github.com/anlor1002-alt/regressionledger",
+    "title": "regressionledger — Claude Code hook that stops re-trying fixes that already failed",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://heimwall.ai/individual",
+    "title": "HeimWall — catch secrets before you paste them into Claude or Cursor",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/sebmellen/git-temp",
+    "title": "git-temp — repo scratchpad for AI agents that won't clutter Git status",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://meetmaxx.co/",
+    "title": "Maxx — live token tracker in the CLI (Claude)",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/AyushParkara/syntra",
+    "title": "Syntra — terminal-first control plane for multi-model coding",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/0pen-Sourcer/Hearth",
+    "title": "Hearth — open-source local AI that runs your PC (files, apps, voice)",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/KlaatAI/klaatcode",
+    "title": "klaatcode — open-source terminal coding agent with smart model routing",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/ratel-ai/ratel",
+    "title": "Ratel — give agents unlimited tools and skills without context bloat",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://getscribe.dev/",
+    "title": "Scribe — CLI that builds AI agent memory from your repos and sessions",
+    "date_seen": "2026-07-18"
+  },
+  {
+    "url": "https://github.com/lucianfialho/sidestack",
+    "title": "sidestack — browser agent stack in your side panel (LangGraph JS + Chrome)",
+    "date_seen": "2026-07-18"
   }
 ]
