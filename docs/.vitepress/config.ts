@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-19', link: '/daily/2026-07-19' },
           { text: '2026-07-18', link: '/daily/2026-07-18' },
           { text: '2026-07-17', link: '/daily/2026-07-17' },
           { text: '2026-07-16', link: '/daily/2026-07-16' },
@@ -36,6 +37,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Claude Branch Tree Based Conversation Branching For Claude Code', link: '/projects/2026-07-19-claude-branch-tree-based-conversation-branching-for-claude-code' },
+          { text: 'Local Finance Mcp Local First Personal Finance Copilot', link: '/projects/2026-07-19-local-finance-mcp-local-first-personal-finance-copilot' },
+          { text: 'Managed Agent Bridge Mcp Server For Claude Managed Agents', link: '/projects/2026-07-19-managed-agent-bridge-mcp-server-for-claude-managed-agents' },
           { text: 'Retry Guard Claude Code Hook That Blocks Repeating Failed Fixes', link: '/projects/2026-07-18-retry-guard-claude-code-hook-that-blocks-repeating-failed-fixes' },
           { text: 'Radar Mcp Personal Discovery Feed Mcp For Claude', link: '/projects/2026-07-17-radar-mcp-personal-discovery-feed-mcp-for-claude' },
           { text: 'Memex Local First Ai Journal App With Byo Llm', link: '/projects/2026-07-16-memex-local-first-ai-journal-app-with-byo-llm' },
