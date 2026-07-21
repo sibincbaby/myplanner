@@ -858,5 +858,50 @@
     "url": "https://github.com/bvisible/mcp-ssh-manager",
     "title": "mcp-ssh-manager \u2014 37-tool MCP server for SSH/DevOps/DB management",
     "date_seen": "2026-07-19"
+  },
+  {
+    "url": "https://github.com/LunarWerxs/CCManagerUI",
+    "title": "CCManagerUI \u2014 Local dashboard for Claude Code sessions: live-tail, queue, multi-account",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/tsouth89/toolport",
+    "title": "toolport \u2014 Local-first MCP gateway; one port for all tools, 90% token savings",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/Arenukvern/mcp_flutter",
+    "title": "mcp_flutter \u2014 MCP Toolkit for Flutter AI agent driven development, 30+ tools",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/Leviai-ai/personal-finance-mcp",
+    "title": "personal-finance-mcp (Leviai) \u2014 MCP server: budgets, goals, spending analysis for Claude",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/zrabin/personal-finance-mcp",
+    "title": "personal-finance-mcp (zrabin) \u2014 MCP: Chase bank + Venmo via Teller API into Claude",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/SecureLend/mcp-financial-services",
+    "title": "mcp-financial-services \u2014 MCP server + SDK for loan/credit card/banking comparison with AI",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/intrepidkarthi/dailyvox",
+    "title": "DailyVox \u2014 iOS voice diary with on-device AI transcription and Digital Twin",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/JasonColapietro/suede-creator-skills",
+    "title": "suede-creator-skills \u2014 27 open-source agent skills for Claude Code",
+    "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/mobius-os/mobius",
+    "title": "mobius \u2014 Self-hosted AI app workspace; Claude Code builds mini-apps on demand",
+    "date_seen": "2026-07-21"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-21', link: '/daily/2026-07-21' },
           { text: '2026-07-19', link: '/daily/2026-07-19' },
           { text: '2026-07-18', link: '/daily/2026-07-18' },
           { text: '2026-07-17', link: '/daily/2026-07-17' },
@@ -37,6 +38,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Personal Skill Forge', link: '/projects/2026-07-21-personal-skill-forge' },
+          { text: 'VoxDiary Flutter', link: '/projects/2026-07-21-voxdiary-flutter' },
+          { text: 'Claude Finance Mcp', link: '/projects/2026-07-21-claude-finance-mcp' },
+          { text: 'Claude Session Nexus', link: '/projects/2026-07-21-claude-session-nexus' },
           { text: 'Claude Branch Tree Based Conversation Branching For Claude Code', link: '/projects/2026-07-19-claude-branch-tree-based-conversation-branching-for-claude-code' },
           { text: 'Local Finance Mcp Local First Personal Finance Copilot', link: '/projects/2026-07-19-local-finance-mcp-local-first-personal-finance-copilot' },
           { text: 'Managed Agent Bridge Mcp Server For Claude Managed Agents', link: '/projects/2026-07-19-managed-agent-bridge-mcp-server-for-claude-managed-agents' },
