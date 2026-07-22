@@ -903,5 +903,45 @@
     "url": "https://github.com/mobius-os/mobius",
     "title": "mobius \u2014 Self-hosted AI app workspace; Claude Code builds mini-apps on demand",
     "date_seen": "2026-07-21"
+  },
+  {
+    "url": "https://github.com/TechNickAI/claude_telemetry",
+    "title": "claude_telemetry",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/silascutler/llmh",
+    "title": "llmh",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/jeanduplessis/claude-code-voice",
+    "title": "claude-code-voice",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/johnmatthewtennant/mcp-voice-hooks",
+    "title": "mcp-voice-hooks",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
+    "title": "Mispher",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/simstudioai/sim",
+    "title": "simstudioai/sim",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/graniet/llm",
+    "title": "graniet/llm",
+    "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/ConardLi/easy-llm-cli",
+    "title": "easy-llm-cli",
+    "date_seen": "2026-07-22"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-22', link: '/daily/2026-07-22' },
           { text: '2026-07-21', link: '/daily/2026-07-21' },
           { text: '2026-07-19', link: '/daily/2026-07-19' },
           { text: '2026-07-18', link: '/daily/2026-07-18' },
@@ -38,6 +39,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'LocalMic', link: '/projects/2026-07-22-localmic' },
+          { text: 'VoiceCode', link: '/projects/2026-07-22-voicecode' },
+          { text: 'EchoCode', link: '/projects/2026-07-22-echocode' },
+          { text: 'SessionVault', link: '/projects/2026-07-22-sessionvault' },
+          { text: 'ClaudeScope', link: '/projects/2026-07-22-claudescope' },
           { text: 'Personal Skill Forge', link: '/projects/2026-07-21-personal-skill-forge' },
           { text: 'VoxDiary Flutter', link: '/projects/2026-07-21-voxdiary-flutter' },
           { text: 'Claude Finance Mcp', link: '/projects/2026-07-21-claude-finance-mcp' },
