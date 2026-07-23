@@ -943,5 +943,55 @@
     "url": "https://github.com/ConardLi/easy-llm-cli",
     "title": "easy-llm-cli",
     "date_seen": "2026-07-22"
+  },
+  {
+    "url": "https://github.com/ratel-ai/ratel",
+    "title": "ratel-ai/ratel \u2014 Context engineering for AI agents",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/machulav/accountant24",
+    "title": "machulav/accountant24 \u2014 Local-first AI finance agent",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/knowsuchagency/mcp2cli",
+    "title": "knowsuchagency/mcp2cli \u2014 Turn any MCP/OpenAPI into a CLI at runtime",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/xai-org/grok-build",
+    "title": "xai-org/grok-build \u2014 xAI coding agent TUI (Rust, open-sourced)",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/Arenukvern/mcp_flutter",
+    "title": "Arenukvern/mcp_flutter \u2014 MCP toolkit for Flutter AI agent development",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "title": "google-labs-code/stitch-skills \u2014 Agent skills library for Stitch MCP server",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/theshivamlko/flutter-ai-labs",
+    "title": "theshivamlko/flutter-ai-labs \u2014 Curated LLM-powered Flutter app examples",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/mcherukara/claude-deep-research",
+    "title": "mcherukara/claude-deep-research \u2014 MCP server for deep research with Claude",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/superagent-ai/grok-cli",
+    "title": "superagent-ai/grok-cli \u2014 Open-source Grok API coding agent CLI",
+    "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47855284",
+    "title": "Almanac MCP \u2014 turn Claude Code into a Deep Research agent (HN Show HN)",
+    "date_seen": "2026-07-23"
   }
 ]
