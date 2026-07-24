@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-24', link: '/daily/2026-07-24' },
           { text: '2026-07-23', link: '/daily/2026-07-23' },
           { text: '2026-07-22', link: '/daily/2026-07-22' },
           { text: '2026-07-21', link: '/daily/2026-07-21' },
@@ -40,6 +41,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'LLMCassette', link: '/projects/2026-07-24-llmcassette' },
+          { text: 'VoxDAG', link: '/projects/2026-07-24-voxdag' },
+          { text: 'WorkflowVault', link: '/projects/2026-07-24-workflowvault' },
+          { text: 'AgentSession', link: '/projects/2026-07-24-agentsession' },
           { text: 'MCPtoShell', link: '/projects/2026-07-23-mcptoshell' },
           { text: 'LedgerBot', link: '/projects/2026-07-23-ledgerbot' },
           { text: 'ToolGate', link: '/projects/2026-07-23-toolgate' },

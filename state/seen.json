@@ -993,5 +993,55 @@
     "url": "https://news.ycombinator.com/item?id=47855284",
     "title": "Almanac MCP \u2014 turn Claude Code into a Deep Research agent (HN Show HN)",
     "date_seen": "2026-07-23"
+  },
+  {
+    "url": "https://github.com/agegr/pi-web",
+    "title": "agegr/pi-web \u2014 Web UI for pi coding agent sessions",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/lostinpatterns/kassette",
+    "title": "lostinpatterns/kassette \u2014 Durable agentic workflows via JSONL journals",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/xiaotianfotos/homerail",
+    "title": "xiaotianfotos/homerail \u2014 Voice-first local agent orchestration runtime",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/autopost/llm-mock",
+    "title": "autopost/llm-mock \u2014 pytest record/replay plugin for LLM API calls",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "title": "DietrichGebert/ponytail \u2014 Anti-overengineering plugin for coding agents",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "title": "diegosouzapw/OmniRoute \u2014 AI gateway 290+ providers auto-fallback",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/microsoft/SkillOpt",
+    "title": "microsoft/SkillOpt \u2014 Train agent skill.md files via text-space optimization",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/facebook/astryx",
+    "title": "facebook/astryx \u2014 Meta agent-ready React design system",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "title": "MadsLorentzen/ai-job-search \u2014 AI job application framework on Claude Code",
+    "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
+    "title": "GenAIwithMS/Expense-tracker-MCP \u2014 Local expense tracking MCP for Claude",
+    "date_seen": "2026-07-24"
   }
 ]
