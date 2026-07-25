@@ -1043,5 +1043,55 @@
     "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
     "title": "GenAIwithMS/Expense-tracker-MCP \u2014 Local expense tracking MCP for Claude",
     "date_seen": "2026-07-24"
+  },
+  {
+    "url": "https://github.com/matthiasn/lotti",
+    "title": "lotti \u2014 Flutter Logbook with Long-Lived AI Agents (Mission, Soul, Local-First, Voice)",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/juggler-ai/juggler",
+    "title": "Juggler \u2014 GUI Coding Agent with Tree-View Conversations by JUCE Creator (Go+Wails)",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/hara-cli/hara",
+    "title": "hara \u2014 Role-Based Coding Agent CLI with Plan DAGs, Approvals, and Multi-Platform Chat",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/fixed-width/glass",
+    "title": "glass \u2014 MCP Server: Build\u2192See\u2192Interact\u2192Debug Loop for Native GUI Apps (AT-SPI2, Rust)",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/dhruvanbhalara/flutter_agent_lens",
+    "title": "flutter_agent_lens \u2014 MCP Server Connecting AI to Dart VM Service of Running Flutter Apps",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/tsouth89/toolport",
+    "title": "toolport \u2014 Local MCP Gateway: One Port for All AI Clients with 90% Token Reduction",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/ys-ll/uniterm",
+    "title": "uniterm \u2014 All-in-One Terminal (20+ Protocols) with Built-In Autonomous AI Agent",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/Fmarzochi/EGC",
+    "title": "EGC \u2014 Shared Memory and Skills Synced Across 23+ AI Coding Tools with Token Compression",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/shivamprasad1001/expense-mcp-server",
+    "title": "expense-mcp-server \u2014 Natural-Language Expense Tracker MCP Server for Claude/Cursor",
+    "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/Epistates/turbomcp",
+    "title": "turbomcp \u2014 Enterprise-Grade Rust MCP SDK with OAuth 2.1, OpenTelemetry, and Rate Limiting",
+    "date_seen": "2026-07-25"
   }
 ]
