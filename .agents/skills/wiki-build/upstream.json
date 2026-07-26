@@ -1,0 +1,65 @@
+{
+  "_comment": "Upstream coupling manifest. Records the langchain-ai/openwiki files this skill derives from, and their content hashes at the commit we last verified against. scripts/check-upstream.sh re-fetches and diffs these. Only these files matter — an upstream release that does not touch them cannot invalidate this skill.",
+  "upstream": {
+    "repo": "langchain-ai/openwiki",
+    "ref": "main",
+    "verified_at_commit": "2a0fe7feb5d9588666325825f93dc633b510a652",
+    "verified_at_version": "0.2.3",
+    "verified_on": "2026-07-26"
+  },
+  "coupled_files": [
+    {
+      "path": "src/okf/frontmatter.ts",
+      "sha256": "9361e918295544c4c4a843a01099218a2281f79c2e3b324552dadd057ecddc37",
+      "risk": "high",
+      "governs": "OKF field names, required-vs-optional, validation rules",
+      "review_in_skill": [
+        "references/okf-format.md",
+        "scripts/validate.mjs (OKF_STRINGS, type/tags checks)"
+      ],
+      "breaks_if": "a field becomes required, a new field is added, or validation tightens — validate.mjs would pass wikis the real CLI rejects"
+    },
+    {
+      "path": "src/okf/index-sync.ts",
+      "sha256": "a33f6336b07d90a31fc9b6326770b25ffd2f4c0a04dfc01971123627913bd22f",
+      "risk": "medium",
+      "governs": "reserved documents (index.md, log.md), okf_version placement, index generation",
+      "review_in_skill": [
+        "references/okf-format.md (Reserved documents)",
+        "scripts/validate.mjs (RESERVED set)"
+      ],
+      "breaks_if": "the reserved filename set changes or okf_version moves"
+    },
+    {
+      "path": "src/agent/prompt.ts",
+      "sha256": "a7274cf94a2a7b335ce230fd30440a8a16a263078ccf95266e2f8bde3984ed7e",
+      "risk": "medium",
+      "governs": "page taxonomy, page budget, diagram rules, update discipline, security prohibitions",
+      "review_in_skill": [
+        "references/page-taxonomy.md",
+        "references/diagrams.md",
+        "references/update-discipline.md",
+        "SKILL.md (workflow steps)"
+      ],
+      "breaks_if": "nothing breaks — but upstream prompt improvements are worth adopting; this is the file most likely to change and least likely to be urgent"
+    },
+    {
+      "path": "src/agent/okf-middleware.ts",
+      "sha256": "083130bdef313d857a367971f0d83d69e0a22339e5b75a965d4e0f2ae79dde67",
+      "risk": "low",
+      "governs": "how front matter is enforced and migrated at write time",
+      "review_in_skill": ["references/okf-format.md (openwiki_generated)"],
+      "breaks_if": "migration behaviour changes in a way that rewrites pages this skill produced"
+    }
+  ],
+  "not_coupled": {
+    "_comment": "Our own inventions. Upstream changes cannot invalidate these.",
+    "files": [
+      "scripts/survey.sh",
+      "scripts/drift.sh",
+      "scripts/drift-map.mjs",
+      "references/state-file.md",
+      "openwiki/.wiki-state.json format"
+    ]
+  }
+}

@@ -72,6 +72,7 @@ accidental secret leakage.
 ├── SKILL.md                       # entry point; mode routing
 ├── README.md
 ├── install.sh
+├── upstream.json                  # which upstream files this skill derives from
 ├── references/                    # loaded on demand, not up front
 │   ├── okf-format.md              # OKF v0.1 front matter contract
 │   ├── page-taxonomy.md           # what earns a page, and at what depth
@@ -82,8 +83,34 @@ accidental secret leakage.
     ├── survey.sh                  # repo inventory + churn hotspots
     ├── drift.sh                   # STALE / UNTRACKED / MISSING classification
     ├── drift-map.mjs              # source→page intersection (called by drift.sh)
-    └── validate.mjs               # OKF + link + orphan + secret validator
+    ├── validate.mjs               # OKF + link + orphan + secret validator
+    └── check-upstream.sh          # has upstream openwiki changed under us?
 ```
+
+## Staying in sync with upstream
+
+A new openwiki release does **not** automatically mean this skill needs updating. Only
+four upstream files are actually coupled to it, and most releases touch none of them:
+
+```bash
+bash .agents/skills/wiki-build/scripts/check-upstream.sh
+```
+
+Exit 0 = nothing to do. Exit 1 = a high/medium-risk file changed; the output names the
+exact skill files to re-review and links the upstream diff.
+
+`upstream.json` records the coupling: each upstream file, its hash at the commit we last
+verified against, what it governs, and what breaks if it changes. Highest risk is
+`src/okf/frontmatter.ts` — it defines the OKF schema, so a change there can make
+`validate.mjs` pass wikis the real CLI would reject.
+
+The scripts, the state-file format, and drift detection are **ours**. Upstream cannot
+invalidate them.
+
+Refreshing `upstream.json` is deliberately manual: auto-rehashing would stamp "verified"
+on a diff nobody read, which is the failure the check exists to prevent.
+
+Currently verified against **openwiki v0.2.3** (`2a0fe7f`, 2026-07-26).
 
 ## The design bet
 
