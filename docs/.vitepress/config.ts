@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-26', link: '/daily/2026-07-26' },
           { text: '2026-07-25', link: '/daily/2026-07-25' },
           { text: '2026-07-24', link: '/daily/2026-07-24' },
           { text: '2026-07-23', link: '/daily/2026-07-23' },
@@ -42,6 +43,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'AgentDesk', link: '/projects/2026-07-26-agentdesk' },
+          { text: 'MemLayer', link: '/projects/2026-07-26-memlayer' },
+          { text: 'ContextPop', link: '/projects/2026-07-26-contextpop' },
           { text: 'FlutterScope', link: '/projects/2026-07-25-flutterscope' },
           { text: 'Sightline', link: '/projects/2026-07-25-sightline' },
           { text: 'HaraDuo', link: '/projects/2026-07-25-haraduo' },

@@ -1093,5 +1093,60 @@
     "url": "https://github.com/Epistates/turbomcp",
     "title": "turbomcp \u2014 Enterprise-Grade Rust MCP SDK with OAuth 2.1, OpenTelemetry, and Rate Limiting",
     "date_seen": "2026-07-25"
+  },
+  {
+    "url": "https://github.com/ChristianFJung/AIOffice",
+    "title": "AIOffice \u2014 Pixel-art walkable office for AI coding agents",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/oleksiijko/pmb",
+    "title": "pmb \u2014 Local-first persistent memory MCP for AI coding agents",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://www.airjelly.ai/",
+    "title": "AirJelly \u2014 Proactive macOS AI companion with on-device memory and Enter-key task capture",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "title": "free-claude-code \u2014 Multi-provider proxy for Claude Code/Codex/Pi with voice support",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/MODSetter/SurfSense",
+    "title": "SurfSense \u2014 Open-source NotebookLM alternative with live web data and MCP server",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "title": "awesome-claude-skills \u2014 Curated list of 1,000+ Claude Skills for agents",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/riponcm/projectmem",
+    "title": "projectmem \u2014 Event-sourced local-first memory layer for AI coding agents (AAAI-26)",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "title": "PageIndex \u2014 Vectorless reasoning-based RAG with hierarchical tree index",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "title": "DesktopCommanderMCP \u2014 MCP server for Claude with terminal control and file editing",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "title": "Kronos \u2014 Foundation model for financial markets K-line sequences (AAAI-26)",
+    "date_seen": "2026-07-26"
+  },
+  {
+    "url": "https://github.com/usestrix/strix",
+    "title": "strix \u2014 Open-source AI penetration testing tool",
+    "date_seen": "2026-07-26"
   }
 ]
