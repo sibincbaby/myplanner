@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-28', link: '/daily/2026-07-28' },
           { text: '2026-07-27', link: '/daily/2026-07-27' },
           { text: '2026-07-26', link: '/daily/2026-07-26' },
           { text: '2026-07-25', link: '/daily/2026-07-25' },
@@ -44,6 +45,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'VaultChron', link: '/projects/2026-07-28-vaultchron' },
+          { text: 'DesignLens', link: '/projects/2026-07-28-designlens' },
+          { text: 'SelfSpec', link: '/projects/2026-07-28-selfspec' },
           { text: 'CodeSherpa', link: '/projects/2026-07-27-codesherpa' },
           { text: 'EngineerKit', link: '/projects/2026-07-27-engineerkit' },
           { text: 'PortfolioSage', link: '/projects/2026-07-27-portfoliosage' },
