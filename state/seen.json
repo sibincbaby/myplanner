@@ -1303,5 +1303,45 @@
     "url": "https://github.com/777genius/agent-teams-ai",
     "title": "777genius/agent-teams-ai",
     "date_seen": "2026-07-28"
+  },
+  {
+    "url": "https://alderfi.org/",
+    "title": "Alderfi \u2014 Open-source MCP-native personal finance",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/Nano-Collective/nanocoder",
+    "title": "Nanocoder \u2014 Community terminal coding agent, local-first",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://ama2.me/",
+    "title": "AMA2 \u2014 Messaging runtime for AI agents",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/aws/agent-toolkit-for-aws",
+    "title": "AWS Agent Toolkit \u2014 Official AWS MCP servers and skills",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/openguardrails/agentfw",
+    "title": "agentfw \u2014 Local firewall for AI agents (Go binary)",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/luckyPipewrench/pipelock",
+    "title": "Pipelock \u2014 Content-inspection AI agent firewall",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/theexperiencecompany/gaia",
+    "title": "GAIA \u2014 Proactive personal AI assistant multi-platform",
+    "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/vishalsachdev/canvas-mcp",
+    "title": "canvas-mcp \u2014 Canvas LMS MCP server 93 tools",
+    "date_seen": "2026-07-29"
   }
 ]
