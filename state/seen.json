@@ -1343,5 +1343,50 @@
     "url": "https://github.com/vishalsachdev/canvas-mcp",
     "title": "canvas-mcp \u2014 Canvas LMS MCP server 93 tools",
     "date_seen": "2026-07-29"
+  },
+  {
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "title": "agent-browser \u2014 Browser automation CLI for AI agents (Vercel Labs)",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "title": "OfficeCLI \u2014 Office suite CLI for AI agents (read/edit Word/Excel/PowerPoint)",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/agigante80/actual-mcp-server",
+    "title": "actual-mcp-server \u2014 Docker MCP server for Actual Budget natural-language budgeting",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/neverinfamous/memory-journal-mcp",
+    "title": "memory-journal-mcp \u2014 70+ tool MCP: memory, journaling, GitHub integration, team collab",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/obra/private-journal-mcp",
+    "title": "private-journal-mcp \u2014 Lightweight MCP journaling for Claude with multi-section storage",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/perplexityai/bumblebee",
+    "title": "bumblebee \u2014 Perplexity supply chain scanner for dev endpoints + MCP configs (Go, Apache-2.0)",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/AgriciDaniel/claude-obsidian",
+    "title": "claude-obsidian \u2014 Self-organizing AI second brain for Obsidian + Claude Code (15 skills)",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/colbymchenry/codegraph",
+    "title": "codegraph \u2014 Pre-indexed auto-syncing code knowledge graph for coding agents (60% cost reduction)",
+    "date_seen": "2026-07-30"
+  },
+  {
+    "url": "https://github.com/huytieu/COG-second-brain",
+    "title": "COG-second-brain \u2014 Self-evolving second brain + people CRM with 17 skills and 6 worker agents",
+    "date_seen": "2026-07-30"
   }
 ]
