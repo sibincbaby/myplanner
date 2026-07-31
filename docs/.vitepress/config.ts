@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-07-31', link: '/daily/2026-07-31' },
           { text: '2026-07-30', link: '/daily/2026-07-30' },
           { text: '2026-07-29', link: '/daily/2026-07-29' },
           { text: '2026-07-28', link: '/daily/2026-07-28' },
@@ -47,6 +48,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'SkillPilot', link: '/projects/2026-07-31-skillpilot' },
+          { text: 'TurnMem', link: '/projects/2026-07-31-turnmem' },
+          { text: 'AgentSquad', link: '/projects/2026-07-31-agentsquad' },
+          { text: 'FinFlutter', link: '/projects/2026-07-31-finflutter' },
           { text: 'ClaudeObsidian', link: '/projects/2026-07-30-claude-obsidian' },
           { text: 'CodeGraph', link: '/projects/2026-07-30-codegraph' },
           { text: 'COGBrain', link: '/projects/2026-07-30-cog-brain' },
