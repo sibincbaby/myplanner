@@ -24,15 +24,15 @@ GOAL: find STARTUP/PROJECT IDEAS of one shape — take an app that is genuinely 
 
 Step 1 — Read state/idea-seen.json (a JSON array of {app, date_seen}; treat missing/invalid as []). Extract all app names as a do-not-repeat list.
 
-Step 2 — Scout across these domains (spawn parallel Task subagents, one per domain, for speed):
-- Self-hosted/homelab/smart-home (Home Assistant, Nextcloud, Jellyfin, Paperless-ngx, Immich, Proxmox)
-- Developer/ops dashboards (Grafana, Kibana, Prometheus, Airflow, Kubernetes, Jenkins, Wireshark)
-- SMB/business software (Odoo, ERPNext, SuiteCRM, Dolibarr, GnuCash, invoicing) — SKIP personal expense/budget managers, that space is taken
-- Creative/media (Blender, GIMP, DaVinci Resolve, Audacity, Inkscape, FFmpeg, OBS)
-- Productivity/PKM (Obsidian+plugins, Logseq, Anki, Zotero, Joplin, Org-mode)
-- Data/analytics/spreadsheet power-features (Metabase, Superset, Excel pivots/formulas, DBeaver, pandas)
-- Workflow automation (n8n, Node-RED, HA automations, NiFi, rule engines)
-- Niche power tools (tax software, DAWs, FreeCAD, QGIS, Cura/PrusaSlicer, Calibre, Strava analysis)
+Step 2 — Scout across these domains (spawn parallel Task subagents, one per domain, for speed). Bias toward MAINSTREAM/UNIVERSAL software with huge install bases (apps nearly everyone or every business already has) over niche self-hosted/OSS power-user tools:
+- Office/productivity suites (Excel/Google Sheets formulas & pivots & macros/VBA, Word/Docs mail-merge, PowerPoint/Slides, Outlook/Gmail rules)
+- CRM/sales platforms (Salesforce, HubSpot, Zoho CRM, Pipedrive, Dynamics 365)
+- Creative-pro tools (Adobe Photoshop/Premiere/After Effects/Illustrator, Figma advanced features, Canva Pro)
+- Finance/accounting/ERP (QuickBooks, Xero, NetSuite, SAP Business One, Excel financial modeling) — SKIP personal expense/budget managers, that space is taken
+- Project/ticketing/collab (Jira, Confluence, ServiceNow, Asana, Monday.com, Notion)
+- Marketing/e-commerce (Shopify, WooCommerce, Klaviyo, Mailchimp, Google Ads/Meta Ads Manager)
+- Data/BI (Power BI, Tableau, Looker, Excel Power Query)
+- Dev/ops platforms (GitHub/GitLab admin & Actions, Datadog, AWS/Azure/GCP consoles, Jenkins)
 
 For each candidate capture: app, open-source?, why powerful, the SPECIFIC usability wall, a concrete AI-operator concept, one vivid 'user says X → AI does Y' example, integration path (REST API / CLI / scriptable / plugin), buildability 1-5, demand 1-5. Skip any app already in idea-seen.json. Favor apps with a real programmatic surface and pain felt by many.
 

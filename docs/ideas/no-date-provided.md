@@ -1,0 +1,516 @@
+# AI-Operator Idea Digest — no-date-provided
+
+Powerful-but-hard apps where a natural-language AI operator layer would unlock them.
+
+| # | App | Type | Demand | Buildability | Domain |
+|---|-----|------|--------|--------------|--------|
+| 1 | **Jira (Software / Service Management)** | closed | 5/5 | 4/5 | — |
+| 2 | **Figma (advanced design-systems features)** | closed | 5/5 | 4/5 | — |
+| 3 | **QuickBooks Online** | closed | 5/5 | 4/5 | — |
+| 4 | **GitLab (self-managed CI/CD + Admin)** | OSS | 5/5 | 4/5 | — |
+| 5 | **Jenkins** | OSS | 5/5 | 4/5 | — |
+| 6 | **Datadog** | closed | 5/5 | 4/5 | — |
+| 7 | **Qlik Sense (Enterprise/Cloud)** | closed | 4/5 | 4/5 | — |
+| 8 | **Looker (Google Cloud)** | closed | 4/5 | 4/5 | — |
+| 9 | **Notion** | closed | 4/5 | 4/5 | — |
+| 10 | **WooCommerce** | OSS | 4/5 | 4/5 | — |
+| 11 | **Confluence** | closed | 4/5 | 4/5 | — |
+| 12 | **Microsoft Outlook — mail rules & calendar automation via Microsoft Graph** | closed | 4/5 | 4/5 | — |
+| 13 | **Google Slides / PowerPoint — template-driven deck generation** | closed | 4/5 | 4/5 | — |
+| 14 | **AWS IAM** | closed | 5/5 | 3/5 | — |
+| 15 | **Salesforce (Sales Cloud)** | closed | 5/5 | 3/5 | — |
+| 16 | **Tableau (Desktop/Server/Cloud)** | closed | 5/5 | 3/5 | — |
+| 17 | **ServiceNow (ITSM/ITOM)** | closed | 5/5 | 3/5 | — |
+| 18 | **Shopify** | closed | 5/5 | 3/5 | — |
+| 19 | **Adobe Photoshop** | closed | 5/5 | 3/5 | — |
+| 20 | **Klaviyo** | closed | 5/5 | 3/5 | — |
+| 21 | **HubSpot** | closed | 4/5 | 3/5 | — |
+| 22 | **Adobe Illustrator** | closed | 4/5 | 3/5 | — |
+| 23 | **Adobe Lightroom Classic** | closed | 4/5 | 3/5 | — |
+| 24 | **Microsoft Word — mail merge & Styles automation** | closed | 3/5 | 4/5 | — |
+| 25 | **Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)** | OSS | 3/5 | 4/5 | — |
+| 26 | **Meta Ads Manager** | closed | 5/5 | 2/5 | — |
+| 27 | **Zoho CRM** | closed | 3/5 | 3/5 | — |
+| 28 | **LibreOffice (Calc / Writer / Impress) — UNO API automation** | OSS | 3/5 | 3/5 | — |
+| 29 | **Microsoft Dynamics 365 (Sales)** | closed | 4/5 | 2/5 | — |
+| 30 | **NetSuite** | closed | 4/5 | 2/5 | — |
+
+---
+
+### 1. Jira (Software / Service Management) `closed`
+
+**Why it's powerful:** Infinitely customizable issue types, workflows, screens, permission schemes, and JQL (Jira Query Language) let large orgs model any process across thousands of projects, plus an Automation rule engine (trigger/condition/action) for no-code rules.
+
+**Why people bounce off it:** JQL is a real query language almost no PM or engineer masters (`assignee = currentUser() AND status != Done AND sprint in openSprints()`); bulk operations require getting that syntax exactly right; the Automation rule builder is a maze of components most users never open, so teams either over-hire Jira admins or just live with messy backlogs.
+
+**AI operator:** NL-to-JQL translator plus an automation-rule generator that hits the REST API v3 (issue search/JQL, bulk transitions, field updates) and the Automation REST API, wrapped as a Forge app panel embedded directly in the Jira UI.
+
+**Killer example:** A user types into the Forge panel embedded right in their Jira sidebar: 'Every bug assigned to me that hasn't moved in 2 weeks — send it back to the backlog, and nag me about it every Monday morning.' The AI writes the exact JQL (`assignee = currentUser() AND type = Bug AND status != Done AND updated <= -14d`) that would take most engineers three Stack Overflow searches to get right, finds the matching issues, bulk-transitions them via the REST API, and provisions a scheduled Automation rule to repeat the check — without the user ever opening the JQL bar or the Automation canvas.
+
+**Integration path:** Jira REST API v3 (issue search/JQL, bulk operations, transitions), Automation REST API for rule creation, OAuth 2.0 (3LO) for auth, Forge SDK to ship an in-product NL command panel rather than a separate app.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 2. Figma (advanced design-systems features) `closed`
+
+**Why it's powerful:** Auto layout, bound design-token Variables (with light/dark and density modes), component variant properties, boolean shape ops, and prototyping interactions let a single file drive an entire responsive, themeable design system rather than static screens.
+
+**Why people bounce off it:** Wiring bound variables across modes, configuring multi-axis component variant properties (size x state x theme), and nesting auto-layout constraints correctly to get true responsiveness is a genuinely steep learning curve; most teams give up and hand-tweak pixels per screen instead of building a token-driven system, leaving 40 near-duplicate screens with inconsistent buttons instead of one governed component.
+
+**AI operator:** An NL agent built on Figma's sanctioned Plugin API (in-file JS node manipulation) plus the REST API (file/version reads): user describes a design-system refactor, and the operator scans the file, detects near-duplicate elements, merges them into variant-driven components, creates/binds Variables, and re-parents frames into auto-layout.
+
+**Killer example:** A designer inherits 40 screens built by three different contractors — 40 near-identical but subtly different buttons, zero shared components. They say: 'Merge every button into one component with variants for primary/secondary/disabled and small/large, bind the colors to our design tokens, and make all 40 frames actually responsive.' What would be two days of manual layer archaeology becomes one pass: the operator scans every node via the REST API, detects the near-duplicate buttons despite inconsistent naming, merges them into a single variant set through the Plugin API, binds fills to the existing Variables collection, and re-parents all 40 frames into auto-layout — done in minutes, and diffable in version history.
+
+**Integration path:** Figma's official Plugin API (full node-graph read/write, runs inside the file, JS/TS) combined with the REST API for file/version-level orchestration -- a real, sanctioned automation surface (not screen-scraping), which is why first-party MCP tooling for Figma already exists and works reliably.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 3. QuickBooks Online `closed`
+
+**Why it's powerful:** Full double-entry general ledger with bank-feed rules engine, class/location tracking, multi-currency, payroll, inventory, 1099 vendor management, and a highly customizable report builder (P&L, balance sheet, cash flow, custom summary reports with arbitrary filters/groupings/columns) — genuinely capable small-business accounting, not a toy.
+
+**Why people bounce off it:** Non-accountant owners get lost the moment they leave simple invoicing: setting up bank rules so transactions auto-categorize correctly, doing manual journal entries (debits/credits terminology is opaque to most SMB owners), configuring class/location tracking for departmental P&Ls, month-end close/reconciliation workflows, and building a custom report (which of ~50 filter/column options to pick) all require either an accountant or hours of trial-and-error in nested menus.
+
+**AI operator:** An NL layer authenticated via OAuth2 against the QBO Accounting API, pre-loaded with skills for categorization-rule creation, journal entry posting, class/location tagging, reconciliation, and dynamic report generation — it translates plain-English bookkeeping requests into the correct sequence of API calls (create bank rule, post JE, run report with specific filters) instead of the user hunting through Banking > Rules > New Rule dialogs.
+
+**Killer example:** A café owner with zero accounting background says: 'Close out Q2, show me profit and loss by location, and flag anything over $500 that's still uncategorized.' No debits, no credits, no hunting through Banking > Rules. The AI runs the period close via the Accounting API, pulls a P&L filtered and grouped by class/location, cross-references open transactions above the $500 threshold, and — using historical vendor mappings — suggests categories for each one, turning what would be an hour with a bookkeeper into a 30-second conversation.
+
+**Integration path:** QuickBooks Online Accounting REST API (OAuth2, sandbox company available for dev), covering accounts, transactions, bank rules, and the Reports endpoint for customizable financial statements — well documented, rate-limited but usable for a solo-dev MVP.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 4. GitLab (self-managed CI/CD + Admin) `open-source`
+
+**Why it's powerful:** A single self-hostable platform spanning SCM, CI/CD pipelines, container registry, SAST/DAST security scanning, merge-request approval governance, and Runner fleet orchestration — genuinely a full DevOps suite, not just a wrapper around git.
+
+**Why people bounce off it:** the .gitlab-ci.yml schema (include/extends/rules/needs DAG semantics, workflow:rules) is dense enough that even senior engineers copy-paste rather than reason about it; approval rules, protected branches, and compliance frameworks are scattered across deeply nested Enterprise settings pages; Runner registration/tagging is a common source of stuck pipelines; and tracing a failure through a fan-out of `needs`-linked parallel jobs is tedious in the UI.
+
+**AI operator:** A skill wrapping GitLab's REST + GraphQL API and the `glab` CLI, pre-loaded with the CI YAML schema and using the CI Lint API to validate every generated pipeline before it's committed, plus direct calls to set branch protection, approval rules, and Runner config.
+
+**Killer example:** A security lead says: 'Require two approvals from the security team on any merge request touching /infra, and don't let it merge until the SAST job is green.' Instead of hand-editing a .gitlab-ci.yml full of rules:/needs: DAG logic that even senior engineers usually copy-paste rather than reason through, the AI creates the approval rule via the API, sets branch-protection scoped to the /infra path, adds a needs-gated SAST stage to the pipeline — and runs the whole thing through the CI Lint API before it ever touches the default branch, catching syntax errors a human wouldn't see until the pipeline failed in production.
+
+**Integration path:** GitLab REST API and GraphQL API (very complete coverage of projects/pipelines/approvals/runners), `glab` CLI for scripting, and the CI Lint API to pre-validate generated pipeline YAML before pushing.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 5. Jenkins `open-source`
+
+**Why it's powerful:** Runs CI/CD for a huge share of enterprises: pluggable to thousands of ecosystems (Docker, k8s, cloud, test frameworks), distributed builds across labeled agent fleets, full Groovy-scriptable pipelines and instance config, script console for live introspection/repair.
+
+**Why people bounce off it:** Declarative/scripted Pipeline Groovy DSL is its own mini-language with idiosyncratic syntax (stages/steps/post/when/matrix), the 'Pipeline Syntax' snippet generator is clunky, credentials binding and agent labeling are buried in nested legacy config screens, plugin version drift causes cryptic failures, and diagnosing a red build means manually grepping long console logs across parallel stages.
+
+**AI operator:** A skill that holds the Jenkinsfile declarative-pipeline grammar, Job DSL syntax, and Jenkins Configuration-as-Code (JCasC) YAML schema, and drives the instance purely through Jenkins REST API + jenkins-cli.jar + the Groovy script console — generating/validating Jenkinsfiles, creating multibranch jobs, wiring credentials, and pulling+summarizing console logs on failure.
+
+**Killer example:** A team lead says: 'Nightly, build payments-service — run unit tests, build a Docker image tagged with the git SHA, push it to our registry, deploy to staging only if tests pass, and email me if anything breaks.' The AI writes the declarative Jenkinsfile with the correct stages/post blocks (the exact Groovy DSL that sends most engineers to the 'Pipeline Syntax' snippet generator for twenty minutes), creates the multibranch job via the REST API, wires the registry credential binding and an email-ext post-failure step, and commits the finished Jenkinsfile straight to the repo.
+
+**Integration path:** Jenkins REST API (crumb-protected) for job/build management, jenkins-cli.jar for admin ops, Job DSL plugin for programmatic job creation, Configuration-as-Code (JCasC) plugin to express full instance state as YAML, and the Groovy script console endpoint for ad-hoc fixes/diagnostics.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 6. Datadog `closed`
+
+**Why it's powerful:** Unifies metrics, logs, traces/APM, RUM, synthetics, and anomaly detection (Watchdog) in one place with deep integrations across virtually every infra/cloud component — the default 'single pane of glass' for eng orgs running production services.
+
+**Why people bounce off it:** Monitor query syntax (multi-alert grouping, anomaly/outlier/forecast algorithms, composite monitors) is its own semi-documented mini-language; dashboards are authored as large hand-edited JSON widget trees; log pipelines require grok-style parsing rules to extract facets; and getting one coherent incident view means stitching together 10+ separate product tabs (APM, Logs, Infra, Monitors) by hand.
+
+**AI operator:** A skill preloaded with the Datadog monitor/dashboard JSON schemas, log-pipeline grok syntax, and SLO definitions, driving everything through the Datadog REST API (v1/v2) with API+App key auth — turning plain-English alerting/dashboarding requests into validated JSON payloads.
+
+**Killer example:** An on-call engineer says: 'Page me if p99 latency on checkout-service goes over 800ms for 5 minutes in any region — but don't wake me up overnight.' Instead of hand-assembling a multi-alert-by-region monitor query and separately hunting through downtime schedules, the AI creates the correctly-scoped Datadog monitor via the API (grouped by region, correct evaluation window), attaches an overnight mute schedule, and routes only daytime alerts to the on-call PagerDuty integration — a single conversational request replacing what usually means stitching together the Monitors tab, the Downtimes tab, and the integrations page by hand.
+
+**Integration path:** Datadog REST API v1/v2 (monitors, dashboards, log pipelines, SLOs, downtimes) via official Python/Go clients; the Terraform provider's schema serves as a reliable reference for valid JSON shapes even when not using Terraform directly.
+
+**Demand 5/5 · Buildability 4/5**
+
+---
+
+### 7. Qlik Sense (Enterprise/Cloud) `closed`
+
+**Why it's powerful:** The associative in-memory engine loads the whole data model and lets a user click any field to instantly see related and excluded values across every table simultaneously — genuinely flexible ad hoc exploration with no predefined drill paths or joins, something SQL-query-based BI tools can't replicate.
+
+**Why people bounce off it:** Set analysis syntax ({<Field={"value"}, Year={$(=Max(Year))}>}) is the single most feared part of Qlik — a bracket-heavy mini-language for defining alternate selection states inside an expression — and the load-script ETL language (resident loads, QVDs, mapping tables, incremental loads) is equally arcane and undocumented-feeling to non-engineers.
+
+**AI operator:** A copilot that turns 'show sales this year vs the same period last year, ignoring whatever region the user currently has filtered' into the correct nested set-analysis expression, inserts it into the chart object live over the Engine API, and can draft or repair load-script sections (e.g., add a mapping table or QVD incremental load) from a plain description of the desired transform.
+
+**Killer example:** An analyst says: 'Show this month's revenue against the trailing 12-month average, but always use our core-products set regardless of whatever filter someone else has clicked.' Set analysis — Qlik's bracket-heavy {<Field={'value'}>} alternate-state syntax — is the single most-feared feature in the product, something even certified Qlik consultants keep a cheat sheet for. The AI writes the correct nested set-analysis expression, pushes it live into the chart object over the Engine API, and cross-checks the rendered number against a manual calculation before handing it back — no bracket-counting required.
+
+**Integration path:** Qlik Engine JSON-RPC API (via enigma.js) gives full headless read/write control of app objects, expressions, and the data model in real time; Qlik Sense REST APIs for app/space/task administration; qlik-cli for scripted reload and deployment; load-script text is settable directly through the Engine API's SetScript call.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 8. Looker (Google Cloud) `closed`
+
+**Why it's powerful:** LookML defines a governed semantic layer once — joins, measures, access grants — that then powers unlimited safe self-serve exploration and every downstream dashboard/embed, enforcing business logic centrally instead of every analyst reinventing SQL.
+
+**Why people bounce off it:** LookML itself is the wall: writing explores, joins, derived tables (PDTs), and access_grants means learning a bespoke declarative modeling language and thinking in views/explores rather than raw tables. Most business users can't extend a model at all, so any new metric or join means filing a ticket and waiting on a data engineer.
+
+**AI operator:** A natural-language-to-LookML generator that inspects the warehouse schema (via SQL Runner/metadata) and drafts the view/explore/join LookML needed for a requested question, opens a pull request against the git-backed LookML project, and — for ad hoc questions that don't need a new model — builds and runs a Looker query directly via the API and returns the visualization.
+
+**Killer example:** A sales-ops lead says: 'I need a self-serve explore so the whole sales team can see quota attainment by rep and region, refreshed daily — without filing a ticket to the data team every time someone wants a new cut.' The AI inspects the underlying warehouse tables, writes the LookML view/explore/measure definitions that would otherwise require a data engineer fluent in Looker's bespoke modeling language, opens a pull request against the git-backed LookML project for review, and validates the change with the Content Validator API before it ever reaches production — turning a multi-day ticket into a same-day PR.
+
+**Integration path:** Looker API 4.0 (full REST/SDK) for running queries, creating Looks/dashboards, and scheduling deliveries; LookML lives in a git-backed project so an agent can directly generate/edit .view.lkml/.explore.lkml files and open PRs; Looker's Content Validator API to confirm nothing breaks after a model change.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 9. Notion `closed`
+
+**Why it's powerful:** Its database engine — relations, rollups, formulas, linked/filtered views, templates — lets a single workspace become a relational app builder (CRMs, trackers, wikis-as-databases) without code.
+
+**Why people bounce off it:** The formula language is a real mini programming language (nested `if`, `dateBetween`, property references); setting up relation + rollup pairs across multiple databases so a 'CRM' actually rolls up deal totals per company is a skill few users ever learn, so most people use Notion as a flat notes app and never touch what makes it powerful.
+
+**AI operator:** An operator that speaks to the Notion API to create related databases, wire up relation/rollup/formula properties, and configure filtered views from a description of the desired structure.
+
+**Killer example:** User says 'build me a CRM with Contacts, Deals, and Companies, linked, with a rollup showing total deal value per company' -> AI creates the three databases via the API, sets the relation properties between them, adds a rollup property (sum aggregation) on Companies, and creates a default 'Open Deals' filtered view.
+
+**Integration path:** Official Notion API (REST): database/page create & update endpoints support setting relation, rollup, and formula property schemas programmatically; internal integration tokens make auth simple; no CLI needed, purely HTTP.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 10. WooCommerce `open-source`
+
+**Why it's powerful:** Turns any WordPress site into a full commerce platform: 800+ official extensions/hooks (Subscriptions, Bookings, Memberships, Dynamic Pricing), a complete REST API, full control over checkout/tax/shipping logic via PHP hooks, and multi-vendor/multi-currency support via plugins — with any theme.
+
+**Why people bounce off it:** That power comes from assembling independent plugins with their own settings screens that can conflict — tax-rate tables per jurisdiction, shipping zone/method/class matrices, and product-variation setup for anything beyond simple products. There's no single coherent automation layer like Shopify Flow; real automation means stitching WooCommerce plus a separate automation plugin plus custom PHP in functions.php, which is exactly where self-hosted store owners get stuck and abandon features they already paid for.
+
+**AI operator:** A WP-admin-embedded assistant that speaks WooCommerce fluently — creating products/variations, configuring tax/shipping rules, writing small PHP hook snippets for custom checkout logic, and installing/configuring the right extension for a stated goal, all from plain-English requests.
+
+**Killer example:** User says 'Set up free shipping over $75 in the continental US, add a buy-2-get-1-free bundle for my candle collection, and show EU customers VAT-inclusive prices' → the AI creates the shipping zone/method via the REST API, configures the bundle discount (installing/setting up the Bundles or Dynamic Pricing plugin via WP-CLI), sets WooCommerce Tax's EU VAT display option, and summarizes each change.
+
+**Integration path:** WooCommerce REST API v3 (key/secret auth, fully documented) covers products/orders/coupons/shipping/tax; WP-CLI handles plugin install/activation and bulk operations; for anything outside the REST API's reach the agent can generate and apply a small mu-plugin snippet directly to the self-hosted filesystem — fully scriptable end to end since it's self-hosted and open source.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 11. Confluence `closed`
+
+**Why it's powerful:** Beyond a wiki, it's a semi-structured document platform: nested space/page trees, live macros (Jira issue macro, page-properties-report for building lightweight databases), CQL search, and granular space/page permission inheritance.
+
+**Why people bounce off it:** CQL is its own query syntax; finding and correctly configuring the right macro (dozens exist, each with its own parameter picker) is genuinely expert work; permission inheritance between spaces and individual page restrictions confuses even IT admins. Result: most teams just dump unstructured text pages instead of building the 'living dashboards' Confluence is actually capable of.
+
+**AI operator:** A skill that turns an NL request into Confluence Content API calls — assembling pages with the right macros/labels pre-populated, running CQL searches in plain language, and restructuring page trees (move/re-parent) on command.
+
+**Killer example:** User says 'create this week's engineering meeting notes page, pre-filled with last week's incomplete action items' -> AI runs a CQL search for pages/labels tagged action-item that are unchecked, then creates a new page from the team's template via the Content API with those items already inserted.
+
+**Integration path:** Confluence REST API v2 (content, labels, permissions), CQL for search, Forge app to surface an NL command box inside the editor toolbar; same Atlassian OAuth 2.0 (3LO) stack as Jira, so both operators can share one connector.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 12. Microsoft Outlook — mail rules & calendar automation via Microsoft Graph `closed`
+
+**Why it's powerful:** Outlook's Rules Wizard plus VBA/COM automation can chain multi-condition mail sorting, auto-forwarding, flagging, categorization, and calendar scheduling logic that most CRMs would charge extra for. Microsoft Graph exposes all of it as a clean, official REST API — mail rules, folders, calendar events, and change-notification webhooks — across Outlook desktop, web, and mobile simultaneously.
+
+**Why people bounce off it:** The Rules Wizard UI can only chain a small, fixed set of conditions/actions through nested dialog boxes — anything like 'if sender is one of these 40 VIP clients AND subject contains an invoice pattern, do X and Y' requires VBA, and Alt+F11 macros are usually disabled by IT policy (Trust Center, no local admin) for the exact corporate users who'd benefit most. Most people just live with an overflowing, half-sorted inbox instead.
+
+**AI operator:** A plain-English rule/automation composer that talks directly to Graph's `messageRules` and `calendar` endpoints — the user describes the desired mail or scheduling behavior, and the AI creates the rule objects and, where reactive logic is needed, sets up a Graph change-notification webhook to trigger follow-up actions.
+
+**Killer example:** User says 'Any email from someone at @bigclient.com with urgent in the subject should be flagged red, moved to my VIP folder, and I want a 30-minute follow-up calendar hold created automatically' → AI creates a Graph `POST /me/mailFolders/inbox/messageRules` with sender/subject conditions and flag/move actions, plus a change-notification subscription that fires a `POST /me/calendar/events` call the moment a matching message arrives.
+
+**Integration path:** Microsoft Graph REST API (official, OAuth2) — `messageRules` for rule creation, `calendar/events` for scheduling, webhook subscriptions for reactive automation. No VBA or COM automation required at all, sidestepping the macro-security wall entirely.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 13. Google Slides / PowerPoint — template-driven deck generation `closed`
+
+**Why it's powerful:** Both tools have a real programmatic surface — Google Slides has a mature `presentations.batchUpdate` REST API that can insert live Sheets-linked charts, apply master layouts, and restructure whole decks in one call; PowerPoint's .pptx format is fully manipulable via the open-source python-pptx library without ever opening the app. Properly used, a slide master + theme system means one click restyles an entire deck.
+
+**Why people bounce off it:** Almost nobody opens the Slide Master view (buried under View > Master), so decks accumulate manual formatting drift — hand-nudged text boxes, inconsistent fonts, copy-pasted Excel tables that lose all formatting, charts that are static images instead of live-linked. Rebuilding a deck to match a template is pure manual labor, slide by slide.
+
+**AI operator:** The user hands over raw content — a spreadsheet, a bullet-point outline, last quarter's messy deck — plus a target branded template; the AI uses the Slides API (or python-pptx) to programmatically populate the template's layouts, insert charts wired to live spreadsheet ranges, and rebalance overflowing text, producing a finished on-brand deck without manual slide-by-slide work.
+
+**Killer example:** User says 'Turn this quarterly numbers spreadsheet into a 10-slide board deck using our standard template — one slide per region with a bar chart and three takeaway bullets' → AI reads the data via the Sheets API, then issues a single Slides API `batchUpdate` that duplicates the template's region-slide layout ten times, inserts Sheets-linked charts, and drops in the generated takeaway text, returning a ready-to-present deck link.
+
+**Integration path:** Google Slides API (`presentations.batchUpdate`, official REST, live Sheets chart linking) for Slides; python-pptx (open source, direct .pptx XML manipulation, no running app needed) for PowerPoint; Office JS Add-in as an alternative in-app path for PowerPoint.
+
+**Demand 4/5 · Buildability 4/5**
+
+---
+
+### 14. AWS IAM `closed`
+
+**Why it's powerful:** The access-control backbone for the world's dominant cloud: fine-grained resource-level policies, cross-account role assumption, permission boundaries, and org-wide SCPs make it possible to express almost any security posture precisely.
+
+**Why people bounce off it:** Policies are hand-written JSON with wildcard ARNs and Condition blocks whose evaluation logic (explicit deny beats allow, implicit deny by default, boundary intersection) is notoriously easy to get wrong; the console's visual policy editor can't express half of what's needed; and the Policy Simulator / Access Analyzer tools that could catch mistakes are clunky enough that most teams skip them and end up either dangerously over-permissive or breakage-prone least-privilege attempts.
+
+**AI operator:** A skill that knows IAM policy grammar and common least-privilege patterns (cross-account assume-role, service-linked roles, resource-scoped S3/ECR access), drafts policy + trust-policy JSON, and closes the loop by running it through the real IAM Policy Simulator and Access Analyzer APIs before creating anything.
+
+**Killer example:** User: 'Let our CI pipeline in account A push images to ECR and deploy to ECS in account B — nothing else.' AI drafts a minimal least-privilege policy plus a scoped trust policy, validates it against the actual target actions using the Policy Simulator API, runs Access Analyzer to flag any excess scope, then creates the role via the IAM API.
+
+**Integration path:** AWS SDK (boto3) and AWS CLI against the IAM API, plus the IAM Policy Simulator API and IAM Access Analyzer API for pre-creation validation; optionally emits the equivalent Terraform/CloudFormation for auditable, repeatable creation.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 15. Salesforce (Sales Cloud) `closed`
+
+**Why it's powerful:** The de facto enterprise CRM standard — infinitely customizable object model, Flow Builder automation engine, Apex code, layered permission/sharing model, and a full analytics stack (reports, dashboards, bucket fields, cross-filters) that can model almost any sales process on earth.
+
+**Why people bounce off it:** The Setup menu has thousands of config screens. Building a working Flow requires understanding record-triggered vs. screen vs. scheduled flows, decision/loop/assignment elements, and fault paths — this is literally what the paid 'Salesforce Administrator' certification exists to teach. On top of that, the profile+permission-set+role-hierarchy+sharing-rule stack is layered and non-obvious, so 'why can't this user see that record' is a top support-forum topic, and validation rules require learning Salesforce's own formula syntax.
+
+**AI operator:** A conversational admin copilot pre-loaded with Salesforce Metadata API + Flow XML schemas. User describes a business rule or process in plain English; the AI generates the Flow/validation-rule/permission-set metadata, deploys it to a sandbox via the Metadata API, runs a test record through it, and only promotes to production after the user confirms the sandbox result.
+
+**Killer example:** User says: 'Whenever a Closed Won opportunity has no invoice within 3 days, notify Finance, and if it's still open after a week escalate to the account owner's manager.' AI builds a record-triggered Flow with a scheduled path, two decision branches, and two email alerts, deploys it to a sandbox, and shows the user a screenshot of the Flow diagram plus a test run before pushing to production.
+
+**Integration path:** Salesforce CLI (sf/sfdx) + Metadata API for deploying Flow/PermissionSet/ValidationRule XML, Tooling API for inspecting existing metadata, REST/Bulk API 2.0 for data operations and report/dashboard creation, sandbox orgs for safe dry-runs before production deploy.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 16. Tableau (Desktop/Server/Cloud) `closed`
+
+**Why it's powerful:** VizQL auto-generates near-optimal chart types from dragged fields; LOD (Level of Detail) expressions and table calculations let analysts compute custom aggregations at a granularity independent of the visible view; dashboard parameter/set actions turn static charts into interactive analytic apps without code.
+
+**Why people bounce off it:** LOD expressions (FIXED/INCLUDE/EXCLUDE) and table calculations require internalizing Tableau's order of operations (extract filters → context filters → dimension filters → ... → table calc), which trips up even experienced analysts; wiring parameter actions and set actions for interactive dashboards is pure GUI trial-and-error with no formula preview or undo-friendly iteration.
+
+**AI operator:** An assistant that converts a plain-language analytic request into the correct LOD/table-calc formula, inserts it as a calculated field directly into the workbook XML, validates the computed values against a Hyper extract sample, and auto-wires the requested parameter/set actions between dashboard sheets.
+
+**Killer example:** User says 'show year-over-year growth per product category, but freeze the comparison group to whatever the customer bought in their first year' → AI writes the correct FIXED-LOD calculated field plus a table calc, injects it into the workbook via the Document API, republishes to Tableau Server via the REST API, and opens the refreshed dashboard.
+
+**Integration path:** Tableau Document API (TDS/TWB workbook XML) to inject calculated fields and dashboard actions programmatically; Tableau REST API for publish/refresh/permissions; Tableau Metadata API (GraphQL) for field/lineage discovery; Hyper API to validate formulas against local extracts before publishing.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 17. ServiceNow (ITSM/ITOM) `closed`
+
+**Why it's powerful:** It's the de-facto low-code platform running IT operations at most Fortune 500s: incident/problem/change management, a full CMDB, Flow Designer workflow engine, ACLs, business rules, and a Service Catalog capable of modeling almost any enterprise process.
+
+**Why people bounce off it:** Anything beyond clicking through a pre-built form requires learning GlideRecord scripting, encoded-query syntax (e.g. `active=true^priority=1^sys_updated_onONLast 7 days@...`), ACL rule chains, and the Flow Designer canvas with dozens of trigger/action node types. Whole careers ('ServiceNow architect') exist just to configure it; end users routinely abandon the self-service portal because a single catalog item can have 20+ conditional fields.
+
+**AI operator:** A conversational layer over the Table API and Scripted REST API that resolves sys_ids (assignment groups, categories, CIs) from plain names, builds correct encoded queries, and can batch-create/update/close records or assemble simple Flow Designer flows from a description of the desired trigger/condition/action.
+
+**Killer example:** User says 'close all incidents older than 90 days that are Resolved and assigned to my team, then email me a summary' -> AI resolves the assignment_group sys_id, builds the encoded query, batch-updates state=Closed via the Table API, and sends the summary through the Notify/Email API.
+
+**Integration path:** REST Table API (CRUD on any table) + Scripted REST APIs for custom logic, OAuth2 auth, optional MID Server for on-prem/hybrid instances; Flow Designer and Now Assist expose additional automation hooks. Extremely well-documented, heavily used by existing integrators, so an MVP can be built purely against the Table API without touching the UI.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 18. Shopify `closed`
+
+**Why it's powerful:** A full commerce OS: products/variants, multi-location inventory, a combinable discount engine, Shopify Flow (no-code automation graphs), Shopify Functions (custom checkout/discount logic deployable as Wasm), Liquid theming, and an 8,000+ app ecosystem covering POS, B2B, and international Markets.
+
+**Why people bounce off it:** Merchants get lost in Flow's node-based trigger→condition→action canvas (100+ trigger types), the rules for stacking product/order/shipping discount classes, designing metafield/metaobject schemas for custom product data, building shipping-zone rate matrices, configuring Markets duties/pricing, and any real theme edit requiring Liquid/JSON knowledge. The non-technical majority of Shopify's 4M+ stores never touch Flow or Functions and pay $150/hr experts for tasks as basic as 'add a BOGO deal.'
+
+**AI operator:** An embedded Shopify app that translates plain-English store-ops requests into Admin GraphQL mutations, Flow workflow definitions, and Liquid snippet edits — always previewing a diff before applying, with one-click rollback.
+
+**Killer example:** User says 'Give me free shipping over $75 in the US and Canada, and email anyone who abandons a cart with a $10 code after 4 hours' → the AI creates the shipping profile rate override via the Admin API, builds a Shopify Flow workflow (trigger: checkout abandoned → wait 4h → send discount email), and confirms in plain English what was created.
+
+**Integration path:** Shopify Admin GraphQL API (full CRUD on products/discounts/shipping), the Flow workflow API for programmatic automation, Shopify Functions via CLI for custom discount/checkout logic, and a Remix-based embedded app with OAuth — all officially documented; ships as a Shopify App Store listing.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 19. Adobe Photoshop `closed`
+
+**Why it's powerful:** Non-destructive layer/mask/smart-object model, channels, blend-mode math, adjustment layers, Neural Filters, and a scriptable batch/Actions engine make it capable of virtually any raster production pipeline used across print, web, and photo retouching studios worldwide.
+
+**Why people bounce off it:** The layer/mask/channel mental model plus hundreds of menu items and blend-mode math means most users only ever flatten-and-brighten; real production work (e.g., processing 500 product photos: cut out, color-match, crop, dual-export for print CMYK and web JPEG) requires either days of manual repetition or writing ExtendScript/UXP JS that almost no working photographer or designer knows how to write.
+
+**AI operator:** A natural-language batch/action composer: the user describes a repeatable edit or production run in plain English, and the operator generates and executes a UXP plugin / ExtendScript (JSX) script against Photoshop's document DOM (layers, selections, filters, export options), optionally saving it back as a reusable Photoshop Action.
+
+**Killer example:** User says 'For every photo in this folder, remove the background, put it on white, crop to 2000x2000, and save both a print-ready CMYK TIFF and a web JPEG' -> AI operator writes and runs a UXP/ExtendScript batch script that drives Select Subject + background removal, canvas crop, color-profile conversion, and dual-format export via Photoshop's Image Processor/Batch API.
+
+**Integration path:** Adobe UXP plugin framework (modern JS plugin runtime with full document API access) plus legacy ExtendScript (JSX), invoked in-app or triggered via OS-level automation (AppleScript/COM) for semi-headless batch runs; scripts can also be exported as recordable Actions.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 20. Klaviyo `closed`
+
+**Why it's powerful:** A customer data platform fused with marketing automation: a visual flow builder with branching/delay/conditional-split logic, segments with nested AND/OR/NOT logic across any event or property, predictive analytics (CLV, next-order date, churn risk), built-in A/B testing, and unified email+SMS+push.
+
+**Why people bounce off it:** The flow canvas requires understanding trigger types, exclusion filters, time delays, and re-entry rules — SMB marketers routinely ship broken flows (missing exclusion filters that spam customers) or never leave the default templates. Segment logic like 'placed order 0 times in 60 days AND opened email in last 14 days' is genuinely hard for non-analytical users, and the predictive-analytics tab is powerful but ignored because acting on CLV/churn scores requires data literacy most merchants lack.
+
+**AI operator:** A conversational Klaviyo strategist that reads the account's existing data via API, proposes automation logic in plain English, and builds the segments/flows/campaigns after the merchant confirms.
+
+**Killer example:** User says 'Build a win-back flow for customers who haven't ordered in 60 days but used to be big spenders, and stop it once they buy again' → the AI creates the segment (0 orders in 60 days AND lifetime value > $200), builds a 3-email flow with delays and a coupon step, sets the flow's exit condition to 'placed order,' and narrates exactly what was built.
+
+**Integration path:** Klaviyo REST API (API-key/OAuth) gives full CRUD on segments, lists, campaigns, profiles, and events — 100% scriptable. Flow creation itself is only partially covered by API (mostly UI-authored historically, with a newer Flows API still maturing), so the realistic MVP builds segments/campaigns fully via API and for flows either uses the newer endpoints where available or generates a one-click 'apply this template' deep link the merchant approves in-app.
+
+**Demand 5/5 · Buildability 3/5**
+
+---
+
+### 21. HubSpot `closed`
+
+**Why it's powerful:** One platform spanning marketing, sales, service and CMS with deep automation (workflows, sequences, lead scoring, lifecycle stages), a fully custom-object data model, and a report builder that can join across contacts/companies/deals/tickets — genuinely powerful for a business that outgrows spreadsheets.
+
+**Why people bounce off it:** The workflow builder mixes marketing-hub and sales-hub triggers/actions in ways that aren't obvious to a non-technical user; enrollment-trigger logic (re-enrollment, suppression lists, unenrollment triggers) silently breaks campaigns; custom property creation with dependent/conditional properties across four object types plus the custom report builder's object-association joins are a constant source of 'why isn't this contact in my report' support tickets.
+
+**AI operator:** An NL layer that manages HubSpot's CRM objects, active lists, and Workflows via API — user describes a segmentation or nurture rule, the AI creates the filtered active list, the workflow with its enrollment trigger and branching actions, and the custom property/report needed to track it, then shows a plain-English recap of what will fire and on whom.
+
+**Killer example:** User says: 'Any contact from a company worth more than $10k who opens 3 emails without replying should get flagged high-intent and their owner should get a same-day call task.' AI creates an active list with that exact filter via the Lists API, a workflow with an engagement-based enrollment trigger and a task-creation action assigned to the record owner, and confirms with a summary before activating.
+
+**Integration path:** HubSpot REST API v3 (CRM objects, Lists API, Custom Behavioral Events, Workflows API for supported actions), HubSpot CLI for any CMS-adjacent pieces; where the public Workflows API can't create a given branch type, fall back to a guided browser-automation step the AI narrates for the user to approve.
+
+**Demand 4/5 · Buildability 3/5**
+
+---
+
+### 22. Adobe Illustrator `closed`
+
+**Why it's powerful:** Precision bezier/vector engine, pathfinder boolean operations, brushes/patterns/symbols, multi-artboard documents, spot-color/CMYK prepress controls, and a full ExtendScript/UXP scripting surface make it the industry standard for logo, packaging, and print-vector work.
+
+**Why people bounce off it:** Pathfinder boolean logic, compound paths, brush/pattern authoring, and print-safe export (bleed, spot colors, color modes, artboard-per-vendor packaging) confuse the vast majority of users; turning one logo into a print-ready package for ten vendors in different formats and color specs becomes a dialog-box nightmare that most freelancers just muddle through by hand every time.
+
+**AI operator:** An NL-driven automation layer on Illustrator's ExtendScript/UXP API: user describes the desired batch export or vector operation, and the operator generates/executes a script that iterates artboards, sets color mode/bleed, runs pathfinder operations, and organizes multi-format output.
+
+**Killer example:** User says 'Export every artboard as a 300dpi CMYK PDF with 3mm bleed, plus a transparent PNG, and name each file after its artboard' -> AI operator runs an Illustrator ExtendScript that loops artboards, applies bleed/color settings, exports both formats, and writes them into a named folder structure automatically.
+
+**Integration path:** Same Adobe UXP/ExtendScript scripting architecture as Photoshop (shared document-object-model automation), plus recordable Actions for simpler repeat tasks.
+
+**Demand 4/5 · Buildability 3/5**
+
+---
+
+### 23. Adobe Lightroom Classic `closed`
+
+**Why it's powerful:** A non-destructive RAW develop engine (100+ parametric controls across tone, curves, HSL, color grading, AI masking) plus a catalog system for metadata/keywording/smart collections and a Lua-based plugin SDK make it the backbone of professional photo culling, editing, and delivery workflows.
+
+**Why people bounce off it:** The develop module's parametric depth (AI subject/sky masking, color-grading wheels, curve points) combined with keyword-taxonomy and catalog management across thousands of images means culling, consistently editing, and delivering a 2,000-photo wedding shoot is a multi-day slog most freelancers only half-finish or outsource.
+
+**AI operator:** An NL operator riding Lightroom's Lua plugin SDK and XMP preset format: user describes a culling rule and a per-scene look, and the operator applies matching Develop presets, writes keyword/collection metadata via the SDK, and runs export presets to multiple delivery folders.
+
+**Killer example:** User says 'Cull the blurry and duplicate shots, apply my warm-film preset to ceremony photos and a brighter preset to reception, keyword everything by scene, and export a 2048px client gallery plus a full-res delivery folder' -> AI operator walks the catalog through the Lightroom SDK, flags culls, applies the matching XMP develop presets per scene, writes keyword metadata, and triggers both export presets automatically.
+
+**Integration path:** Lightroom Classic's official Lua-based plugin SDK (catalog access, metadata, export hooks) plus XMP sidecar presets for develop settings; the plugin runs inside the app, giving a first-party automation surface purpose-built for exactly this kind of batch workflow.
+
+**Demand 4/5 · Buildability 3/5**
+
+---
+
+### 24. Microsoft Word — mail merge & Styles automation `closed`
+
+**Why it's powerful:** Word's mail merge can generate hundreds of personalized letters, labels, or certificates from a data source with conditional field logic (nested IF/THEN/ELSE merge fields), and its Styles system enables one-click document-wide reformatting plus auto-generated tables of contents and cross-references — genuinely powerful document automation baked into software nearly every office worker already has.
+
+**Why people bounce off it:** The mail merge wizard is a fragile multi-step process where the data-source connection routinely breaks, and any conditional logic requires manually toggling field codes (Alt+F9) and hand-typing Word's arcane syntax like `{ IF { MERGEFIELD Balance } > 100 "Past Due" "" }`. Separately, most users skip Styles entirely and manually bold/resize text instead, which silently breaks TOC generation and cross-references down the line — both failure modes send people back to copy-pasting from a spreadsheet by hand.
+
+**AI operator:** The user describes the merge outcome and any conditional logic in plain English; the AI builds the data mapping and conditional text logic directly and generates the finished, individually-named documents via python-docx — bypassing Word's mail merge wizard and field-code syntax entirely. A separate 'style cleanup' mode re-applies a proper heading hierarchy to a messily hand-formatted document so TOC and cross-references start working again.
+
+**Killer example:** User says 'Send each customer in this spreadsheet a personalized renewal letter — if their balance is over $500, add a payment-plan paragraph, otherwise skip it, and name each PDF by account number' → AI reads the spreadsheet, generates one conditionally-worded .docx per customer via python-docx, converts each to PDF (via LibreOffice headless or docx2pdf), and names the files by account number — no mail merge wizard touched.
+
+**Integration path:** python-docx (open source) for direct .docx generation/editing + LibreOffice headless or docx2pdf for PDF conversion; Microsoft Graph API as the path for documents living in OneDrive/SharePoint; Word JS Add-in for an in-app assistant variant.
+
+**Demand 3/5 · Buildability 4/5**
+
+---
+
+### 25. Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core) `open-source`
+
+**Why it's powerful:** A free, mature visual ETL engine that connects to almost any database/file/API and transforms data via 200+ prebuilt steps (joins, lookups, scripting, slowly-changing dimensions), then schedules and orchestrates the resulting jobs — doing in a GUI what would otherwise take custom pipeline code.
+
+**Why people bounce off it:** Building a correct transformation requires understanding step-by-step data flow, hop ordering, variable scoping across parent jobs and sub-transformations, and the notoriously fiddly Metadata Injection feature used to template transformations dynamically. Most business users can drag a few steps together but fall apart the moment a job needs looping, error handling, or dynamic parameters.
+
+**AI operator:** An assistant that takes a plain description of a pipeline ('pull yesterday's orders CSV from the SFTP folder, dedupe on order_id, look up customer region, load into the warehouse fact table, route bad rows to an error file') and generates the corresponding .ktr/.kjb XML with proper steps, hops, and error-handling, validates it by running headless via Pan/Kitchen, and reports row-level failures back in plain language.
+
+**Killer example:** User says 'every night, merge the new Salesforce export with our existing customer cache, handle renamed or closed accounts, and email me if more than 1% of rows fail validation' → AI drafts the transformation with a stream-lookup plus merge-join plus error-handling hop, wires up a job with a mail-notification step, and runs it once via Kitchen (CLI) to confirm correctness before scheduling.
+
+**Integration path:** Transformations/jobs are stored as documented XML (.ktr/.kjb) that can be generated or parsed programmatically, or built via Kettle's Java API (org.pentaho.di) instead of hand-editing XML; Pan/Kitchen CLI tools execute transformations/jobs headlessly for validation; the Carte server exposes a REST API to remotely execute, monitor, and manage jobs on a cluster.
+
+**Demand 3/5 · Buildability 4/5**
+
+---
+
+### 26. Meta Ads Manager `closed`
+
+**Why it's powerful:** Advantage+ fully-automated campaigns, custom/lookalike audiences built from pixel and Conversions API events, dynamic creative testing that auto-combines images/copy/CTAs, campaign budget optimization across ad sets, configurable attribution windows, and catalog-based dynamic product ads.
+
+**Why people bounce off it:** The campaign→ad-set→ad hierarchy plus dozens of optimization events, bidding strategies (lowest cost, cost cap, bid cap, ROAS goal), and customizable reporting columns overwhelm SMB owners who just want to 'sell more of product X.' Most set-and-forget a single broad campaign, burn budget on audience overlap or creative fatigue, and never configure server-side Conversions API tracking because it requires webhook/server setup. Opaque, inconsistently enforced ad-policy rejections add a layer nobody can self-serve through.
+
+**AI operator:** An always-watching ad-account co-pilot that reads spend/CPA/ROAS via the Marketing API and lets the owner manage the account purely by talking — creating, pausing, and reallocating budget, generating creative variants, and diagnosing rejections.
+
+**Killer example:** User says 'Take my best-selling product campaign, duplicate it targeting a 3% lookalike of purchasers in Texas and Florida at $40/day, and pause anything with CPA over $35 today' → the AI queries performance by campaign, duplicates the top performer's ad sets with the new audience/geo/budget, issues pause calls on underperformers via API, and reports the changes.
+
+**Integration path:** Meta Marketing API (Graph API) via the official facebook-business SDK, with Business Manager OAuth. Full ads_management access at scale requires Meta App Review and business verification — a real multi-week bottleneck for a solo dev — so an MVP realistically starts with standard access (reporting, pause/budget edits) before pursuing advanced access for full campaign creation.
+
+**Demand 5/5 · Buildability 2/5**
+
+---
+
+### 27. Zoho CRM `closed`
+
+**Why it's powerful:** A deeply programmable CRM — Deluge scripting for custom functions, Blueprint for enforcing multi-stage approval processes, COQL for complex queries, and tight integration across the wider Zoho suite (Books, Sign, Writer, Campaigns) — at a fraction of Salesforce's price, which is why it has enormous SMB adoption especially outside the US.
+
+**Why people bounce off it:** Blueprint's visual process designer for approval/transition rules is notoriously confusing for non-developers (states, transitions, mandatory fields per transition, criteria conditions all interact); anything beyond a basic workflow rule requires writing Deluge, Zoho's own scripting language, which most sales-ops people have never touched; module/layout customization with multi-select picklists and validation across related lists compounds the learning curve.
+
+**AI operator:** An assistant that turns a described sales process into a deployed Blueprint (states, transitions, approval gates) plus any Deluge glue code needed for side effects, using the CRM REST API and Deluge function endpoints — the user never opens the Blueprint canvas or writes a line of Deluge.
+
+**Killer example:** User says: 'Deals over $20,000 need my regional manager's approval before moving to Contract Sent, and once approved, auto-generate a PDF quote.' AI builds the Blueprint transition with an approval gate tied to the manager's role, writes and deploys a Deluge function triggered on approval that calls Zoho Writer to generate the quote, and reports back the finished flow.
+
+**Integration path:** Zoho CRM REST API v6 for module/field/Blueprint metadata, Deluge custom-function API for scripted actions, COQL for validating query logic before deployment, Zoho Sign/Writer APIs for document generation triggered from Deluge.
+
+**Demand 3/5 · Buildability 3/5**
+
+---
+
+### 28. LibreOffice (Calc / Writer / Impress) — UNO API automation `open-source`
+
+**Why it's powerful:** A complete, free office suite with a full scripting object model (UNO — Universal Network Objects) exposing every element of every document: cells, styles, print layouts, PDF export filters, form controls. It can be run entirely headless (`soffice --headless`) and driven by Basic, Python, or JavaScript macros — enough to build entire document pipelines (batch conversion, conditional PDF generation, report assembly) with zero licensing cost, which is exactly why paperless-ngx, Nextcloud, and many enterprises already use it as a silent conversion engine.
+
+**Why people bounce off it:** UNO's object hierarchy (`com.sun.star.frame.XStorable`, `com.sun.star.sheet.XSpreadsheetDocument`, etc.) is deeply nested, inconsistently named, and has almost no modern community documentation compared to VBA — the built-in Basic IDE (Tools > Macros > Edit Macros) is a 1990s-style editor with no autocomplete for the object model. Ordinary users who could write a simple Excel VBA macro have no path into LibreOffice automation at all; even IT admins usually just script whole-document conversions and give up on anything more granular.
+
+**AI operator:** A natural-language-to-UNO-macro compiler: the user describes a document outcome, the AI generates and executes a Python-UNO script against a running headless LibreOffice instance (connected via socket bridge), verifies the output file, and reports back — no Basic IDE, no object-model spelunking.
+
+**Killer example:** User says 'Every Friday, split this 500-row master roster by department, export each department's rows to its own PDF, then merge them into one combined report' → AI connects to headless LibreOffice via python-uno, filters the Calc sheet per department, calls the PDF export filter (`XStorable.storeToURL` with the writer_pdf_Export filter) for each subset, concatenates the PDFs, and drops the finished report in the target folder.
+
+**Integration path:** Headless launch (`soffice --headless --accept="socket,host=localhost,port=2002;urp;"`) + python-uno bridge for full document-object-model access; macros can also be pre-stored in templates and invoked via CLI (`soffice "vnd.sun.star.script:..."`) for a lighter-weight path.
+
+**Demand 3/5 · Buildability 3/5**
+
+---
+
+### 29. Microsoft Dynamics 365 (Sales) `closed`
+
+**Why it's powerful:** Enterprise CRM built on Dataverse with the full Power Platform behind it — Power Automate for cross-app workflows, Power Apps for custom UI, Business Process Flows for guided selling, and a genuinely fine-grained security model that can express almost any org-chart access rule.
+
+**Why people bounce off it:** The security-role matrix (create/read/write/append/append-to/assign/share crossed with user/business-unit/parent-child-BU/organization scope) is infamous even among certified admins as impossible to reason about by inspection; Business Process Flow and Power Automate flow designers require understanding triggers, connectors, and branching logic that isn't discoverable from the UI; solution layering (managed vs. unmanaged, solution segmentation) routinely causes admins to overwrite each other's customizations.
+
+**AI operator:** An NL-to-Dataverse-security-and-automation copilot: user describes an access rule or process in org-chart language, the AI computes the exact security-role privilege matrix and business-unit assignment, or generates the Power Automate flow/connector wiring, and dry-runs it against a test user before applying.
+
+**Killer example:** User says: 'Reps should only see leads assigned to their own region and can't edit other reps' opportunities, but regional managers should see everything in their business unit.' AI translates this into two security roles with the correct BU-scoped privilege levels, assigns them via the Dataverse Web API, and verifies the result by impersonating a test rep account and showing what they can/can't see.
+
+**Integration path:** Dataverse Web API (OData v4) for entities, security roles, and business units; Power Platform CLI (pac) for solution import/export; Power Automate management API for flow creation; a sandbox/test environment for validating role changes before touching production.
+
+**Demand 4/5 · Buildability 2/5**
+
+---
+
+### 30. NetSuite `closed`
+
+**Why it's powerful:** Unified ERP + financials + CRM with multi-subsidiary consolidation, automated revenue recognition, saved searches, SuiteScript-driven custom workflows, and SuiteQL for arbitrary structured queries across the entire data model — handles complexity QuickBooks-class tools can't touch.
+
+**Why people bounce off it:** The saved-search builder and SuiteAnalytics workbook UI are infamous for being unusable without training; anything beyond canned reports requires either learning SuiteQL/SuiteScript or paying a NetSuite consultant. Multi-subsidiary consolidation, custom record/field setup, and workflow configuration routinely take companies weeks and outside help just to answer a question like 'show me AR aging by subsidiary.'
+
+**AI operator:** An NL layer over SuiteTalk REST/SOAP plus SuiteQL, pre-loaded with skills that translate business questions directly into SuiteQL queries and saved-search definitions, and that can trigger routine workflow actions (approvals, consolidations) without the user touching the workbook UI.
+
+**Killer example:** User says 'show me AR aging by subsidiary in EUR, flag any customer over 90 days past due with their contact info' → AI composes and executes the SuiteQL query, converts currency, and returns a formatted drill-down report with contacts attached — a task that today requires a saved-search specialist.
+
+**Integration path:** NetSuite REST Web Services + SuiteQL for querying, SuiteScript for deeper workflow automation; requires a NetSuite account (sandbox/dev account) and token-based auth — enterprise-gated, so integration is technically feasible but access/licensing is the real barrier.
+
+**Demand 4/5 · Buildability 2/5**

@@ -39,15 +39,17 @@ const IDEA_SCHEMA = {
 
 // Rotating domain pool — the daily prompt tells scouts to favor FRESH apps not in `seen`,
 // so the same 8 domains keep yielding new candidates day over day.
+// Biased toward mainstream/universal software with huge install bases (everyone/every
+// business already has it) over niche self-hosted/OSS power-user tools.
 const DOMAINS = [
-  { key: 'homelab', prompt: 'Self-hosted / homelab / smart-home tools (Home Assistant, Nextcloud, Jellyfin, Paperless-ngx, Immich, pfSense, Proxmox). Power buried under complex config.' },
-  { key: 'devtools', prompt: 'Developer & ops tools with steep dashboards (Grafana, Kibana, Prometheus, Airflow, Kubernetes dashboards, Jenkins, Elasticsearch DSL, Wireshark).' },
-  { key: 'business', prompt: 'SMB / business software powerful but overwhelming (Odoo, ERPNext, SuiteCRM, Dolibarr, GnuCash, invoicing/accounting). SKIP personal expense/budget managers — that space is taken.' },
-  { key: 'creative', prompt: 'Creative & media tools with brutal learning curves (Blender, GIMP, DaVinci Resolve, Audacity, Inkscape, FFmpeg, ImageMagick, Krita, OBS Studio).' },
-  { key: 'productivity', prompt: 'Productivity / PKM / knowledge tools where features overwhelm (Obsidian + plugins, Logseq, Anki, Zotero, Joplin, Org-mode, advanced task/calendar tools).' },
-  { key: 'data', prompt: 'Data, analytics & spreadsheet power-features people never learn (Metabase, Superset, Excel/LibreOffice pivots & formulas, SQL clients like DBeaver, pandas).' },
-  { key: 'automation', prompt: 'Workflow-automation / no-code-but-actually-hard tools (n8n, Node-RED, HA automations, Apache NiFi, rule engines, cron/systemd).' },
-  { key: 'niche', prompt: 'Niche-but-widely-needed power tools ordinary people struggle with (tax software, DAWs like Ardour, CAD like FreeCAD, GIS like QGIS, 3D-print slicers Cura/PrusaSlicer, Calibre, Strava analysis).' },
+  { key: 'office', prompt: 'Mainstream office & productivity suites nearly everyone has but few master (Excel/Google Sheets advanced formulas, pivot tables, macros/VBA/Office Scripts; Word/Docs mail-merge & styles; PowerPoint/Slides; Outlook/Gmail rules & filters).' },
+  { key: 'crm-sales', prompt: 'CRM & sales platforms with massive install bases but brutal admin/config UIs (Salesforce, HubSpot, Zoho CRM, Pipedrive, Dynamics 365).' },
+  { key: 'creative-pro', prompt: 'Industry-standard creative tools nearly every studio/freelancer uses but few master fully (Adobe Photoshop, Premiere Pro, After Effects, Illustrator; Figma advanced features; Canva Pro).' },
+  { key: 'finance-erp', prompt: 'Widely-used accounting/finance/ERP software (QuickBooks, Xero, NetSuite, SAP Business One, Excel financial modeling). SKIP personal expense/budget managers — that space is taken.' },
+  { key: 'project-collab', prompt: 'Enterprise project/ticketing/collab tools nearly every company runs on (Jira, Confluence, ServiceNow, Asana, Monday.com, Notion).' },
+  { key: 'marketing-commerce', prompt: 'Popular e-commerce & marketing platforms with deep feature sets (Shopify, WooCommerce, Klaviyo, Mailchimp, Google Ads/Meta Ads Manager).' },
+  { key: 'data-bi', prompt: 'Mainstream data/BI tools used company-wide but only power users master (Power BI, Tableau, Looker, Excel Power Query/pivots).' },
+  { key: 'devops-mainstream', prompt: 'Widely-adopted dev/ops platforms with deep dashboards nearly every eng org uses (GitHub/GitLab admin & Actions, Datadog, AWS/Azure/GCP consoles, Jenkins).' },
 ]
 
 phase('Scout')
