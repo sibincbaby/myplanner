@@ -1438,5 +1438,50 @@
     "url": "https://azumo.com/valkyrie",
     "title": "Valkyrie by Azumo",
     "date_seen": "2026-07-31"
+  },
+  {
+    "url": "https://github.com/OpenClawAndroid/openclaw-android-assistant",
+    "title": "AnyClaw Android \u2013 OpenClaw + Codex + Claw Code on Android, no root",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/dotdevdotdev/agentwire-dev",
+    "title": "AgentWire \u2013 Multi-session voice web interface for Claude Code agents",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/shreyaskarnik/voice-mcp",
+    "title": "voice-mcp \u2013 Bidirectional voice MCP server for Claude Code on Apple Silicon",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/agentforce314/clawcodex",
+    "title": "ClawCodex \u2013 Token-efficient Python rebuild of Claude Code; /eco mode \u201380% bash tokens",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/AmElmo/proofshot",
+    "title": "ProofShot \u2013 CLI giving AI coding agents eyes to verify UI via browser recording",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/yoloshii/clawmem",
+    "title": "ClawMem \u2013 On-device adaptive memory layer for Claude Code and OpenClaw",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/agentscope-ai/QwenPaw",
+    "title": "QwenPaw v2.0 \u2013 Personal AI assistant with mini-app platform and ReMe self-evolving memory",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/waittim/MemoryCustodian",
+    "title": "MemoryCustodian \u2013 Repo-native manifest-based memory for coding agents as Markdown",
+    "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/databox/databox-mcp",
+    "title": "Databox MCP \u2013 Query business metrics in plain English via Claude/Cursor",
+    "date_seen": "2026-08-01"
   }
 ]
