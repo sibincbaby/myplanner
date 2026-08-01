@@ -3,7 +3,9 @@ set -euo pipefail
 
 cd /home/sibin/my-works/myplanner
 
-git pull git@github-personal:sibincbaby/myplanner.git master 2>&1
+# ponytail: --rebase --autostash survives divergence (bare pull deadlocked the cron); on conflict, abort and run on local state
+git pull --rebase --autostash git@github-personal:sibincbaby/myplanner.git master 2>&1 \
+  || { git rebase --abort 2>/dev/null || true; echo "[warn] pull failed to reconcile; continuing on local state"; }
 
 DATE=$(date +%Y-%m-%d)
 
