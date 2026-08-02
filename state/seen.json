@@ -1483,5 +1483,55 @@
     "url": "https://github.com/databox/databox-mcp",
     "title": "Databox MCP \u2013 Query business metrics in plain English via Claude/Cursor",
     "date_seen": "2026-08-01"
+  },
+  {
+    "url": "https://github.com/kemkem23/thumbmux",
+    "title": "thumbmux \u2014 Mobile-First tmux Web Terminal (Svelte5 + Bun, 120Hz Scroll, WebSocket Multiplex)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/griffinwork40/agent-afk",
+    "title": "agent-afk \u2014 Walk-Away Coding Agent Harness with Editable Loop + Telegram Notifications",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/workweave/router",
+    "title": "workweave/router \u2014 AI Model Router: Route Every Prompt to Right Model in <50ms (40-70% Cost Savings)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/Sanexxxx777/evidence-to-skill",
+    "title": "evidence-to-skill \u2014 Safety-Gated Conversion of Untrusted Sources to AI Skills",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/vshulcz/deja-vu",
+    "title": "deja-vu \u2014 Zero-LLM Agent Memory Indexer (84.9% hit@1, Go, 1.5ms Search, 17 Harness Formats)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/bartolli/codanna",
+    "title": "codanna \u2014 Local Code Intelligence MCP Server + CLI (Rust, 15 Languages, Call Graphs, Semantic Search)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/ignaciohermosillacornejo/copilot-money-mcp",
+    "title": "copilot-money-mcp \u2014 MCP Server for Copilot Money Personal Finance (14-25 Local-Only Tools)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/leancodepl/marionette_mcp",
+    "title": "marionette_mcp \u2014 Flutter \u201cPlaywright for AI Agents\u201d via MCP (Dart, Widget Tree, Runtime Interaction)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/yuga-hashimoto/and-code",
+    "title": "and-code \u2014 Native Android GUI for AI Coding Agents (Run Locally Without PC)",
+    "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/extensiondev/mcp",
+    "title": "extensiondev/mcp \u2014 30-Tool MCP for AI-Assisted Browser Extension Development (Chrome, Firefox, Safari)",
+    "date_seen": "2026-08-02"
   }
 ]

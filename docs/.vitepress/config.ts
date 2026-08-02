@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-02', link: '/daily/2026-08-02' },
           { text: '2026-08-01', link: '/daily/2026-08-01' },
           { text: '2026-07-31', link: '/daily/2026-07-31' },
           { text: '2026-07-30', link: '/daily/2026-07-30' },
@@ -49,6 +50,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'AgentAFK', link: '/projects/2026-08-02-agent-afk' },
+          { text: 'DejaVu', link: '/projects/2026-08-02-deja-vu' },
+          { text: 'CopilotMoneyMCP', link: '/projects/2026-08-02-copilot-money-mcp' },
+          { text: 'MarionetteMCP', link: '/projects/2026-08-02-marionette-mcp' },
           { text: 'PocketClaw', link: '/projects/2026-08-01-pocketclaw' },
           { text: 'VoxCtrl', link: '/projects/2026-08-01-voxctrl' },
           { text: 'VocalMCP', link: '/projects/2026-08-01-vocalmcp' },
