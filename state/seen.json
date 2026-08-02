@@ -590,16 +590,6 @@
     "date_seen": "2026-07-14"
   },
   {
-    "url": "https://github.com/jamiepine/voicebox",
-    "title": "Voicebox \u2014 open-source local AI voice studio (clone, dictate, give agents a voice)",
-    "date_seen": "2026-07-14"
-  },
-  {
-    "url": "https://github.com/sarim2000/pennywiseai-tracker",
-    "title": "PennyWise AI \u2014 privacy-first on-device SMS expense tracker",
-    "date_seen": "2026-07-14"
-  },
-  {
     "url": "https://moneymatter.app/",
     "title": "MoneyMatter \u2014 open-source budget app with native MCP for Claude/LLMs",
     "date_seen": "2026-07-14"
@@ -617,11 +607,6 @@
   {
     "url": "https://github.com/Graphify-Labs/graphify",
     "title": "Graphify \u2014 turn codebases/docs/media into searchable knowledge graphs for AI coding assistants",
-    "date_seen": "2026-07-14"
-  },
-  {
-    "url": "https://github.com/bradautomates/claude-video",
-    "title": "claude-video \u2014 let Claude process videos via frame extraction + transcription",
     "date_seen": "2026-07-14"
   },
   {
@@ -945,16 +930,6 @@
     "date_seen": "2026-07-22"
   },
   {
-    "url": "https://github.com/ratel-ai/ratel",
-    "title": "ratel-ai/ratel \u2014 Context engineering for AI agents",
-    "date_seen": "2026-07-23"
-  },
-  {
-    "url": "https://github.com/machulav/accountant24",
-    "title": "machulav/accountant24 \u2014 Local-first AI finance agent",
-    "date_seen": "2026-07-23"
-  },
-  {
     "url": "https://github.com/knowsuchagency/mcp2cli",
     "title": "knowsuchagency/mcp2cli \u2014 Turn any MCP/OpenAPI into a CLI at runtime",
     "date_seen": "2026-07-23"
@@ -965,18 +940,8 @@
     "date_seen": "2026-07-23"
   },
   {
-    "url": "https://github.com/Arenukvern/mcp_flutter",
-    "title": "Arenukvern/mcp_flutter \u2014 MCP toolkit for Flutter AI agent development",
-    "date_seen": "2026-07-23"
-  },
-  {
     "url": "https://github.com/google-labs-code/stitch-skills",
     "title": "google-labs-code/stitch-skills \u2014 Agent skills library for Stitch MCP server",
-    "date_seen": "2026-07-23"
-  },
-  {
-    "url": "https://github.com/theshivamlko/flutter-ai-labs",
-    "title": "theshivamlko/flutter-ai-labs \u2014 Curated LLM-powered Flutter app examples",
     "date_seen": "2026-07-23"
   },
   {
@@ -1050,11 +1015,6 @@
     "date_seen": "2026-07-25"
   },
   {
-    "url": "https://github.com/juggler-ai/juggler",
-    "title": "Juggler \u2014 GUI Coding Agent with Tree-View Conversations by JUCE Creator (Go+Wails)",
-    "date_seen": "2026-07-25"
-  },
-  {
     "url": "https://github.com/hara-cli/hara",
     "title": "hara \u2014 Role-Based Coding Agent CLI with Plan DAGs, Approvals, and Multi-Platform Chat",
     "date_seen": "2026-07-25"
@@ -1070,11 +1030,6 @@
     "date_seen": "2026-07-25"
   },
   {
-    "url": "https://github.com/tsouth89/toolport",
-    "title": "toolport \u2014 Local MCP Gateway: One Port for All AI Clients with 90% Token Reduction",
-    "date_seen": "2026-07-25"
-  },
-  {
     "url": "https://github.com/ys-ll/uniterm",
     "title": "uniterm \u2014 All-in-One Terminal (20+ Protocols) with Built-In Autonomous AI Agent",
     "date_seen": "2026-07-25"
@@ -1082,11 +1037,6 @@
   {
     "url": "https://github.com/Fmarzochi/EGC",
     "title": "EGC \u2014 Shared Memory and Skills Synced Across 23+ AI Coding Tools with Token Compression",
-    "date_seen": "2026-07-25"
-  },
-  {
-    "url": "https://github.com/shivamprasad1001/expense-mcp-server",
-    "title": "expense-mcp-server \u2014 Natural-Language Expense Tracker MCP Server for Claude/Cursor",
     "date_seen": "2026-07-25"
   },
   {
@@ -1292,11 +1242,6 @@
   {
     "url": "https://www.producthunt.com/products/agentkey",
     "title": "AgentKey \u2014 live data marketplace for agents",
-    "date_seen": "2026-07-28"
-  },
-  {
-    "url": "https://github.com/bradautomates/claude-video",
-    "title": "bradautomates/claude-video",
     "date_seen": "2026-07-28"
   },
   {
@@ -1533,5 +1478,50 @@
     "url": "https://github.com/extensiondev/mcp",
     "title": "extensiondev/mcp \u2014 30-Tool MCP for AI-Assisted Browser Extension Development (Chrome, Firefox, Safari)",
     "date_seen": "2026-08-02"
+  },
+  {
+    "url": "https://github.com/pheuter/claude-agent-desktop",
+    "title": "claude-agent-desktop \u2014 cross-platform agentic chat on Claude Agent SDK",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/Chevey339/kelivo",
+    "title": "Kelivo \u2014 Flutter LLM chat client (mobile + desktop)",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "title": "reverse-skill \u2014 self-evolving routing skill for coding agents",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://spokenly.app/",
+    "title": "Spokenly \u2014 system-wide voice coding for Claude Code",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "title": "TencentDB-Agent-Memory \u2014 team-level memory hub for AI agents",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "title": "Agent-Reach \u2014 multi-platform web reach for AI agents (MCP + CLI)",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://costperprompt.com/",
+    "title": "CostPerPrompt \u2014 live LLM API pricing + cost calculators",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://www.kota.place/",
+    "title": "Kota \u2014 native macOS hub for AI agents & projects",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "title": "DeepSeek-Reasonix \u2014 DeepSeek-tuned Go terminal coding agent",
+    "date_seen": "2026-08-03"
   }
 ]
