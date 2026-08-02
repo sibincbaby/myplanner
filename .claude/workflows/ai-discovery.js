@@ -10,11 +10,22 @@ export const meta = {
 }
 
 // ponytail: workflow scripts can't call Date.now(); when the caller omits the date, derive it
-// from the shell so filenames/commits are never the placeholder 'no-date-provided'.
-const DATE = args?.date ?? (await agent(
-  `Run the command \`date +%F\` and return ONLY its output (a YYYY-MM-DD date), nothing else.`,
-  { label: 'today', effort: 'low' }
-)).trim()
+// from the shell. Validate hard — the low-effort agent has echoed the literal `date +%F`
+// instead of running it, which then poisons every filename and the commit message. Loud
+// throw beats a garbage-but-committed result that looks done. Add args.date to skip entirely.
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
+async function deriveDate() {
+  const prompts = [
+    `Use the Bash tool to run \`date +%F\` and return ONLY its stdout — a 10-char YYYY-MM-DD date. Do NOT echo the command text back.`,
+    `Execute the shell command  date +%F  via Bash, then reply with ONLY the resulting date. If your reply is not 10 chars matching NNNN-NN-NN, you failed.`,
+  ]
+  for (const p of prompts) {
+    const out = (await agent(p, { label: 'today', effort: 'low' }))?.trim()
+    if (out && DATE_RE.test(out)) return out
+  }
+  throw new Error('date derivation failed — agent never returned a YYYY-MM-DD date')
+}
+const DATE = (args?.date && DATE_RE.test(args.date)) ? args.date : await deriveDate()
 // ponytail: repoRoot passed by caller so this works in both local and cloud environments
 const REPO_ROOT = args?.repoRoot ?? '/home/sibin/my-works/myplanner'
 
