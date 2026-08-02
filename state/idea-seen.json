@@ -406,5 +406,53 @@
   {
     "app": "NetSuite",
     "date_seen": "2026-07-31"
+  },
+  {
+    "app": "Microsoft Power BI",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "GitHub (Org / Actions / Security Admin)",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Google Analytics 4 (GA4)",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Zendesk Support",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "ClickUp",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Airtable",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Webflow",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Pipedrive",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Google Ads",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Snowflake",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Microsoft Power Automate",
+    "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Adobe Premiere Pro",
+    "date_seen": "2026-08-03"
   }
 ]
