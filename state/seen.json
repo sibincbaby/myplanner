@@ -1523,5 +1523,55 @@
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "title": "DeepSeek-Reasonix \u2014 DeepSeek-tuned Go terminal coding agent",
     "date_seen": "2026-08-03"
+  },
+  {
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "title": "NousResearch/hermes-agent \u2014 Self-improving multi-platform AI agent",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/googlarz/finance-assistant",
+    "title": "googlarz/finance-assistant \u2014 Personal finance copilot, real tax math, local-first",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "title": "virgiliojr94/book-to-skill \u2014 Convert PDFs/EPUBs into Claude Code skills",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "title": "ayghri/i-have-adhd \u2014 ADHD-friendly coding agent output formatter skill",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/alibaba/open-code-review",
+    "title": "alibaba/open-code-review \u2014 Deterministic LLM-powered code review CLI",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/citrolabs/ego-lite",
+    "title": "citrolabs/ego-lite \u2014 AI agent browser automation with shared Chrome Spaces",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "title": "vitali87/code-graph-rag \u2014 Graph RAG for monorepos with MCP server",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/bzheng29/expense-tracker-mcp",
+    "title": "bzheng29/expense-tracker-mcp \u2014 Expense tracker MCP server for Claude Desktop",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/block/buzz",
+    "title": "block/buzz \u2014 Self-hosted workspace with AI agents as teammates (Rust+Flutter)",
+    "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/flutter/agent-plugins",
+    "title": "flutter/agent-plugins \u2014 Flutter team's AI agent skill/MCP plugin bundles",
+    "date_seen": "2026-08-04"
   }
 ]

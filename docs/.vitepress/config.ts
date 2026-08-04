@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-04', link: '/daily/2026-08-04' },
           { text: '2026-08-03', link: '/daily/2026-08-03' },
           { text: '2026-08-02', link: '/daily/2026-08-02' },
           { text: '2026-08-01', link: '/daily/2026-08-01' },
@@ -51,6 +52,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Finance Assistant', link: '/projects/2026-08-04-finance-assistant' },
+          { text: 'Book To Skill', link: '/projects/2026-08-04-book-to-skill' },
+          { text: 'Adhd Skill', link: '/projects/2026-08-04-adhd-skill' },
+          { text: 'Open Code Review', link: '/projects/2026-08-04-open-code-review' },
+          { text: 'Ego Lite', link: '/projects/2026-08-04-ego-lite' },
           { text: 'Marionette Mcp', link: '/projects/2026-08-02-marionette-mcp' },
           { text: 'Deja Vu', link: '/projects/2026-08-02-deja-vu' },
           { text: 'Copilot Money Mcp', link: '/projects/2026-08-02-copilot-money-mcp' },
