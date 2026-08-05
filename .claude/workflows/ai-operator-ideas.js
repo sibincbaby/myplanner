@@ -36,6 +36,7 @@ const IDEA_SCHEMA = {
           integrationPath: { type: 'string' },
           buildability: { type: 'integer', minimum: 1, maximum: 5 },
           demand: { type: 'integer', minimum: 1, maximum: 5 },
+          domain: { type: 'string' },
         },
       },
     },
@@ -92,14 +93,15 @@ ${JSON.stringify(scouted, null, 2)}
 Do this:
 1. Merge duplicates/near-duplicates.
 2. Drop weak ones: vague concepts, apps with no programmatic surface, trivially-low demand, and anything that is essentially a personal expense/budget manager (taken).
-3. Rank survivors best-first by demand × buildability × strength-of-fit (how naturally an NL operator beats the existing UI).
-4. Keep ALL useful fields; sharpen the killerExample for the top ~8 so it's genuinely compelling.
+3. Rank survivors best-first by demand × buildability × strength-of-fit (how naturally an NL operator beats the existing UI). Return the TOP 12 ONLY — drop the rest.
+4. Keep ALL useful fields including each idea's \`domain\`; sharpen the killerExample for the top ~8 so it's genuinely compelling.
 
 Return the final ranked list in the same schema.`,
   { label: 'synthesize', phase: 'Synthesize', schema: IDEA_SCHEMA, effort: 'high' }
 )
 
-const ideas = ranked?.ideas ?? []
+// ponytail: hard cap — the synthesize agent has returned 24 despite being told to trim
+const ideas = (ranked?.ideas ?? []).slice(0, 12)
 
 phase('Write')
 
