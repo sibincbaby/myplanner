@@ -1573,5 +1573,45 @@
     "url": "https://github.com/flutter/agent-plugins",
     "title": "flutter/agent-plugins \u2014 Flutter team's AI agent skill/MCP plugin bundles",
     "date_seen": "2026-08-04"
+  },
+  {
+    "url": "https://github.com/aronszanto/financial-planning-agent",
+    "title": "financial-planning-agent \u2014 Personal finance agent skill for Claude Code/Cursor",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/JayDS22/Financial-Budget-Planner",
+    "title": "Financial-Budget-Planner \u2014 VisionFi full-stack AI financial planner with Claude Sonnet",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/9cat/claude-code-app",
+    "title": "claude-code-app \u2014 Flutter mobile app for Claude Code CLI",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48063548",
+    "title": "Show HN: Git for AI Agents \u2014 version control for agent actions",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47768750",
+    "title": "Show HN: Plain \u2014 full-stack Python framework for humans and agents",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/Anil-matcha/open-ai-agents-hub",
+    "title": "open-ai-agents-hub \u2014 Self-hosted platform to build and host AI agents",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+    "title": "awesome-claude-code-toolkit \u2014 135 agents, 35 skills, 176+ plugins for Claude Code",
+    "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/VeryGoodOpenSource/vgv-ai-flutter-plugin",
+    "title": "vgv-ai-flutter-plugin \u2014 AI plugin to accelerate Flutter & Dart development",
+    "date_seen": "2026-08-05"
   }
 ]
