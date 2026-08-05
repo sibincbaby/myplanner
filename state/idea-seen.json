@@ -454,5 +454,53 @@
   {
     "app": "Adobe Premiere Pro",
     "date_seen": "2026-08-03"
+  },
+  {
+    "app": "Google Apps Script (Google Workspace's built-in automation runtime)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Google Merchant Center (Merchant API / Shopping feeds)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "TallyPrime (Tally Solutions)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "monday.com",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Mailchimp",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Amazon Seller Central (SP-API + Amazon Ads API)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Amazon CloudWatch (Alarms, Logs Insights, Dashboards)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Microsoft Excel macros - VBA (desktop) + Office Scripts (cloud), extended to Microsoft Access (.accdb)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Asana",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "CiviCRM (with EspoCRM as a second connector)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "PagerDuty (on-call schedules, escalation policies, Event Orchestration)",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Microsoft Dynamics 365 Business Central (with SAP Business One as a second connector)",
+    "date_seen": "2026-08-06"
   }
 ]
