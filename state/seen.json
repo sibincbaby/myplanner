@@ -1525,11 +1525,6 @@
     "date_seen": "2026-08-03"
   },
   {
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "title": "NousResearch/hermes-agent \u2014 Self-improving multi-platform AI agent",
-    "date_seen": "2026-08-04"
-  },
-  {
     "url": "https://github.com/googlarz/finance-assistant",
     "title": "googlarz/finance-assistant \u2014 Personal finance copilot, real tax math, local-first",
     "date_seen": "2026-08-04"
@@ -1613,5 +1608,60 @@
     "url": "https://github.com/VeryGoodOpenSource/vgv-ai-flutter-plugin",
     "title": "vgv-ai-flutter-plugin \u2014 AI plugin to accelerate Flutter & Dart development",
     "date_seen": "2026-08-05"
+  },
+  {
+    "url": "https://github.com/adrida/hud-mode",
+    "title": "adrida/hud-mode \u2014 compact terminal HUD for Claude Code/Codex/OpenCode",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/exPardus/fleet",
+    "title": "exPardus/fleet \u2014 manager session for durable headless Claude Code workers",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/PiemonteF/t",
+    "title": "PiemonteF/t \u2014 task-centric git worktrees linked to agent conversations",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/thiagodiniz/spltty",
+    "title": "thiagodiniz/spltty \u2014 Markdown-ledger personal finance CLI built with Claude",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://drakeai.app/",
+    "title": "DrakeAI \u2014 voice/text/receipt expense tracker with no bank sync",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://ocean.mosaic.inc/",
+    "title": "Ocean \u2014 all your team's agent sessions in one place",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/softcane/human-state-skills",
+    "title": "softcane/human-state-skills \u2014 agent response modes for human cognitive states",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/huangruiteng/loopx",
+    "title": "huangruiteng/loopx \u2014 loop-engineering state kernel for long-running agent teams",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/Seven128/project-tiny-context-harness",
+    "title": "Seven128/project-tiny-context-harness \u2014 minimal project memory harness for coding agents",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/Signet-AI/signetai",
+    "title": "Signet-AI/signetai \u2014 local-first memory and context layer for AI agents",
+    "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/RevylAI/greenlight",
+    "title": "RevylAI/greenlight \u2014 App Store/Play preflight compliance scanner as a Claude Code skill",
+    "date_seen": "2026-08-06"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-06', link: '/daily/2026-08-06' },
           { text: '2026-08-05', link: '/daily/2026-08-05' },
           { text: '2026-08-04', link: '/daily/2026-08-04' },
           { text: '2026-08-03', link: '/daily/2026-08-03' },
@@ -53,6 +54,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Hud Mode', link: '/projects/2026-08-06-hud-mode' },
+          { text: 'Claude Fleet', link: '/projects/2026-08-06-claude-fleet' },
+          { text: 'Worktree Tasks', link: '/projects/2026-08-06-worktree-tasks' },
           { text: 'Financial Planning Agent', link: '/projects/2026-08-05-financial-planning-agent' },
           { text: 'Claude Code App', link: '/projects/2026-08-05-claude-code-app' },
           { text: 'Git For Agents', link: '/projects/2026-08-05-git-for-agents' },
