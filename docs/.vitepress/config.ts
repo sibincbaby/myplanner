@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-07', link: '/daily/2026-08-07' },
           { text: '2026-08-06', link: '/daily/2026-08-06' },
           { text: '2026-08-05', link: '/daily/2026-08-05' },
           { text: '2026-08-04', link: '/daily/2026-08-04' },
@@ -54,6 +55,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Agent Deck', link: '/projects/2026-08-07-agent-deck' },
+          { text: 'Flutter Llm Toolkit', link: '/projects/2026-08-07-flutter-llm-toolkit' },
+          { text: 'Langalpha Invest', link: '/projects/2026-08-07-langalpha-invest' },
+          { text: 'Aiusage Tracker', link: '/projects/2026-08-07-aiusage-tracker' },
           { text: 'Hud Mode', link: '/projects/2026-08-06-hud-mode' },
           { text: 'Claude Fleet', link: '/projects/2026-08-06-claude-fleet' },
           { text: 'Worktree Tasks', link: '/projects/2026-08-06-worktree-tasks' },

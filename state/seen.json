@@ -1663,5 +1663,40 @@
     "url": "https://github.com/RevylAI/greenlight",
     "title": "RevylAI/greenlight \u2014 App Store/Play preflight compliance scanner as a Claude Code skill",
     "date_seen": "2026-08-06"
+  },
+  {
+    "url": "https://github.com/claude-world/agent-deck",
+    "title": "agent-deck \u2014 Web UI to orchestrate multiple AI coding agents with DAG task decomposition",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/rolandtolnay/flutter-llm-toolkit",
+    "title": "flutter-llm-toolkit \u2014 Flutter/Dart agents, skills, patterns, and references for Claude Code",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/ginlix-ai/LangAlpha",
+    "title": "LangAlpha \u2014 Claude Code for Investing: multi-tier financial data, 23 research skills, executable Python sandboxes",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/juliantanx/aiusage",
+    "title": "aiusage \u2014 local-first usage tracker for AI coding assistants (tokens, cost, sessions across 20+ tools)",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/julianoczkowski/notebooklm-mcp-2026",
+    "title": "notebooklm-mcp-2026 \u2014 MCP server for querying Google NotebookLM notebooks",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/shinpr/sub-agents-skills",
+    "title": "sub-agents-skills \u2014 cross-LLM sub-agent orchestration as a Claude Code skill",
+    "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/fikrikarim/parlor",
+    "title": "Parlor \u2014 on-device multimodal voice + vision AI powered by Gemma 4 + Kokoro",
+    "date_seen": "2026-08-07"
   }
 ]
