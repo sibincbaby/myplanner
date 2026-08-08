@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-08', link: '/daily/2026-08-08' },
           { text: '2026-08-07', link: '/daily/2026-08-07' },
           { text: '2026-08-06', link: '/daily/2026-08-06' },
           { text: '2026-08-05', link: '/daily/2026-08-05' },
@@ -55,6 +56,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Atlaso Memory', link: '/projects/2026-08-08-atlaso-memory' },
+          { text: 'Domo Calendar', link: '/projects/2026-08-08-domo-calendar' },
+          { text: 'Speakoflow', link: '/projects/2026-08-08-speakoflow' },
+          { text: 'Juggler', link: '/projects/2026-08-08-juggler' },
           { text: 'Agent Deck', link: '/projects/2026-08-07-agent-deck' },
           { text: 'Flutter Llm Toolkit', link: '/projects/2026-08-07-flutter-llm-toolkit' },
           { text: 'Langalpha Invest', link: '/projects/2026-08-07-langalpha-invest' },

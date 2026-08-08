@@ -1698,5 +1698,45 @@
     "url": "https://github.com/fikrikarim/parlor",
     "title": "Parlor \u2014 on-device multimodal voice + vision AI powered by Gemma 4 + Kokoro",
     "date_seen": "2026-08-07"
+  },
+  {
+    "url": "https://github.com/juggler-ai/juggler",
+    "title": "Juggler \u2014 open-source GUI coding agent with CRDT branching sessions, by JUCE creator",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://github.com/AbhishekBarali/SpeakoFlow",
+    "title": "SpeakoFlow \u2014 offline Whisper dictation + screen-aware Claude replies, cross-platform, fully local",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
+    "title": "Domo \u2014 Claude-backed calendar agent you can text via iMessage/SMS",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://www.atlaso.ai/",
+    "title": "Atlaso \u2014 shared AI memory layer across Claude Code, Cursor, Codex and ChatGPT",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://github.com/jrswab/axe",
+    "title": "Axe \u2014 12 MB Go binary; TOML-defined single-purpose AI agents composable via Unix pipes",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://glasp.co/mcp",
+    "title": "Glasp MCP Connector \u2014 surfaces Glasp highlights and notes inside Claude and ChatGPT",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://www.producthunt.com/products/driven-ai",
+    "title": "Driven \u2014 AI investment research agent synthesising market data into decisions",
+    "date_seen": "2026-08-08"
+  },
+  {
+    "url": "https://github.com/mativallej/ai-expense-tracker-n8n",
+    "title": "ai-expense-tracker-n8n \u2014 n8n workflow extracts and categorises PDF expenses into Google Sheets via AI",
+    "date_seen": "2026-08-08"
   }
 ]
