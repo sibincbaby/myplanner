@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-10', link: '/daily/2026-08-10' },
           { text: '2026-08-09', link: '/daily/2026-08-09' },
           { text: '2026-08-08', link: '/daily/2026-08-08' },
           { text: '2026-08-07', link: '/daily/2026-08-07' },
@@ -57,6 +58,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Agentblame', link: '/projects/2026-08-10-agentblame' },
+          { text: 'Keyward', link: '/projects/2026-08-10-keyward' },
           { text: 'Sessionport', link: '/projects/2026-08-09-sessionport' },
           { text: 'Mcpaudit', link: '/projects/2026-08-09-mcpaudit' },
           { text: 'Atlaso Memory', link: '/projects/2026-08-08-atlaso-memory' },

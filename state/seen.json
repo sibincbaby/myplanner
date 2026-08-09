@@ -1700,11 +1700,6 @@
     "date_seen": "2026-08-07"
   },
   {
-    "url": "https://github.com/juggler-ai/juggler",
-    "title": "Juggler — open-source GUI coding agent with CRDT branching sessions, by JUCE creator",
-    "date_seen": "2026-08-08"
-  },
-  {
     "url": "https://github.com/AbhishekBarali/SpeakoFlow",
     "title": "SpeakoFlow — offline Whisper dictation + screen-aware Claude replies, cross-platform, fully local",
     "date_seen": "2026-08-08"
@@ -1793,5 +1788,55 @@
     "url": "https://code.claude.com/docs/en/cross-session-messaging",
     "title": "Claude Code Cross-Session Messaging — Native ListAgents/SendMessage",
     "date_seen": "2026-08-09"
+  },
+  {
+    "url": "https://github.com/eighttrigrams/us-vs-them",
+    "title": "us-vs-them — line-level human-vs-agent provenance for text under agentic editing",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/osolmaz/unyolo",
+    "title": "unYOLO — credential broker: agents get scoped grants, provider tokens stay in the broker",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/anona-labs/mirror",
+    "title": "mirror — live searchable HTML workspace for Claude Code transcripts",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/sebastiancarlos/faaah",
+    "title": "faaah — Filesystem As An AI Handler: OpenAI-compatible local server in ~308 lines",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/patchloom/patchloom",
+    "title": "patchloom — single-binary structured file edits for AI agents (CLI + MCP, Rust)",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/ademisler/RunOnMine",
+    "title": "RunOnMine — local-first MCP security gateway with policy, approvals and audit logs",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/unclebob/swarm-forge",
+    "title": "swarm-forge — tmux + git-worktree orchestration for multiple coding agents",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://vibsync.com/",
+    "title": "Vibsync — hosted shared memory for Claude Code, Cursor and Codex over MCP",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://openchamber.dev/",
+    "title": "OpenChamber — open-source agentic development environment on the OpenCode SDK",
+    "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://github.com/ytkoka/mcp-tester",
+    "title": "mcp-tester — web inspector for MCP servers: latency, tokens, A-F grading, rug-pull scans",
+    "date_seen": "2026-08-10"
   }
 ]
