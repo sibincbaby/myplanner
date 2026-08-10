@@ -60,10 +60,14 @@ const DOMAINS = [
 
 phase('Scout')
 
-const seenRaw = await agent(
-  `Read ${REPO_ROOT}/state/idea-seen.json and return its raw JSON content as a plain string. If missing or invalid, return "[]". Return ONLY the JSON string.`,
-  { label: 'read-seen', effort: 'low' }
-)
+// ponytail: caller can pass the app-name list directly; the read-seen agent step has a known
+// habit of silently returning "[]", which disables dedup for the whole run.
+const seenRaw = args?.seen
+  ? JSON.stringify(args.seen)
+  : await agent(
+      `Read ${REPO_ROOT}/state/idea-seen.json and return its raw JSON content as a plain string. If missing or invalid, return "[]". Return ONLY the JSON string.`,
+      { label: 'read-seen', effort: 'low' }
+    )
 
 const scouted = await parallel(DOMAINS.map(d => () =>
   agent(

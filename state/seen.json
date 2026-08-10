@@ -1838,5 +1838,55 @@
     "url": "https://github.com/ytkoka/mcp-tester",
     "title": "mcp-tester — web inspector for MCP servers: latency, tokens, A-F grading, rug-pull scans",
     "date_seen": "2026-08-10"
+  },
+  {
+    "url": "https://mirafold.com/",
+    "title": "Mirafold — Browser Generative-UI Dashboard for Claude Code / Codex / Gemini CLI (MIT, local daemon)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://marketplace.visualstudio.com/items?itemName=multicoder.multicoder",
+    "title": "Multicoder ACP — One VS Code GUI for 35+ Coding Agents via Agent Client Protocol",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/Lore-Hex/QuillCode",
+    "title": "QuillCode — 100% Native Swift macOS Coding Agent (no Electron), with Computer Use and worktrees",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/aowo-1345/AgentPanelX",
+    "title": "AgentPanelX — Local-First Control Plane where 'Project Owner' Agents Govern Long-Running Delivery",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/pandev-metriks/pandev-cli",
+    "title": "pandev-cli — What Your AI Coding Agents Actually Cost, by Task, Branch, Model and File",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://xirp.spotify.com/",
+    "title": "Xirp — Spotify's Vendor-Neutral Agentic Development Environment (Portal plugin + desktop app)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/Sateezg/codex-bridge",
+    "title": "codex-bridge — GPT-5 Subagents and gpt-image-2 Inside Claude Code, No OpenAI API Key",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/NightSquawk/actualbudget-mcp-server",
+    "title": "actualbudget-mcp-server — Hardened Actual Budget MCP with Serialized Writes and Mutation Backups",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/ucsandman/sidetap",
+    "title": "sidetap — LLM Agents Tap, Type and Read Your iPhone Screen from Windows over USB",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/tmshapland/audiochatty-plugin",
+    "title": "audiochatty-plugin — Voice Plugin that Makes You Talk to Claude Code and Slow Down",
+    "date_seen": "2026-08-11"
   }
 ]

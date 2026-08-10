@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL\u2192SQL)",
+    "app": "DBeaver (NL→SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
+    "app": "Google Slides / PowerPoint — template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word \u2014 mail merge & Styles automation",
+    "app": "Microsoft Word — mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -502,5 +502,53 @@
   {
     "app": "Microsoft Dynamics 365 Business Central (with SAP Business One as a second connector)",
     "date_seen": "2026-08-06"
+  },
+  {
+    "app": "Google Tag Manager (web + server-side containers)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Cloudflare (DNS, SSL/TLS, Rules engines, Email Routing, Zero Trust)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Microsoft Entra ID (Conditional Access, PIM, app consent, Access Reviews)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Microsoft Intune (compliance, config profiles, Win32 apps, Autopilot, update rings)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Adobe Acrobat Pro (accessibility remediation, forms, Action Wizard, preflight)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "WordPress (core + WP-CLI + Gutenberg block themes)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Autodesk AutoCAD (core + industry toolsets)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "QuickBooks Desktop / Enterprise (qbXML + Web Connector)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Exchange Online (mail flow / transport rules, EOP policies, connectors)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Salesforce Marketing Cloud Engagement (legacy SFMC)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "SQL Server Integration Services (SSIS + SSISDB catalog)",
+    "date_seen": "2026-08-11"
+  },
+  {
+    "app": "Veeam Backup & Replication",
+    "date_seen": "2026-08-11"
   }
 ]
