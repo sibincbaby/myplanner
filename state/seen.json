@@ -1888,5 +1888,60 @@
     "url": "https://github.com/tmshapland/audiochatty-plugin",
     "title": "audiochatty-plugin — Voice Plugin that Makes You Talk to Claude Code and Slow Down",
     "date_seen": "2026-08-11"
+  },
+  {
+    "url": "https://github.com/metedata/Remarc",
+    "title": "Remarc — Point at Anything on Screen, Your Agent Reads and Resolves the Comment over MCP",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/shrsv/dbctx",
+    "title": "dbctx — Compile a PostgreSQL Database into a Compact, Queryable Context File",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/0xnyn/airship",
+    "title": "airship — Figma-like Visual Editor Built for Claude Code, Codex and OpenCode",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/activeing123/mcptoon",
+    "title": "mcptoon — Token-Efficient MCP CLI Client, 97% Less on Tool Discovery",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/sunhao123456sun-svg/toolpermit",
+    "title": "toolpermit — Local-First Permission Firewall and Approval Layer for Agent Tool Calls",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://venaya.app",
+    "title": "Venaya — Financial Health Score and AI Coach with No Bank Login",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/mateusdcc/pi-gpt-search",
+    "title": "pi-gpt-search — Codex's Standalone Web Search, Reverse-Engineered for Claude and Local Models",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/andrewkushnerov/gsheets-mcp",
+    "title": "gsheets-mcp — Small Self-Hosted MCP Giving Claude Read/Write on Google Sheets",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/karanb192/hindcast",
+    "title": "Hindcast — Browse, Search and Replay Every Claude Code Session on Your Mac",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://github.com/leog/ai-pulse",
+    "title": "AI Pulse — Ambient macOS LED Strip Beside the Dock Showing Agent Status",
+    "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://parley.weldra.dev",
+    "title": "Parley — Your Coding Agent Can Address and Hand Off Work to a Teammate's Agent",
+    "date_seen": "2026-08-12"
   }
 ]
