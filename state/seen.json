@@ -1943,5 +1943,65 @@
     "url": "https://parley.weldra.dev",
     "title": "Parley — Your Coding Agent Can Address and Hand Off Work to a Teammate's Agent",
     "date_seen": "2026-08-12"
+  },
+  {
+    "url": "https://shiplog.life",
+    "title": "shiplog — Crawl Your Repos and Write What You Shipped, in Your Own Voice",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/Peaches99/cc-usage-awareness",
+    "title": "cc-usage-awareness — MCP Server That Tells the Agent How Much Quota It Has Left",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/abhixhek/aakit",
+    "title": "aakit — Extract Every Assumption Your Coding Agent Made and Flag the Ones That Broke",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/moghoneim-code/beacon_widget",
+    "title": "beacon_widget — Tap a Widget in a Running Flutter App, Get file:line on Your Clipboard",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/AiDimag/aidimag",
+    "title": "aidimag — Verified Memory: Every Memory Carries Evidence and Is Re-Checked on Pull",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/wzchav/tokentab",
+    "title": "tokentab — Price Claude Code, Codex and Gemini CLI Sessions by Model, Project and Day",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/milind-soni/mcpd",
+    "title": "mcpd — One Host for Every MCP Server: Shared Instances, Lazy Start, a Fraction of the RAM",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/shawn-durrani/spendglass",
+    "title": "spendglass — Local-Only Bank Transaction Store with a Read-Only MCP Server",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/Scheme0/local-agent-senses",
+    "title": "local-agent-senses — Local Vision and Speech for Text-Only Coding Agents",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/tobico/askance",
+    "title": "askance — Human-in-the-Loop GUI for Answering an Agent's Questions from Your Phone",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/ImL1s/tokenBar-companion",
+    "title": "tokenBar-companion — Zero-Backend AI Workstation Observability, Built in Flutter",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/cmnord/whoport",
+    "title": "whoport — Which of Your Agents Is Holding localhost:3000?",
+    "date_seen": "2026-08-13"
   }
 ]
