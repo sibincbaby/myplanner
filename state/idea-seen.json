@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL→SQL)",
+    "app": "DBeaver (NL\u2192SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint — template-driven deck generation",
+    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word — mail merge & Styles automation",
+    "app": "Microsoft Word \u2014 mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -550,5 +550,53 @@
   {
     "app": "Veeam Backup & Replication",
     "date_seen": "2026-08-11"
+  },
+  {
+    "app": "DocuSign eSignature (templates, anchor tagging, routing, bulk send)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Xero (bank reconciliation, coding, tracking categories)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Square / Square for Restaurants (Catalog, modifiers, multi-location)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Google Search Console (Performance report + indexing diagnostics)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Canvas LMS (Instructure)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Stripe (Billing, subscription schedules, Tax, Connect)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Adobe InDesign (Data Merge, GREP styles, preflight)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Canva Pro / Teams (Brand Templates, Bulk Create)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "SharePoint Online (effective permissions, sharing links, retention)",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Google Workspace Admin console",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Google Sheets \u2014 pivot tables & QUERY()",
+    "date_seen": "2026-08-13"
+  },
+  {
+    "app": "Cisco Meraki Dashboard",
+    "date_seen": "2026-08-13"
   }
 ]
