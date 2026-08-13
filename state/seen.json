@@ -2003,5 +2003,65 @@
     "url": "https://github.com/cmnord/whoport",
     "title": "whoport — Which of Your Agents Is Holding localhost:3000?",
     "date_seen": "2026-08-13"
+  },
+  {
+    "url": "https://github.com/pirate/codex-structured-steering",
+    "title": "codex-structured-steering — Show the Agent's Implicit Assumptions as Toggles Before It Acts",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/xyiqq/skilldoctor",
+    "title": "skilldoctor — A Quality Gate for Agent Skills: Lint, Security Audit, Cross-Harness Compat",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/georgedagher/deposition",
+    "title": "deposition — Local-Only Decision Log for Agent Sessions, Zero API Calls",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/fellowgeek/mcp-memory",
+    "title": "mcp-memory — Persistent Agent Memory over SQLite FTS5, No Embeddings",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/kelviq/tare",
+    "title": "tare — Ask Claude Code Where Your Usage Went: Token Audit and Limit Forensics",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/AxelVandenHeuvel/speak-ez",
+    "title": "speak-ez — Fully Local Push-to-Talk Dictation for macOS, a Wispr Flow Alternative",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/MPIsaac-Per/linear-claude-bridge",
+    "title": "linear-claude-bridge — Run Your Claude Code Context as a Linear Agent",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/krvicky/Varavu.Selavu",
+    "title": "Varavu.Selavu — Single-File Household Income and Expense Dashboard, Agent-Managed",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/chintan-diwakar/prompt-contribution-graph",
+    "title": "prompt-contribution-graph — A GitHub Contribution Graph for Your Daily Agent Prompts",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/dpro10/cookbook-meter",
+    "title": "cookbook-meter — What Is Your Claude Code Subscription Actually Doing?",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/david-g-3654/chatlens",
+    "title": "chatlens — Search and Browse Your ChatGPT/Claude Export in One Offline HTML File",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/Leutenegger/book-to-skill",
+    "title": "book-to-skill — Turn Any Technical Book PDF into a Claude Code Skill",
+    "date_seen": "2026-08-14"
   }
 ]

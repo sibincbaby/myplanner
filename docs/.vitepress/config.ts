@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-14', link: '/daily/2026-08-14' },
           { text: '2026-08-13', link: '/daily/2026-08-13' },
           { text: '2026-08-12', link: '/daily/2026-08-12' },
           { text: '2026-08-11', link: '/daily/2026-08-11' },
@@ -61,6 +62,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Steer', link: '/projects/2026-08-14-steer' },
+          { text: 'Skillcheck', link: '/projects/2026-08-14-skillcheck' },
           { text: 'Recap', link: '/projects/2026-08-13-recap' },
           { text: 'Fuelgauge', link: '/projects/2026-08-13-fuelgauge' },
           { text: 'Pinpoint', link: '/projects/2026-08-12-pinpoint' },
