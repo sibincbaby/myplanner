@@ -598,5 +598,53 @@
   {
     "app": "Cisco Meraki Dashboard",
     "date_seen": "2026-08-13"
+  },
+  {
+    "app": "nginx (config, reverse proxy, TLS)",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Docker & Docker Compose",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "AWS Cost Explorer + Billing / Cost Optimization Hub",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Microsoft Teams admin center (policies, phone system, governance)",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Okta (Workforce Identity)",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Google BigQuery",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Twilio (Messaging Services + A2P 10DLC + Studio)",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Databricks",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Avalara AvaTax",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Smartsheet",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Microsoft Sentinel + Defender XDR (KQL)",
+    "date_seen": "2026-08-14"
+  },
+  {
+    "app": "Autodesk Revit (+ Dynamo)",
+    "date_seen": "2026-08-14"
   }
 ]
