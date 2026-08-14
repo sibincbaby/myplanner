@@ -2063,5 +2063,65 @@
     "url": "https://github.com/Leutenegger/book-to-skill",
     "title": "book-to-skill — Turn Any Technical Book PDF into a Claude Code Skill",
     "date_seen": "2026-08-14"
+  },
+  {
+    "url": "https://github.com/liuaabb84-web/claude-remote-approve",
+    "title": "claude-remote-approve — Move Claude Code's Permission Prompts to Your Phone",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/MohamedEmbarak/SLL",
+    "title": "SLL — Three Hooks That Make an Agent's Claims Checkable",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/hueyexe/opencode-auto-permissions",
+    "title": "opencode-auto-permissions — Send Risky Permission Requests to a Reviewer Model",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/rcolman6/clean-recap",
+    "title": "clean-recap — A Stop Hook That Makes Opus 5 Explain Its Work in Plain English",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/Kepei-Lei102/breakwatch",
+    "title": "breakwatch — Break Reminders That Know How Long You Have Actually Been Working",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/zhangxj9819/claude-conversation-graph",
+    "title": "claude-conversation-graph — Your Session History as a Git-Style Branch Graph",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/seyedehsanhadi/sloptrim",
+    "title": "sloptrim — A Local, Model-Free Detector for AI-Writing Patterns in Prose Your Agent Saves",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/choiyounggi/cliclaw",
+    "title": "cliclaw — Drive Claude Code, Codex, Pi and Gemini From a Telegram Bot",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/MSKazemi/yazses",
+    "title": "yazses — Offline Hold-to-Talk Dictation That Actually Ships for Linux (X11 and Wayland)",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/DenisovAV/mcp_on_mobile_workshop",
+    "title": "mcp_on_mobile_workshop — A Dart On-Device Agent Whose Phone Is Itself an MCP Server",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://www.producthunt.com/products/port22",
+    "title": "Port22 — Claude Code and Codex on Your Phone, No Wrapper and No Config",
+    "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/Bevel-Software/Hexis",
+    "title": "Hexis — A Git-Backed Control Plane for Agent Skills, Tools, Context and Permissions",
+    "date_seen": "2026-08-15"
   }
 ]
