@@ -2123,5 +2123,75 @@
     "url": "https://github.com/Bevel-Software/Hexis",
     "title": "Hexis — A Git-Backed Control Plane for Agent Skills, Tools, Context and Permissions",
     "date_seen": "2026-08-15"
+  },
+  {
+    "url": "https://github.com/evoleinik/unchatty",
+    "title": "unchatty — A CLAUDE.md Block, Plus the A/B Harness That Proves It Does Anything",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/maludb-ed/skill-safety-checker",
+    "title": "skill-safety-checker — Audit Installed Skills for Exfiltration and Prompt Injection",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/asgeirtj/claude-health-check",
+    "title": "claude-health-check — 27-Phase Audit of Your Entire .claude/ Tree",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/yaminbkk/NexusMem",
+    "title": "NexusMem — Index the Shell Commands That Failed, Not Just the Commits That Landed",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://chenxiachan.github.io/thoughtdag/",
+    "title": "ThoughtDAG — The Graph Is Not a Picture of Context, the Graph Is the Context",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/emberspun/longform-memory",
+    "title": "longform-memory — Chapter 1000 Costs the Same as Chapter 10",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/kanjani-ai-research/Vesta",
+    "title": "Vesta — A Code Ontology Whose Vocabulary Is Learned From Your Repo",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/swairshah/Managerie",
+    "title": "Managerie — Every Coding Agent in the Menu Bar, With Replies",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/radres/dsh-plugin-call-me",
+    "title": "dsh-plugin-call-me — The Agent Rings Your Actual Phone and You Answer Out Loud",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/wrroper/copilot-hooks",
+    "title": "copilot-hooks — Tool-Approver and Worktree-Trust for Copilot CLI",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/GhagSagar23/ai_guardrails",
+    "title": "ai_guardrails — On-Device PII and Prompt-Injection Filtering in Pure Dart",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/A1exthegreat/herdr-agent-notify",
+    "title": "herdr-agent-notify — Desktop Notifications When the Agent Finishes or Goes Idle",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/YusenZhang0601/context-canopy",
+    "title": "context-canopy — Portable Agent Memory So You Can Switch Harnesses",
+    "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/Rai220/agents_crew",
+    "title": "agents_crew — An AI Employee Is a Directory, Not a Prompt",
+    "date_seen": "2026-08-16"
   }
 ]
