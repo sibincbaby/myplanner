@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-17', link: '/daily/2026-08-17' },
           { text: '2026-08-16', link: '/daily/2026-08-16' },
           { text: '2026-08-15', link: '/daily/2026-08-15' },
           { text: '2026-08-14', link: '/daily/2026-08-14' },
@@ -64,6 +65,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Yield', link: '/projects/2026-08-17-yield' },
+          { text: 'Nightwatch', link: '/projects/2026-08-17-nightwatch' },
           { text: 'Ablate', link: '/projects/2026-08-16-ablate' },
           { text: 'Seal', link: '/projects/2026-08-16-seal' },
           { text: 'Airlock', link: '/projects/2026-08-15-airlock' },

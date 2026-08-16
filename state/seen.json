@@ -2193,5 +2193,80 @@
     "url": "https://github.com/Rai220/agents_crew",
     "title": "agents_crew — An AI Employee Is a Directory, Not a Prompt",
     "date_seen": "2026-08-16"
+  },
+  {
+    "url": "https://github.com/christensen143/claude-trofeo-hud",
+    "title": "claude-trofeo-hud — Stream Your Token Burn to a $38 LCD",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+    "title": "grafana-agento11y-hermes — Traces, Spans and Dashboards for an Agent Run",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/20000419/mcpaxe",
+    "title": "mcpaxe — Weigh Your MCP Config and Chop the Context Tax",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/albererinofigo-droid/mcp-diet",
+    "title": "mcp-diet — A Proxy That Cuts Tool-Schema Tokens 50-78% With No Model in the Loop",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/stranger-vatsa/contextbrief",
+    "title": "contextbrief — A Change Log Written for the Tool That Reads It",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/mariobgsp/routre-cli",
+    "title": "routre-cli — Token Compression in the Gateway, −90% on Tool-Heavy Traffic",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/shunvel/skilldiff",
+    "title": "skilldiff — A/B Test Your Skills With an LLM as Judge",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/vineetpant/customhouse",
+    "title": "customhouse — Block Egress After the Agent Touches Untrusted Content",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/vandith1/agent-guard",
+    "title": "agent-guard — One Shell File Between the Agent and rm -rf",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/SohamRatnaparkhi/agmux",
+    "title": "agmux — k9s for Coding Agents, Over the tmux You Already Run",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/govindchaudhary69/fovea",
+    "title": "fovea — Fixation-Point Reading for Terminal Output",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/vvek475/uiver-plugin",
+    "title": "uiver-plugin — Every UI Iteration the Agent Built, Snapshotted and Diffable",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/Pavel-Polyakov/mailmind",
+    "title": "mailmind — Point an LLM at the Gmail Mailbox You Already Have",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/iamudesharma/clinicguard",
+    "title": "clinicguard — A Flutter App and a Voice Agent, at Zero Marginal Cost",
+    "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://waku.sh",
+    "title": "waku — A Native App for Coding Agents, in Rust and GPUI",
+    "date_seen": "2026-08-17"
   }
 ]
