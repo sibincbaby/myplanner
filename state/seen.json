@@ -2268,5 +2268,80 @@
     "url": "https://waku.sh",
     "title": "waku — A Native App for Coding Agents, in Rust and GPUI",
     "date_seen": "2026-08-17"
+  },
+  {
+    "url": "https://github.com/kerem-kaynak/mtok",
+    "title": "mtok — Your Token Bill, Computed Entirely From Logs You Already Have",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/Thomas-E-Lewis/agentleaks",
+    "title": "agentleaks — Your Agent Has Been Saving Your API Keys to Disk",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/oliverjueguen/workingon-claude-skill",
+    "title": "workingon — Hooks That Write the Ticket You Forgot to Write",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/shibu003/claw-mcp-hub",
+    "title": "claw-mcp-hub — Twenty Processes Doing the Work of Two",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/dejo1307/augur",
+    "title": "augur — Hidden Characters and Watermarks, in Your Own Files",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/unclecode/toolshrink",
+    "title": "toolshrink — Cut Tool Output by What It Means, Not Where It Was Cut",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/adand-91/requirement-ledger",
+    "title": "requirement-ledger — From Vibe Coding to Knowing What You Wanted",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://statuslin.es",
+    "title": "statuslin.es — A Community Library for Claude Code Status Lines",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/KentoShimizu/zanei",
+    "title": "zanei — Your Computer's Activity as an Agent-Readable Timeline",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/bawadou/ai-data-extractor",
+    "title": "ai-data-extractor — Get Your Chat History Out Before It Expires",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/yetone/cumora",
+    "title": "cumora — Team Chat Where the Agents Are Teammates",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/rakib-nyc/skillassay",
+    "title": "skillassay — Measure the Always-On Context Cost of Your CLAUDE.md",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/grpcer/ownmem",
+    "title": "ownmem — Git-Native Markdown Memory for Every Agent at Once",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://github.com/hibeekaey/agent-sync",
+    "title": "agent-sync — Stop in One Agent, Pick Up in Another",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "url": "https://cronloop.ai",
+    "title": "Cronloop — Claude Code on a Schedule, for $25 a Month",
+    "date_seen": "2026-08-18"
   }
 ]
