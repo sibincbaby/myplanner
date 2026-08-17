@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL\u2192SQL)",
+    "app": "DBeaver (NL→SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
+    "app": "Google Slides / PowerPoint — template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word \u2014 mail merge & Styles automation",
+    "app": "Microsoft Word — mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -592,7 +592,7 @@
     "date_seen": "2026-08-13"
   },
   {
-    "app": "Google Sheets \u2014 pivot tables & QUERY()",
+    "app": "Google Sheets — pivot tables & QUERY()",
     "date_seen": "2026-08-13"
   },
   {
@@ -656,7 +656,7 @@
     "date_seen": "2026-08-15"
   },
   {
-    "app": "Make (Integromat) \u2014 scenarios, iterators/aggregators, blueprints",
+    "app": "Make (Integromat) — scenarios, iterators/aggregators, blueprints",
     "date_seen": "2026-08-15"
   },
   {
@@ -742,5 +742,53 @@
   {
     "app": "Workday (HCM + Financials, Business Process Framework)",
     "date_seen": "2026-08-17"
+  },
+  {
+    "app": "Zoom (Workplace admin, Webinars, Zoom Phone)",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Azure Data Factory",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Autodesk Fusion (Fusion 360)",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Oracle Fusion Cloud ERP (Financials)",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Jamf Pro",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Microsoft Advertising (Bing Ads)",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Trimble SketchUp",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "SAP SuccessFactors (Employee Central)",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Amazon QuickSight",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Clio Manage",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "Ableton Live",
+    "date_seen": "2026-08-18"
+  },
+  {
+    "app": "IBM SPSS Statistics",
+    "date_seen": "2026-08-18"
   }
 ]
