@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL→SQL)",
+    "app": "DBeaver (NL\u2192SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint — template-driven deck generation",
+    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word — mail merge & Styles automation",
+    "app": "Microsoft Word \u2014 mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -592,7 +592,7 @@
     "date_seen": "2026-08-13"
   },
   {
-    "app": "Google Sheets — pivot tables & QUERY()",
+    "app": "Google Sheets \u2014 pivot tables & QUERY()",
     "date_seen": "2026-08-13"
   },
   {
@@ -656,7 +656,7 @@
     "date_seen": "2026-08-15"
   },
   {
-    "app": "Make (Integromat) — scenarios, iterators/aggregators, blueprints",
+    "app": "Make (Integromat) \u2014 scenarios, iterators/aggregators, blueprints",
     "date_seen": "2026-08-15"
   },
   {
@@ -790,5 +790,53 @@
   {
     "app": "IBM SPSS Statistics",
     "date_seen": "2026-08-18"
+  },
+  {
+    "app": "GoDaddy Domains & DNS",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Sage Intacct",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "BILL (Bill.com)",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Procore",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Ubiquiti UniFi Network",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Buildium",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Semrush",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Genesys Cloud CX",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Synology DSM",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Qualtrics XM",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Miro",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "app": "ADP Workforce Now",
+    "date_seen": "2026-08-20"
   }
 ]
