@@ -1,32 +1,32 @@
 [
   {
     "url": "https://github.com/fujibee/agmsg",
-    "title": "agmsg — Cross-Vendor Messaging for CLI AI Coding Agents",
+    "title": "agmsg \u2014 Cross-Vendor Messaging for CLI AI Coding Agents",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/adospace/vs-agentic",
-    "title": "vs-agentic — Claude Code Extension for Visual Studio 2026",
+    "title": "vs-agentic \u2014 Claude Code Extension for Visual Studio 2026",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/CopilotKit/CopilotKit",
-    "title": "CopilotKit — Frontend Stack for Agents & Generative UI (AG-UI Protocol)",
+    "title": "CopilotKit \u2014 Frontend Stack for Agents & Generative UI (AG-UI Protocol)",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://www.ycombinator.com/launches/QKg-hyper-the-self-driving-company-brain",
-    "title": "Hyper (YC P26) — Self-Driving Company Brain for Agentic Development",
+    "title": "Hyper (YC P26) \u2014 Self-Driving Company Brain for Agentic Development",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/rohitg00/agentmemory",
-    "title": "agentmemory — Persistent MCP Memory Server for AI Coding Agents",
+    "title": "agentmemory \u2014 Persistent MCP Memory Server for AI Coding Agents",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/Dicklesworthstone/pi_agent_rust",
-    "title": "pi_agent_rust — High-Performance AI Coding Agent CLI Written in Rust",
+    "title": "pi_agent_rust \u2014 High-Performance AI Coding Agent CLI Written in Rust",
     "date_seen": "no-date-provided"
   },
   {
@@ -36,857 +36,857 @@
   },
   {
     "url": "https://github.com/google/agents-cli",
-    "title": "google/agents-cli — CLI and Skills for Building and Deploying AI Agents on Google Cloud",
+    "title": "google/agents-cli \u2014 CLI and Skills for Building and Deploying AI Agents on Google Cloud",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/merendamattia/personal-financial-ai-agent",
-    "title": "personal-financial-ai-agent — Multi-LLM Personal Finance Conversational Agent",
+    "title": "personal-financial-ai-agent \u2014 Multi-LLM Personal Finance Conversational Agent",
     "date_seen": "no-date-provided"
   },
   {
     "url": "https://github.com/inkeep/open-knowledge",
-    "title": "OpenKnowledge — AI-Native Markdown Editor with MCP (Obsidian/Notion alternative)",
+    "title": "OpenKnowledge \u2014 AI-Native Markdown Editor with MCP (Obsidian/Notion alternative)",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/ZhuJHua/moodiary",
-    "title": "Moodiary — Open-Source Cross-Platform Flutter + Rust Diary App with Local AI",
+    "title": "Moodiary \u2014 Open-Source Cross-Platform Flutter + Rust Diary App with Local AI",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-    "title": "Skill_Seekers — Convert Docs/Repos/PDFs into Claude AI Skills with Conflict Detection",
+    "title": "Skill_Seekers \u2014 Convert Docs/Repos/PDFs into Claude AI Skills with Conflict Detection",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/b0x42/Super-Productivity-MCP",
-    "title": "Super-Productivity-MCP — MCP Server Connecting AI to Super Productivity Task Manager",
+    "title": "Super-Productivity-MCP \u2014 MCP Server Connecting AI to Super Productivity Task Manager",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/ninehills/claude-agent-ui",
-    "title": "claude-agent-ui — Browser-Based UI + SSE Server for Claude Agent SDK",
+    "title": "claude-agent-ui \u2014 Browser-Based UI + SSE Server for Claude Agent SDK",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/siteboon/claudecodeui",
-    "title": "CloudCLI / claudecodeui — Web + Mobile UI for Claude Code Remote Sessions",
+    "title": "CloudCLI / claudecodeui \u2014 Web + Mobile UI for Claude Code Remote Sessions",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/Ngxba/claude-code-cli-ui",
-    "title": "claude-code-cli-ui — Visual Dashboard for Managing Claude Code Agents and Workflows",
+    "title": "claude-code-cli-ui \u2014 Visual Dashboard for Managing Claude Code Agents and Workflows",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/777genius/claude_agent_teams_ui",
-    "title": "agent-teams-ai — Multi-Agent Claude Orchestration with Kanban Board UI",
+    "title": "agent-teams-ai \u2014 Multi-Agent Claude Orchestration with Kanban Board UI",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/czlonkowski/n8n-mcp",
-    "title": "n8n-mcp — MCP for Claude to Build n8n Automation Workflows",
+    "title": "n8n-mcp \u2014 MCP for Claude to Build n8n Automation Workflows",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/zilliztech/claude-context",
-    "title": "claude-context — Semantic Code Search MCP for Claude Code (Full Codebase Context)",
+    "title": "claude-context \u2014 Semantic Code Search MCP for Claude Code (Full Codebase Context)",
     "date_seen": "2026-07-01"
   },
   {
     "url": "https://github.com/browser-use/video-use",
-    "title": "video-use — Edit Videos with Coding Agents (FFmpeg + ElevenLabs + Claude Code)",
+    "title": "video-use \u2014 Edit Videos with Coding Agents (FFmpeg + ElevenLabs + Claude Code)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/HKUDS/Vibe-Trading",
-    "title": "Vibe-Trading — Personal AI Trading Agent with 29 Pre-built Agent Teams",
+    "title": "Vibe-Trading \u2014 Personal AI Trading Agent with 29 Pre-built Agent Teams",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/orailnoor/private-agent",
-    "title": "private-agent — Flutter Android Automation Agent via LLM + Accessibility Services",
+    "title": "private-agent \u2014 Flutter Android Automation Agent via LLM + Accessibility Services",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/Pimzino/agentic-tools-mcp",
-    "title": "agentic-tools-mcp — MCP Server for Hierarchical Task Management + Semantic Agent Memory",
+    "title": "agentic-tools-mcp \u2014 MCP Server for Hierarchical Task Management + Semantic Agent Memory",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/coder/anyclaude",
-    "title": "anyclaude — Claude Code with Any LLM Provider (OpenAI, Google, xAI)",
+    "title": "anyclaude \u2014 Claude Code with Any LLM Provider (OpenAI, Google, xAI)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/MadAppGang/claudish",
-    "title": "claudish — Claude Code Proxy Supporting 580+ Models via OpenRouter/Gemini/OpenAI/Ollama",
+    "title": "claudish \u2014 Claude Code Proxy Supporting 580+ Models via OpenRouter/Gemini/OpenAI/Ollama",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/jamiepine/voicebox",
-    "title": "voicebox — Open-Source AI Voice Studio with Cloning, Dictation, and Agent Integration",
+    "title": "voicebox \u2014 Open-Source AI Voice Studio with Cloning, Dictation, and Agent Integration",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-    "title": "natively — Free Open-Source AI Meeting Assistant and Interview Copilot (Cluely alternative)",
+    "title": "natively \u2014 Free Open-Source AI Meeting Assistant and Interview Copilot (Cluely alternative)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/OpenCoworkAI/open-codesign",
-    "title": "open-codesign — Open-Source Claude Design Alternative (Electron + React, BYOK, MIT)",
+    "title": "open-codesign \u2014 Open-Source Claude Design Alternative (Electron + React, BYOK, MIT)",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/kirill-markin/expense-budget-tracker",
-    "title": "expense-budget-tracker — Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
+    "title": "expense-budget-tracker \u2014 Self-Hosted Finance Tracker with AI SQL Query API for LLM Agents",
     "date_seen": "2026-07-02"
   },
   {
     "url": "https://github.com/loppo-llc/kojo",
-    "title": "kojo — Mobile Remote Control for AI Coding CLIs with Persistent Scheduled Agents",
+    "title": "kojo \u2014 Mobile Remote Control for AI Coding CLIs with Persistent Scheduled Agents",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jpincas/calstakk",
-    "title": "calstakk — Local-First CalDAV/VTODO Server with 29-Tool MCP Layer for Claude",
+    "title": "calstakk \u2014 Local-First CalDAV/VTODO Server with 29-Tool MCP Layer for Claude",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/cjtrowbridge/apparat",
-    "title": "apparat — Voice-Driven Agentic Git Manager with Local STT/TTS + LLM",
+    "title": "apparat \u2014 Voice-Driven Agentic Git Manager with Local STT/TTS + LLM",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/akshajsrivastava-exe/wikix",
-    "title": "wikix — LLM Agent that Curates Sources into a Structured Personal Wiki",
+    "title": "wikix \u2014 LLM Agent that Curates Sources into a Structured Personal Wiki",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/twidi/twicc",
-    "title": "twicc — Web UI to Browse and Interact with Claude Code and Codex Sessions",
+    "title": "twicc \u2014 Web UI to Browse and Interact with Claude Code and Codex Sessions",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jazzenchen/VibeAround",
-    "title": "VibeAround — Launch and Keep Multiple AI Coding CLIs (Claude Code, Codex, Gemini, Pi)",
+    "title": "VibeAround \u2014 Launch and Keep Multiple AI Coding CLIs (Claude Code, Codex, Gemini, Pi)",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/RobertIlisei/MARVIN",
-    "title": "MARVIN — Native macOS SwiftUI AI Pair-Programming IDE on the Claude Agent SDK",
+    "title": "MARVIN \u2014 Native macOS SwiftUI AI Pair-Programming IDE on the Claude Agent SDK",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/Adarsh457/FinPilot",
-    "title": "FinPilot — AI-Powered Personal Finance Assistant with Natural-Language Queries",
+    "title": "FinPilot \u2014 AI-Powered Personal Finance Assistant with Natural-Language Queries",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/bug-ops/zeph",
-    "title": "zeph — Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
+    "title": "zeph \u2014 Memory-Focused AI Agent Supporting Local and Cloud LLM Backends",
     "date_seen": "2026-07-03"
   },
   {
     "url": "https://github.com/jordiboehme/crystalline",
-    "title": "crystalline — Local-First Rust Memory System for AI Agents (CLI + MCP Server + Hybrid Search)",
+    "title": "crystalline \u2014 Local-First Rust Memory System for AI Agents (CLI + MCP Server + Hybrid Search)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/tomascupr/sous-chef",
-    "title": "sous-chef — Claude Code Plugin that Splits Planning (Claude) from Implementation (Codex/GLM)",
+    "title": "sous-chef \u2014 Claude Code Plugin that Splits Planning (Claude) from Implementation (Codex/GLM)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/YuanpingSong/ultracodex",
-    "title": "ultracodex — Run Claude Code Workflow Scripts on OpenAI Codex CLI with Parallel Agent Fleets + TUI",
+    "title": "ultracodex \u2014 Run Claude Code Workflow Scripts on OpenAI Codex CLI with Parallel Agent Fleets + TUI",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/yynxxxxx/Codex-X",
-    "title": "Codex-X — Cross-Platform Tauri Desktop Manager for Coding-Agent CLIs (Providers, Sessions, Config)",
+    "title": "Codex-X \u2014 Cross-Platform Tauri Desktop Manager for Coding-Agent CLIs (Providers, Sessions, Config)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/ai4s-research/open-science",
-    "title": "open-science — Local-First Tauri AI Research Workbench (Plan → Approve → Execute → Artifacts)",
+    "title": "open-science \u2014 Local-First Tauri AI Research Workbench (Plan \u2192 Approve \u2192 Execute \u2192 Artifacts)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/Kulaxyz/token-diet",
-    "title": "token-diet — Always-On Token-Efficiency Skill for Claude Code / Codex / Cursor (~31% Savings)",
+    "title": "token-diet \u2014 Always-On Token-Efficiency Skill for Claude Code / Codex / Cursor (~31% Savings)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/dabit3/cloud-stacked-diffs",
-    "title": "cloud-stacked-diffs — Agent Skill that Turns Big Tasks into Reviewable Stacked Draft PRs",
+    "title": "cloud-stacked-diffs \u2014 Agent Skill that Turns Big Tasks into Reviewable Stacked Draft PRs",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/Brain0-ai/brain0",
-    "title": "brain0 — Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
+    "title": "brain0 \u2014 Audit Tool for AI-Generated Code (Tracks Agent Prompts, Detects Drift via Decision Graph)",
     "date_seen": "2026-07-05"
   },
   {
     "url": "https://github.com/statewright/statewright",
-    "title": "Statewright — Visual State Machine Guardrails for AI Agents (MCP + Claude Code)",
+    "title": "Statewright \u2014 Visual State Machine Guardrails for AI Agents (MCP + Claude Code)",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://www.projectmirage.ai/",
-    "title": "Dune Keypad — Context-Aware 3-Key Mac Keypad with Claude MCP + Marketplace",
+    "title": "Dune Keypad \u2014 Context-Aware 3-Key Mac Keypad with Claude MCP + Marketplace",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/nirajdsouza/personal-finance-assistant-ai-agent",
-    "title": "Personal Finance AI Agent — Budget, Expense Categorisation + Forecasting via LLM",
+    "title": "Personal Finance AI Agent \u2014 Budget, Expense Categorisation + Forecasting via LLM",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/devxoul/agent-messenger",
-    "title": "Agent Messenger CLI — Multi-Platform Messaging Automation CLI for AI Agents",
+    "title": "Agent Messenger CLI \u2014 Multi-Platform Messaging Automation CLI for AI Agents",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/the-banana-tool/king-louie",
-    "title": "King Louie — Cross-Platform Electron Desktop AI with 20 Agent Tools, No Cloud",
+    "title": "King Louie \u2014 Cross-Platform Electron Desktop AI with 20 Agent Tools, No Cloud",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/callstack/agent-device",
-    "title": "agent-device — CLI for AI Agents to Control iOS/Android/Flutter Apps",
+    "title": "agent-device \u2014 CLI for AI Agents to Control iOS/Android/Flutter Apps",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/OpenWhispr/openwhispr",
-    "title": "OpenWhispr — Privacy-First Voice Dictation + AI Agents + Meeting Transcription",
+    "title": "OpenWhispr \u2014 Privacy-First Voice Dictation + AI Agents + Meeting Transcription",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/ama2",
-    "title": "AMA2 — Thread-Context-Aware Messenger Built for AI Agent Conversations",
+    "title": "AMA2 \u2014 Thread-Context-Aware Messenger Built for AI Agent Conversations",
     "date_seen": "2026-07-06"
   },
   {
     "url": "https://github.com/op7418/CodePilot",
-    "title": "CodePilot — Multi-Model AI Agent Desktop Client (Electron + Next.js)",
+    "title": "CodePilot \u2014 Multi-Model AI Agent Desktop Client (Electron + Next.js)",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/Fergana-Labs/claude_agent_desktop",
-    "title": "claude_agent_desktop — GUI wrapper on the Claude Agent SDK (Fergana Labs)",
+    "title": "claude_agent_desktop \u2014 GUI wrapper on the Claude Agent SDK (Fergana Labs)",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/ctxrs/ctx",
-    "title": "ctx — Search the coding-agent history already on your machine",
+    "title": "ctx \u2014 Search the coding-agent history already on your machine",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://macuse.app/",
-    "title": "Macuse — give any MCP AI client on-device control of Mac apps",
+    "title": "Macuse \u2014 give any MCP AI client on-device control of Mac apps",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48762862",
-    "title": "Manufact (YC S25) — MCP Cloud ('Vercel for MCP')",
+    "title": "Manufact (YC S25) \u2014 MCP Cloud ('Vercel for MCP')",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/topics/claude-code-desktop",
-    "title": "agents-ui — Nuxt visual dashboard for managing Claude Code config",
+    "title": "agents-ui \u2014 Nuxt visual dashboard for managing Claude Code config",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://www.techtimes.com/articles/319707/20260704/ai-coding-assistant-zcode-launches-free-china-data-law-applies-every-glm-52-api-call.htm",
-    "title": "ZCode — free 'Agentic Development Environment' powered by GLM-5.2",
+    "title": "ZCode \u2014 free 'Agentic Development Environment' powered by GLM-5.2",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/baryhuang/claude-code-by-agents",
-    "title": "claude-code-by-agents — desktop app for multi-agent Claude Code orchestration",
+    "title": "claude-code-by-agents \u2014 desktop app for multi-agent Claude Code orchestration",
     "date_seen": "2026-07-07"
   },
   {
     "url": "https://github.com/nexu-io/open-design",
-    "title": "open-design — Open-Source Claude Design Alternative (Local-First, 40k+ Stars, DESIGN.md Pattern)",
+    "title": "open-design \u2014 Open-Source Claude Design Alternative (Local-First, 40k+ Stars, DESIGN.md Pattern)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/kerlenton/mcpsnoop",
-    "title": "mcpsnoop — Wireshark for MCP: Transparent In-Path Proxy for Live JSON-RPC Tool-Call Inspection",
+    "title": "mcpsnoop \u2014 Wireshark for MCP: Transparent In-Path Proxy for Live JSON-RPC Tool-Call Inspection",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/snyk/agent-scan",
-    "title": "snyk/agent-scan — Security Scanner for AI Agents, MCP Servers and Skills (15+ Risk Types)",
+    "title": "snyk/agent-scan \u2014 Security Scanner for AI Agents, MCP Servers and Skills (15+ Risk Types)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/Arthur-Ficial/apfel",
-    "title": "apfel — Free On-Device AI CLI + OpenAI-Compatible Server via Apple Intelligence (macOS Tahoe)",
+    "title": "apfel \u2014 Free On-Device AI CLI + OpenAI-Compatible Server via Apple Intelligence (macOS Tahoe)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/shivamprasad1001/expense-mcp-server",
-    "title": "expense-mcp-server — AI Expense Tracker MCP Server for Claude (Natural Language Finance)",
+    "title": "expense-mcp-server \u2014 AI Expense Tracker MCP Server for Claude (Natural Language Finance)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/jamiew/monarch-mcp",
-    "title": "monarch-mcp — Monarch Money MCP Server for Claude (Token-Efficient, Multi-Month Trend Analysis)",
+    "title": "monarch-mcp \u2014 Monarch Money MCP Server for Claude (Token-Efficient, Multi-Month Trend Analysis)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/FlowLLM-AI/finance-mcp",
-    "title": "finance-mcp — LLM-Powered MCP Server for Financial Deep-Research Agents",
+    "title": "finance-mcp \u2014 LLM-Powered MCP Server for Financial Deep-Research Agents",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/theshivamlko/flutter-ai-labs",
-    "title": "flutter-ai-labs — Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
+    "title": "flutter-ai-labs \u2014 Curated Collection of LLM-Powered Flutter Apps (RAG, Agents, MCP, Voice)",
     "date_seen": "2026-07-08"
   },
   {
     "url": "https://github.com/rowboatlabs/rowboat",
-    "title": "Rowboat — Open-Source, Local-First Alternative to Claude Desktop (AI Coworker with Memory)",
+    "title": "Rowboat \u2014 Open-Source, Local-First Alternative to Claude Desktop (AI Coworker with Memory)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://punkcode.rocks",
-    "title": "PUNK — iOS Remote Control for Local Claude Code with Voice Dictation",
+    "title": "PUNK \u2014 iOS Remote Control for Local Claude Code with Voice Dictation",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/LoganYangBo/rh-trading-agent",
-    "title": "rh-trading-agent — AI Trading Desk of Claude Code Sub-Agents + Robinhood MCP",
+    "title": "rh-trading-agent \u2014 AI Trading Desk of Claude Code Sub-Agents + Robinhood MCP",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/shofer-dev/claude-code-live-memory",
-    "title": "claude-code-live-memory — Always-On Model That Learns Your Repo So Agents Stop Re-Reading",
+    "title": "claude-code-live-memory \u2014 Always-On Model That Learns Your Repo So Agents Stop Re-Reading",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/bradautomates/claude-video",
-    "title": "claude-video — Give Claude Video Analysis (Download, Frame Extraction, Transcription)",
+    "title": "claude-video \u2014 Give Claude Video Analysis (Download, Frame Extraction, Transcription)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/sannabotdev/sannabotapp",
-    "title": "Sanna — Open-Source Voice-First Android AI Assistant That Controls Your Phone",
+    "title": "Sanna \u2014 Open-Source Voice-First Android AI Assistant That Controls Your Phone",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/abi/lilo",
-    "title": "Lilo — Self-Hosted Personal AI Assistant in Telegram (Voice Notes, Scheduling, Receipts)",
+    "title": "Lilo \u2014 Self-Hosted Personal AI Assistant in Telegram (Voice Notes, Scheduling, Receipts)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/afairai/afair",
-    "title": "afair — Self-Organizing Memory Vault Shared Across Every AI Tool (MCP)",
+    "title": "afair \u2014 Self-Organizing Memory Vault Shared Across Every AI Tool (MCP)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://terminai.app",
-    "title": "terminai — Invisible AI Overlay for Any Terminal (Claude Code / Codex, MCP, Approval-Gated)",
+    "title": "terminai \u2014 Invisible AI Overlay for Any Terminal (Claude Code / Codex, MCP, Approval-Gated)",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/runtypelabs/persona",
-    "title": "Persona.js — Vanilla-JS Agentic Chat UI Library with Native WebMCP",
+    "title": "Persona.js \u2014 Vanilla-JS Agentic Chat UI Library with Native WebMCP",
     "date_seen": "2026-07-09"
   },
   {
     "url": "https://github.com/puffinsoft/peek-cli",
-    "title": "peek-cli — Give Claude Code Eyes on the Live Browser Tab (Screenshot-Only Skill)",
+    "title": "peek-cli \u2014 Give Claude Code Eyes on the Live Browser Tab (Screenshot-Only Skill)",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/Rodiun/frugon",
-    "title": "frugon — Local CLI That Shows Which LLM Calls a Cheaper Model Could've Handled",
+    "title": "frugon \u2014 Local CLI That Shows Which LLM Calls a Cheaper Model Could've Handled",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/chrismbryant/claude-journal-mcp",
-    "title": "claude-journal-mcp — Zero-ML Journal Plugin for Claude Code with Auto-Capture Hooks",
+    "title": "claude-journal-mcp \u2014 Zero-ML Journal Plugin for Claude Code with Auto-Capture Hooks",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://shellular.dev/",
-    "title": "Shellular — Run Claude Code, Codex, Pi from Your Phone",
+    "title": "Shellular \u2014 Run Claude Code, Codex, Pi from Your Phone",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://abralo.com/",
-    "title": "Abralo — Run Several Claude Code Agents in One Window",
+    "title": "Abralo \u2014 Run Several Claude Code Agents in One Window",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/Northwood-Systems/foreman",
-    "title": "Foreman — Self-Hosted LLM Gateway for Cost-Aware Model Routing",
+    "title": "Foreman \u2014 Self-Hosted LLM Gateway for Cost-Aware Model Routing",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/animesh-94/Onboard-CLI",
-    "title": "Onboard-CLI — LLM-Powered Tool to Visualize Codebase Structure",
+    "title": "Onboard-CLI \u2014 LLM-Powered Tool to Visualize Codebase Structure",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/kklimuk/docx-cli",
-    "title": "docx-cli — Let AI Agents Read/Edit Word Documents Efficiently",
+    "title": "docx-cli \u2014 Let AI Agents Read/Edit Word Documents Efficiently",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/ronak-create/FableCut",
-    "title": "FableCut — Browser Video Editor AI Agents Can Drive (Zero Deps)",
+    "title": "FableCut \u2014 Browser Video Editor AI Agents Can Drive (Zero Deps)",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/valmishq/valmis",
-    "title": "Valmis — Open-Source Alternative to Claude Cowork",
+    "title": "Valmis \u2014 Open-Source Alternative to Claude Cowork",
     "date_seen": "2026-07-10"
   },
   {
     "url": "https://github.com/agent-of-empires/agent-of-empires",
-    "title": "agent-of-empires — TUI + Web Manager for Fleets of Claude Code / OpenCode Agents (Mobile-Friendly)",
+    "title": "agent-of-empires \u2014 TUI + Web Manager for Fleets of Claude Code / OpenCode Agents (Mobile-Friendly)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/asheshgoplani/agent-deck",
-    "title": "agent-deck — Terminal Mission Control for AI Coding Agents (MCP Mgmt, Cost Tracking, Web UI)",
+    "title": "agent-deck \u2014 Terminal Mission Control for AI Coding Agents (MCP Mgmt, Cost Tracking, Web UI)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/tcsenpai/claudeconfigurator",
-    "title": "claudeconfigurator — Tauri Desktop GUI for Editing the Whole ~/.claude Config Surface",
+    "title": "claudeconfigurator \u2014 Tauri Desktop GUI for Editing the Whole ~/.claude Config Surface",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/machulav/accountant24",
-    "title": "accountant24 — Local-First AI Agent for Personal Finance (Plain-Text Ledger, Git History, Any LLM)",
+    "title": "accountant24 \u2014 Local-First AI Agent for Personal Finance (Plain-Text Ledger, Git History, Any LLM)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/openaccountant/wilson",
-    "title": "wilson (openaccountant) — Privacy-First AI Bookkeeper, All Data Local in SQLite",
+    "title": "wilson (openaccountant) \u2014 Privacy-First AI Bookkeeper, All Data Local in SQLite",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/sarim2000/pennywiseai-tracker",
-    "title": "pennywiseai-tracker (PennyWise) — On-Device AI SMS Expense Tracker for Android",
+    "title": "pennywiseai-tracker (PennyWise) \u2014 On-Device AI SMS Expense Tracker for Android",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/mocasus/paleo",
-    "title": "paleo — Composable Token-Saving Skills for Claude Code / Codex / Gemini (~50-70% Output Reduction)",
+    "title": "paleo \u2014 Composable Token-Saving Skills for Claude Code / Codex / Gemini (~50-70% Output Reduction)",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/gregtuc/memsync",
-    "title": "memsync — One Shared, Encrypted, Local-First Memory for Claude Code and Codex",
+    "title": "memsync \u2014 One Shared, Encrypted, Local-First Memory for Claude Code and Codex",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/ucsandman/marketing-studio",
-    "title": "marketing-studio — One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
+    "title": "marketing-studio \u2014 One /marketing Command in Claude Code that Renders a Full Launch Asset Suite",
     "date_seen": "2026-07-11"
   },
   {
     "url": "https://github.com/dogtorjonah/context-warp-drive",
-    "title": "Context Warp Drive — Deterministic, Cache-Preserving Context Folding for Claude Code",
+    "title": "Context Warp Drive \u2014 Deterministic, Cache-Preserving Context Folding for Claude Code",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/emson/claudoro",
-    "title": "Claudoro — Pomodoro Timer Embedded in the Claude Code Status Line",
+    "title": "Claudoro \u2014 Pomodoro Timer Embedded in the Claude Code Status Line",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/ayushh0110/ScreenMind",
-    "title": "ScreenMind — Privacy-First Microsoft Recall Alternative (Local Gemma 4 + SQLite FTS)",
+    "title": "ScreenMind \u2014 Privacy-First Microsoft Recall Alternative (Local Gemma 4 + SQLite FTS)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/AdhamAfis/curiopay",
-    "title": "CurioPay — Open-Source LLM Budget Tracker with Chat-Based Financial Insights",
+    "title": "CurioPay \u2014 Open-Source LLM Budget Tracker with Chat-Based Financial Insights",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/ritesh-kanwar/Cashiro",
-    "title": "Cashiro — On-Device AI Expense Tracker: Bank SMS/PDF to Searchable Money Timeline",
+    "title": "Cashiro \u2014 On-Device AI Expense Tracker: Bank SMS/PDF to Searchable Money Timeline",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/rafal-qa/slopo",
-    "title": "slopo — Embedding-Based Non-Exact Code Duplication Detector (Ollama/BYOK)",
+    "title": "slopo \u2014 Embedding-Based Non-Exact Code Duplication Detector (Ollama/BYOK)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/weirdGuy/kastor",
-    "title": "Kastor — Terraform-Style HCL Specs for AI Agents (Build/Plan/Apply to LangGraph)",
+    "title": "Kastor \u2014 Terraform-Style HCL Specs for AI Agents (Build/Plan/Apply to LangGraph)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/mozilla-ai/otari",
-    "title": "Otari — Open-Source LLM Control Plane (mozilla-ai)",
+    "title": "Otari \u2014 Open-Source LLM Control Plane (mozilla-ai)",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/clidey/deptrust",
-    "title": "deptrust — Keep AI Agents Off Vulnerable Dependencies",
+    "title": "deptrust \u2014 Keep AI Agents Off Vulnerable Dependencies",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://ghostmeet.sshlab.dev/",
-    "title": "Ghostmeet — Self-Hosted Meeting Transcription and Summarization",
+    "title": "Ghostmeet \u2014 Self-Hosted Meeting Transcription and Summarization",
     "date_seen": "2026-07-12"
   },
   {
     "url": "https://github.com/CarpseDeam/Aura-IDE",
-    "title": "Aura — Git-Native Semantic Version Control / IDE for AI Coding Agents",
+    "title": "Aura \u2014 Git-Native Semantic Version Control / IDE for AI Coding Agents",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://github.com/ogulcancelik/herdr",
-    "title": "herdr — Terminal-Native Agent Multiplexer with Agent-State Awareness",
+    "title": "herdr \u2014 Terminal-Native Agent Multiplexer with Agent-State Awareness",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://toyo.ai/",
-    "title": "Toyo — AI Exec Assistant that Lives in iMessage and Calls Your Phone",
+    "title": "Toyo \u2014 AI Exec Assistant that Lives in iMessage and Calls Your Phone",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://lispr.ai/",
-    "title": "Lispr — Free Push-to-Talk Voice Dictation + Live Translation for Mac/Windows",
+    "title": "Lispr \u2014 Free Push-to-Talk Voice Dictation + Live Translation for Mac/Windows",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://agentic.ai/news",
-    "title": "AgentPrizm AgentMemory + AgentSkills — Persistent Memory API/MCP for Agents",
+    "title": "AgentPrizm AgentMemory + AgentSkills \u2014 Persistent Memory API/MCP for Agents",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://github.com/PocketLLM/PocketLLM",
-    "title": "PocketLLM — Flutter On-Device / Local-Server LLM Chat App",
+    "title": "PocketLLM \u2014 Flutter On-Device / Local-Server LLM Chat App",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://dev.to/allanninal/building-wisecashai-an-open-source-ai-powered-personal-finance-tracker-57g0",
-    "title": "WiseCashAI — Privacy-First, Browser-Local AI Personal Finance Tracker",
+    "title": "WiseCashAI \u2014 Privacy-First, Browser-Local AI Personal Finance Tracker",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://expense-budget-tracker.com/blog/self-hosted-open-source-budget-tracker-for-developers/",
-    "title": "Expense Budget Tracker — SQL-API Self-Hosted Finance App Designed for AI-Agent Access",
+    "title": "Expense Budget Tracker \u2014 SQL-API Self-Hosted Finance App Designed for AI-Agent Access",
     "date_seen": "2026-07-13"
   },
   {
     "url": "https://github.com/noeltg77/project-clyde",
-    "title": "Project Clyde — self-hosting multi-agent Claude platform (Next.js UI)",
+    "title": "Project Clyde \u2014 self-hosting multi-agent Claude platform (Next.js UI)",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://moneymatter.app/",
-    "title": "MoneyMatter — open-source budget app with native MCP for Claude/LLMs",
+    "title": "MoneyMatter \u2014 open-source budget app with native MCP for Claude/LLMs",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://github.com/nousresearch/hermes-agent",
-    "title": "Hermes Agent — self-improving open-source agent with persistent memory (Nous Research)",
+    "title": "Hermes Agent \u2014 self-improving open-source agent with persistent memory (Nous Research)",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://github.com/can1357/oh-my-pi",
-    "title": "oh-my-pi — terminal coding agent with hash-anchored edits + LSP + browser",
+    "title": "oh-my-pi \u2014 terminal coding agent with hash-anchored edits + LSP + browser",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://github.com/Graphify-Labs/graphify",
-    "title": "Graphify — turn codebases/docs/media into searchable knowledge graphs for AI coding assistants",
+    "title": "Graphify \u2014 turn codebases/docs/media into searchable knowledge graphs for AI coding assistants",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://www.producthunt.com/categories/ai-voice-agents",
-    "title": "Flow — private, local-first voice assistant for Cursor/Claude/ChatGPT",
+    "title": "Flow \u2014 private, local-first voice assistant for Cursor/Claude/ChatGPT",
     "date_seen": "2026-07-14"
   },
   {
     "url": "https://github.com/stablyai/orca",
-    "title": "Orca — parallel coding-agent development environment",
+    "title": "Orca \u2014 parallel coding-agent development environment",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48612844",
-    "title": "Pulse — phone-based approval dashboard for Claude Code tool calls",
+    "title": "Pulse \u2014 phone-based approval dashboard for Claude Code tool calls",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48612231",
-    "title": "Persona.js — UI framework for agent interfaces with native WebMCP",
+    "title": "Persona.js \u2014 UI framework for agent interfaces with native WebMCP",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48622590",
-    "title": "Recall — local project memory layer for Claude Code",
+    "title": "Recall \u2014 local project memory layer for Claude Code",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://osaurus.ai",
-    "title": "Osaurus — open-source agents running 100% locally on Mac",
+    "title": "Osaurus \u2014 open-source agents running 100% locally on Mac",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48688700",
-    "title": "Smart Model Routing — in-editor AI model router for Claude/Codex/Cursor",
+    "title": "Smart Model Routing \u2014 in-editor AI model router for Claude/Codex/Cursor",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://spokenly.app/blog/voice-coding",
-    "title": "Spokenly — system-wide dictation + MCP voice input for terminal agents",
+    "title": "Spokenly \u2014 system-wide dictation + MCP voice input for terminal agents",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://design.withfudge.com",
-    "title": "Fudge MCP — give AI agents design taste from existing websites",
+    "title": "Fudge MCP \u2014 give AI agents design taste from existing websites",
     "date_seen": "2026-07-15"
   },
   {
     "url": "https://github.com/memex-lab/memex",
-    "title": "Memex — Local-First AI Journal App (iOS/Android, Text/Photo/Voice → Timeline Cards, BYO LLM)",
+    "title": "Memex \u2014 Local-First AI Journal App (iOS/Android, Text/Photo/Voice \u2192 Timeline Cards, BYO LLM)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/primaprashant/hns",
-    "title": "hns — Speech-to-Text CLI for Driving Coding Agents (claude \"$(hns)\")",
+    "title": "hns \u2014 Speech-to-Text CLI for Driving Coding Agents (claude \"$(hns)\")",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/Open-Less/openless",
-    "title": "openless — Hold-Hotkey Speak-to-Insert AI-Polished Text in Any App (Local/Cloud ASR)",
+    "title": "openless \u2014 Hold-Hotkey Speak-to-Insert AI-Polished Text in Any App (Local/Cloud ASR)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/cosmicstack-labs/mercury-agent",
-    "title": "mercury-agent — Self-Hosted Personal Agent via CLI + Web Dashboard + Telegram (Markdown Persona)",
+    "title": "mercury-agent \u2014 Self-Hosted Personal Agent via CLI + Web Dashboard + Telegram (Markdown Persona)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/omnigent-ai/omnigent",
-    "title": "omnigent — Meta-Harness Orchestrating Multiple Coding Agents (Claude Code, Cursor, Codex)",
+    "title": "omnigent \u2014 Meta-Harness Orchestrating Multiple Coding Agents (Claude Code, Cursor, Codex)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/moltis-org/moltis",
-    "title": "moltis — Persistent Personal AI-Agent Server in Rust (Single Binary, Telegram/Discord/Signal)",
+    "title": "moltis \u2014 Persistent Personal AI-Agent Server in Rust (Single Binary, Telegram/Discord/Signal)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://nobie.com",
-    "title": "Nobie — Excel-Compatible Runtime for Agents and Humans",
+    "title": "Nobie \u2014 Excel-Compatible Runtime for Agents and Humans",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/EveryInc/compound-engineering-plugin",
-    "title": "compound-engineering-plugin — Claude Code Plugin (Every)",
+    "title": "compound-engineering-plugin \u2014 Claude Code Plugin (Every)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/volcengine/OpenViking",
-    "title": "OpenViking — Self-Evolving Context DB Unifying Agent Memory + RAG (volcengine)",
+    "title": "OpenViking \u2014 Self-Evolving Context DB Unifying Agent Memory + RAG (volcengine)",
     "date_seen": "2026-07-16"
   },
   {
     "url": "https://github.com/trendsmcp/trends-agent-claude",
-    "title": "trends-agent-claude (TrendsMCP) — live trend/new-project data for Claude via MCP",
+    "title": "trends-agent-claude (TrendsMCP) \u2014 live trend/new-project data for Claude via MCP",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://www.producthunt.com/products/stated-2",
-    "title": "Stated — privacy-first AI finance tracker (upload bank statement PDF, local AES-256)",
+    "title": "Stated \u2014 privacy-first AI finance tracker (upload bank statement PDF, local AES-256)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://github.com/enesbasbug/voice-to-claude",
-    "title": "voice-to-claude — Claude Code voice dictation plugin (whisper.cpp Metal, macOS)",
+    "title": "voice-to-claude \u2014 Claude Code voice dictation plugin (whisper.cpp Metal, macOS)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://talknotes.io/",
-    "title": "Talknotes — AI voice note app (speak → transcribed + structured notes)",
+    "title": "Talknotes \u2014 AI voice note app (speak \u2192 transcribed + structured notes)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://github.com/saadnvd1/agent-os",
-    "title": "agent-os — mobile-first web UI for AI coding sessions (Claude Code/Aider/Gemini, worktrees)",
+    "title": "agent-os \u2014 mobile-first web UI for AI coding sessions (Claude Code/Aider/Gemini, worktrees)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48883305",
-    "title": "Juggler — open-source GUI coding agent (by the creator of JUCE)",
+    "title": "Juggler \u2014 open-source GUI coding agent (by the creator of JUCE)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://github.com/marizmelo/llm-cli",
-    "title": "llm-cli (marizmelo) — terminal AI agent for cloud + local LLMs (Claude/Ollama/OpenAI)",
+    "title": "llm-cli (marizmelo) \u2014 terminal AI agent for cloud + local LLMs (Claude/Ollama/OpenAI)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://www.producthunt.com/products/amigo-ai-expense-manager",
-    "title": "Amigo AI Expense Manager — LLM finance insights from transactions/emails/statements",
+    "title": "Amigo AI Expense Manager \u2014 LLM finance insights from transactions/emails/statements",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://github.com/watchout/agent-comms-mcp",
-    "title": "agent-comms-mcp — push-based messaging between AI coding agents (MCP, pg_notify+webhook)",
+    "title": "agent-comms-mcp \u2014 push-based messaging between AI coding agents (MCP, pg_notify+webhook)",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48727140",
-    "title": "AMA2 — messenger built for AI agents as first-class participants",
+    "title": "AMA2 \u2014 messenger built for AI agents as first-class participants",
     "date_seen": "2026-07-17"
   },
   {
     "url": "https://github.com/anlor1002-alt/regressionledger",
-    "title": "regressionledger — Claude Code hook that stops re-trying fixes that already failed",
+    "title": "regressionledger \u2014 Claude Code hook that stops re-trying fixes that already failed",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://heimwall.ai/individual",
-    "title": "HeimWall — catch secrets before you paste them into Claude or Cursor",
+    "title": "HeimWall \u2014 catch secrets before you paste them into Claude or Cursor",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/sebmellen/git-temp",
-    "title": "git-temp — repo scratchpad for AI agents that won't clutter Git status",
+    "title": "git-temp \u2014 repo scratchpad for AI agents that won't clutter Git status",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://meetmaxx.co/",
-    "title": "Maxx — live token tracker in the CLI (Claude)",
+    "title": "Maxx \u2014 live token tracker in the CLI (Claude)",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/AyushParkara/syntra",
-    "title": "Syntra — terminal-first control plane for multi-model coding",
+    "title": "Syntra \u2014 terminal-first control plane for multi-model coding",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/0pen-Sourcer/Hearth",
-    "title": "Hearth — open-source local AI that runs your PC (files, apps, voice)",
+    "title": "Hearth \u2014 open-source local AI that runs your PC (files, apps, voice)",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/KlaatAI/klaatcode",
-    "title": "klaatcode — open-source terminal coding agent with smart model routing",
+    "title": "klaatcode \u2014 open-source terminal coding agent with smart model routing",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/ratel-ai/ratel",
-    "title": "Ratel — give agents unlimited tools and skills without context bloat",
+    "title": "Ratel \u2014 give agents unlimited tools and skills without context bloat",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://getscribe.dev/",
-    "title": "Scribe — CLI that builds AI agent memory from your repos and sessions",
+    "title": "Scribe \u2014 CLI that builds AI agent memory from your repos and sessions",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/lucianfialho/sidestack",
-    "title": "sidestack — browser agent stack in your side panel (LangGraph JS + Chrome)",
+    "title": "sidestack \u2014 browser agent stack in your side panel (LangGraph JS + Chrome)",
     "date_seen": "2026-07-18"
   },
   {
     "url": "https://github.com/juggler-ai/juggler",
-    "title": "Juggler — open-source GUI coding agent with tree-based branching sessions",
+    "title": "Juggler \u2014 open-source GUI coding agent with tree-based branching sessions",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://juggler.studio/",
-    "title": "Juggler Studio — visual workbench for AI coding agents",
+    "title": "Juggler Studio \u2014 visual workbench for AI coding agents",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/hex/claude-sessions",
-    "title": "claude-sessions — session manager for Claude Code with TUI, walk-away queues, rotation",
+    "title": "claude-sessions \u2014 session manager for Claude Code with TUI, walk-away queues, rotation",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/modus-agendi/managed-agent-control-mcp",
-    "title": "managed-agent-control-mcp — MCP bridge to start/observe/control Claude Managed Agents",
+    "title": "managed-agent-control-mcp \u2014 MCP bridge to start/observe/control Claude Managed Agents",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/mkXultra/ai-cli-mcp",
-    "title": "ai-cli-mcp — run Claude/Codex/Gemini CLI agents in background from any MCP client",
+    "title": "ai-cli-mcp \u2014 run Claude/Codex/Gemini CLI agents in background from any MCP client",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/googlarz/taxde-skill",
-    "title": "finance-assistant — personal finance copilot with real tax math, no AI guesses",
+    "title": "finance-assistant \u2014 personal finance copilot with real tax math, no AI guesses",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/danielrosehill/Claude-Budgeting-Plugin",
-    "title": "Claude-Budgeting-Plugin — Claude Code plugin for household budgeting & forecasting",
+    "title": "Claude-Budgeting-Plugin \u2014 Claude Code plugin for household budgeting & forecasting",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/kiliman/agent-tts",
-    "title": "agent-tts — real-time TTS for Claude, OpenCode, and other coding agents",
+    "title": "agent-tts \u2014 real-time TTS for Claude, OpenCode, and other coding agents",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/bvisible/mcp-ssh-manager",
-    "title": "mcp-ssh-manager — 37-tool MCP server for SSH/DevOps/DB management",
+    "title": "mcp-ssh-manager \u2014 37-tool MCP server for SSH/DevOps/DB management",
     "date_seen": "2026-07-19"
   },
   {
     "url": "https://github.com/LunarWerxs/CCManagerUI",
-    "title": "CCManagerUI — Local dashboard for Claude Code sessions: live-tail, queue, multi-account",
+    "title": "CCManagerUI \u2014 Local dashboard for Claude Code sessions: live-tail, queue, multi-account",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/tsouth89/toolport",
-    "title": "toolport — Local-first MCP gateway; one port for all tools, 90% token savings",
+    "title": "toolport \u2014 Local-first MCP gateway; one port for all tools, 90% token savings",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/Arenukvern/mcp_flutter",
-    "title": "mcp_flutter — MCP Toolkit for Flutter AI agent driven development, 30+ tools",
+    "title": "mcp_flutter \u2014 MCP Toolkit for Flutter AI agent driven development, 30+ tools",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/Leviai-ai/personal-finance-mcp",
-    "title": "personal-finance-mcp (Leviai) — MCP server: budgets, goals, spending analysis for Claude",
+    "title": "personal-finance-mcp (Leviai) \u2014 MCP server: budgets, goals, spending analysis for Claude",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/zrabin/personal-finance-mcp",
-    "title": "personal-finance-mcp (zrabin) — MCP: Chase bank + Venmo via Teller API into Claude",
+    "title": "personal-finance-mcp (zrabin) \u2014 MCP: Chase bank + Venmo via Teller API into Claude",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/SecureLend/mcp-financial-services",
-    "title": "mcp-financial-services — MCP server + SDK for loan/credit card/banking comparison with AI",
+    "title": "mcp-financial-services \u2014 MCP server + SDK for loan/credit card/banking comparison with AI",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/intrepidkarthi/dailyvox",
-    "title": "DailyVox — iOS voice diary with on-device AI transcription and Digital Twin",
+    "title": "DailyVox \u2014 iOS voice diary with on-device AI transcription and Digital Twin",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/JasonColapietro/suede-creator-skills",
-    "title": "suede-creator-skills — 27 open-source agent skills for Claude Code",
+    "title": "suede-creator-skills \u2014 27 open-source agent skills for Claude Code",
     "date_seen": "2026-07-21"
   },
   {
     "url": "https://github.com/mobius-os/mobius",
-    "title": "mobius — Self-hosted AI app workspace; Claude Code builds mini-apps on demand",
+    "title": "mobius \u2014 Self-hosted AI app workspace; Claude Code builds mini-apps on demand",
     "date_seen": "2026-07-21"
   },
   {
@@ -931,172 +931,172 @@
   },
   {
     "url": "https://github.com/knowsuchagency/mcp2cli",
-    "title": "knowsuchagency/mcp2cli — Turn any MCP/OpenAPI into a CLI at runtime",
+    "title": "knowsuchagency/mcp2cli \u2014 Turn any MCP/OpenAPI into a CLI at runtime",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://github.com/xai-org/grok-build",
-    "title": "xai-org/grok-build — xAI coding agent TUI (Rust, open-sourced)",
+    "title": "xai-org/grok-build \u2014 xAI coding agent TUI (Rust, open-sourced)",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://github.com/google-labs-code/stitch-skills",
-    "title": "google-labs-code/stitch-skills — Agent skills library for Stitch MCP server",
+    "title": "google-labs-code/stitch-skills \u2014 Agent skills library for Stitch MCP server",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://github.com/mcherukara/claude-deep-research",
-    "title": "mcherukara/claude-deep-research — MCP server for deep research with Claude",
+    "title": "mcherukara/claude-deep-research \u2014 MCP server for deep research with Claude",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://github.com/superagent-ai/grok-cli",
-    "title": "superagent-ai/grok-cli — Open-source Grok API coding agent CLI",
+    "title": "superagent-ai/grok-cli \u2014 Open-source Grok API coding agent CLI",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://news.ycombinator.com/item?id=47855284",
-    "title": "Almanac MCP — turn Claude Code into a Deep Research agent (HN Show HN)",
+    "title": "Almanac MCP \u2014 turn Claude Code into a Deep Research agent (HN Show HN)",
     "date_seen": "2026-07-23"
   },
   {
     "url": "https://github.com/agegr/pi-web",
-    "title": "agegr/pi-web — Web UI for pi coding agent sessions",
+    "title": "agegr/pi-web \u2014 Web UI for pi coding agent sessions",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/lostinpatterns/kassette",
-    "title": "lostinpatterns/kassette — Durable agentic workflows via JSONL journals",
+    "title": "lostinpatterns/kassette \u2014 Durable agentic workflows via JSONL journals",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/xiaotianfotos/homerail",
-    "title": "xiaotianfotos/homerail — Voice-first local agent orchestration runtime",
+    "title": "xiaotianfotos/homerail \u2014 Voice-first local agent orchestration runtime",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/autopost/llm-mock",
-    "title": "autopost/llm-mock — pytest record/replay plugin for LLM API calls",
+    "title": "autopost/llm-mock \u2014 pytest record/replay plugin for LLM API calls",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/DietrichGebert/ponytail",
-    "title": "DietrichGebert/ponytail — Anti-overengineering plugin for coding agents",
+    "title": "DietrichGebert/ponytail \u2014 Anti-overengineering plugin for coding agents",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/diegosouzapw/OmniRoute",
-    "title": "diegosouzapw/OmniRoute — AI gateway 290+ providers auto-fallback",
+    "title": "diegosouzapw/OmniRoute \u2014 AI gateway 290+ providers auto-fallback",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/microsoft/SkillOpt",
-    "title": "microsoft/SkillOpt — Train agent skill.md files via text-space optimization",
+    "title": "microsoft/SkillOpt \u2014 Train agent skill.md files via text-space optimization",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/facebook/astryx",
-    "title": "facebook/astryx — Meta agent-ready React design system",
+    "title": "facebook/astryx \u2014 Meta agent-ready React design system",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/MadsLorentzen/ai-job-search",
-    "title": "MadsLorentzen/ai-job-search — AI job application framework on Claude Code",
+    "title": "MadsLorentzen/ai-job-search \u2014 AI job application framework on Claude Code",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
-    "title": "GenAIwithMS/Expense-tracker-MCP — Local expense tracking MCP for Claude",
+    "title": "GenAIwithMS/Expense-tracker-MCP \u2014 Local expense tracking MCP for Claude",
     "date_seen": "2026-07-24"
   },
   {
     "url": "https://github.com/matthiasn/lotti",
-    "title": "lotti — Flutter Logbook with Long-Lived AI Agents (Mission, Soul, Local-First, Voice)",
+    "title": "lotti \u2014 Flutter Logbook with Long-Lived AI Agents (Mission, Soul, Local-First, Voice)",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/hara-cli/hara",
-    "title": "hara — Role-Based Coding Agent CLI with Plan DAGs, Approvals, and Multi-Platform Chat",
+    "title": "hara \u2014 Role-Based Coding Agent CLI with Plan DAGs, Approvals, and Multi-Platform Chat",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/fixed-width/glass",
-    "title": "glass — MCP Server: Build→See→Interact→Debug Loop for Native GUI Apps (AT-SPI2, Rust)",
+    "title": "glass \u2014 MCP Server: Build\u2192See\u2192Interact\u2192Debug Loop for Native GUI Apps (AT-SPI2, Rust)",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/dhruvanbhalara/flutter_agent_lens",
-    "title": "flutter_agent_lens — MCP Server Connecting AI to Dart VM Service of Running Flutter Apps",
+    "title": "flutter_agent_lens \u2014 MCP Server Connecting AI to Dart VM Service of Running Flutter Apps",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/ys-ll/uniterm",
-    "title": "uniterm — All-in-One Terminal (20+ Protocols) with Built-In Autonomous AI Agent",
+    "title": "uniterm \u2014 All-in-One Terminal (20+ Protocols) with Built-In Autonomous AI Agent",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/Fmarzochi/EGC",
-    "title": "EGC — Shared Memory and Skills Synced Across 23+ AI Coding Tools with Token Compression",
+    "title": "EGC \u2014 Shared Memory and Skills Synced Across 23+ AI Coding Tools with Token Compression",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/Epistates/turbomcp",
-    "title": "turbomcp — Enterprise-Grade Rust MCP SDK with OAuth 2.1, OpenTelemetry, and Rate Limiting",
+    "title": "turbomcp \u2014 Enterprise-Grade Rust MCP SDK with OAuth 2.1, OpenTelemetry, and Rate Limiting",
     "date_seen": "2026-07-25"
   },
   {
     "url": "https://github.com/ChristianFJung/AIOffice",
-    "title": "AIOffice — Pixel-art walkable office for AI coding agents",
+    "title": "AIOffice \u2014 Pixel-art walkable office for AI coding agents",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/oleksiijko/pmb",
-    "title": "pmb — Local-first persistent memory MCP for AI coding agents",
+    "title": "pmb \u2014 Local-first persistent memory MCP for AI coding agents",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://www.airjelly.ai/",
-    "title": "AirJelly — Proactive macOS AI companion with on-device memory and Enter-key task capture",
+    "title": "AirJelly \u2014 Proactive macOS AI companion with on-device memory and Enter-key task capture",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/Alishahryar1/free-claude-code",
-    "title": "free-claude-code — Multi-provider proxy for Claude Code/Codex/Pi with voice support",
+    "title": "free-claude-code \u2014 Multi-provider proxy for Claude Code/Codex/Pi with voice support",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/MODSetter/SurfSense",
-    "title": "SurfSense — Open-source NotebookLM alternative with live web data and MCP server",
+    "title": "SurfSense \u2014 Open-source NotebookLM alternative with live web data and MCP server",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "title": "awesome-claude-skills — Curated list of 1,000+ Claude Skills for agents",
+    "title": "awesome-claude-skills \u2014 Curated list of 1,000+ Claude Skills for agents",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/riponcm/projectmem",
-    "title": "projectmem — Event-sourced local-first memory layer for AI coding agents (AAAI-26)",
+    "title": "projectmem \u2014 Event-sourced local-first memory layer for AI coding agents (AAAI-26)",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/VectifyAI/PageIndex",
-    "title": "PageIndex — Vectorless reasoning-based RAG with hierarchical tree index",
+    "title": "PageIndex \u2014 Vectorless reasoning-based RAG with hierarchical tree index",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-    "title": "DesktopCommanderMCP — MCP server for Claude with terminal control and file editing",
+    "title": "DesktopCommanderMCP \u2014 MCP server for Claude with terminal control and file editing",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/shiyu-coder/Kronos",
-    "title": "Kronos — Foundation model for financial markets K-line sequences (AAAI-26)",
+    "title": "Kronos \u2014 Foundation model for financial markets K-line sequences (AAAI-26)",
     "date_seen": "2026-07-26"
   },
   {
     "url": "https://github.com/usestrix/strix",
-    "title": "strix — Open-source AI penetration testing tool",
+    "title": "strix \u2014 Open-source AI penetration testing tool",
     "date_seen": "2026-07-26"
   },
   {
@@ -1211,7 +1211,7 @@
   },
   {
     "url": "https://www.producthunt.com/products/unabyss",
-    "title": "Unabyss — MCP-native personal context layer",
+    "title": "Unabyss \u2014 MCP-native personal context layer",
     "date_seen": "2026-07-28"
   },
   {
@@ -1241,7 +1241,7 @@
   },
   {
     "url": "https://www.producthunt.com/products/agentkey",
-    "title": "AgentKey — live data marketplace for agents",
+    "title": "AgentKey \u2014 live data marketplace for agents",
     "date_seen": "2026-07-28"
   },
   {
@@ -1251,87 +1251,87 @@
   },
   {
     "url": "https://alderfi.org/",
-    "title": "Alderfi — Open-source MCP-native personal finance",
+    "title": "Alderfi \u2014 Open-source MCP-native personal finance",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/Nano-Collective/nanocoder",
-    "title": "Nanocoder — Community terminal coding agent, local-first",
+    "title": "Nanocoder \u2014 Community terminal coding agent, local-first",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://ama2.me/",
-    "title": "AMA2 — Messaging runtime for AI agents",
+    "title": "AMA2 \u2014 Messaging runtime for AI agents",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/aws/agent-toolkit-for-aws",
-    "title": "AWS Agent Toolkit — Official AWS MCP servers and skills",
+    "title": "AWS Agent Toolkit \u2014 Official AWS MCP servers and skills",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/openguardrails/agentfw",
-    "title": "agentfw — Local firewall for AI agents (Go binary)",
+    "title": "agentfw \u2014 Local firewall for AI agents (Go binary)",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/luckyPipewrench/pipelock",
-    "title": "Pipelock — Content-inspection AI agent firewall",
+    "title": "Pipelock \u2014 Content-inspection AI agent firewall",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/theexperiencecompany/gaia",
-    "title": "GAIA — Proactive personal AI assistant multi-platform",
+    "title": "GAIA \u2014 Proactive personal AI assistant multi-platform",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/vishalsachdev/canvas-mcp",
-    "title": "canvas-mcp — Canvas LMS MCP server 93 tools",
+    "title": "canvas-mcp \u2014 Canvas LMS MCP server 93 tools",
     "date_seen": "2026-07-29"
   },
   {
     "url": "https://github.com/vercel-labs/agent-browser",
-    "title": "agent-browser — Browser automation CLI for AI agents (Vercel Labs)",
+    "title": "agent-browser \u2014 Browser automation CLI for AI agents (Vercel Labs)",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/iOfficeAI/OfficeCLI",
-    "title": "OfficeCLI — Office suite CLI for AI agents (read/edit Word/Excel/PowerPoint)",
+    "title": "OfficeCLI \u2014 Office suite CLI for AI agents (read/edit Word/Excel/PowerPoint)",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/agigante80/actual-mcp-server",
-    "title": "actual-mcp-server — Docker MCP server for Actual Budget natural-language budgeting",
+    "title": "actual-mcp-server \u2014 Docker MCP server for Actual Budget natural-language budgeting",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/neverinfamous/memory-journal-mcp",
-    "title": "memory-journal-mcp — 70+ tool MCP: memory, journaling, GitHub integration, team collab",
+    "title": "memory-journal-mcp \u2014 70+ tool MCP: memory, journaling, GitHub integration, team collab",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/obra/private-journal-mcp",
-    "title": "private-journal-mcp — Lightweight MCP journaling for Claude with multi-section storage",
+    "title": "private-journal-mcp \u2014 Lightweight MCP journaling for Claude with multi-section storage",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/perplexityai/bumblebee",
-    "title": "bumblebee — Perplexity supply chain scanner for dev endpoints + MCP configs (Go, Apache-2.0)",
+    "title": "bumblebee \u2014 Perplexity supply chain scanner for dev endpoints + MCP configs (Go, Apache-2.0)",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/AgriciDaniel/claude-obsidian",
-    "title": "claude-obsidian — Self-organizing AI second brain for Obsidian + Claude Code (15 skills)",
+    "title": "claude-obsidian \u2014 Self-organizing AI second brain for Obsidian + Claude Code (15 skills)",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/colbymchenry/codegraph",
-    "title": "codegraph — Pre-indexed auto-syncing code knowledge graph for coding agents (60% cost reduction)",
+    "title": "codegraph \u2014 Pre-indexed auto-syncing code knowledge graph for coding agents (60% cost reduction)",
     "date_seen": "2026-07-30"
   },
   {
     "url": "https://github.com/huytieu/COG-second-brain",
-    "title": "COG-second-brain — Self-evolving second brain + people CRM with 17 skills and 6 worker agents",
+    "title": "COG-second-brain \u2014 Self-evolving second brain + people CRM with 17 skills and 6 worker agents",
     "date_seen": "2026-07-30"
   },
   {
@@ -1386,1047 +1386,1087 @@
   },
   {
     "url": "https://github.com/OpenClawAndroid/openclaw-android-assistant",
-    "title": "AnyClaw Android – OpenClaw + Codex + Claw Code on Android, no root",
+    "title": "AnyClaw Android \u2013 OpenClaw + Codex + Claw Code on Android, no root",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/dotdevdotdev/agentwire-dev",
-    "title": "AgentWire – Multi-session voice web interface for Claude Code agents",
+    "title": "AgentWire \u2013 Multi-session voice web interface for Claude Code agents",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/shreyaskarnik/voice-mcp",
-    "title": "voice-mcp – Bidirectional voice MCP server for Claude Code on Apple Silicon",
+    "title": "voice-mcp \u2013 Bidirectional voice MCP server for Claude Code on Apple Silicon",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/agentforce314/clawcodex",
-    "title": "ClawCodex – Token-efficient Python rebuild of Claude Code; /eco mode –80% bash tokens",
+    "title": "ClawCodex \u2013 Token-efficient Python rebuild of Claude Code; /eco mode \u201380% bash tokens",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/AmElmo/proofshot",
-    "title": "ProofShot – CLI giving AI coding agents eyes to verify UI via browser recording",
+    "title": "ProofShot \u2013 CLI giving AI coding agents eyes to verify UI via browser recording",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/yoloshii/clawmem",
-    "title": "ClawMem – On-device adaptive memory layer for Claude Code and OpenClaw",
+    "title": "ClawMem \u2013 On-device adaptive memory layer for Claude Code and OpenClaw",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/agentscope-ai/QwenPaw",
-    "title": "QwenPaw v2.0 – Personal AI assistant with mini-app platform and ReMe self-evolving memory",
+    "title": "QwenPaw v2.0 \u2013 Personal AI assistant with mini-app platform and ReMe self-evolving memory",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/waittim/MemoryCustodian",
-    "title": "MemoryCustodian – Repo-native manifest-based memory for coding agents as Markdown",
+    "title": "MemoryCustodian \u2013 Repo-native manifest-based memory for coding agents as Markdown",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/databox/databox-mcp",
-    "title": "Databox MCP – Query business metrics in plain English via Claude/Cursor",
+    "title": "Databox MCP \u2013 Query business metrics in plain English via Claude/Cursor",
     "date_seen": "2026-08-01"
   },
   {
     "url": "https://github.com/kemkem23/thumbmux",
-    "title": "thumbmux — Mobile-First tmux Web Terminal (Svelte5 + Bun, 120Hz Scroll, WebSocket Multiplex)",
+    "title": "thumbmux \u2014 Mobile-First tmux Web Terminal (Svelte5 + Bun, 120Hz Scroll, WebSocket Multiplex)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/griffinwork40/agent-afk",
-    "title": "agent-afk — Walk-Away Coding Agent Harness with Editable Loop + Telegram Notifications",
+    "title": "agent-afk \u2014 Walk-Away Coding Agent Harness with Editable Loop + Telegram Notifications",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/workweave/router",
-    "title": "workweave/router — AI Model Router: Route Every Prompt to Right Model in <50ms (40-70% Cost Savings)",
+    "title": "workweave/router \u2014 AI Model Router: Route Every Prompt to Right Model in <50ms (40-70% Cost Savings)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/Sanexxxx777/evidence-to-skill",
-    "title": "evidence-to-skill — Safety-Gated Conversion of Untrusted Sources to AI Skills",
+    "title": "evidence-to-skill \u2014 Safety-Gated Conversion of Untrusted Sources to AI Skills",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/vshulcz/deja-vu",
-    "title": "deja-vu — Zero-LLM Agent Memory Indexer (84.9% hit@1, Go, 1.5ms Search, 17 Harness Formats)",
+    "title": "deja-vu \u2014 Zero-LLM Agent Memory Indexer (84.9% hit@1, Go, 1.5ms Search, 17 Harness Formats)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/bartolli/codanna",
-    "title": "codanna — Local Code Intelligence MCP Server + CLI (Rust, 15 Languages, Call Graphs, Semantic Search)",
+    "title": "codanna \u2014 Local Code Intelligence MCP Server + CLI (Rust, 15 Languages, Call Graphs, Semantic Search)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/ignaciohermosillacornejo/copilot-money-mcp",
-    "title": "copilot-money-mcp — MCP Server for Copilot Money Personal Finance (14-25 Local-Only Tools)",
+    "title": "copilot-money-mcp \u2014 MCP Server for Copilot Money Personal Finance (14-25 Local-Only Tools)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/leancodepl/marionette_mcp",
-    "title": "marionette_mcp — Flutter “Playwright for AI Agents” via MCP (Dart, Widget Tree, Runtime Interaction)",
+    "title": "marionette_mcp \u2014 Flutter \u201cPlaywright for AI Agents\u201d via MCP (Dart, Widget Tree, Runtime Interaction)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/yuga-hashimoto/and-code",
-    "title": "and-code — Native Android GUI for AI Coding Agents (Run Locally Without PC)",
+    "title": "and-code \u2014 Native Android GUI for AI Coding Agents (Run Locally Without PC)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/extensiondev/mcp",
-    "title": "extensiondev/mcp — 30-Tool MCP for AI-Assisted Browser Extension Development (Chrome, Firefox, Safari)",
+    "title": "extensiondev/mcp \u2014 30-Tool MCP for AI-Assisted Browser Extension Development (Chrome, Firefox, Safari)",
     "date_seen": "2026-08-02"
   },
   {
     "url": "https://github.com/pheuter/claude-agent-desktop",
-    "title": "claude-agent-desktop — cross-platform agentic chat on Claude Agent SDK",
+    "title": "claude-agent-desktop \u2014 cross-platform agentic chat on Claude Agent SDK",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/Chevey339/kelivo",
-    "title": "Kelivo — Flutter LLM chat client (mobile + desktop)",
+    "title": "Kelivo \u2014 Flutter LLM chat client (mobile + desktop)",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/zhaoxuya520/reverse-skill",
-    "title": "reverse-skill — self-evolving routing skill for coding agents",
+    "title": "reverse-skill \u2014 self-evolving routing skill for coding agents",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://spokenly.app/",
-    "title": "Spokenly — system-wide voice coding for Claude Code",
+    "title": "Spokenly \u2014 system-wide voice coding for Claude Code",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-    "title": "TencentDB-Agent-Memory — team-level memory hub for AI agents",
+    "title": "TencentDB-Agent-Memory \u2014 team-level memory hub for AI agents",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/Panniantong/Agent-Reach",
-    "title": "Agent-Reach — multi-platform web reach for AI agents (MCP + CLI)",
+    "title": "Agent-Reach \u2014 multi-platform web reach for AI agents (MCP + CLI)",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://costperprompt.com/",
-    "title": "CostPerPrompt — live LLM API pricing + cost calculators",
+    "title": "CostPerPrompt \u2014 live LLM API pricing + cost calculators",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://www.kota.place/",
-    "title": "Kota — native macOS hub for AI agents & projects",
+    "title": "Kota \u2014 native macOS hub for AI agents & projects",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
-    "title": "DeepSeek-Reasonix — DeepSeek-tuned Go terminal coding agent",
+    "title": "DeepSeek-Reasonix \u2014 DeepSeek-tuned Go terminal coding agent",
     "date_seen": "2026-08-03"
   },
   {
     "url": "https://github.com/googlarz/finance-assistant",
-    "title": "googlarz/finance-assistant — Personal finance copilot, real tax math, local-first",
+    "title": "googlarz/finance-assistant \u2014 Personal finance copilot, real tax math, local-first",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/virgiliojr94/book-to-skill",
-    "title": "virgiliojr94/book-to-skill — Convert PDFs/EPUBs into Claude Code skills",
+    "title": "virgiliojr94/book-to-skill \u2014 Convert PDFs/EPUBs into Claude Code skills",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/ayghri/i-have-adhd",
-    "title": "ayghri/i-have-adhd — ADHD-friendly coding agent output formatter skill",
+    "title": "ayghri/i-have-adhd \u2014 ADHD-friendly coding agent output formatter skill",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/alibaba/open-code-review",
-    "title": "alibaba/open-code-review — Deterministic LLM-powered code review CLI",
+    "title": "alibaba/open-code-review \u2014 Deterministic LLM-powered code review CLI",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/citrolabs/ego-lite",
-    "title": "citrolabs/ego-lite — AI agent browser automation with shared Chrome Spaces",
+    "title": "citrolabs/ego-lite \u2014 AI agent browser automation with shared Chrome Spaces",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/vitali87/code-graph-rag",
-    "title": "vitali87/code-graph-rag — Graph RAG for monorepos with MCP server",
+    "title": "vitali87/code-graph-rag \u2014 Graph RAG for monorepos with MCP server",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/bzheng29/expense-tracker-mcp",
-    "title": "bzheng29/expense-tracker-mcp — Expense tracker MCP server for Claude Desktop",
+    "title": "bzheng29/expense-tracker-mcp \u2014 Expense tracker MCP server for Claude Desktop",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/block/buzz",
-    "title": "block/buzz — Self-hosted workspace with AI agents as teammates (Rust+Flutter)",
+    "title": "block/buzz \u2014 Self-hosted workspace with AI agents as teammates (Rust+Flutter)",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/flutter/agent-plugins",
-    "title": "flutter/agent-plugins — Flutter team's AI agent skill/MCP plugin bundles",
+    "title": "flutter/agent-plugins \u2014 Flutter team's AI agent skill/MCP plugin bundles",
     "date_seen": "2026-08-04"
   },
   {
     "url": "https://github.com/aronszanto/financial-planning-agent",
-    "title": "financial-planning-agent — Personal finance agent skill for Claude Code/Cursor",
+    "title": "financial-planning-agent \u2014 Personal finance agent skill for Claude Code/Cursor",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/JayDS22/Financial-Budget-Planner",
-    "title": "Financial-Budget-Planner — VisionFi full-stack AI financial planner with Claude Sonnet",
+    "title": "Financial-Budget-Planner \u2014 VisionFi full-stack AI financial planner with Claude Sonnet",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/9cat/claude-code-app",
-    "title": "claude-code-app — Flutter mobile app for Claude Code CLI",
+    "title": "claude-code-app \u2014 Flutter mobile app for Claude Code CLI",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://news.ycombinator.com/item?id=48063548",
-    "title": "Show HN: Git for AI Agents — version control for agent actions",
+    "title": "Show HN: Git for AI Agents \u2014 version control for agent actions",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://news.ycombinator.com/item?id=47768750",
-    "title": "Show HN: Plain — full-stack Python framework for humans and agents",
+    "title": "Show HN: Plain \u2014 full-stack Python framework for humans and agents",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/Anil-matcha/open-ai-agents-hub",
-    "title": "open-ai-agents-hub — Self-hosted platform to build and host AI agents",
+    "title": "open-ai-agents-hub \u2014 Self-hosted platform to build and host AI agents",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-    "title": "awesome-claude-code-toolkit — 135 agents, 35 skills, 176+ plugins for Claude Code",
+    "title": "awesome-claude-code-toolkit \u2014 135 agents, 35 skills, 176+ plugins for Claude Code",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/VeryGoodOpenSource/vgv-ai-flutter-plugin",
-    "title": "vgv-ai-flutter-plugin — AI plugin to accelerate Flutter & Dart development",
+    "title": "vgv-ai-flutter-plugin \u2014 AI plugin to accelerate Flutter & Dart development",
     "date_seen": "2026-08-05"
   },
   {
     "url": "https://github.com/adrida/hud-mode",
-    "title": "adrida/hud-mode — compact terminal HUD for Claude Code/Codex/OpenCode",
+    "title": "adrida/hud-mode \u2014 compact terminal HUD for Claude Code/Codex/OpenCode",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/exPardus/fleet",
-    "title": "exPardus/fleet — manager session for durable headless Claude Code workers",
+    "title": "exPardus/fleet \u2014 manager session for durable headless Claude Code workers",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/PiemonteF/t",
-    "title": "PiemonteF/t — task-centric git worktrees linked to agent conversations",
+    "title": "PiemonteF/t \u2014 task-centric git worktrees linked to agent conversations",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/thiagodiniz/spltty",
-    "title": "thiagodiniz/spltty — Markdown-ledger personal finance CLI built with Claude",
+    "title": "thiagodiniz/spltty \u2014 Markdown-ledger personal finance CLI built with Claude",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://drakeai.app/",
-    "title": "DrakeAI — voice/text/receipt expense tracker with no bank sync",
+    "title": "DrakeAI \u2014 voice/text/receipt expense tracker with no bank sync",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://ocean.mosaic.inc/",
-    "title": "Ocean — all your team's agent sessions in one place",
+    "title": "Ocean \u2014 all your team's agent sessions in one place",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/softcane/human-state-skills",
-    "title": "softcane/human-state-skills — agent response modes for human cognitive states",
+    "title": "softcane/human-state-skills \u2014 agent response modes for human cognitive states",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/huangruiteng/loopx",
-    "title": "huangruiteng/loopx — loop-engineering state kernel for long-running agent teams",
+    "title": "huangruiteng/loopx \u2014 loop-engineering state kernel for long-running agent teams",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/Seven128/project-tiny-context-harness",
-    "title": "Seven128/project-tiny-context-harness — minimal project memory harness for coding agents",
+    "title": "Seven128/project-tiny-context-harness \u2014 minimal project memory harness for coding agents",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/Signet-AI/signetai",
-    "title": "Signet-AI/signetai — local-first memory and context layer for AI agents",
+    "title": "Signet-AI/signetai \u2014 local-first memory and context layer for AI agents",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/RevylAI/greenlight",
-    "title": "RevylAI/greenlight — App Store/Play preflight compliance scanner as a Claude Code skill",
+    "title": "RevylAI/greenlight \u2014 App Store/Play preflight compliance scanner as a Claude Code skill",
     "date_seen": "2026-08-06"
   },
   {
     "url": "https://github.com/claude-world/agent-deck",
-    "title": "agent-deck — Web UI to orchestrate multiple AI coding agents with DAG task decomposition",
+    "title": "agent-deck \u2014 Web UI to orchestrate multiple AI coding agents with DAG task decomposition",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/rolandtolnay/flutter-llm-toolkit",
-    "title": "flutter-llm-toolkit — Flutter/Dart agents, skills, patterns, and references for Claude Code",
+    "title": "flutter-llm-toolkit \u2014 Flutter/Dart agents, skills, patterns, and references for Claude Code",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/ginlix-ai/LangAlpha",
-    "title": "LangAlpha — Claude Code for Investing: multi-tier financial data, 23 research skills, executable Python sandboxes",
+    "title": "LangAlpha \u2014 Claude Code for Investing: multi-tier financial data, 23 research skills, executable Python sandboxes",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/juliantanx/aiusage",
-    "title": "aiusage — local-first usage tracker for AI coding assistants (tokens, cost, sessions across 20+ tools)",
+    "title": "aiusage \u2014 local-first usage tracker for AI coding assistants (tokens, cost, sessions across 20+ tools)",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/julianoczkowski/notebooklm-mcp-2026",
-    "title": "notebooklm-mcp-2026 — MCP server for querying Google NotebookLM notebooks",
+    "title": "notebooklm-mcp-2026 \u2014 MCP server for querying Google NotebookLM notebooks",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/shinpr/sub-agents-skills",
-    "title": "sub-agents-skills — cross-LLM sub-agent orchestration as a Claude Code skill",
+    "title": "sub-agents-skills \u2014 cross-LLM sub-agent orchestration as a Claude Code skill",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/fikrikarim/parlor",
-    "title": "Parlor — on-device multimodal voice + vision AI powered by Gemma 4 + Kokoro",
+    "title": "Parlor \u2014 on-device multimodal voice + vision AI powered by Gemma 4 + Kokoro",
     "date_seen": "2026-08-07"
   },
   {
     "url": "https://github.com/AbhishekBarali/SpeakoFlow",
-    "title": "SpeakoFlow — offline Whisper dictation + screen-aware Claude replies, cross-platform, fully local",
+    "title": "SpeakoFlow \u2014 offline Whisper dictation + screen-aware Claude replies, cross-platform, fully local",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://www.producthunt.com/products/domo-a-claude-agent-for-your-calendar",
-    "title": "Domo — Claude-backed calendar agent you can text via iMessage/SMS",
+    "title": "Domo \u2014 Claude-backed calendar agent you can text via iMessage/SMS",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://www.atlaso.ai/",
-    "title": "Atlaso — shared AI memory layer across Claude Code, Cursor, Codex and ChatGPT",
+    "title": "Atlaso \u2014 shared AI memory layer across Claude Code, Cursor, Codex and ChatGPT",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://github.com/jrswab/axe",
-    "title": "Axe — 12 MB Go binary; TOML-defined single-purpose AI agents composable via Unix pipes",
+    "title": "Axe \u2014 12 MB Go binary; TOML-defined single-purpose AI agents composable via Unix pipes",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://glasp.co/mcp",
-    "title": "Glasp MCP Connector — surfaces Glasp highlights and notes inside Claude and ChatGPT",
+    "title": "Glasp MCP Connector \u2014 surfaces Glasp highlights and notes inside Claude and ChatGPT",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://www.producthunt.com/products/driven-ai",
-    "title": "Driven — AI investment research agent synthesising market data into decisions",
+    "title": "Driven \u2014 AI investment research agent synthesising market data into decisions",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://github.com/mativallej/ai-expense-tracker-n8n",
-    "title": "ai-expense-tracker-n8n — n8n workflow extracts and categorises PDF expenses into Google Sheets via AI",
+    "title": "ai-expense-tracker-n8n \u2014 n8n workflow extracts and categorises PDF expenses into Google Sheets via AI",
     "date_seen": "2026-08-08"
   },
   {
     "url": "https://github.com/hetpatel-11/agent-hop",
-    "title": "agent-hop — Cross-Agent Session Search, Resume and Format Conversion",
+    "title": "agent-hop \u2014 Cross-Agent Session Search, Resume and Format Conversion",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/authgent/authgent",
-    "title": "authgent — MCP OAuth 2.1 Conformance Scanner (10 RFC checks, A–F grade)",
+    "title": "authgent \u2014 MCP OAuth 2.1 Conformance Scanner (10 RFC checks, A\u2013F grade)",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/pradipta/wallfacer",
-    "title": "wallfacer — Go TUI Indexing Claude Code / Cursor / Kiro / Codex Sessions",
+    "title": "wallfacer \u2014 Go TUI Indexing Claude Code / Cursor / Kiro / Codex Sessions",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/hyperlogue/captain-miao",
-    "title": "captain-miao — Rust TUI Fleet Dashboard for Coding Agents (kitty/zellij)",
+    "title": "captain-miao \u2014 Rust TUI Fleet Dashboard for Coding Agents (kitty/zellij)",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/satyasairay/remembrane",
-    "title": "remembrane — Agent Memory in One SQLite File with Time-Travel Audit",
+    "title": "remembrane \u2014 Agent Memory in One SQLite File with Time-Travel Audit",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/alpbahadur/49Agents",
-    "title": "49Agents — 2D Infinite-Canvas IDE for Managing Many Agents",
+    "title": "49Agents \u2014 2D Infinite-Canvas IDE for Managing Many Agents",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/vibhu-dixit/lybrary",
-    "title": "lybrary — Persistent AST-Aware Code Memory for AI Agents",
+    "title": "lybrary \u2014 Persistent AST-Aware Code Memory for AI Agents",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://toolport.app",
-    "title": "Toolport — Local MCP Gateway with Searchable Meta-Tools (91% token cut)",
+    "title": "Toolport \u2014 Local MCP Gateway with Searchable Meta-Tools (91% token cut)",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://play.google.com/store/apps/details?id=com.utter.app",
-    "title": "Utter — Voice to Structured To-Dos, Android, No Sign-Up",
+    "title": "Utter \u2014 Voice to Structured To-Dos, Android, No Sign-Up",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://www.producthunt.com/products/bevel-4",
-    "title": "Hexis (bevel.software) — Git-Backed Skills, Tools & Context for AI Agents",
+    "title": "Hexis (bevel.software) \u2014 Git-Backed Skills, Tools & Context for AI Agents",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://code.claude.com/docs/en/cross-session-messaging",
-    "title": "Claude Code Cross-Session Messaging — Native ListAgents/SendMessage",
+    "title": "Claude Code Cross-Session Messaging \u2014 Native ListAgents/SendMessage",
     "date_seen": "2026-08-09"
   },
   {
     "url": "https://github.com/eighttrigrams/us-vs-them",
-    "title": "us-vs-them — line-level human-vs-agent provenance for text under agentic editing",
+    "title": "us-vs-them \u2014 line-level human-vs-agent provenance for text under agentic editing",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/osolmaz/unyolo",
-    "title": "unYOLO — credential broker: agents get scoped grants, provider tokens stay in the broker",
+    "title": "unYOLO \u2014 credential broker: agents get scoped grants, provider tokens stay in the broker",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/anona-labs/mirror",
-    "title": "mirror — live searchable HTML workspace for Claude Code transcripts",
+    "title": "mirror \u2014 live searchable HTML workspace for Claude Code transcripts",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/sebastiancarlos/faaah",
-    "title": "faaah — Filesystem As An AI Handler: OpenAI-compatible local server in ~308 lines",
+    "title": "faaah \u2014 Filesystem As An AI Handler: OpenAI-compatible local server in ~308 lines",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/patchloom/patchloom",
-    "title": "patchloom — single-binary structured file edits for AI agents (CLI + MCP, Rust)",
+    "title": "patchloom \u2014 single-binary structured file edits for AI agents (CLI + MCP, Rust)",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/ademisler/RunOnMine",
-    "title": "RunOnMine — local-first MCP security gateway with policy, approvals and audit logs",
+    "title": "RunOnMine \u2014 local-first MCP security gateway with policy, approvals and audit logs",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/unclebob/swarm-forge",
-    "title": "swarm-forge — tmux + git-worktree orchestration for multiple coding agents",
+    "title": "swarm-forge \u2014 tmux + git-worktree orchestration for multiple coding agents",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://vibsync.com/",
-    "title": "Vibsync — hosted shared memory for Claude Code, Cursor and Codex over MCP",
+    "title": "Vibsync \u2014 hosted shared memory for Claude Code, Cursor and Codex over MCP",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://openchamber.dev/",
-    "title": "OpenChamber — open-source agentic development environment on the OpenCode SDK",
+    "title": "OpenChamber \u2014 open-source agentic development environment on the OpenCode SDK",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://github.com/ytkoka/mcp-tester",
-    "title": "mcp-tester — web inspector for MCP servers: latency, tokens, A-F grading, rug-pull scans",
+    "title": "mcp-tester \u2014 web inspector for MCP servers: latency, tokens, A-F grading, rug-pull scans",
     "date_seen": "2026-08-10"
   },
   {
     "url": "https://mirafold.com/",
-    "title": "Mirafold — Browser Generative-UI Dashboard for Claude Code / Codex / Gemini CLI (MIT, local daemon)",
+    "title": "Mirafold \u2014 Browser Generative-UI Dashboard for Claude Code / Codex / Gemini CLI (MIT, local daemon)",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://marketplace.visualstudio.com/items?itemName=multicoder.multicoder",
-    "title": "Multicoder ACP — One VS Code GUI for 35+ Coding Agents via Agent Client Protocol",
+    "title": "Multicoder ACP \u2014 One VS Code GUI for 35+ Coding Agents via Agent Client Protocol",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/Lore-Hex/QuillCode",
-    "title": "QuillCode — 100% Native Swift macOS Coding Agent (no Electron), with Computer Use and worktrees",
+    "title": "QuillCode \u2014 100% Native Swift macOS Coding Agent (no Electron), with Computer Use and worktrees",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/aowo-1345/AgentPanelX",
-    "title": "AgentPanelX — Local-First Control Plane where 'Project Owner' Agents Govern Long-Running Delivery",
+    "title": "AgentPanelX \u2014 Local-First Control Plane where 'Project Owner' Agents Govern Long-Running Delivery",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/pandev-metriks/pandev-cli",
-    "title": "pandev-cli — What Your AI Coding Agents Actually Cost, by Task, Branch, Model and File",
+    "title": "pandev-cli \u2014 What Your AI Coding Agents Actually Cost, by Task, Branch, Model and File",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://xirp.spotify.com/",
-    "title": "Xirp — Spotify's Vendor-Neutral Agentic Development Environment (Portal plugin + desktop app)",
+    "title": "Xirp \u2014 Spotify's Vendor-Neutral Agentic Development Environment (Portal plugin + desktop app)",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/Sateezg/codex-bridge",
-    "title": "codex-bridge — GPT-5 Subagents and gpt-image-2 Inside Claude Code, No OpenAI API Key",
+    "title": "codex-bridge \u2014 GPT-5 Subagents and gpt-image-2 Inside Claude Code, No OpenAI API Key",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/NightSquawk/actualbudget-mcp-server",
-    "title": "actualbudget-mcp-server — Hardened Actual Budget MCP with Serialized Writes and Mutation Backups",
+    "title": "actualbudget-mcp-server \u2014 Hardened Actual Budget MCP with Serialized Writes and Mutation Backups",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/ucsandman/sidetap",
-    "title": "sidetap — LLM Agents Tap, Type and Read Your iPhone Screen from Windows over USB",
+    "title": "sidetap \u2014 LLM Agents Tap, Type and Read Your iPhone Screen from Windows over USB",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/tmshapland/audiochatty-plugin",
-    "title": "audiochatty-plugin — Voice Plugin that Makes You Talk to Claude Code and Slow Down",
+    "title": "audiochatty-plugin \u2014 Voice Plugin that Makes You Talk to Claude Code and Slow Down",
     "date_seen": "2026-08-11"
   },
   {
     "url": "https://github.com/metedata/Remarc",
-    "title": "Remarc — Point at Anything on Screen, Your Agent Reads and Resolves the Comment over MCP",
+    "title": "Remarc \u2014 Point at Anything on Screen, Your Agent Reads and Resolves the Comment over MCP",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/shrsv/dbctx",
-    "title": "dbctx — Compile a PostgreSQL Database into a Compact, Queryable Context File",
+    "title": "dbctx \u2014 Compile a PostgreSQL Database into a Compact, Queryable Context File",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/0xnyn/airship",
-    "title": "airship — Figma-like Visual Editor Built for Claude Code, Codex and OpenCode",
+    "title": "airship \u2014 Figma-like Visual Editor Built for Claude Code, Codex and OpenCode",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/activeing123/mcptoon",
-    "title": "mcptoon — Token-Efficient MCP CLI Client, 97% Less on Tool Discovery",
+    "title": "mcptoon \u2014 Token-Efficient MCP CLI Client, 97% Less on Tool Discovery",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/sunhao123456sun-svg/toolpermit",
-    "title": "toolpermit — Local-First Permission Firewall and Approval Layer for Agent Tool Calls",
+    "title": "toolpermit \u2014 Local-First Permission Firewall and Approval Layer for Agent Tool Calls",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://venaya.app",
-    "title": "Venaya — Financial Health Score and AI Coach with No Bank Login",
+    "title": "Venaya \u2014 Financial Health Score and AI Coach with No Bank Login",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/mateusdcc/pi-gpt-search",
-    "title": "pi-gpt-search — Codex's Standalone Web Search, Reverse-Engineered for Claude and Local Models",
+    "title": "pi-gpt-search \u2014 Codex's Standalone Web Search, Reverse-Engineered for Claude and Local Models",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/andrewkushnerov/gsheets-mcp",
-    "title": "gsheets-mcp — Small Self-Hosted MCP Giving Claude Read/Write on Google Sheets",
+    "title": "gsheets-mcp \u2014 Small Self-Hosted MCP Giving Claude Read/Write on Google Sheets",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/karanb192/hindcast",
-    "title": "Hindcast — Browse, Search and Replay Every Claude Code Session on Your Mac",
+    "title": "Hindcast \u2014 Browse, Search and Replay Every Claude Code Session on Your Mac",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://github.com/leog/ai-pulse",
-    "title": "AI Pulse — Ambient macOS LED Strip Beside the Dock Showing Agent Status",
+    "title": "AI Pulse \u2014 Ambient macOS LED Strip Beside the Dock Showing Agent Status",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://parley.weldra.dev",
-    "title": "Parley — Your Coding Agent Can Address and Hand Off Work to a Teammate's Agent",
+    "title": "Parley \u2014 Your Coding Agent Can Address and Hand Off Work to a Teammate's Agent",
     "date_seen": "2026-08-12"
   },
   {
     "url": "https://shiplog.life",
-    "title": "shiplog — Crawl Your Repos and Write What You Shipped, in Your Own Voice",
+    "title": "shiplog \u2014 Crawl Your Repos and Write What You Shipped, in Your Own Voice",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/Peaches99/cc-usage-awareness",
-    "title": "cc-usage-awareness — MCP Server That Tells the Agent How Much Quota It Has Left",
+    "title": "cc-usage-awareness \u2014 MCP Server That Tells the Agent How Much Quota It Has Left",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/abhixhek/aakit",
-    "title": "aakit — Extract Every Assumption Your Coding Agent Made and Flag the Ones That Broke",
+    "title": "aakit \u2014 Extract Every Assumption Your Coding Agent Made and Flag the Ones That Broke",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/moghoneim-code/beacon_widget",
-    "title": "beacon_widget — Tap a Widget in a Running Flutter App, Get file:line on Your Clipboard",
+    "title": "beacon_widget \u2014 Tap a Widget in a Running Flutter App, Get file:line on Your Clipboard",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/AiDimag/aidimag",
-    "title": "aidimag — Verified Memory: Every Memory Carries Evidence and Is Re-Checked on Pull",
+    "title": "aidimag \u2014 Verified Memory: Every Memory Carries Evidence and Is Re-Checked on Pull",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/wzchav/tokentab",
-    "title": "tokentab — Price Claude Code, Codex and Gemini CLI Sessions by Model, Project and Day",
+    "title": "tokentab \u2014 Price Claude Code, Codex and Gemini CLI Sessions by Model, Project and Day",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/milind-soni/mcpd",
-    "title": "mcpd — One Host for Every MCP Server: Shared Instances, Lazy Start, a Fraction of the RAM",
+    "title": "mcpd \u2014 One Host for Every MCP Server: Shared Instances, Lazy Start, a Fraction of the RAM",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/shawn-durrani/spendglass",
-    "title": "spendglass — Local-Only Bank Transaction Store with a Read-Only MCP Server",
+    "title": "spendglass \u2014 Local-Only Bank Transaction Store with a Read-Only MCP Server",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/Scheme0/local-agent-senses",
-    "title": "local-agent-senses — Local Vision and Speech for Text-Only Coding Agents",
+    "title": "local-agent-senses \u2014 Local Vision and Speech for Text-Only Coding Agents",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/tobico/askance",
-    "title": "askance — Human-in-the-Loop GUI for Answering an Agent's Questions from Your Phone",
+    "title": "askance \u2014 Human-in-the-Loop GUI for Answering an Agent's Questions from Your Phone",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/ImL1s/tokenBar-companion",
-    "title": "tokenBar-companion — Zero-Backend AI Workstation Observability, Built in Flutter",
+    "title": "tokenBar-companion \u2014 Zero-Backend AI Workstation Observability, Built in Flutter",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/cmnord/whoport",
-    "title": "whoport — Which of Your Agents Is Holding localhost:3000?",
+    "title": "whoport \u2014 Which of Your Agents Is Holding localhost:3000?",
     "date_seen": "2026-08-13"
   },
   {
     "url": "https://github.com/pirate/codex-structured-steering",
-    "title": "codex-structured-steering — Show the Agent's Implicit Assumptions as Toggles Before It Acts",
+    "title": "codex-structured-steering \u2014 Show the Agent's Implicit Assumptions as Toggles Before It Acts",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/xyiqq/skilldoctor",
-    "title": "skilldoctor — A Quality Gate for Agent Skills: Lint, Security Audit, Cross-Harness Compat",
+    "title": "skilldoctor \u2014 A Quality Gate for Agent Skills: Lint, Security Audit, Cross-Harness Compat",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/georgedagher/deposition",
-    "title": "deposition — Local-Only Decision Log for Agent Sessions, Zero API Calls",
+    "title": "deposition \u2014 Local-Only Decision Log for Agent Sessions, Zero API Calls",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/fellowgeek/mcp-memory",
-    "title": "mcp-memory — Persistent Agent Memory over SQLite FTS5, No Embeddings",
+    "title": "mcp-memory \u2014 Persistent Agent Memory over SQLite FTS5, No Embeddings",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/kelviq/tare",
-    "title": "tare — Ask Claude Code Where Your Usage Went: Token Audit and Limit Forensics",
+    "title": "tare \u2014 Ask Claude Code Where Your Usage Went: Token Audit and Limit Forensics",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/AxelVandenHeuvel/speak-ez",
-    "title": "speak-ez — Fully Local Push-to-Talk Dictation for macOS, a Wispr Flow Alternative",
+    "title": "speak-ez \u2014 Fully Local Push-to-Talk Dictation for macOS, a Wispr Flow Alternative",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/MPIsaac-Per/linear-claude-bridge",
-    "title": "linear-claude-bridge — Run Your Claude Code Context as a Linear Agent",
+    "title": "linear-claude-bridge \u2014 Run Your Claude Code Context as a Linear Agent",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/krvicky/Varavu.Selavu",
-    "title": "Varavu.Selavu — Single-File Household Income and Expense Dashboard, Agent-Managed",
+    "title": "Varavu.Selavu \u2014 Single-File Household Income and Expense Dashboard, Agent-Managed",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/chintan-diwakar/prompt-contribution-graph",
-    "title": "prompt-contribution-graph — A GitHub Contribution Graph for Your Daily Agent Prompts",
+    "title": "prompt-contribution-graph \u2014 A GitHub Contribution Graph for Your Daily Agent Prompts",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/dpro10/cookbook-meter",
-    "title": "cookbook-meter — What Is Your Claude Code Subscription Actually Doing?",
+    "title": "cookbook-meter \u2014 What Is Your Claude Code Subscription Actually Doing?",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/david-g-3654/chatlens",
-    "title": "chatlens — Search and Browse Your ChatGPT/Claude Export in One Offline HTML File",
+    "title": "chatlens \u2014 Search and Browse Your ChatGPT/Claude Export in One Offline HTML File",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/Leutenegger/book-to-skill",
-    "title": "book-to-skill — Turn Any Technical Book PDF into a Claude Code Skill",
+    "title": "book-to-skill \u2014 Turn Any Technical Book PDF into a Claude Code Skill",
     "date_seen": "2026-08-14"
   },
   {
     "url": "https://github.com/liuaabb84-web/claude-remote-approve",
-    "title": "claude-remote-approve — Move Claude Code's Permission Prompts to Your Phone",
+    "title": "claude-remote-approve \u2014 Move Claude Code's Permission Prompts to Your Phone",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/MohamedEmbarak/SLL",
-    "title": "SLL — Three Hooks That Make an Agent's Claims Checkable",
+    "title": "SLL \u2014 Three Hooks That Make an Agent's Claims Checkable",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/hueyexe/opencode-auto-permissions",
-    "title": "opencode-auto-permissions — Send Risky Permission Requests to a Reviewer Model",
+    "title": "opencode-auto-permissions \u2014 Send Risky Permission Requests to a Reviewer Model",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/rcolman6/clean-recap",
-    "title": "clean-recap — A Stop Hook That Makes Opus 5 Explain Its Work in Plain English",
+    "title": "clean-recap \u2014 A Stop Hook That Makes Opus 5 Explain Its Work in Plain English",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/Kepei-Lei102/breakwatch",
-    "title": "breakwatch — Break Reminders That Know How Long You Have Actually Been Working",
+    "title": "breakwatch \u2014 Break Reminders That Know How Long You Have Actually Been Working",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/zhangxj9819/claude-conversation-graph",
-    "title": "claude-conversation-graph — Your Session History as a Git-Style Branch Graph",
+    "title": "claude-conversation-graph \u2014 Your Session History as a Git-Style Branch Graph",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/seyedehsanhadi/sloptrim",
-    "title": "sloptrim — A Local, Model-Free Detector for AI-Writing Patterns in Prose Your Agent Saves",
+    "title": "sloptrim \u2014 A Local, Model-Free Detector for AI-Writing Patterns in Prose Your Agent Saves",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/choiyounggi/cliclaw",
-    "title": "cliclaw — Drive Claude Code, Codex, Pi and Gemini From a Telegram Bot",
+    "title": "cliclaw \u2014 Drive Claude Code, Codex, Pi and Gemini From a Telegram Bot",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/MSKazemi/yazses",
-    "title": "yazses — Offline Hold-to-Talk Dictation That Actually Ships for Linux (X11 and Wayland)",
+    "title": "yazses \u2014 Offline Hold-to-Talk Dictation That Actually Ships for Linux (X11 and Wayland)",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/DenisovAV/mcp_on_mobile_workshop",
-    "title": "mcp_on_mobile_workshop — A Dart On-Device Agent Whose Phone Is Itself an MCP Server",
+    "title": "mcp_on_mobile_workshop \u2014 A Dart On-Device Agent Whose Phone Is Itself an MCP Server",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://www.producthunt.com/products/port22",
-    "title": "Port22 — Claude Code and Codex on Your Phone, No Wrapper and No Config",
+    "title": "Port22 \u2014 Claude Code and Codex on Your Phone, No Wrapper and No Config",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/Bevel-Software/Hexis",
-    "title": "Hexis — A Git-Backed Control Plane for Agent Skills, Tools, Context and Permissions",
+    "title": "Hexis \u2014 A Git-Backed Control Plane for Agent Skills, Tools, Context and Permissions",
     "date_seen": "2026-08-15"
   },
   {
     "url": "https://github.com/evoleinik/unchatty",
-    "title": "unchatty — A CLAUDE.md Block, Plus the A/B Harness That Proves It Does Anything",
+    "title": "unchatty \u2014 A CLAUDE.md Block, Plus the A/B Harness That Proves It Does Anything",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/maludb-ed/skill-safety-checker",
-    "title": "skill-safety-checker — Audit Installed Skills for Exfiltration and Prompt Injection",
+    "title": "skill-safety-checker \u2014 Audit Installed Skills for Exfiltration and Prompt Injection",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/asgeirtj/claude-health-check",
-    "title": "claude-health-check — 27-Phase Audit of Your Entire .claude/ Tree",
+    "title": "claude-health-check \u2014 27-Phase Audit of Your Entire .claude/ Tree",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/yaminbkk/NexusMem",
-    "title": "NexusMem — Index the Shell Commands That Failed, Not Just the Commits That Landed",
+    "title": "NexusMem \u2014 Index the Shell Commands That Failed, Not Just the Commits That Landed",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://chenxiachan.github.io/thoughtdag/",
-    "title": "ThoughtDAG — The Graph Is Not a Picture of Context, the Graph Is the Context",
+    "title": "ThoughtDAG \u2014 The Graph Is Not a Picture of Context, the Graph Is the Context",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/emberspun/longform-memory",
-    "title": "longform-memory — Chapter 1000 Costs the Same as Chapter 10",
+    "title": "longform-memory \u2014 Chapter 1000 Costs the Same as Chapter 10",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/kanjani-ai-research/Vesta",
-    "title": "Vesta — A Code Ontology Whose Vocabulary Is Learned From Your Repo",
+    "title": "Vesta \u2014 A Code Ontology Whose Vocabulary Is Learned From Your Repo",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/swairshah/Managerie",
-    "title": "Managerie — Every Coding Agent in the Menu Bar, With Replies",
+    "title": "Managerie \u2014 Every Coding Agent in the Menu Bar, With Replies",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/radres/dsh-plugin-call-me",
-    "title": "dsh-plugin-call-me — The Agent Rings Your Actual Phone and You Answer Out Loud",
+    "title": "dsh-plugin-call-me \u2014 The Agent Rings Your Actual Phone and You Answer Out Loud",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/wrroper/copilot-hooks",
-    "title": "copilot-hooks — Tool-Approver and Worktree-Trust for Copilot CLI",
+    "title": "copilot-hooks \u2014 Tool-Approver and Worktree-Trust for Copilot CLI",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/GhagSagar23/ai_guardrails",
-    "title": "ai_guardrails — On-Device PII and Prompt-Injection Filtering in Pure Dart",
+    "title": "ai_guardrails \u2014 On-Device PII and Prompt-Injection Filtering in Pure Dart",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/A1exthegreat/herdr-agent-notify",
-    "title": "herdr-agent-notify — Desktop Notifications When the Agent Finishes or Goes Idle",
+    "title": "herdr-agent-notify \u2014 Desktop Notifications When the Agent Finishes or Goes Idle",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/YusenZhang0601/context-canopy",
-    "title": "context-canopy — Portable Agent Memory So You Can Switch Harnesses",
+    "title": "context-canopy \u2014 Portable Agent Memory So You Can Switch Harnesses",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/Rai220/agents_crew",
-    "title": "agents_crew — An AI Employee Is a Directory, Not a Prompt",
+    "title": "agents_crew \u2014 An AI Employee Is a Directory, Not a Prompt",
     "date_seen": "2026-08-16"
   },
   {
     "url": "https://github.com/christensen143/claude-trofeo-hud",
-    "title": "claude-trofeo-hud — Stream Your Token Burn to a $38 LCD",
+    "title": "claude-trofeo-hud \u2014 Stream Your Token Burn to a $38 LCD",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
-    "title": "grafana-agento11y-hermes — Traces, Spans and Dashboards for an Agent Run",
+    "title": "grafana-agento11y-hermes \u2014 Traces, Spans and Dashboards for an Agent Run",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/20000419/mcpaxe",
-    "title": "mcpaxe — Weigh Your MCP Config and Chop the Context Tax",
+    "title": "mcpaxe \u2014 Weigh Your MCP Config and Chop the Context Tax",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/albererinofigo-droid/mcp-diet",
-    "title": "mcp-diet — A Proxy That Cuts Tool-Schema Tokens 50-78% With No Model in the Loop",
+    "title": "mcp-diet \u2014 A Proxy That Cuts Tool-Schema Tokens 50-78% With No Model in the Loop",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/stranger-vatsa/contextbrief",
-    "title": "contextbrief — A Change Log Written for the Tool That Reads It",
+    "title": "contextbrief \u2014 A Change Log Written for the Tool That Reads It",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/mariobgsp/routre-cli",
-    "title": "routre-cli — Token Compression in the Gateway, −90% on Tool-Heavy Traffic",
+    "title": "routre-cli \u2014 Token Compression in the Gateway, \u221290% on Tool-Heavy Traffic",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/shunvel/skilldiff",
-    "title": "skilldiff — A/B Test Your Skills With an LLM as Judge",
+    "title": "skilldiff \u2014 A/B Test Your Skills With an LLM as Judge",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/vineetpant/customhouse",
-    "title": "customhouse — Block Egress After the Agent Touches Untrusted Content",
+    "title": "customhouse \u2014 Block Egress After the Agent Touches Untrusted Content",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/vandith1/agent-guard",
-    "title": "agent-guard — One Shell File Between the Agent and rm -rf",
+    "title": "agent-guard \u2014 One Shell File Between the Agent and rm -rf",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/SohamRatnaparkhi/agmux",
-    "title": "agmux — k9s for Coding Agents, Over the tmux You Already Run",
+    "title": "agmux \u2014 k9s for Coding Agents, Over the tmux You Already Run",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/govindchaudhary69/fovea",
-    "title": "fovea — Fixation-Point Reading for Terminal Output",
+    "title": "fovea \u2014 Fixation-Point Reading for Terminal Output",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/vvek475/uiver-plugin",
-    "title": "uiver-plugin — Every UI Iteration the Agent Built, Snapshotted and Diffable",
+    "title": "uiver-plugin \u2014 Every UI Iteration the Agent Built, Snapshotted and Diffable",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/Pavel-Polyakov/mailmind",
-    "title": "mailmind — Point an LLM at the Gmail Mailbox You Already Have",
+    "title": "mailmind \u2014 Point an LLM at the Gmail Mailbox You Already Have",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/iamudesharma/clinicguard",
-    "title": "clinicguard — A Flutter App and a Voice Agent, at Zero Marginal Cost",
+    "title": "clinicguard \u2014 A Flutter App and a Voice Agent, at Zero Marginal Cost",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://waku.sh",
-    "title": "waku — A Native App for Coding Agents, in Rust and GPUI",
+    "title": "waku \u2014 A Native App for Coding Agents, in Rust and GPUI",
     "date_seen": "2026-08-17"
   },
   {
     "url": "https://github.com/kerem-kaynak/mtok",
-    "title": "mtok — Your Token Bill, Computed Entirely From Logs You Already Have",
+    "title": "mtok \u2014 Your Token Bill, Computed Entirely From Logs You Already Have",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/Thomas-E-Lewis/agentleaks",
-    "title": "agentleaks — Your Agent Has Been Saving Your API Keys to Disk",
+    "title": "agentleaks \u2014 Your Agent Has Been Saving Your API Keys to Disk",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/oliverjueguen/workingon-claude-skill",
-    "title": "workingon — Hooks That Write the Ticket You Forgot to Write",
+    "title": "workingon \u2014 Hooks That Write the Ticket You Forgot to Write",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/shibu003/claw-mcp-hub",
-    "title": "claw-mcp-hub — Twenty Processes Doing the Work of Two",
+    "title": "claw-mcp-hub \u2014 Twenty Processes Doing the Work of Two",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/dejo1307/augur",
-    "title": "augur — Hidden Characters and Watermarks, in Your Own Files",
+    "title": "augur \u2014 Hidden Characters and Watermarks, in Your Own Files",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/unclecode/toolshrink",
-    "title": "toolshrink — Cut Tool Output by What It Means, Not Where It Was Cut",
+    "title": "toolshrink \u2014 Cut Tool Output by What It Means, Not Where It Was Cut",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/adand-91/requirement-ledger",
-    "title": "requirement-ledger — From Vibe Coding to Knowing What You Wanted",
+    "title": "requirement-ledger \u2014 From Vibe Coding to Knowing What You Wanted",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://statuslin.es",
-    "title": "statuslin.es — A Community Library for Claude Code Status Lines",
+    "title": "statuslin.es \u2014 A Community Library for Claude Code Status Lines",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/KentoShimizu/zanei",
-    "title": "zanei — Your Computer's Activity as an Agent-Readable Timeline",
+    "title": "zanei \u2014 Your Computer's Activity as an Agent-Readable Timeline",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/bawadou/ai-data-extractor",
-    "title": "ai-data-extractor — Get Your Chat History Out Before It Expires",
+    "title": "ai-data-extractor \u2014 Get Your Chat History Out Before It Expires",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/yetone/cumora",
-    "title": "cumora — Team Chat Where the Agents Are Teammates",
+    "title": "cumora \u2014 Team Chat Where the Agents Are Teammates",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/rakib-nyc/skillassay",
-    "title": "skillassay — Measure the Always-On Context Cost of Your CLAUDE.md",
+    "title": "skillassay \u2014 Measure the Always-On Context Cost of Your CLAUDE.md",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/grpcer/ownmem",
-    "title": "ownmem — Git-Native Markdown Memory for Every Agent at Once",
+    "title": "ownmem \u2014 Git-Native Markdown Memory for Every Agent at Once",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/hibeekaey/agent-sync",
-    "title": "agent-sync — Stop in One Agent, Pick Up in Another",
+    "title": "agent-sync \u2014 Stop in One Agent, Pick Up in Another",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://cronloop.ai",
-    "title": "Cronloop — Claude Code on a Schedule, for $25 a Month",
+    "title": "Cronloop \u2014 Claude Code on a Schedule, for $25 a Month",
     "date_seen": "2026-08-18"
   },
   {
     "url": "https://github.com/janwilmake/agent-codemode",
-    "title": "agent-codemode — Let the Scripts Your Agent Writes Call Your MCP Servers",
+    "title": "agent-codemode \u2014 Let the Scripts Your Agent Writes Call Your MCP Servers",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/shaswatco/agent-trajectory",
-    "title": "agent-trajectory — One Live Feed for Every Agent on the Box",
+    "title": "agent-trajectory \u2014 One Live Feed for Every Agent on the Box",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/ldbumble/taskuary",
-    "title": "taskuary — Email, Slack and Reports Into One Timeline Your Agents Work",
+    "title": "taskuary \u2014 Email, Slack and Reports Into One Timeline Your Agents Work",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/MargoRSq/voiceflow",
-    "title": "voiceflow — Local Voice Dictation for Linux, Finally",
+    "title": "voiceflow \u2014 Local Voice Dictation for Linux, Finally",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/andresjmnz92-jpg/subagent-startup-cost",
-    "title": "subagent-startup-cost — You Pay for the Rules Your Subagent Cannot Act On",
+    "title": "subagent-startup-cost \u2014 You Pay for the Rules Your Subagent Cannot Act On",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/Anitier2005/FakeLLM",
-    "title": "FakeLLM — A Local Server That Shows You What Your Agent Actually Sent",
+    "title": "FakeLLM \u2014 A Local Server That Shows You What Your Agent Actually Sent",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/Zuhair-01/open-axis",
-    "title": "open-axis — One Control Plane, Three Coding Agents, Real Fallback",
+    "title": "open-axis \u2014 One Control Plane, Three Coding Agents, Real Fallback",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/hehee9/codex-compressor",
-    "title": "codex-compressor — Validated Cumulative Handoffs Across Fresh Context Windows",
+    "title": "codex-compressor \u2014 Validated Cumulative Handoffs Across Fresh Context Windows",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/vtimame/istok.sh",
-    "title": "istok.sh — Local-First Project State for Coding Agents",
+    "title": "istok.sh \u2014 Local-First Project State for Coding Agents",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/charlesdove977/watchvideo",
-    "title": "watchvideo — yt-dlp + ffmpeg + Whisper as One Claude Skill, No API Key",
+    "title": "watchvideo \u2014 yt-dlp + ffmpeg + Whisper as One Claude Skill, No API Key",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/AFSlayer/antigravity-remote",
-    "title": "antigravity-remote — Your Desktop Agent, From Your Phone, One Binary",
+    "title": "antigravity-remote \u2014 Your Desktop Agent, From Your Phone, One Binary",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://keepnow.app",
-    "title": "KeepNow — One Command Turns a Coding Session Into a Clean Note",
+    "title": "KeepNow \u2014 One Command Turns a Coding Session Into a Clean Note",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/Anu1606-dev/SnapSpend",
-    "title": "SnapSpend — Snap the Receipt, Then Ask Your Own Spending Questions",
+    "title": "SnapSpend \u2014 Snap the Receipt, Then Ask Your Own Spending Questions",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/Roxx0x/recall",
-    "title": "recall — An Evaluation Harness for Agent Memory",
+    "title": "recall \u2014 An Evaluation Harness for Agent Memory",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://www.producthunt.com/products/taku-ai",
-    "title": "Taku AI — Borrow the Best AI Setups and Make Them Yours",
+    "title": "Taku AI \u2014 Borrow the Best AI Setups and Make Them Yours",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/mukundzha/avouch",
-    "title": "avouch — Review the Python You Changed, Not the Python You Inherited",
+    "title": "avouch \u2014 Review the Python You Changed, Not the Python You Inherited",
     "date_seen": "2026-08-19"
   },
   {
     "url": "https://github.com/wolfiesch/omp-best-of",
-    "title": "omp-best-of — Best-of-N Coding Agents With a Verifier Picking the Winner",
+    "title": "omp-best-of \u2014 Best-of-N Coding Agents With a Verifier Picking the Winner",
     "date_seen": "2026-08-19"
+  },
+  {
+    "url": "https://github.com/AntigmaLabs/ante-preview",
+    "title": "Ante \u2014 Coding Agent in a Single Offline Binary",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/neochoon/agenthud",
+    "title": "AgentHUD \u2014 TUI Dashboard for Claude Code Sub-Agent Sessions",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
+    "title": "Claude Code Agent Monitor \u2014 Real-Time Web Dashboard",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/jsclayton/ynab-mcp",
+    "title": "YNAB MCP \u2014 Budget Analysis via Claude",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://www.producthunt.com/products/murmell",
+    "title": "Murmell \u2014 Shared Cloud Canvas for Team + AI Agents",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/Cynrath/agent-context-kit",
+    "title": "agent-context-kit \u2014 Offline CLI for AI Coding Agent Context Files",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/softcery/claude-voice",
+    "title": "claude-voice (softcery) \u2014 Chrome Extension for Voice on Claude.ai",
+    "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/basnijholt/agent-cli",
+    "title": "agent-cli (basnijholt) \u2014 Local TTS/STT + Worktree Management Suite",
+    "date_seen": "2026-08-20"
   }
 ]
