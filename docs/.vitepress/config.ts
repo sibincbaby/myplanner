@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-21', link: '/daily/2026-08-21' },
           { text: '2026-08-20', link: '/daily/2026-08-20' },
           { text: '2026-08-19', link: '/daily/2026-08-19' },
           { text: '2026-08-18', link: '/daily/2026-08-18' },
@@ -68,6 +69,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Deepresearch', link: '/projects/2026-08-21-deepresearch' },
+          { text: 'Journal', link: '/projects/2026-08-21-journal' },
+          { text: 'Loopx', link: '/projects/2026-08-21-loopx' },
           { text: 'Contextkit', link: '/projects/2026-08-20-contextkit' },
           { text: 'Murmell', link: '/projects/2026-08-20-murmell' },
           { text: 'Agenthud', link: '/projects/2026-08-20-agenthud' },

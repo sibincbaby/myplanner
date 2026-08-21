@@ -2468,5 +2468,50 @@
     "url": "https://github.com/basnijholt/agent-cli",
     "title": "agent-cli (basnijholt) \u2014 Local TTS/STT + Worktree Management Suite",
     "date_seen": "2026-08-20"
+  },
+  {
+    "url": "https://github.com/huangruiteng/loopx",
+    "title": "LoopX \u2014 Durable Agent State Kernel for Long-Horizon Multi-Session Work",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/24601/agent-deep-research",
+    "title": "agent-deep-research \u2014 Universal Gemini RAG Deep Research Skill for 30+ Agents",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/obra/private-journal-mcp",
+    "title": "private-journal-mcp \u2014 Private Journaling MCP with Local Semantic Search for Claude",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/chrismbryant/claude-journal-mcp",
+    "title": "claude-journal-mcp \u2014 Zero-ML Journal and Memory Plugin for Claude Code",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/GCWing/BitFun",
+    "title": "BitFun \u2014 Rust+Tauri Desktop Agent with Code, Computer Use, and General Purpose Agents",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://www.codewithbullet.com/",
+    "title": "Bullet (YC S26) \u2014 30-60% Faster Coding Agent with Parallel Execution",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
+    "title": "Expense-tracker-MCP \u2014 MCP Server for Expense and Income Tracking via Claude",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "title": "omnigent \u2014 Policy Enforcement and Sandboxing Across Agent Harnesses",
+    "date_seen": "2026-08-21"
+  },
+  {
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "title": "DeepSeek-Reasonix \u2014 DeepSeek-Native Go Terminal Coding Agent with Prefix-Cache Stability",
+    "date_seen": "2026-08-21"
   }
 ]
