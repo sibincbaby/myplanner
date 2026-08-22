@@ -2470,23 +2470,8 @@
     "date_seen": "2026-08-20"
   },
   {
-    "url": "https://github.com/huangruiteng/loopx",
-    "title": "LoopX \u2014 Durable Agent State Kernel for Long-Horizon Multi-Session Work",
-    "date_seen": "2026-08-21"
-  },
-  {
     "url": "https://github.com/24601/agent-deep-research",
     "title": "agent-deep-research \u2014 Universal Gemini RAG Deep Research Skill for 30+ Agents",
-    "date_seen": "2026-08-21"
-  },
-  {
-    "url": "https://github.com/obra/private-journal-mcp",
-    "title": "private-journal-mcp \u2014 Private Journaling MCP with Local Semantic Search for Claude",
-    "date_seen": "2026-08-21"
-  },
-  {
-    "url": "https://github.com/chrismbryant/claude-journal-mcp",
-    "title": "claude-journal-mcp \u2014 Zero-ML Journal and Memory Plugin for Claude Code",
     "date_seen": "2026-08-21"
   },
   {
@@ -2500,18 +2485,83 @@
     "date_seen": "2026-08-21"
   },
   {
-    "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
-    "title": "Expense-tracker-MCP \u2014 MCP Server for Expense and Income Tracking via Claude",
-    "date_seen": "2026-08-21"
+    "url": "https://github.com/Leutenegger/claudish-to-english",
+    "title": "Leutenegger/claudish-to-english \u2014 580\u2605 Verbatim Clone of gvzdv/claudish-to-english (README md5-Identical)",
+    "date_seen": "2026-08-23"
   },
   {
-    "url": "https://github.com/omnigent-ai/omnigent",
-    "title": "omnigent \u2014 Policy Enforcement and Sandboxing Across Agent Harnesses",
-    "date_seen": "2026-08-21"
+    "url": "https://github.com/dlhck/strip-clanker-attribution",
+    "title": "strip-clanker-attribution \u2014 Strip AI Co-Authored-By and Attribution Trailers in a commit-msg Hook",
+    "date_seen": "2026-08-23"
   },
   {
-    "url": "https://github.com/esengine/DeepSeek-Reasonix",
-    "title": "DeepSeek-Reasonix \u2014 DeepSeek-Native Go Terminal Coding Agent with Prefix-Cache Stability",
-    "date_seen": "2026-08-21"
+    "url": "https://github.com/mcxiaochenn/AiUsage",
+    "title": "AiUsage \u2014 Flutter+Rust Local-First Mobile Monitor for Codex Usage Limits",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/isCopyman/cli-delegate",
+    "title": "cli-delegate \u2014 Spawn grok/cursor/claude/codex as a Child CLI and Resume the Same Session",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/chakki-the-potato/open-migrate",
+    "title": "open-migrate \u2014 Move Rules, Skills, Hooks and Permissions Between 4 Coding CLIs",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/willdynan/claude-statusline",
+    "title": "claude-statusline \u2014 5h/7d Rate-Limit Windows with Reset Countdowns (1 of 13 Created in 48h)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/adnanakil/nobuzz",
+    "title": "nobuzz \u2014 /debuzz Claude Code Skill Piping Responses Through Gemini to Strip the Voice",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/gvzdv/claudish-to-english",
+    "title": "claudish-to-english \u2014 Rewrite Each Assistant Message into Plain Language via Local Ollama",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/Mr-AK-AI/agent-office",
+    "title": "agent-office \u2014 Terminal-Native Delegation for Local CLI Agents in Named tmux Rooms",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/Parthuss/stash",
+    "title": "stash \u2014 Instagram Saves into a Transcribed Markdown Vault Claude Finds on Its Own",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/iamcheyan/omarchy-voxtype-enhance",
+    "title": "omarchy-voxtype-enhance \u2014 Omarchy Voice-Input Plugin with Offline Models and Universal Paste",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/dennis2lee/local-dictation",
+    "title": "local-dictation \u2014 Offline Korean/English Dictation Typing at Your Cursor, Whisper on CPU",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "title": "munder-difflin \u2014 Agent Harness Running an Office of Your Clones Across 12 CLI Agents",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/yesheng-oss/context-mcp-subgraph",
+    "title": "context-mcp-subgraph \u2014 Tree-sitter Code Knowledge Graph and Budgeted Context Retrieval MCP",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/tiammomo/RepoSteward",
+    "title": "RepoSteward \u2014 Local-First Policy-Gated Control Plane Turning Issues into Verified PRs",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://skillworks.kynth.studio",
+    "title": "SkillWorks \u2014 Every Claude Code Skill Scored Nightly on Whether It Actually Loads",
+    "date_seen": "2026-08-23"
   }
 ]

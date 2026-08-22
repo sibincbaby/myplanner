@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-23', link: '/daily/2026-08-23' },
           { text: '2026-08-21', link: '/daily/2026-08-21' },
           { text: '2026-08-20', link: '/daily/2026-08-20' },
           { text: '2026-08-19', link: '/daily/2026-08-19' },
@@ -69,6 +70,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Attribution', link: '/projects/2026-08-23-attribution' },
+          { text: 'Provenance', link: '/projects/2026-08-23-provenance' },
           { text: 'Deepresearch', link: '/projects/2026-08-21-deepresearch' },
           { text: 'Journal', link: '/projects/2026-08-21-journal' },
           { text: 'Loopx', link: '/projects/2026-08-21-loopx' },
