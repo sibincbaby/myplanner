@@ -838,5 +838,53 @@
   {
     "app": "ADP Workforce Now",
     "date_seen": "2026-08-20"
+  },
+  {
+    "app": "Etsy Seller (Shop Manager)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "YouTube Studio (channel back-end)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Salesforce CPQ (SBQQ) / Revenue Cloud",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Apollo.io",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Amazon VPC (network connectivity, Reachability Analyzer)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Google Cloud IAM + Organization Policy",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Acumatica Cloud ERP",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "BigCommerce",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Adobe Analytics (Analysis Workspace)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Microsoft Purview (Data Lifecycle Management / DLP)",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Bitrix24",
+    "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Microsoft Bookings",
+    "date_seen": "2026-08-23"
   }
 ]
