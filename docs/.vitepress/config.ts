@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-24', link: '/daily/2026-08-24' },
           { text: '2026-08-23', link: '/daily/2026-08-23' },
           { text: '2026-08-21', link: '/daily/2026-08-21' },
           { text: '2026-08-20', link: '/daily/2026-08-20' },
@@ -70,6 +71,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Video Vision', link: '/projects/2026-08-24-video-vision' },
+          { text: 'Agentmux', link: '/projects/2026-08-24-agentmux' },
+          { text: 'Maka Sessions', link: '/projects/2026-08-24-maka-sessions' },
           { text: 'Attribution', link: '/projects/2026-08-23-attribution' },
           { text: 'Provenance', link: '/projects/2026-08-23-provenance' },
           { text: 'Deepresearch', link: '/projects/2026-08-21-deepresearch' },

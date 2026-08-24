@@ -2563,5 +2563,55 @@
     "url": "https://skillworks.kynth.studio",
     "title": "SkillWorks \u2014 Every Claude Code Skill Scored Nightly on Whether It Actually Loads",
     "date_seen": "2026-08-23"
+  },
+  {
+    "url": "https://github.com/apache/maka",
+    "title": "apache/maka \u2014 Local-first AI agent workspace with append-only session log",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/markuswondrak/AgentMux",
+    "title": "markuswondrak/AgentMux \u2014 Deterministic tmux-based multi-agent pipeline",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/jordanrendric/claude-video-vision",
+    "title": "jordanrendric/claude-video-vision \u2014 Claude Code plugin for video understanding",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/dzhng/claude-agent-server",
+    "title": "dzhng/claude-agent-server \u2014 Claude Agent SDK WebSocket sandbox server",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/coder/xum",
+    "title": "coder/xum \u2014 Desktop app for isolated parallel agentic development",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/AntigmaLabs/ante",
+    "title": "AntigmaLabs/ante \u2014 Self-contained offline coding agent, single Rust binary",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/prettysmartdev/amux",
+    "title": "prettysmartdev/amux \u2014 Container-isolated agent lifecycle manager",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/andyrewlee/amux",
+    "title": "andyrewlee/amux \u2014 TUI for running parallel coding agents",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/1ay1/agentty",
+    "title": "1ay1/agentty \u2014 Static binary AI pair programming agent",
+    "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/agentscope-ai/AgentTeams",
+    "title": "agentscope-ai/AgentTeams \u2014 Collaborative Multi-Agent OS via Matrix rooms",
+    "date_seen": "2026-08-24"
   }
 ]
