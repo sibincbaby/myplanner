@@ -2613,5 +2613,55 @@
     "url": "https://github.com/agentscope-ai/AgentTeams",
     "title": "agentscope-ai/AgentTeams \u2014 Collaborative Multi-Agent OS via Matrix rooms",
     "date_seen": "2026-08-24"
+  },
+  {
+    "url": "https://github.com/danielvaughn/hz",
+    "title": "hz \u2014 Pseudocode-as-intent coding tool",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/yzhao062/anywhere-agents",
+    "title": "anywhere-agents \u2014 Portable agent config across all AI coding tools",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/TryCaspian/caspian-sdk",
+    "title": "Caspian SDK \u2014 One identity for AI agent across all messaging channels",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/permit0-ai/permit0",
+    "title": "permit0 \u2014 Pre-execution authorization layer for AI agents",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/netresearch/git-workflow-skill",
+    "title": "git-workflow-skill \u2014 Claude Code agent skill for Git workflow best practices",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/addyosmani/agent-skills",
+    "title": "agent-skills \u2014 24 production-grade lifecycle skills for coding agents",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/kylehughes/writing-prose-like-a-human-for-agents",
+    "title": "writing-prose-like-a-human-for-agents \u2014 Skill for prose that doesn't read like AI",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/yzhao062/agent-style",
+    "title": "agent-style \u2014 21 writing rules drop-in for Claude Code and other agents",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/TasniaNitu/finance-ai-assistant",
+    "title": "finance-ai-assistant \u2014 Local-first CSV bank statement analytics with Ollama",
+    "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/simplynd/expense-ai",
+    "title": "expense-ai \u2014 Local LLM + MCP personal finance auditor",
+    "date_seen": "2026-08-25"
   }
 ]
