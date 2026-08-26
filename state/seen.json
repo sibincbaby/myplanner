@@ -2663,5 +2663,40 @@
     "url": "https://github.com/simplynd/expense-ai",
     "title": "expense-ai \u2014 Local LLM + MCP personal finance auditor",
     "date_seen": "2026-08-25"
+  },
+  {
+    "url": "https://github.com/AVIDS2/memorix",
+    "title": "memorix \u2014 Local-First Cross-Agent Memory Layer via MCP",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/agentplugins/agent-plugins-spec",
+    "title": "agent-plugins-spec \u2014 Open Vendor-Neutral Standard for Packaging Agent Skills + MCP Servers",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/Kevthetech143/claude-voice",
+    "title": "claude-voice \u2014 Sub-Second Voice Assistant with Claude Code Integration",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/SynapseLayer/synapse-layer",
+    "title": "synapse-layer \u2014 Encrypted (AES-256-GCM) Persistent MCP Memory with Trust Quotient Scoring",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/epatel/claude-agents-dashboard",
+    "title": "claude-agents-dashboard \u2014 Scrum Board Orchestrating Claude Agents in Isolated Git Worktrees",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/back1ply/agent-skill-loader",
+    "title": "agent-skill-loader \u2014 MCP Server Exposing Claude Code Skills as Slash-Command MCP Prompts",
+    "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/Effeilo/claude-code-frontend-skills",
+    "title": "claude-code-frontend-skills \u2014 Four Claude Code Skills: Review, Refactor, Comments, A11y",
+    "date_seen": "2026-08-26"
   }
 ]

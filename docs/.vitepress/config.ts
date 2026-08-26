@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-26', link: '/daily/2026-08-26' },
           { text: '2026-08-25', link: '/daily/2026-08-25' },
           { text: '2026-08-24', link: '/daily/2026-08-24' },
           { text: '2026-08-23', link: '/daily/2026-08-23' },
@@ -72,6 +73,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Memorix', link: '/projects/2026-08-26-memorix' },
+          { text: 'Agent Plugin', link: '/projects/2026-08-26-agent-plugin' },
+          { text: 'VoiceClaude', link: '/projects/2026-08-26-voiceclaude' },
           { text: 'Anywhere Agents', link: '/projects/2026-08-25-anywhere-agents' },
           { text: 'Hz', link: '/projects/2026-08-25-hz' },
           { text: 'Video Vision', link: '/projects/2026-08-24-video-vision' },
