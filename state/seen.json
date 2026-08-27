@@ -2698,5 +2698,35 @@
     "url": "https://github.com/Effeilo/claude-code-frontend-skills",
     "title": "claude-code-frontend-skills \u2014 Four Claude Code Skills: Review, Refactor, Comments, A11y",
     "date_seen": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+    "title": "llm-wiki-agent \u2014 Self-maintaining knowledge base with contradiction detection and interlinked wiki pages",
+    "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/QwenAudio/qwen-audio-agent",
+    "title": "qwen-audio-agent \u2014 Full-duplex voice runtime for Claude Code and Codex coding agent sessions",
+    "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/Jordanrendric/claude-video-vision",
+    "title": "claude-video-vision \u2014 Claude Code plugin for adaptive video frame extraction and Whisper audio analysis",
+    "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/Bdaya-Dev/flutter-ultra-mcp",
+    "title": "flutter-ultra-mcp \u2014 8 MCP servers, 295 tools, 31 skills for Flutter AI agent development with Claude Code",
+    "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/ginlix-ai/langalpha",
+    "title": "langalpha \u2014 Claude+LangChain financial market research agent with PTC sandbox execution",
+    "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/cdinnison/ray-finance",
+    "title": "ray-finance \u2014 AI CFO CLI with Plaid bank sync and AES-256 local encrypted storage",
+    "date_seen": "2026-08-27"
   }
 ]
