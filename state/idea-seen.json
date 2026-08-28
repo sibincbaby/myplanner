@@ -886,5 +886,53 @@
   {
     "app": "Microsoft Bookings",
     "date_seen": "2026-08-23"
+  },
+  {
+    "app": "Google Forms",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "SonarQube (Community/Developer/Enterprise Edition)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "JFrog Artifactory",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "GoHighLevel (HighLevel)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Braze \u2014 Canvas customer-journey builder",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Avid Pro Tools",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) \u2014 Business Manager Campaigns & Promotions",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Anaplan",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "BlackLine",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "SAS (Base SAS / SAS Enterprise Guide, on-prem or SAS Viya)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Keap (formerly Infusionsoft)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "app": "Audiokinetic Wwise",
+    "date_seen": "2026-08-29"
   }
 ]
