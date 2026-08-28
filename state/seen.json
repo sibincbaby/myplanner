@@ -2728,5 +2728,55 @@
     "url": "https://github.com/cdinnison/ray-finance",
     "title": "ray-finance \u2014 AI CFO CLI with Plaid bank sync and AES-256 local encrypted storage",
     "date_seen": "2026-08-27"
+  },
+  {
+    "url": "https://github.com/aayushdebugging/claude-voice",
+    "title": "claude-voice \u2014 TypeScript voice CLI for Claude CLI: gapless STT\u2192Claude\u2192TTS with barge-in and Kokoro/ElevenLabs",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "title": "CLI-Anything \u2014 Auto-generate agent-native CLI wrappers for any desktop software; 7-phase pipeline; 48k stars",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/JanYork/llm-wiki-cli",
+    "title": "llm-wiki-cli (LWC) \u2014 Machine-first persistent memory CLI for AI agents: hierarchical recall, CodeGraph, Rust + SQLite",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/DOMCHURCH/Gnosis",
+    "title": "Gnosis \u2014 Terminal coding agent with 3D office UI, Obsidian vault memory, OpenRouter model switching",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/Surething-io/cockpit",
+    "title": "OpenCockpit \u2014 Multi-engine agent IDE with Smart Bubbles (Chrome, Postgres, Redis) and LAN code review",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/nirholas/three.ws",
+    "title": "three.ws \u2014 3D AI agent framework: GLB/glTF avatars with LLM brains, memory, and emotions",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/nirholas/XActions",
+    "title": "XActions \u2014 X/Twitter automation toolkit with MCP server for AI agents; no API fees",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/Peiiii/nextclaw",
+    "title": "NextClaw \u2014 Self-hosted agent workspace with Panel Apps, scheduled workflows, and Telegram/Slack messaging",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/prime-radiant-inc/evener",
+    "title": "evener \u2014 Minimal coding agent: prompt \u2192 read/write/run/search; 117 stars",
+    "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/spikonado/sprocket",
+    "title": "sprocket \u2014 AI agent for hardware + software co-development: schematics, BOM generation, web component purchasing",
+    "date_seen": "2026-08-28"
   }
 ]

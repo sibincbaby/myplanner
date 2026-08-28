@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-08-28', link: '/daily/2026-08-28' },
           { text: '2026-08-27', link: '/daily/2026-08-27' },
           { text: '2026-08-26', link: '/daily/2026-08-26' },
           { text: '2026-08-25', link: '/daily/2026-08-25' },
@@ -74,6 +75,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Lwc', link: '/projects/2026-08-28-lwc' },
+          { text: 'Cockpit', link: '/projects/2026-08-28-cockpit' },
+          { text: 'Nextclaw', link: '/projects/2026-08-28-nextclaw' },
           { text: 'Llm Wiki', link: '/projects/2026-08-27-llm-wiki' },
           { text: 'Qwen Voice', link: '/projects/2026-08-27-qwen-voice' },
           { text: 'Video Vision', link: '/projects/2026-08-27-video-vision' },
