@@ -2778,5 +2778,55 @@
     "url": "https://github.com/spikonado/sprocket",
     "title": "sprocket \u2014 AI agent for hardware + software co-development: schematics, BOM generation, web component purchasing",
     "date_seen": "2026-08-28"
+  },
+  {
+    "url": "https://github.com/damejan80/tokentab",
+    "title": "tokentab \u2014 Cost breakdown for Claude Code, Codex, Gemini CLI logs by model/project/day",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/tiago-quinha/LEGER_OS",
+    "title": "LEGER_OS \u2014 Zero-credential personal finance via Android notification parsing",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/jameskomo/config-drift-checker",
+    "title": "config-drift-checker \u2014 CI for your Claude Code config (CLAUDE.md, skills, hooks)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/RomanVolkov/agentctl",
+    "title": "agentctl \u2014 Terraform for your agent harnesses (OpenCode/Agy/Claude Code/Codex)",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/dev-boffin-io/mind-forge-pro",
+    "title": "mind-forge-pro \u2014 Offline agentic AI assistant for Android, Flutter + llama.cpp + local RAG",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/niki-kothari/Income-Expense-Tracker",
+    "title": "Income-Expense-Tracker \u2014 Claude-powered expense tracker with receipt OCR",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/Endokelp/Only-Skill-You-Need",
+    "title": "Only-Skill-You-Need \u2014 Meta skill router for coding agents",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/naderelewa/Product-to-Prod",
+    "title": "Product-to-Prod \u2014 AI product management skill suite for Claude Code",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/samagra14/openinstinct",
+    "title": "OpenInstinct \u2014 Always-on AI assistant via SMS/iMessage/email/calls, Codex-based",
+    "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/samsouta/ChawFi",
+    "title": "ChawFi \u2014 AI personal finance companion, natural-language budget tracking",
+    "date_seen": "2026-08-29"
   }
 ]
