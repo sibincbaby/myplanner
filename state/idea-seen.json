@@ -934,5 +934,53 @@
   {
     "app": "Audiokinetic Wwise",
     "date_seen": "2026-08-29"
+  },
+  {
+    "app": "New Relic (observability platform: APM, infrastructure, logs, browser/mobile, synthetics, alerts)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Google Cloud Operations Suite (Cloud Monitoring + Cloud Logging: alerting policies, SLOs, log-based metrics, dashboards)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Close (close.com)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "LaunchDarkly (feature flag & progressive delivery platform)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Zoho Books",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Redmine",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Coda",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Backstage (Spotify/CNCF developer portal)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "SAP Business One (SME/mid-market ERP)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Oracle Eloqua",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "ChannelAdvisor (now Rithum)",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "app": "IBM Cognos Analytics",
+    "date_seen": "2026-08-30"
   }
 ]
