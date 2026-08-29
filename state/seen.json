@@ -2828,5 +2828,30 @@
     "url": "https://github.com/samsouta/ChawFi",
     "title": "ChawFi \u2014 AI personal finance companion, natural-language budget tracking",
     "date_seen": "2026-08-29"
+  },
+  {
+    "url": "https://github.com/OMD-123/agent-loop-guard",
+    "title": "agent-loop-guard \u2014 Runaway Loop Protection for AI Agents",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "url": "https://github.com/wybe-labs/session-multiplayer",
+    "title": "session-multiplayer \u2014 Serverless P2P Session Sync Across Agent Harnesses",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "url": "https://github.com/srlabs/skillforge",
+    "title": "skillforge \u2014 Evolve Claude Code Skills from Measured Agent Experience",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "url": "https://github.com/Capetlevrai/resume-claude-codex-grok",
+    "title": "resume-claude-codex-grok \u2014 Resume One CLI Agent's Work Inside Another",
+    "date_seen": "2026-08-30"
+  },
+  {
+    "url": "https://github.com/Manny7717/beepy",
+    "title": "beepy \u2014 Push Notifications to ntfy from Agents, Cron, and CI",
+    "date_seen": "2026-08-30"
   }
 ]
