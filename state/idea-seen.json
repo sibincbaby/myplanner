@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL\u2192SQL)",
+    "app": "DBeaver (NL→SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
+    "app": "Google Slides / PowerPoint — template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word \u2014 mail merge & Styles automation",
+    "app": "Microsoft Word — mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -592,7 +592,7 @@
     "date_seen": "2026-08-13"
   },
   {
-    "app": "Google Sheets \u2014 pivot tables & QUERY()",
+    "app": "Google Sheets — pivot tables & QUERY()",
     "date_seen": "2026-08-13"
   },
   {
@@ -656,7 +656,7 @@
     "date_seen": "2026-08-15"
   },
   {
-    "app": "Make (Integromat) \u2014 scenarios, iterators/aggregators, blueprints",
+    "app": "Make (Integromat) — scenarios, iterators/aggregators, blueprints",
     "date_seen": "2026-08-15"
   },
   {
@@ -904,7 +904,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Braze \u2014 Canvas customer-journey builder",
+    "app": "Braze — Canvas customer-journey builder",
     "date_seen": "2026-08-29"
   },
   {
@@ -912,7 +912,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) \u2014 Business Manager Campaigns & Promotions",
+    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) — Business Manager Campaigns & Promotions",
     "date_seen": "2026-08-29"
   },
   {
@@ -982,5 +982,53 @@
   {
     "app": "IBM Cognos Analytics",
     "date_seen": "2026-08-30"
+  },
+  {
+    "app": "Gmail (filters, labels, multiple inboxes, forwarding, canned responses)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Sentry (error monitoring & performance/tracing platform)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Autodesk Maya",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "SideFX Houdini",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Google Docs",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "CircleCI",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Outreach (sales engagement / cadence platform)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Microsoft OneNote",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Tenable.io / Nessus (vulnerability management)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Twilio Segment (Customer Data Platform — Protocols, Personas/Engage, Connections)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Algolia (Search & Discovery — Rules, Ranking, Merchandising, Recommend)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Vtiger CRM (Open Source Edition, self-hostable; also Vtiger Cloud)",
+    "date_seen": "2026-08-31"
   }
 ]
