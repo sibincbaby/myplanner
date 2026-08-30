@@ -2853,5 +2853,55 @@
     "url": "https://github.com/Manny7717/beepy",
     "title": "beepy \u2014 Push Notifications to ntfy from Agents, Cron, and CI",
     "date_seen": "2026-08-30"
+  },
+  {
+    "url": "https://github.com/duhhitsHIM/Relay",
+    "title": "Relay \u2014 Multi-Provider Failover Proxy for Claude Code",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/youwei792/agentsmd",
+    "title": "agentsmd \u2014 CI for Your AI Agent's Instructions (AGENTS.md/CLAUDE.md)",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/drephantom/memory-garden",
+    "title": "memory-garden \u2014 Personal Cognitive-Retrospect Agent over Obsidian",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/0xenesbayram/teamwork-skill",
+    "title": "teamwork-skill \u2014 Run Big Jobs with a Team of Claude Code Sessions",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/TravinDSO/myvoice-skill",
+    "title": "myvoice-skill \u2014 Portable Writing-Voice Skill for Claude Code/Codex",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/modiqo/spewer",
+    "title": "spewer \u2014 Delegate Bounded Agent Work to Cheaper Models",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/EltonCherrington/memctl",
+    "title": "memctl \u2014 Versioned Memory for CLAUDE.md/AGENTS.md",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/Patrick-Lee-0755/codex-task-deck",
+    "title": "codex-task-deck \u2014 Local/Remote Codex Task Workbench",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://velocitynote.app/",
+    "title": "VelocityNote \u2014 Tiny Markdown Notebook with Local AI",
+    "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://murmell.com/",
+    "title": "Murmell \u2014 Collaborative Cloud Canvas for Coding Agents",
+    "date_seen": "2026-08-31"
   }
 ]
