@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL→SQL)",
+    "app": "DBeaver (NL\u2192SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint — template-driven deck generation",
+    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word — mail merge & Styles automation",
+    "app": "Microsoft Word \u2014 mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -592,7 +592,7 @@
     "date_seen": "2026-08-13"
   },
   {
-    "app": "Google Sheets — pivot tables & QUERY()",
+    "app": "Google Sheets \u2014 pivot tables & QUERY()",
     "date_seen": "2026-08-13"
   },
   {
@@ -656,7 +656,7 @@
     "date_seen": "2026-08-15"
   },
   {
-    "app": "Make (Integromat) — scenarios, iterators/aggregators, blueprints",
+    "app": "Make (Integromat) \u2014 scenarios, iterators/aggregators, blueprints",
     "date_seen": "2026-08-15"
   },
   {
@@ -904,7 +904,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Braze — Canvas customer-journey builder",
+    "app": "Braze \u2014 Canvas customer-journey builder",
     "date_seen": "2026-08-29"
   },
   {
@@ -912,7 +912,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) — Business Manager Campaigns & Promotions",
+    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) \u2014 Business Manager Campaigns & Promotions",
     "date_seen": "2026-08-29"
   },
   {
@@ -1020,15 +1020,63 @@
     "date_seen": "2026-08-31"
   },
   {
-    "app": "Twilio Segment (Customer Data Platform — Protocols, Personas/Engage, Connections)",
+    "app": "Twilio Segment (Customer Data Platform \u2014 Protocols, Personas/Engage, Connections)",
     "date_seen": "2026-08-31"
   },
   {
-    "app": "Algolia (Search & Discovery — Rules, Ranking, Merchandising, Recommend)",
+    "app": "Algolia (Search & Discovery \u2014 Rules, Ranking, Merchandising, Recommend)",
     "date_seen": "2026-08-31"
   },
   {
     "app": "Vtiger CRM (Open Source Edition, self-hostable; also Vtiger Cloud)",
     "date_seen": "2026-08-31"
+  },
+  {
+    "app": "Excel / Google Sheets \u2014 Advanced Formula Engine (XLOOKUP, INDEX/MATCH, SUMPRODUCT, dynamic arrays, LAMBDA/LET)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "ArgoCD (GitOps continuous delivery for Kubernetes)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "Freshsales (Freshworks CRM Suite)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "SalesLoft",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "Gorgias",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "KNIME Analytics Platform",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "Snyk (developer security platform)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "Foundry Nuke (industry-standard node-based VFX compositor \u2014 used on nearly every VFX/film pipeline; not open-source but has a free non-commercial NukeX version and a fully scriptable engine)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "IBM Planning Analytics (TM1)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "MicroStrategy (MicroStrategy ONE)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "Istio (service mesh)",
+    "date_seen": "2026-09-01"
+  },
+  {
+    "app": "OpenProject",
+    "date_seen": "2026-09-01"
   }
 ]
