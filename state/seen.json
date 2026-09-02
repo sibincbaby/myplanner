@@ -2903,5 +2903,50 @@
     "url": "https://murmell.com/",
     "title": "Murmell \u2014 Collaborative Cloud Canvas for Coding Agents",
     "date_seen": "2026-08-31"
+  },
+  {
+    "url": "https://github.com/nandoolle/open-voice",
+    "title": "open-voice \u2014 Fully Local Hands-Free Voice Loop for Claude Code",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/m-sanchez/clawdeck",
+    "title": "clawdeck \u2014 Watch Claude Code Work",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/motif-Labs/motif",
+    "title": "motif \u2014 Working Memory for AI Coding Agents",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/willyzanardo/sabrina",
+    "title": "sabrina \u2014 Local-First macOS Focus Assistant",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/m3n99/Multiple-Claude-Code-Accounts-with-Separated-Storage",
+    "title": "Multiple Claude Code Accounts with Separated Storage",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/mathdevie/devie-ai-quota-tracker",
+    "title": "devie \u2014 AI Quota Tracker",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/PsSave/trayt",
+    "title": "trayt \u2014 System Tray Dashboard for AI Coding Agent Usage",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/blamezdn/DiaryCache",
+    "title": "DiaryCache \u2014 Local Notepad with AI Briefs",
+    "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/kan9667/kalasetu",
+    "title": "kalasetu \u2014 Artisan Photo/Voice to Priced Bilingual Listing",
+    "date_seen": "2026-09-03"
   }
 ]
