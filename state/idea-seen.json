@@ -1174,5 +1174,53 @@
   {
     "app": "HashiCorp Consul",
     "date_seen": "2026-09-03"
+  },
+  {
+    "app": "Clover POS (Fiserv)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "MikroTik RouterOS",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Adobe Workfront",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "REDCap (Vanderbilt)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Zuora (Billing + Revenue/Workflow)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Esri ArcGIS Pro + ArcGIS Online",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "cPanel & WHM",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Box (Content Cloud)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "vMix",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "RingCentral (RingEX)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Coupa (Spend Management / Procure-to-Pay)",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "app": "Drupal (core + Views UI + Layout Builder)",
+    "date_seen": "2026-09-04"
   }
 ]
