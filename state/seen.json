@@ -2948,5 +2948,55 @@
     "url": "https://github.com/kan9667/kalasetu",
     "title": "kalasetu \u2014 Artisan Photo/Voice to Priced Bilingual Listing",
     "date_seen": "2026-09-03"
+  },
+  {
+    "url": "https://github.com/Ratul1997/termlinks",
+    "title": "termlinks \u2014 Desktop\u2192Phone Continuity for Terminals and Coding Agents",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/permgps/herdr-telegram-agents",
+    "title": "herdr-telegram-agents \u2014 Drive Coding Agents from Telegram",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/nickelsec/bough",
+    "title": "bough \u2014 What You Actually Did, from Claude Code History",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/Subhash0430/Expense-IQ",
+    "title": "Expense IQ \u2014 Flutter SMS-Parsing Expense Tracker",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/Sertelegger/holdfast",
+    "title": "holdfast \u2014 Persistent PTY-Backed Shell MCP",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/Maxteabag/clarp",
+    "title": "Clarp Host \u2014 Self-Hosted Server + PWA + Tauri Desktop for Coding Agents",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/icesword0760/matou",
+    "title": "Matou (\u7801\u5934) \u2014 macOS Multi-Agent Workbench for Claude Code",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/ahmedco88/upnote-mcp",
+    "title": "upnote-mcp \u2014 MCP Server for UpNote",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/dev-dull/dubber-ruck",
+    "title": "dubber-ruck \u2014 Local Second Opinion for Claude Code",
+    "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/gethrbr/context-tax",
+    "title": "context-tax \u2014 What Your Agent's Context Costs Every Turn",
+    "date_seen": "2026-09-04"
   }
 ]
