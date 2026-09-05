@@ -2998,5 +2998,55 @@
     "url": "https://github.com/gethrbr/context-tax",
     "title": "context-tax \u2014 What Your Agent's Context Costs Every Turn",
     "date_seen": "2026-09-04"
+  },
+  {
+    "url": "https://github.com/vinzdg/codenotch",
+    "title": "codenotch \u2014 Usage Limits Pinned to a Screen Edge",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/shaheer-00/claude-adhd",
+    "title": "claude-adhd \u2014 Gentle Reminders for Unfinished Threads",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/AGGIB/Stroq",
+    "title": "Stroq \u2014 Local Action Firewall for Coding Agents",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/anshulforyou/evolving-mcp",
+    "title": "evolving-mcp \u2014 An MCP Server That Writes Its Own Tools",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/huang-sh/PiX",
+    "title": "PiX \u2014 Non-Linear Agent Workbench (Session as a Tree)",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/CSPF-Founder/redactproxy",
+    "title": "redactproxy \u2014 Keep Client Data Out of Claude Code",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/GoldDHacker/codegraph-explorer-skill",
+    "title": "codegraph-explorer-skill \u2014 Codebase as a Queryable Knowledge Graph",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/NishikantaRay/Attic",
+    "title": "Attic \u2014 Findings That Survive /compact",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/qi001007/uiverse-bridge",
+    "title": "uiverse-bridge \u2014 Point at a UI Element, Agent Gets the Source File",
+    "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/Ppresha/ai-budgeting-app",
+    "title": "Ledger \u2014 Local AI-Assisted Budgeting from Bank CSVs",
+    "date_seen": "2026-09-06"
   }
 ]
