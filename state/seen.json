@@ -2710,18 +2710,8 @@
     "date_seen": "2026-08-27"
   },
   {
-    "url": "https://github.com/Jordanrendric/claude-video-vision",
-    "title": "claude-video-vision \u2014 Claude Code plugin for adaptive video frame extraction and Whisper audio analysis",
-    "date_seen": "2026-08-27"
-  },
-  {
     "url": "https://github.com/Bdaya-Dev/flutter-ultra-mcp",
     "title": "flutter-ultra-mcp \u2014 8 MCP servers, 295 tools, 31 skills for Flutter AI agent development with Claude Code",
-    "date_seen": "2026-08-27"
-  },
-  {
-    "url": "https://github.com/ginlix-ai/langalpha",
-    "title": "langalpha \u2014 Claude+LangChain financial market research agent with PTC sandbox execution",
     "date_seen": "2026-08-27"
   },
   {
@@ -3048,5 +3038,75 @@
     "url": "https://github.com/Ppresha/ai-budgeting-app",
     "title": "Ledger \u2014 Local AI-Assisted Budgeting from Bank CSVs",
     "date_seen": "2026-09-06"
+  },
+  {
+    "url": "https://github.com/HutsuliakDmytro/d-code",
+    "title": "d-code \u2014 Unofficial Desktop Client for the Claude Code CLI",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/aknakshay/Agent-Tarmac",
+    "title": "Agent-Tarmac \u2014 Mission Control for Every Local Agent Session",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/omerburakpolat/overture",
+    "title": "overture \u2014 macOS Kanban Harness Where Cards Are Agent Sessions",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/thegoodengineers/agit",
+    "title": "agit \u2014 Inspect, Replay, Share and Fork Agent Sessions",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/Stormix/transcripts-mcp",
+    "title": "transcripts-mcp \u2014 Search Local Cursor/Claude/Codex Transcripts via MCP",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/zaghaghi/toolog",
+    "title": "toolog \u2014 Local Audit Trail for Claude Code Tool Calls",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/bshea-1/Routed",
+    "title": "Routed \u2014 Zero-Token Local Router for Agent Skills",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/theamazingyogita/flutter-no-slop",
+    "title": "flutter-no-slop \u2014 Teach Your Agent to Stop Over-Nesting Widgets",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/Vince01875/WeChat-ai-finance-assistant-skill",
+    "title": "WeChat AI Finance Assistant \u2014 Natural-Language Expense Tracking Skill",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/akanshasingh30nov-creator/likhlo-ai",
+    "title": "Likh Lo \u2014 Voice-First AI Khata and Ledger Copilot",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/leazoot/clift",
+    "title": "clift \u2014 Paste a Screenshot Into the Agent on Your Server",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/Basiliskin/nimvarya",
+    "title": "nimvarya \u2014 Let Coding Agents Drive Chrome Without Stealing Focus",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/ontoplano/ontoplano",
+    "title": "ontoplano \u2014 FOSS Life Management App With an MCP Server",
+    "date_seen": "2026-09-07"
+  },
+  {
+    "url": "https://github.com/kevinchiha/loopgraph",
+    "title": "loopgraph \u2014 The Agent Builds Its Own Work/Gate/Correct Loop",
+    "date_seen": "2026-09-07"
   }
 ]
