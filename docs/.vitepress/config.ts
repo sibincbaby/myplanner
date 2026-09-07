@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-09-08', link: '/daily/2026-09-08' },
           { text: '2026-09-07', link: '/daily/2026-09-07' },
           { text: '2026-09-06', link: '/daily/2026-09-06' },
           { text: '2026-09-04', link: '/daily/2026-09-04' },
@@ -82,6 +83,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Symbol Aware Dictation', link: '/projects/2026-09-08-symbol-aware-dictation' },
           { text: 'Lwc', link: '/projects/2026-08-28-lwc' },
           { text: 'Cockpit', link: '/projects/2026-08-28-cockpit' },
           { text: 'Nextclaw', link: '/projects/2026-08-28-nextclaw' },
