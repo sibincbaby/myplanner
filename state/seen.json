@@ -3178,5 +3178,75 @@
     "url": "https://github.com/baileyrosen3/side-chat",
     "title": "side-chat — Omarchy Edge Chat with Voice Companion",
     "date_seen": "2026-09-08"
+  },
+  {
+    "url": "https://github.com/noskillish/bankmcp",
+    "title": "BankMCP — Your Own Bank Accounts as a Read-Only MCP Server",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/ChiChuRita/finquery",
+    "title": "FinQuery — Ask Your Bank Statements Questions, Answers Come From SQL",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/qxzg/actual-receipts",
+    "title": "actual-receipts — Itemized Receipt Capture in Front of Actual Budget",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/Browin430/TallyPenny",
+    "title": "TallyPenny — Flutter Expense Tracker Where Voice and Screenshots Are the Input",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/shiborgi/lastro",
+    "title": "Lastro — Personal Books You Operate Through MCP, Not a UI",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/gremlord/gremlord",
+    "title": "Gremlord — Run Claude Code on Any Model, Behind a Hard Spend Cap",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/PabloNAX/offload",
+    "title": "offload — A Hook That Sends Big File Reads to a Cheaper Model",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/grith-ai/grith",
+    "title": "Grith — Syscall-Level Supervision for an Unattended Agent",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/hnkabraham/claude-code-mobile-mode",
+    "title": "mobile-mode — Make Every Agent Turn End in Something You Can Tap",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/justacalico/devinorium",
+    "title": "Devinorium — Flutter Web Agent Console Embedded in a Rust Binary",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/Hoder-zyf/cc-vis",
+    "title": "cc-vis — Read-Only Visualizer for Claude Code Session Transcripts",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/localhost94/harness-monitor",
+    "title": "harness-monitor — A Widget That Tells You the Agent Is Waiting on You",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/redhat-et/ripwire",
+    "title": "ripwire — Deterministic Repo Context Maps for Agents, from Red Hat",
+    "date_seen": "2026-09-09"
+  },
+  {
+    "url": "https://github.com/sgruhier/superpowers-flutter",
+    "title": "superpowers-flutter — Flutter Skills Layer for the Superpowers Workflow",
+    "date_seen": "2026-09-09"
   }
 ]
