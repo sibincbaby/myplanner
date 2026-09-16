@@ -3285,18 +3285,13 @@
     "date_seen": "2026-09-10"
   },
   {
-    "url": "https://github.com/theshivamlko/flutter-ai-labs",
-    "title": "flutter-ai-labs",
-    "date_seen": "2026-09-16"
-  },
-  {
     "url": "https://github.com/vansh-121/Multi-Agent-AI-Finance-Assistant",
     "title": "Multi-Agent AI Finance Assistant",
     "date_seen": "2026-09-16"
   },
   {
     "url": "https://triangllabs.ai/otis",
-    "title": "Otis — Minimal Local AI Agent (Triangl Labs)",
+    "title": "Otis \u2014 Minimal Local AI Agent (Triangl Labs)",
     "date_seen": "2026-09-16"
   },
   {
@@ -3311,12 +3306,7 @@
   },
   {
     "url": "https://github.com/sst/opencode",
-    "title": "OpenCode v1.18.26–v1.18.30",
-    "date_seen": "2026-09-16"
-  },
-  {
-    "url": "https://github.com/kirill-markin/expense-budget-tracker",
-    "title": "expense-budget-tracker (kirill-markin)",
+    "title": "OpenCode v1.18.26\u2013v1.18.30",
     "date_seen": "2026-09-16"
   },
   {
@@ -3333,5 +3323,80 @@
     "url": "https://github.com/bradagi/awesome-cli-coding-agents",
     "title": "awesome-cli-coding-agents",
     "date_seen": "2026-09-16"
+  },
+  {
+    "url": "https://github.com/Maxteabag/hotseat",
+    "title": "hotseat \u2014 Terminal Dashboard for Claude Code and Codex Quota",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/lanternsmith/sessport",
+    "title": "sessport \u2014 Move Agent Sessions Between Claude Code, Codex and Gemini CLI",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/SamCuipogobongo/scrollback",
+    "title": "scrollback \u2014 Recall Past AI Conversations Across Every Coding Agent",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/vasile-lazar/Ledgr",
+    "title": "Ledgr \u2014 Paste a Bank Statement, a Local LLM Extracts the Transactions",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/malaysherasia-ai/claude-never-again",
+    "title": "claude-never-again \u2014 Turn Each Fix Into a Hook That Blocks the Repeat",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/tangbuu/desk-ai-robot",
+    "title": "desk-ai-robot \u2014 Flutter Desk Companion With On-Device ASR and TTS",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/germanfndez/cc-range",
+    "title": "cc-range \u2014 A Pixel-Art Shooting Gallery Above the Claude Code Prompt",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/johnparkerg/phone-superpower",
+    "title": "phone-superpower \u2014 Give Claude Code a Phone That Blocks Mid-Call",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/amritessh/scalpel-mcp",
+    "title": "scalpel-mcp \u2014 get_symbol() Instead of a Whole File",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/byte5digital/agentsweep",
+    "title": "agentsweep \u2014 Scan and Quarantine Malicious Skills, Plugins and MCP Configs",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/huppiflupp/llmtop",
+    "title": "llmtop \u2014 htop for Local LLM Backends",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/ikarys/capy-tracker",
+    "title": "capy-tracker \u2014 Terminal-First Task Tracker, One JSON File per Project",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/Oak-AN/DocOps",
+    "title": "DocOps \u2014 Drop a Card, Pick an Agent, Watch It Work in Its Own Worktree",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/AndrewKochulab/sim-mirror",
+    "title": "sim-mirror \u2014 Mirror and Drive the iOS Simulator From Claude Code",
+    "date_seen": "2026-09-17"
+  },
+  {
+    "url": "https://github.com/SamYuen101234/skill-atlas",
+    "title": "skill-atlas \u2014 Map How Your Skills, Agents and MCP Servers Connect",
+    "date_seen": "2026-09-17"
   }
 ]
