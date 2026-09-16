@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-09-16', link: '/daily/2026-09-16' },
           { text: '2026-09-10', link: '/daily/2026-09-10' },
           { text: '2026-09-09', link: '/daily/2026-09-09' },
           { text: '2026-09-08', link: '/daily/2026-09-08' },
@@ -85,6 +86,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Expense Budget Tracker', link: '/projects/2026-09-16-expense-budget-tracker' },
           { text: 'Claude Financial Dashboard', link: '/projects/2026-09-10-claude-financial-dashboard' },
           { text: 'Ohmo Personal Agent', link: '/projects/2026-09-10-ohmo-personal-agent' },
           { text: 'Symbol Aware Dictation', link: '/projects/2026-09-08-symbol-aware-dictation' },
