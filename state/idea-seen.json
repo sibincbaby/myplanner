@@ -1366,5 +1366,53 @@
   {
     "app": "CorelDRAW Graphics Suite",
     "date_seen": "2026-09-17"
+  },
+  {
+    "app": "Matomo Analytics (self-hosted On-Premise and Cloud; includes Matomo Tag Manager)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Helm (charts, values.yaml, templates, releases) \u2014 the de facto Kubernetes package manager",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "OpenTelemetry Collector (incl. the OTTL transform language and ocb custom-distribution builder)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Apple Shortcuts (iOS / iPadOS / macOS automation runtime)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "ManageEngine ServiceDesk Plus (Cloud + on-premises)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "AWS Systems Manager (SSM) \u2014 Patch Manager, Automation runbooks, State Manager, Session Manager, Fleet Manager, Parameter Store",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Recharge (subscription commerce for Shopify: plans, prepaid, bundles, dunning, retention/cancellation flows, customer portal)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "PrestaShop 8/9 (back office: catalog combinations, catalog price rules, carriers & shipping matrix, tax rules groups, multistore)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Affinity Suite v2 (Photo / Designer / Publisher, \"Affinity by Canva\")",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "SQL Server Reporting Services (SSRS) / Power BI Report Server \u2014 paginated RDL reports, Report Builder, subscriptions",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Blackbaud Financial Edge NXT (nonprofit fund accounting ERP)",
+    "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Capture One Pro (tethered capture, sessions, process recipes)",
+    "date_seen": "2026-09-18"
   }
 ]
