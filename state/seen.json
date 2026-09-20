@@ -3448,5 +3448,55 @@
     "url": "https://github.com/iotexproject/sidegrade",
     "title": "sidegrade — Reads Your Local Agent Usage and Names the Cheaper Model With Equal Intelligence",
     "date_seen": "2026-09-18"
+  },
+  {
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "title": "anthropics/knowledge-work-plugins",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/trycua/cua",
+    "title": "trycua/cua – Computer-Use 2.0 Platform",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "title": "cloudflare/security-audit-skill",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/addyosmani/agent-skills",
+    "title": "addyosmani/agent-skills",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/Leviai-ai/personal-finance-mcp",
+    "title": "Leviai-ai/personal-finance-mcp",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/cactus-compute/needle",
+    "title": "cactus-compute/needle – Edge LLM Foundation Model",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/thedotmack/claude-mem",
+    "title": "thedotmack/claude-mem",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/cosinusalpha/webctl",
+    "title": "cosinusalpha/webctl – CLI Browser Automation for Agents",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/affaan-m/ECC",
+    "title": "affaan-m/ECC – Agent Performance Optimization",
+    "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "title": "NousResearch/hermes-agent – Self-Evolving Agent Framework",
+    "date_seen": "2026-09-20"
   }
 ]
