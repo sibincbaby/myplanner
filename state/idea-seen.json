@@ -1414,5 +1414,53 @@
   {
     "app": "Capture One Pro (tethered capture, sessions, process recipes)",
     "date_seen": "2026-09-18"
+  },
+  {
+    "app": "Chargebee (subscription billing, revenue & RevRec) \u2014 'Pricing Ops Operator'",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Microsoft Excel Solver + Analysis ToolPak + What-If Analysis \u2014 'Optimizer Copilot'",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "SQL Server Analysis Services Tabular / Azure Analysis Services semantic models (XMLA + TMSL, Tabular Editor)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "AWS EventBridge + Step Functions (event patterns, input transformers, Pipes, Amazon States Language) \u2014 merged serverless orchestration operator",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Mozilla Thunderbird (message filters, virtual folders, tags, quick filter) \u2014 'Mailwright'",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Microsoft Lists (column & view formatting JSON, calculated columns, validation, conditional show/hide, rules) \u2014 'Lists Designer'",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Google Business Profile (multi-location local marketing) \u2014 'local presence operator'",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Azure Monitor (alert rules, action groups, Data Collection Rules, Log Analytics/KQL, workbooks, autoscale)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "TikTok Shop Seller Center (TikTok Shop Open API / Partner Center)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Zoho Desk (plus Zoho Projects) \u2014 Blueprint & layout automation",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Autodesk 3ds Max (+ industry toolsets, V-Ray/Corona/Arnold render setups)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "app": "Optimizely Web Experimentation (A/B testing & personalization; VWO / GrowthBook as alternate connectors)",
+    "date_seen": "2026-09-22"
   }
 ]
