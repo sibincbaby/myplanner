@@ -3498,5 +3498,55 @@
     "url": "https://github.com/NousResearch/hermes-agent",
     "title": "NousResearch/hermes-agent – Self-Evolving Agent Framework",
     "date_seen": "2026-09-20"
+  },
+  {
+    "url": "https://github.com/neoxlabs/OpenNeox",
+    "title": "OpenNeox — Local-First AI Agent Workspace: Desktop + CLI + SDK + Flutter Mobile Client on One TypeScript Runtime",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://superset.sh/blog/superset-mobile",
+    "title": "Superset Mobile — Your Claude Code and Codex Sessions in Your Pocket (iOS)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/Haleclipse/CometixCode",
+    "title": "CometixCode — Unofficial Rust Reimplementation of the Claude Code Terminal UI (453★ in 48h)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://www.projectterminal.app/",
+    "title": "Project Terminal — macOS Workspace Putting Agents, Terminals and Browser Side by Side",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/penso/herdr-gpui",
+    "title": "herdr-gpui — Native macOS GPUI Client for the Herdr Agent Daemon (71★, new)",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/fstandhartinger/chat-seek-vscode",
+    "title": "chat-seek-vscode — Local VS Code Search Across Claude Code, Codex and OpenCode Chat History",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/Gateton/pi-session-hub",
+    "title": "pi-session-hub — Cross-Harness Session Hub: Browse, Search and Continue Claude Code / Codex / OpenCode / Crush Sessions From Inside a Chat",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/otaviocc/rewind",
+    "title": "rewind — Rust TUI Browser for Your Claude Code Conversation History",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/karthikravikumar3/personal-agent",
+    "title": "personal-agent — Ask Claude About Your Bank Data via MCP or Telegram, Data Stays in Local SQLite",
+    "date_seen": "2026-09-22"
+  },
+  {
+    "url": "https://github.com/naw103/foremerge",
+    "title": "Foremerge — Catch Intent Conflicts Between Parallel Coding Agents Before They Become Git Conflicts (425★)",
+    "date_seen": "2026-09-22"
   }
 ]
