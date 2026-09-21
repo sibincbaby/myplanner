@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-09-21', link: '/daily/2026-09-21' },
           { text: '2026-09-20', link: '/daily/2026-09-20' }
         ]
       },
@@ -20,6 +21,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Weave Router 2.0 — Model Router for Claude Code & Codex', link: '/projects/2026-09-21-weave-router-2-0-complexity-scored-model-router-for-claude-code-codex' },
+          { text: 'agent-device by Callstack — MCP for Mobile App Automation', link: '/projects/2026-09-21-agent-device-by-callstack-mcp-server-for-ai-driven-mobile-app-automation' },
+          { text: 'Beyond the Chatbox — Agent UI Design Framework', link: '/projects/2026-09-21-beyond-the-chatbox-agent-ui-design-framework-by-wavespace' },
           { text: 'Addyosmani Agent Skills', link: '/projects/2026-09-20-addyosmani-agent-skills' },
           { text: 'Leviai Ai Personal Finance Mcp', link: '/projects/2026-09-20-leviai-ai-personal-finance-mcp' },
           { text: 'Thedotmack Claude Mem', link: '/projects/2026-09-20-thedotmack-claude-mem' },
