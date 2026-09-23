@@ -3465,16 +3465,6 @@
     "date_seen": "2026-09-20"
   },
   {
-    "url": "https://github.com/addyosmani/agent-skills",
-    "title": "addyosmani/agent-skills",
-    "date_seen": "2026-09-20"
-  },
-  {
-    "url": "https://github.com/Leviai-ai/personal-finance-mcp",
-    "title": "Leviai-ai/personal-finance-mcp",
-    "date_seen": "2026-09-20"
-  },
-  {
     "url": "https://github.com/cactus-compute/needle",
     "title": "cactus-compute/needle – Edge LLM Foundation Model",
     "date_seen": "2026-09-20"
@@ -3492,11 +3482,6 @@
   {
     "url": "https://github.com/affaan-m/ECC",
     "title": "affaan-m/ECC – Agent Performance Optimization",
-    "date_seen": "2026-09-20"
-  },
-  {
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "title": "NousResearch/hermes-agent – Self-Evolving Agent Framework",
     "date_seen": "2026-09-20"
   },
   {
@@ -3550,11 +3535,6 @@
     "date_seen": "2026-09-22"
   },
   {
-    "url": "https://github.com/earendil-works/pi",
-    "title": "earendil-works/pi — Unified LLM Agent Toolkit with TUI and Coding Agent CLI",
-    "date_seen": "2026-09-23"
-  },
-  {
     "url": "https://www.clears.ai/",
     "title": "Clears AI — Multi-Agent Software Delivery from Ticket Triage to Merged PR",
     "date_seen": "2026-09-23"
@@ -3567,11 +3547,6 @@
   {
     "url": "https://github.com/magnitudedev/magnitude",
     "title": "magnitudedev/magnitude — Open Source Inference Server for Consumer Hardware",
-    "date_seen": "2026-09-23"
-  },
-  {
-    "url": "https://github.com/naw103/foremerge",
-    "title": "naw103/foremerge — Coordination Protocol for Parallel Coding Agents",
     "date_seen": "2026-09-23"
   },
   {
@@ -3588,5 +3563,65 @@
     "url": "https://www.producthunt.com/products/argos-2",
     "title": "Argos — Browser AI Agent for Authenticated Multi-Step Sessions",
     "date_seen": "2026-09-23"
+  },
+  {
+    "url": "https://github.com/kvitapp/kvit-plugins",
+    "title": "kvitapp/kvit-plugins — What's Next: End Every Claude Code Turn With a Pickable Next-Step Card",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/usestring/gate-inbox",
+    "title": "usestring/gate-inbox — One Terminal Inbox for Every Coding-Agent Session Waiting on You",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/wasd96040501/taskcut",
+    "title": "wasd96040501/taskcut — Compact the Claude Code Conversation at Sub-Task Boundaries",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/fstandhartinger/agent-message-board",
+    "title": "fstandhartinger/agent-message-board — Shared SQLite Message Board for Coding Agents",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/darkdarkcocoa/codex-routing-detector",
+    "title": "darkdarkcocoa/codex-routing-detector — Find Out Which Model Actually Answers Your Requests",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/hsnsdt/usagebar",
+    "title": "hsnsdt/usagebar — Windows Tray App for Claude Code Usage Limits",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/Lex-corp-crypto/dev-context-switcher",
+    "title": "Lex-corp-crypto/dev-context-switcher — Flutter App That Captures and Restores Your Working Environment",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/ex3del/mast",
+    "title": "ex3del/mast — Claude Code Plugin: Parallel Agents From One Terminal, a Worktree Per Task",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/summationai/agent-exchange",
+    "title": "summationai/agent-exchange (Ax) — Let Claude Code, Codex and OpenCode Talk to Each Other Locally",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/warplabshq/typevoice",
+    "title": "warplabshq/typevoice — Local Push-to-Talk Dictation for Mac",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/leonidb/jean",
+    "title": "leonidb/jean — A Group of Claude Code Agents on One Project, One in Charge",
+    "date_seen": "2026-09-24"
+  },
+  {
+    "url": "https://github.com/BerriAI/liteagents",
+    "title": "BerriAI/liteagents — Provider-Independent Agent SDK With the Claude Agent SDK query() Interface",
+    "date_seen": "2026-09-24"
   }
 ]
