@@ -60,14 +60,20 @@ const DOMAINS = [
 
 phase('Scout')
 
-// ponytail: caller can pass the app-name list directly; the read-seen agent step has a known
-// habit of silently returning "[]", which disables dedup for the whole run.
+// ponytail: caller can pass the app-name list directly; the read-seen agent step had a known
+// habit of silently returning "[]", which disables dedup for the whole run. Now it runs one
+// python3 one-liner (compact pipe-separated names, not the whole JSON blob x8) and the guard
+// below THROWS rather than letting the run continue with dedup quietly switched off.
 const seenRaw = args?.seen
-  ? JSON.stringify(args.seen)
+  ? args.seen.join(' | ')
   : await agent(
-      `Read ${REPO_ROOT}/state/idea-seen.json and return its raw JSON content as a plain string. If missing or invalid, return "[]". Return ONLY the JSON string.`,
+      `Run exactly this and return ONLY its stdout, nothing else:\n\npython3 -c "import json;print(' | '.join(x['app'] for x in json.load(open('${REPO_ROOT}/state/idea-seen.json'))))"`,
       { label: 'read-seen', effort: 'low' }
     )
+
+if (seenRaw.length < 500) {
+  throw new Error(`read-seen returned only ${seenRaw.length} chars — dedup would be disabled. Aborting.`)
+}
 
 const scouted = await parallel(DOMAINS.map(d => () =>
   agent(
