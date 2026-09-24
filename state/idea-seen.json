@@ -1510,5 +1510,53 @@
   {
     "app": "Lightspeed Retail X-Series (price books & promotions)",
     "date_seen": "2026-09-24"
+  },
+  {
+    "app": "Shopify — Discount Function API (Shopify Functions, post-Scripts discount logic)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Salesforce — Enterprise Territory Management (Territory2 model, assignment rules & territory-based sharing)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Salesforce — Duplicate Management (matching rules, duplicate rules, dedupe jobs & merge)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Microsoft Fabric — capacity (CU) governance, throttling & Direct Lake guardrails",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "GSTN / NIC IRP — India e-invoicing (IRN), e-way bill & GSTR-2B / IMS ITC reconciliation",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "F5 BIG-IP — LTM traffic policies, iRules & AS3 declarations",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Meta Ads — Conversions API & dataset event quality (Events Manager datasets)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "ZATCA Fatoora Phase 2 — clearance/reporting integration (Saudi e-invoicing)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Allegro — offer publication commands, category parameters & product catalog (Poland)",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "SailPoint Identity Security Cloud — joiner/mover/leaver lifecycle states & certification campaigns",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Enfocus PitStop Pro / PitStop Server — preflight profiles & Action Lists",
+    "date_seen": "2026-09-25"
+  },
+  {
+    "app": "Claris FileMaker Pro — relationship graph, Script Workspace & calculation context",
+    "date_seen": "2026-09-25"
   }
 ]
