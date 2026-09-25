@@ -3673,5 +3673,80 @@
     "url": "https://github.com/techy-ops/MCP-Based-Personal-Productivity-Agent",
     "title": "techy-ops/MCP-Based-Personal-Productivity-Agent",
     "date_seen": "2026-09-25"
+  },
+  {
+    "url": "https://github.com/DMontgomery40/claude-code-prompt-source-map",
+    "title": "DMontgomery40/claude-code-prompt-source-map \u2014 Harness Internals Read From the Shipped Binary",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/bhx20/Flutter-Agentation",
+    "title": "bhx20/Flutter-Agentation \u2014 Annotate a Flutter Widget, Get Agent Context",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/GeiserX/unsent",
+    "title": "GeiserX/unsent \u2014 AutoRecover for Half-Written Claude Code Prompts",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/korengast/angelia",
+    "title": "korengast/angelia \u2014 Your Coding Agent CLI on WhatsApp and Telegram",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/jhd3197/Prompture-Desk",
+    "title": "jhd3197/Prompture-Desk \u2014 Desktop Widget for LLM Spend per Provider",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/avas-app/agent-bridge",
+    "title": "avas-app/agent-bridge \u2014 Let Agents Drive a Running React Native App",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/cenzihan/Jot",
+    "title": "cenzihan/Jot \u2014 Todo Agent That Turns Progress Into a Journal",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/runkids/agents-context-router",
+    "title": "runkids/agents-context-router \u2014 Byte-Budgeted Doc Routing for AGENTS.md",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/dancemonk/token-damage",
+    "title": "dancemonk/token-damage \u2014 The Token Receipt Your Agent Never Gave You",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://stackreplay.com",
+    "title": "StackReplay \u2014 Replay Your AI Coding History Against Plan Pricing",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/risonsimon/agent-markup",
+    "title": "risonsimon/agent-markup \u2014 Mark Up a Live Site, Get One Precise Prompt",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/AGIHunt/blurt",
+    "title": "AGIHunt/blurt \u2014 Record Your Screen, Rant, Let the Agent File the Bug",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/voiceparty-app/VoiceParty",
+    "title": "voiceparty-app/VoiceParty \u2014 On-Device Dictation for macOS",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/ewraj/oss-radar",
+    "title": "ewraj/oss-radar \u2014 Skill That Finds OSS Contributions Worth Your Time",
+    "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/fractor16/ai_prompt_studio",
+    "title": "fractor16/ai_prompt_studio \u2014 Offline-First Flutter Prompt Library",
+    "date_seen": "2026-09-26"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-09-26', link: '/daily/2026-09-26' },
         { text: '2026-09-25', link: '/daily/2026-09-25' },
         { text: '2026-09-24', link: '/daily/2026-09-24' },
         { text: '2026-09-22', link: '/daily/2026-09-22' },
@@ -93,6 +94,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Harness Delta Flag The Local Workarounds Claude Code Just Made Obsolete', link: '/projects/2026-09-26-harness-delta-flag-the-local-workarounds-claude-code-just-made-obsolete' },
         { text: 'Clayrune Mission Control For Parallel Claude Code Agents', link: '/projects/2026-09-25-clayrune-mission-control-for-parallel-claude-code-agents' },
         { text: 'Breadcrumbs Repo Local Decision Memory For Coding Agents', link: '/projects/2026-09-25-breadcrumbs-repo-local-decision-memory-for-coding-agents' },
         { text: 'Personal Finance Skill Plaid Alpaca Ibkr For Ai Agents', link: '/projects/2026-09-25-personal-finance-skill-plaid-alpaca-ibkr-for-ai-agents' },
