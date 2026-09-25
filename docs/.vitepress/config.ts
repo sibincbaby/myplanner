@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-09-25', link: '/daily/2026-09-25' },
         { text: '2026-09-24', link: '/daily/2026-09-24' },
         { text: '2026-09-22', link: '/daily/2026-09-22' },
         { text: '2026-09-21', link: '/daily/2026-09-21' },
@@ -92,6 +93,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Clayrune Mission Control For Parallel Claude Code Agents', link: '/projects/2026-09-25-clayrune-mission-control-for-parallel-claude-code-agents' },
+        { text: 'Breadcrumbs Repo Local Decision Memory For Coding Agents', link: '/projects/2026-09-25-breadcrumbs-repo-local-decision-memory-for-coding-agents' },
+        { text: 'Personal Finance Skill Plaid Alpaca Ibkr For Ai Agents', link: '/projects/2026-09-25-personal-finance-skill-plaid-alpaca-ibkr-for-ai-agents' },
         { text: 'Whats Next End Every Claude Code Turn With A Pickable Next Step Card', link: '/projects/2026-09-24-whats-next-end-every-claude-code-turn-with-a-pickable-next-step-card' },
         { text: 'Foremerge Catch Intent Conflicts Between Parallel Coding Agents Before They Become Git Conflicts', link: '/projects/2026-09-22-foremerge-catch-intent-conflicts-between-parallel-coding-agents-before-they-become-git-conflicts' },
         { text: 'Weave Router 2 0 Complexity Scored Model Router For Claude Code Codex', link: '/projects/2026-09-21-weave-router-2-0-complexity-scored-model-router-for-claude-code-codex' },
