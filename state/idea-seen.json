@@ -120,7 +120,7 @@
     "date_seen": "2026-07-07"
   },
   {
-    "app": "DBeaver (NL→SQL)",
+    "app": "DBeaver (NL\u2192SQL)",
     "date_seen": "2026-07-07"
   },
   {
@@ -332,11 +332,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Outlook — mail rules & calendar automation via Microsoft Graph",
+    "app": "Microsoft Outlook \u2014 mail rules & calendar automation via Microsoft Graph",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Google Slides / PowerPoint — template-driven deck generation",
+    "app": "Google Slides / PowerPoint \u2014 template-driven deck generation",
     "date_seen": "2026-07-31"
   },
   {
@@ -380,11 +380,11 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Microsoft Word — mail merge & Styles automation",
+    "app": "Microsoft Word \u2014 mail merge & Styles automation",
     "date_seen": "2026-07-31"
   },
   {
-    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara — open-source core)",
+    "app": "Pentaho Data Integration (Kettle, Hitachi Vantara \u2014 open-source core)",
     "date_seen": "2026-07-31"
   },
   {
@@ -396,7 +396,7 @@
     "date_seen": "2026-07-31"
   },
   {
-    "app": "LibreOffice (Calc / Writer / Impress) — UNO API automation",
+    "app": "LibreOffice (Calc / Writer / Impress) \u2014 UNO API automation",
     "date_seen": "2026-07-31"
   },
   {
@@ -592,7 +592,7 @@
     "date_seen": "2026-08-13"
   },
   {
-    "app": "Google Sheets — pivot tables & QUERY()",
+    "app": "Google Sheets \u2014 pivot tables & QUERY()",
     "date_seen": "2026-08-13"
   },
   {
@@ -656,7 +656,7 @@
     "date_seen": "2026-08-15"
   },
   {
-    "app": "Make (Integromat) — scenarios, iterators/aggregators, blueprints",
+    "app": "Make (Integromat) \u2014 scenarios, iterators/aggregators, blueprints",
     "date_seen": "2026-08-15"
   },
   {
@@ -904,7 +904,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Braze — Canvas customer-journey builder",
+    "app": "Braze \u2014 Canvas customer-journey builder",
     "date_seen": "2026-08-29"
   },
   {
@@ -912,7 +912,7 @@
     "date_seen": "2026-08-29"
   },
   {
-    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) — Business Manager Campaigns & Promotions",
+    "app": "Salesforce Commerce Cloud (B2C Commerce, formerly Demandware) \u2014 Business Manager Campaigns & Promotions",
     "date_seen": "2026-08-29"
   },
   {
@@ -1020,11 +1020,11 @@
     "date_seen": "2026-08-31"
   },
   {
-    "app": "Twilio Segment (Customer Data Platform — Protocols, Personas/Engage, Connections)",
+    "app": "Twilio Segment (Customer Data Platform \u2014 Protocols, Personas/Engage, Connections)",
     "date_seen": "2026-08-31"
   },
   {
-    "app": "Algolia (Search & Discovery — Rules, Ranking, Merchandising, Recommend)",
+    "app": "Algolia (Search & Discovery \u2014 Rules, Ranking, Merchandising, Recommend)",
     "date_seen": "2026-08-31"
   },
   {
@@ -1032,7 +1032,7 @@
     "date_seen": "2026-08-31"
   },
   {
-    "app": "Excel / Google Sheets — Advanced Formula Engine (XLOOKUP, INDEX/MATCH, SUMPRODUCT, dynamic arrays, LAMBDA/LET)",
+    "app": "Excel / Google Sheets \u2014 Advanced Formula Engine (XLOOKUP, INDEX/MATCH, SUMPRODUCT, dynamic arrays, LAMBDA/LET)",
     "date_seen": "2026-09-01"
   },
   {
@@ -1060,7 +1060,7 @@
     "date_seen": "2026-09-01"
   },
   {
-    "app": "Foundry Nuke (industry-standard node-based VFX compositor — used on nearly every VFX/film pipeline; not open-source but has a free non-commercial NukeX version and a fully scriptable engine)",
+    "app": "Foundry Nuke (industry-standard node-based VFX compositor \u2014 used on nearly every VFX/film pipeline; not open-source but has a free non-commercial NukeX version and a fully scriptable engine)",
     "date_seen": "2026-09-01"
   },
   {
@@ -1100,7 +1100,7 @@
     "date_seen": "2026-09-02"
   },
   {
-    "app": "Oracle EPM Cloud — Planning, Budgeting & Forecasting and Financial Consolidation (Essbase-based)",
+    "app": "Oracle EPM Cloud \u2014 Planning, Budgeting & Forecasting and Financial Consolidation (Essbase-based)",
     "date_seen": "2026-09-02"
   },
   {
@@ -1372,7 +1372,7 @@
     "date_seen": "2026-09-18"
   },
   {
-    "app": "Helm (charts, values.yaml, templates, releases) — the de facto Kubernetes package manager",
+    "app": "Helm (charts, values.yaml, templates, releases) \u2014 the de facto Kubernetes package manager",
     "date_seen": "2026-09-18"
   },
   {
@@ -1388,7 +1388,7 @@
     "date_seen": "2026-09-18"
   },
   {
-    "app": "AWS Systems Manager (SSM) — Patch Manager, Automation runbooks, State Manager, Session Manager, Fleet Manager, Parameter Store",
+    "app": "AWS Systems Manager (SSM) \u2014 Patch Manager, Automation runbooks, State Manager, Session Manager, Fleet Manager, Parameter Store",
     "date_seen": "2026-09-18"
   },
   {
@@ -1404,7 +1404,7 @@
     "date_seen": "2026-09-18"
   },
   {
-    "app": "SQL Server Reporting Services (SSRS) / Power BI Report Server — paginated RDL reports, Report Builder, subscriptions",
+    "app": "SQL Server Reporting Services (SSRS) / Power BI Report Server \u2014 paginated RDL reports, Report Builder, subscriptions",
     "date_seen": "2026-09-18"
   },
   {
@@ -1416,11 +1416,11 @@
     "date_seen": "2026-09-18"
   },
   {
-    "app": "Chargebee (subscription billing, revenue & RevRec) — 'Pricing Ops Operator'",
+    "app": "Chargebee (subscription billing, revenue & RevRec) \u2014 'Pricing Ops Operator'",
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Microsoft Excel Solver + Analysis ToolPak + What-If Analysis — 'Optimizer Copilot'",
+    "app": "Microsoft Excel Solver + Analysis ToolPak + What-If Analysis \u2014 'Optimizer Copilot'",
     "date_seen": "2026-09-22"
   },
   {
@@ -1428,19 +1428,19 @@
     "date_seen": "2026-09-22"
   },
   {
-    "app": "AWS EventBridge + Step Functions (event patterns, input transformers, Pipes, Amazon States Language) — merged serverless orchestration operator",
+    "app": "AWS EventBridge + Step Functions (event patterns, input transformers, Pipes, Amazon States Language) \u2014 merged serverless orchestration operator",
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Mozilla Thunderbird (message filters, virtual folders, tags, quick filter) — 'Mailwright'",
+    "app": "Mozilla Thunderbird (message filters, virtual folders, tags, quick filter) \u2014 'Mailwright'",
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Microsoft Lists (column & view formatting JSON, calculated columns, validation, conditional show/hide, rules) — 'Lists Designer'",
+    "app": "Microsoft Lists (column & view formatting JSON, calculated columns, validation, conditional show/hide, rules) \u2014 'Lists Designer'",
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Google Business Profile (multi-location local marketing) — 'local presence operator'",
+    "app": "Google Business Profile (multi-location local marketing) \u2014 'local presence operator'",
     "date_seen": "2026-09-22"
   },
   {
@@ -1452,7 +1452,7 @@
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Zoho Desk (plus Zoho Projects) — Blueprint & layout automation",
+    "app": "Zoho Desk (plus Zoho Projects) \u2014 Blueprint & layout automation",
     "date_seen": "2026-09-22"
   },
   {
@@ -1464,15 +1464,15 @@
     "date_seen": "2026-09-22"
   },
   {
-    "app": "Salesforce Service Cloud — Entitlement Management & SLA milestones",
+    "app": "Salesforce Service Cloud \u2014 Entitlement Management & SLA milestones",
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Microsoft Word — tracked-changes / redlining layer (Compare, Combine, revision graph)",
+    "app": "Microsoft Word \u2014 tracked-changes / redlining layer (Compare, Combine, revision graph)",
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Excel + Google Sheets — conditional-formatting & data-validation rule engines",
+    "app": "Excel + Google Sheets \u2014 conditional-formatting & data-validation rule engines",
     "date_seen": "2026-09-24"
   },
   {
@@ -1480,7 +1480,7 @@
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Mercado Libre Seller (catalog competition, pricing & Mercado Envíos)",
+    "app": "Mercado Libre Seller (catalog competition, pricing & Mercado Env\u00edos)",
     "date_seen": "2026-09-24"
   },
   {
@@ -1492,7 +1492,7 @@
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Active Directory Certificate Services (AD CS) — enterprise PKI & certificate templates",
+    "app": "Active Directory Certificate Services (AD CS) \u2014 enterprise PKI & certificate templates",
     "date_seen": "2026-09-24"
   },
   {
@@ -1504,7 +1504,7 @@
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Dynamics 365 Customer Service — Unified Routing",
+    "app": "Dynamics 365 Customer Service \u2014 Unified Routing",
     "date_seen": "2026-09-24"
   },
   {
@@ -1512,51 +1512,99 @@
     "date_seen": "2026-09-24"
   },
   {
-    "app": "Shopify — Discount Function API (Shopify Functions, post-Scripts discount logic)",
+    "app": "Shopify \u2014 Discount Function API (Shopify Functions, post-Scripts discount logic)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Salesforce — Enterprise Territory Management (Territory2 model, assignment rules & territory-based sharing)",
+    "app": "Salesforce \u2014 Enterprise Territory Management (Territory2 model, assignment rules & territory-based sharing)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Salesforce — Duplicate Management (matching rules, duplicate rules, dedupe jobs & merge)",
+    "app": "Salesforce \u2014 Duplicate Management (matching rules, duplicate rules, dedupe jobs & merge)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Microsoft Fabric — capacity (CU) governance, throttling & Direct Lake guardrails",
+    "app": "Microsoft Fabric \u2014 capacity (CU) governance, throttling & Direct Lake guardrails",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "GSTN / NIC IRP — India e-invoicing (IRN), e-way bill & GSTR-2B / IMS ITC reconciliation",
+    "app": "GSTN / NIC IRP \u2014 India e-invoicing (IRN), e-way bill & GSTR-2B / IMS ITC reconciliation",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "F5 BIG-IP — LTM traffic policies, iRules & AS3 declarations",
+    "app": "F5 BIG-IP \u2014 LTM traffic policies, iRules & AS3 declarations",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Meta Ads — Conversions API & dataset event quality (Events Manager datasets)",
+    "app": "Meta Ads \u2014 Conversions API & dataset event quality (Events Manager datasets)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "ZATCA Fatoora Phase 2 — clearance/reporting integration (Saudi e-invoicing)",
+    "app": "ZATCA Fatoora Phase 2 \u2014 clearance/reporting integration (Saudi e-invoicing)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Allegro — offer publication commands, category parameters & product catalog (Poland)",
+    "app": "Allegro \u2014 offer publication commands, category parameters & product catalog (Poland)",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "SailPoint Identity Security Cloud — joiner/mover/leaver lifecycle states & certification campaigns",
+    "app": "SailPoint Identity Security Cloud \u2014 joiner/mover/leaver lifecycle states & certification campaigns",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Enfocus PitStop Pro / PitStop Server — preflight profiles & Action Lists",
+    "app": "Enfocus PitStop Pro / PitStop Server \u2014 preflight profiles & Action Lists",
     "date_seen": "2026-09-25"
   },
   {
-    "app": "Claris FileMaker Pro — relationship graph, Script Workspace & calculation context",
+    "app": "Claris FileMaker Pro \u2014 relationship graph, Script Workspace & calculation context",
     "date_seen": "2026-09-25"
+  },
+  {
+    "app": "AWS Lambda (Functions console)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Kommo (formerly amoCRM) \u2014 messaging-first sales CRM, massive SMB install base across Latin America, Spain, Eastern Europe, India, and Southeast Asia",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Google Looker Studio (formerly Google Data Studio) \u2014 distinct from Google Cloud's Looker/LookML product",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Microsoft Excel \u2014 Power Pivot & DAX Data Model (native PivotTables, table relationships, measures)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Redash (open-source self-hosted SQL BI/dashboard tool)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "LinkedIn Campaign Manager (Ads)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Attentive (SMS/email marketing platform)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "BMC Helix ITSM (formerly Remedy / Remedyforce lineage)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Microsoft PowerPoint \u2014 Slide Master hierarchy, Animation Pane timeline & Morph transitions",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Clip Studio Paint (Celsys \u2014 the industry-standard illustration/comic/manga and increasingly webtoon production tool)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "Akaunting (open-source double-entry accounting, Laravel-based, self-hostable)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "app": "AWS CodePipeline + CodeBuild + CodeDeploy (native CI/CD suite)",
+    "date_seen": "2026-09-28"
   }
 ]
