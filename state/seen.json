@@ -3748,5 +3748,55 @@
     "url": "https://github.com/fractor16/ai_prompt_studio",
     "title": "fractor16/ai_prompt_studio \u2014 Offline-First Flutter Prompt Library",
     "date_seen": "2026-09-26"
+  },
+  {
+    "url": "https://github.com/paperclipai/paperclip",
+    "title": "paperclipai/paperclip \u2014 Multi-Agent Orchestration Command Centre",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/nicedreamzapp/claude-code-local",
+    "title": "nicedreamzapp/claude-code-local \u2014 Claude Code 100% Offline on Apple Silicon",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/Akramovic1/jev-pilot",
+    "title": "Akramovic1/jev-pilot \u2014 Per-Prompt Effort, Model, and Skill Routing for Claude Code",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/Emasoft/llm-externalizer-plugin",
+    "title": "Emasoft/llm-externalizer-plugin \u2014 Dual-Tier Scan/Fix Claude Code Plugin",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/mobile-next/mobile-mcp",
+    "title": "mobile-next/mobile-mcp \u2014 MCP Server for iOS and Android Automation",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/vectorize-io/hindsight",
+    "title": "vectorize-io/hindsight \u2014 Persistent Self-Improving Agent Memory",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/ahmedaghaofficial-rgb/pennywiseai-tracker",
+    "title": "ahmedaghaofficial-rgb/pennywiseai-tracker \u2014 On-Device SMS Expense Tracker",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/MemTensor/memmy-agent",
+    "title": "MemTensor/memmy-agent \u2014 Cross-Agent Shared Memory Hub",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/mjochum64/localreview",
+    "title": "mjochum64/localreview \u2014 Private Code Review via Local oMLX Model",
+    "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/rchern/pi-claude-cli",
+    "title": "rchern/pi-claude-cli \u2014 Pi Coding Agent Routed Through Claude Code CLI",
+    "date_seen": "2026-09-27"
   }
 ]

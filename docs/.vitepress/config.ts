@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-09-27', link: '/daily/2026-09-27' },
         { text: '2026-09-26', link: '/daily/2026-09-26' },
         { text: '2026-09-25', link: '/daily/2026-09-25' },
         { text: '2026-09-24', link: '/daily/2026-09-24' },
@@ -94,6 +95,9 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Claude Code Local — Offline AI on Apple Silicon', link: '/projects/2026-09-27-claude-code-local-offline-ai-on-apple-silicon' },
+        { text: 'jev-pilot — Per-Prompt Effort, Model, and Skill Routing', link: '/projects/2026-09-27-jev-pilot-per-prompt-effort-model-skill-routing' },
+        { text: 'memmy-agent — One Memory Hub for Every Agent You Run', link: '/projects/2026-09-27-memmy-agent-cross-agent-shared-memory-hub' },
         { text: 'Harness Delta Flag The Local Workarounds Claude Code Just Made Obsolete', link: '/projects/2026-09-26-harness-delta-flag-the-local-workarounds-claude-code-just-made-obsolete' },
         { text: 'Clayrune Mission Control For Parallel Claude Code Agents', link: '/projects/2026-09-25-clayrune-mission-control-for-parallel-claude-code-agents' },
         { text: 'Breadcrumbs Repo Local Decision Memory For Coding Agents', link: '/projects/2026-09-25-breadcrumbs-repo-local-decision-memory-for-coding-agents' },
