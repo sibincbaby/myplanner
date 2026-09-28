@@ -3798,5 +3798,45 @@
     "url": "https://github.com/rchern/pi-claude-cli",
     "title": "rchern/pi-claude-cli \u2014 Pi Coding Agent Routed Through Claude Code CLI",
     "date_seen": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/mvschwarz/openrig",
+    "title": "openrig \u2014 Multi-Agent Harness Running Claude Code + Codex Together",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/skulitom/AgentUI",
+    "title": "AgentUI \u2014 Rich Interactive UIs for Coding Agents via MCP",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/tylergraydev/claude-code-tool-manager",
+    "title": "claude-code-tool-manager \u2014 GUI for Managing MCP Servers Across Editors",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/xalanq/DiaryX",
+    "title": "DiaryX \u2014 Private Flutter Diary with On-Device Gemma 3n LLM",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/Dani392/IWallet",
+    "title": "IWallet \u2014 Flutter Expense Tracker with Voice + Gemini (killed)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/the-open-agent/openagent",
+    "title": "openagent \u2014 Self-Hosted Personal AI Assistant (30+ Models, RAG, Agents)",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/agent-messenger/agent-messenger",
+    "title": "agent-messenger \u2014 Multi-Platform Messaging CLI for AI Agents",
+    "date_seen": "2026-09-28"
+  },
+  {
+    "url": "https://github.com/agentmessaging/protocol",
+    "title": "Agent Messaging Protocol (AMP) \u2014 Open Standard for AI Agent Communication",
+    "date_seen": "2026-09-28"
   }
 ]
