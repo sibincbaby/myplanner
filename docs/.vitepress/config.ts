@@ -13,6 +13,8 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-01', link: '/daily/2026-10-01' },
+          { text: '2026-09-30', link: '/daily/2026-09-30' },
           { text: '2026-09-29', link: '/daily/2026-09-29' },
           { text: '2026-09-28', link: '/daily/2026-09-28' },
           { text: '2026-09-27', link: '/daily/2026-09-27' },
@@ -97,6 +99,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Openrig Multi Agent Harness For Claude Code Codex', link: '/projects/2026-09-30-openrig-multi-agent-harness-for-claude-code-codex' },
+          { text: 'Hindsight Agent Memory That Learns', link: '/projects/2026-09-30-hindsight-agent-memory-that-learns' },
+          { text: 'Bulwark Real Time Monitor And Emergency Kill Switch For Ai Agents', link: '/projects/2026-09-30-bulwark-real-time-monitor-and-emergency-kill-switch-for-ai-agents' },
+          { text: 'Accountant24 Local First Ai Agent For Personal Accounting', link: '/projects/2026-09-30-accountant24-local-first-ai-agent-for-personal-accounting' },
           { text: 'Rtk Rust Token Killer Cli Proxy That Cuts Llm Token Usage 60 90', link: '/projects/2026-09-30-rtk-rust-token-killer-cli-proxy-that-cuts-llm-token-usage-60-90-' },
           { text: 'Diaryx Private Flutter Diary With On Device Llm', link: '/projects/2026-09-28-diaryx-private-flutter-diary-with-on-device-llm' },
           { text: 'Agentui Rich Ui Interactions For Coding Agents', link: '/projects/2026-09-28-agentui-rich-ui-interactions-for-coding-agents' },

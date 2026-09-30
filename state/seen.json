@@ -3890,11 +3890,6 @@
     "date_seen": "2026-09-29"
   },
   {
-    "url": "https://github.com/mvschwarz/openrig",
-    "title": "OpenRig – Multi-Agent Harness for Claude Code + Codex",
-    "date_seen": "2026-09-30"
-  },
-  {
     "url": "https://github.com/dotta/paperclip",
     "title": "Paperclip – Open-Source Human Control Plane for AI Agents",
     "date_seen": "2026-09-30"
@@ -3905,18 +3900,8 @@
     "date_seen": "2026-09-30"
   },
   {
-    "url": "https://github.com/vectorize-io/hindsight",
-    "title": "Hindsight – Agent Memory That Learns (91.4% on LongMemEval)",
-    "date_seen": "2026-09-30"
-  },
-  {
     "url": "https://www.kucoin.com/news/flash/salt-security-launches-salt-claude-connect-for-real-time-visibility-into-mcp-servers",
     "title": "Salt Claude Connect – Real-Time Visibility Into MCP Servers on Claude Enterprise",
-    "date_seen": "2026-09-30"
-  },
-  {
-    "url": "https://github.com/machulav/accountant24",
-    "title": "Accountant24 – Local-First AI Agent for Personal Accounting (hledger + LLM)",
     "date_seen": "2026-09-30"
   },
   {
@@ -3928,5 +3913,55 @@
     "url": "https://pypi.org/project/bulwark-ai/",
     "title": "Bulwark – Real-Time Monitor and Emergency Kill Switch for AI Agents",
     "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://github.com/Cardinal44/corral",
+    "title": "corral — kill every command your agent starts",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/rulereceipt/rulereceipt",
+    "title": "RuleReceipt — did your agent follow CLAUDE.md?",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/jdleonruiz/estela-cli",
+    "title": "Estela — billable hours from Claude Code/Codex logs",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/rohanprichard/talktome",
+    "title": "TalkToMe — voice calls with your coding agent",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/maddy30445r/deiko",
+    "title": "Deiko — point, draw and talk to your coding agent",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/tommmmac/the-daily-you",
+    "title": "The Daily You — local AI diary as a news-style entry",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/ivanalvarizjr/pastel_pockets_release",
+    "title": "Pastel Pockets — Flutter AI personal finance app",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/mrsu-smirnov/wtf-are-we-doing",
+    "title": "wtf-are-we-doing — explain the current session",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/imanhavangi/NoAssume",
+    "title": "NoAssume — clarification guardrail for agents",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "url": "https://github.com/humaedihume/kantor-agent",
+    "title": "Kantor Agent — 3D office of Claude Code + subagents",
+    "date_seen": "2026-10-01"
   }
 ]
