@@ -1654,5 +1654,53 @@
   {
     "app": "Sage 50 Accounting (US 'Peachtree' lineage, UK Sage 50 Accounts, Sage 50 Canada)",
     "date_seen": "2026-09-30"
+  },
+  {
+    "app": "Adobe Bridge: batch asset management, XMP/IPTC metadata and renaming for Creative Cloud (with a headless ExifTool path)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Amazon ECS (Elastic Container Service) on Fargate/EC2: task definitions, services, capacity providers, ALB target groups, Service Connect, deployment circuit breaker, autoscaling",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "AWS Security Hub (+ Security Hub CSPM, GuardDuty, Inspector, AWS Config conformance packs) across AWS Organizations",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Zoho Analytics (Cloud + On-Premise edition)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Frame.io (Adobe) V4: review, approval and media-asset hub",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Graylog (Graylog Open, self-hosted; plus Enterprise/Security editions)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Grist (grist-core, open-source relational spreadsheet with Python formulas; Grist Labs)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Sieve mail filtering (RFC 5228 plus extensions), used by Fastmail, Proton Mail, mailbox.org, Posteo, Dovecot Pigeonhole/Roundcube, Stalwart and cPanel-hosted mailboxes",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Epicor Kinetic (formerly Epicor ERP 10)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Znuny (community fork of OTRS; Request Tracker as a second connector)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Lightdash (open-source BI on top of dbt)",
+    "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Combodo iTop (ITSM + CMDB)",
+    "date_seen": "2026-10-01"
   }
 ]
