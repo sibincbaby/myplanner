@@ -97,6 +97,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Rtk Rust Token Killer Cli Proxy That Cuts Llm Token Usage 60 90', link: '/projects/2026-09-30-rtk-rust-token-killer-cli-proxy-that-cuts-llm-token-usage-60-90-' },
           { text: 'Diaryx Private Flutter Diary With On Device Llm', link: '/projects/2026-09-28-diaryx-private-flutter-diary-with-on-device-llm' },
           { text: 'Agentui Rich Ui Interactions For Coding Agents', link: '/projects/2026-09-28-agentui-rich-ui-interactions-for-coding-agents' },
           { text: 'Agent Messenger Multi Platform Messaging Cli For Ai Agents', link: '/projects/2026-09-28-agent-messenger-multi-platform-messaging-cli-for-ai-agents' },

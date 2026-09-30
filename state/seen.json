@@ -3888,5 +3888,45 @@
     "url": "https://github.com/emdash-cms/emdash-build",
     "title": "emdash-build — Chat-Based Site Builder Where an Agent Builds in a Cloudflare Sandbox",
     "date_seen": "2026-09-29"
+  },
+  {
+    "url": "https://github.com/mvschwarz/openrig",
+    "title": "OpenRig – Multi-Agent Harness for Claude Code + Codex",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://github.com/dotta/paperclip",
+    "title": "Paperclip – Open-Source Human Control Plane for AI Agents",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://github.com/rtk-ai/rtk",
+    "title": "RTK (Rust Token Killer) – CLI Proxy That Cuts LLM Token Usage 60-90%",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://github.com/vectorize-io/hindsight",
+    "title": "Hindsight – Agent Memory That Learns (91.4% on LongMemEval)",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://www.kucoin.com/news/flash/salt-security-launches-salt-claude-connect-for-real-time-visibility-into-mcp-servers",
+    "title": "Salt Claude Connect – Real-Time Visibility Into MCP Servers on Claude Enterprise",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://github.com/machulav/accountant24",
+    "title": "Accountant24 – Local-First AI Agent for Personal Accounting (hledger + LLM)",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://hunted.space/product/airjelly",
+    "title": "AirJelly – Proactive Local AI Desktop Agent with Dual-Layer Memory",
+    "date_seen": "2026-09-30"
+  },
+  {
+    "url": "https://pypi.org/project/bulwark-ai/",
+    "title": "Bulwark – Real-Time Monitor and Emergency Kill Switch for AI Agents",
+    "date_seen": "2026-09-30"
   }
 ]
