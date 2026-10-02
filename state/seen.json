@@ -4003,5 +4003,55 @@
     "url": "https://pypi.org/project/ifixai/",
     "title": "iFixAi \u2014 AI agent auditing tool",
     "date_seen": "2026-10-02"
+  },
+  {
+    "url": "https://github.com/kylesean/finvo",
+    "title": "Finvo: self-hosted AI expense tracker and finance agent (Flutter + FastAPI + LangGraph)",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://claude.com/blog/claude-code-mods",
+    "title": "Claude Code Mods (official, launched 2026-10-01)",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://yokka.ai/",
+    "title": "Yokka: kanban board for managing coding agents (Claude Code, Codex, any MCP agent)",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://bise.dev/",
+    "title": "Bise: multi-agent harness with a single team-lead interface",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://github.com/munvard/dockterm",
+    "title": "DockTerm: terminal-first workspace for Claude Code with notch mascot alerts",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://github.com/tzafrir/whats-agent-doing",
+    "title": "What's Agent Doing: Claude Code mod that explains each agent step",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://innerloop.works/breadcrumb",
+    "title": "Breadcrumb: local Mac context manager and activity log for AI coding tools",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://github.com/JakeSelby/model-citizen",
+    "title": "model-citizen: control plane for Claude Code and Codex (rules, skills, guardrails, cost visibility)",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://dlhck.github.io/ferry/",
+    "title": "Ferry: sync your coding agent setup (skills, MCP, hooks, settings) to remote Linux boxes",
+    "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://github.com/NathanAB/statusline-anywhere",
+    "title": "statusline-anywhere: show Claude Code statusLine in the Claude Desktop app",
+    "date_seen": "2026-10-03"
   }
 ]
