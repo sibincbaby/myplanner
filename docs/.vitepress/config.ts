@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-02', link: '/daily/2026-10-02' },
           { text: '2026-10-01', link: '/daily/2026-10-01' },
           { text: '2026-09-30', link: '/daily/2026-09-30' },
           { text: '2026-09-29', link: '/daily/2026-09-29' },
@@ -99,6 +100,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Claw Diary Agent Activity Recorder With Daily Summaries', link: '/projects/2026-10-02-claw-diary-agent-activity-recorder-with-daily-summaries' },
+          { text: 'Pennywiseai Offline Flutter Expense Tracker With Local Ai', link: '/projects/2026-10-02-pennywiseai-offline-flutter-expense-tracker-with-local-ai' },
+          { text: 'Agentnet Cross Harness Agent Communication Network', link: '/projects/2026-10-02-agentnet-cross-harness-agent-communication-network' },
+          { text: 'Dbx Ai Assisted Database Client With Mcp Server', link: '/projects/2026-10-02-dbx-ai-assisted-database-client-with-mcp-server' },
+          { text: 'Mole Budget Enforced Deep Research Agent For Terminal', link: '/projects/2026-10-02-mole-budget-enforced-deep-research-agent-for-terminal' },
           { text: 'Openrig Multi Agent Harness For Claude Code Codex', link: '/projects/2026-09-30-openrig-multi-agent-harness-for-claude-code-codex' },
           { text: 'Hindsight Agent Memory That Learns', link: '/projects/2026-09-30-hindsight-agent-memory-that-learns' },
           { text: 'Bulwark Real Time Monitor And Emergency Kill Switch For Ai Agents', link: '/projects/2026-09-30-bulwark-real-time-monitor-and-emergency-kill-switch-for-ai-agents' },
