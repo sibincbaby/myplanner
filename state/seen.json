@@ -4053,5 +4053,50 @@
     "url": "https://github.com/NathanAB/statusline-anywhere",
     "title": "statusline-anywhere: show Claude Code statusLine in the Claude Desktop app",
     "date_seen": "2026-10-03"
+  },
+  {
+    "url": "https://github.com/Reklund3/vault",
+    "title": "Vault: UserPromptSubmit context-injection hook for Claude Code",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/byPawel/devlog-mcp",
+    "title": "Dokoro: five-layer agent memory MCP server",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/alex-odoo/myfinance-mcp",
+    "title": "MyFinance MCP: hosted personal-finance MCP server with 28 tools",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/hanshuaikang/nezha",
+    "title": "Nezha: parallel AI coding-agent desktop app",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/doganaybalaban/finance-mcp",
+    "title": "WealthGuard: MCP server connecting Claude to Google Sheets for personal finance",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/openaccountant/skills",
+    "title": "Open Accountant Skills: 44 open-source financial skills for AI agents",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/muzzammil763/Budget-AI",
+    "title": "Budget AI: Flutter personal finance app with OpenAI chat, voice, receipts",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/synthalorian/Open-Budget",
+    "title": "Open Budget: Flutter zero-based budgeting app with AI spending predictor",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/fablefang/ai-conversation-logger-mcp",
+    "title": "AI Conversation Logger MCP: MCP server for AI session history logging",
+    "date_seen": "2026-10-04"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-04', link: '/daily/2026-10-04' },
           { text: '2026-10-03', link: '/daily/2026-10-03' },
           { text: '2026-10-02', link: '/daily/2026-10-02' },
           { text: '2026-10-01', link: '/daily/2026-10-01' },
@@ -101,6 +102,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Vault Context Injection Hook For Claude Code', link: '/projects/2026-10-04-vault-context-injection-hook-for-claude-code' },
+          { text: 'Dokoro Five Layer Agent Memory Mcp', link: '/projects/2026-10-04-dokoro-five-layer-agent-memory-mcp' },
+          { text: 'Myfinance Mcp Hosted Personal Finance Server', link: '/projects/2026-10-04-myfinance-mcp-hosted-personal-finance-server' },
+          { text: 'Nezha Parallel Coding Agent Desktop', link: '/projects/2026-10-04-nezha-parallel-coding-agent-desktop' },
           { text: 'Claude Code Mods', link: '/projects/2026-10-03-claude-code-mods' },
           { text: 'Pennywiseai Offline Flutter Expense Tracker With Local Ai', link: '/projects/2026-10-02-pennywiseai-offline-flutter-expense-tracker-with-local-ai' },
           { text: 'Mole Budget Enforced Deep Research Agent For Terminal', link: '/projects/2026-10-02-mole-budget-enforced-deep-research-agent-for-terminal' },
