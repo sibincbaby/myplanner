@@ -1702,5 +1702,101 @@
   {
     "app": "Combodo iTop (ITSM + CMDB)",
     "date_seen": "2026-10-01"
+  },
+  {
+    "app": "Amazon S3 (bucket policies, Block Public Access, lifecycle, replication, Object Lock, access points, Storage Lens)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Microsoft Excel spreadsheet-model auditing layer (Trace Precedents/Dependents, Inquire add-in, Spreadsheet Compare, Evaluate Formula, Error Checking); Google Sheets as a second connector",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Amazon RDS / Aurora fleet operations (engine upgrades, Extended Support, parameter groups, Blue/Green deployments, snapshots, Database Insights)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Apple Ads (formerly Apple Search Ads), Advanced tier: App Store search, Today tab, Search tab and product-page placements",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "AutoHotkey v2 (with COM automation of Excel/Outlook/Word and UI Automation) as the cross-app macro layer for office workers",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Azure networking: Virtual Network + Private Link/Private Endpoints + Private DNS Zones + NSGs/Azure Firewall (with Network Watcher)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Microsoft Word: long-document structure engine (multilevel list numbering linked to heading styles, captions and cross-references, section breaks with per-section headers/footers and page numbering, TOC/TOF fields)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Linnworks (multichannel order and inventory management: Rules Engine, Listings, Macros, Dashboards)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Microsoft Dynamics 365 Finance & Supply Chain Management (F&O, the AX lineage)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Siemens Polarion ALM (Jama Connect and PTC Codebeamer as secondary connectors)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Caseware IDEA (audit data analytics), with Diligent ACL Analytics as a second connector",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Dynatrace (Grail / DQL, Settings 2.0, management zones to segments + IAM policy migration)",
+    "date_seen": "2026-10-04"
+  },
+  {
+    "app": "Penpot (open-source Figma alternative, self-hostable)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "AWS WAF (wafv2) + AWS Firewall Manager",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "Amazon CloudFront (distributions, cache behaviors, cache/origin-request/response-headers policies, OAC, CloudFront Functions + KeyValueStore, Lambda@Edge, continuous deployment)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "AWS Organizations + AWS Control Tower (SCPs, RCPs, declarative policies, tag/backup policies, OUs, Account Factory, Control Tower controls)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "JMP Statistical Discovery (JMP / JMP Pro, plus JMP Live)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "XWiki (Standard + structured apps, App Within Minutes, LiveData, Velocity/Groovy scripting)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "Medusa v2 (open-source headless commerce; Saleor and Sylius 2 as additional connectors)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "commercetools Composable Commerce (Merchant Center + Cart/Product Discount predicates, Product Types, Price Selection, Stores/Channels)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "Microsoft Dynamics GP (Great Plains), on-premises mid-market ERP",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "HaloITSM / HaloPSA (Halo Service Solutions)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "Workday Adaptive Planning (FP&A: budgeting, forecasting, workforce and revenue planning)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "app": "ONLYOFFICE Docs (Document/Spreadsheet/Presentation Editors, Document Builder, DocSpace)",
+    "date_seen": "2026-10-05"
   }
 ]
