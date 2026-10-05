@@ -4098,5 +4098,55 @@
     "url": "https://github.com/fablefang/ai-conversation-logger-mcp",
     "title": "AI Conversation Logger MCP: MCP server for AI session history logging",
     "date_seen": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/feder-cr/dots",
+    "title": "dots: AI agent with patched Firefox browser, avoids anti-bot detection",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://luci.memories.ai/desktop",
+    "title": "LUCI Desktop: local screen and meeting memory MCP for AI agents",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/CopilotKit/OpenDots",
+    "title": "CopilotKit/OpenDots: persistent always-on AI agent workspace",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/finlynq/finlynq",
+    "title": "finlynq: personal finance planning with FIRE/Monte Carlo MCP server (AGPL)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/astraly-labs/campfire",
+    "title": "astraly-labs/campfire: harness-independent shared workspace for coding agent teams",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/tt-a1i/archify",
+    "title": "tt-a1i/archify: NL to interactive architecture diagrams zero-dep CLI",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/perplexity-ai/bumblebee",
+    "title": "perplexity-ai/bumblebee: MCP and dep supply-chain security scanner (Go)",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/TNT-Likely/BeeCount",
+    "title": "TNT-Likely/BeeCount: Flutter expense tracker with MCP and AI OCR receipts",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/KKKKhazix/AIHOT",
+    "title": "KKKKhazix/AIHOT: industry-specific AI news aggregation website framework",
+    "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/rehan-remade/universal-modder",
+    "title": "rehan-remade/universal-modder: Claude-powered PC game reverse-engineering tool",
+    "date_seen": "2026-10-05"
   }
 ]

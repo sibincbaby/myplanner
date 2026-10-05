@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-05', link: '/daily/2026-10-05' },
           { text: '2026-10-04', link: '/daily/2026-10-04' },
           { text: '2026-10-03', link: '/daily/2026-10-03' },
           { text: '2026-10-02', link: '/daily/2026-10-02' },
@@ -104,6 +105,10 @@ export default defineConfig({
         items: [
           { text: 'Vault Context Injection Hook For Claude Code', link: '/projects/2026-10-04-vault-context-injection-hook-for-claude-code' },
           { text: 'Dokoro Five Layer Agent Memory Mcp', link: '/projects/2026-10-04-dokoro-five-layer-agent-memory-mcp' },
+          { text: 'Dots Ai Agent Patched Firefox Browser', link: '/projects/2026-10-05-dots-ai-agent-patched-firefox-browser' },
+          { text: 'Luci Desktop Ambient Screen Memory Agents', link: '/projects/2026-10-05-luci-desktop-ambient-screen-memory-agents' },
+          { text: 'Opendots Persistent Agent Workspace', link: '/projects/2026-10-05-opendots-persistent-agent-workspace' },
+          { text: 'Finlynq Personal Finance Fire Mcp', link: '/projects/2026-10-05-finlynq-personal-finance-fire-mcp' },
           { text: 'Myfinance Mcp Hosted Personal Finance Server', link: '/projects/2026-10-04-myfinance-mcp-hosted-personal-finance-server' },
           { text: 'Nezha Parallel Coding Agent Desktop', link: '/projects/2026-10-04-nezha-parallel-coding-agent-desktop' },
           { text: 'Claude Code Mods', link: '/projects/2026-10-03-claude-code-mods' },
