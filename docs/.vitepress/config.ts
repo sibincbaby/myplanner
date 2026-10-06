@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-06', link: '/daily/2026-10-06' },
           { text: '2026-10-05', link: '/daily/2026-10-05' },
           { text: '2026-10-04', link: '/daily/2026-10-04' },
           { text: '2026-10-03', link: '/daily/2026-10-03' },
@@ -103,6 +104,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Impeccable Ai Design Language', link: '/projects/2026-10-06-impeccable-ai-design-language' },
+          { text: 'Claude Code Extension Vs', link: '/projects/2026-10-06-claude-code-extension-vs' },
+          { text: 'Echo Local Ai Journaling', link: '/projects/2026-10-06-echo-local-ai-journaling' },
+          { text: 'Fin Mcp Personal Finance', link: '/projects/2026-10-06-fin-mcp-personal-finance' },
+          { text: 'Agent Reach Internet Cli', link: '/projects/2026-10-06-agent-reach-internet-cli' },
           { text: 'Vault Context Injection Hook For Claude Code', link: '/projects/2026-10-04-vault-context-injection-hook-for-claude-code' },
           { text: 'Dokoro Five Layer Agent Memory Mcp', link: '/projects/2026-10-04-dokoro-five-layer-agent-memory-mcp' },
           { text: 'Dots Ai Agent Patched Firefox Browser', link: '/projects/2026-10-05-dots-ai-agent-patched-firefox-browser' },

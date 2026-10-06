@@ -4148,5 +4148,45 @@
     "url": "https://github.com/rehan-remade/universal-modder",
     "title": "rehan-remade/universal-modder: Claude-powered PC game reverse-engineering tool",
     "date_seen": "2026-10-05"
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable",
+    "title": "impeccable: AI design language for better UI",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/dliedke/ClaudeCodeExtension",
+    "title": "ClaudeCodeExtension: Visual Studio .NET extension for Claude Code",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/29sayantanc/Echo",
+    "title": "Echo: local-first AI journaling with voice, photos, BYO LLM",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/looph0le/fin",
+    "title": "fin: MCP server for personal finance management",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/Panniantong/agent-reach",
+    "title": "Agent-Reach: zero-fee internet access for AI agents",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "title": "OpenShell: sandboxed AI agent runtime",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/morluto/rea",
+    "title": "rea: reverse-engineer anything with agents (CLI + MCP)",
+    "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://github.com/antirez/ds4",
+    "title": "ds4: local LLM inference for DeepSeek V4 Flash on Apple Silicon",
+    "date_seen": "2026-10-06"
   }
 ]
