@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-07', link: '/daily/2026-10-07' },
           { text: '2026-10-06', link: '/daily/2026-10-06' },
           { text: '2026-10-05', link: '/daily/2026-10-05' },
           { text: '2026-10-04', link: '/daily/2026-10-04' },
@@ -104,6 +105,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Codux Rust Gpui Workspace For Ai Coding Clis', link: '/projects/2026-10-07-codux-rust-gpui-workspace-for-ai-coding-clis' },
+          { text: 'Claude Mem V13 1 0 Persistent Cross Session Memory For Claude Code', link: '/projects/2026-10-07-claude-mem-v13-1-0-persistent-cross-session-memory-for-claude-code' },
           { text: 'Impeccable Ai Design Language', link: '/projects/2026-10-06-impeccable-ai-design-language' },
           { text: 'Fin Mcp Personal Finance', link: '/projects/2026-10-06-fin-mcp-personal-finance' },
           { text: 'Echo Local Ai Journaling', link: '/projects/2026-10-06-echo-local-ai-journaling' },
