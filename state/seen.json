@@ -4188,5 +4188,45 @@
     "url": "https://github.com/antirez/ds4",
     "title": "ds4: local LLM inference for DeepSeek V4 Flash on Apple Silicon",
     "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://hunted.space/dashboard/codux-2",
+    "title": "Codux — Rust+GPUI workspace for AI coding CLIs",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/thedotmack/claude-mem",
+    "title": "claude-mem v13.1.0 — persistent cross-session memory for Claude Code",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/affaan-m/ecc",
+    "title": "ECC — Everything Claude Code agent harness",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "title": "Agent-Reach — zero-cost social/web CLI for AI agents",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/santifer/career-ops",
+    "title": "career-ops — AI job search agent running inside Claude Code",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://hunted.space/product/claudegpt",
+    "title": "claudegpt — Claude Code + OpenAI Codex CLI paired skill",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/badgids/OpenMontage",
+    "title": "OpenMontage — agentic video production inside Claude Code",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://msp-channel.com/news/24000-salt-security-launches-connector-for-mcp-server-visibility-in-claude-enterprise",
+    "title": "Salt Claude Connect — MCP server visibility for Claude Enterprise",
+    "date_seen": "2026-10-07"
   }
 ]
