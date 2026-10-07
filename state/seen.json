@@ -4195,18 +4195,8 @@
     "date_seen": "2026-10-07"
   },
   {
-    "url": "https://github.com/thedotmack/claude-mem",
-    "title": "claude-mem v13.1.0 — persistent cross-session memory for Claude Code",
-    "date_seen": "2026-10-07"
-  },
-  {
     "url": "https://github.com/affaan-m/ecc",
     "title": "ECC — Everything Claude Code agent harness",
-    "date_seen": "2026-10-07"
-  },
-  {
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "title": "Agent-Reach — zero-cost social/web CLI for AI agents",
     "date_seen": "2026-10-07"
   },
   {
@@ -4228,5 +4218,55 @@
     "url": "https://msp-channel.com/news/24000-salt-security-launches-connector-for-mcp-server-visibility-in-claude-enterprise",
     "title": "Salt Claude Connect — MCP server visibility for Claude Enterprise",
     "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/ostiums/fixkit",
+    "title": "fixkit \u2014 iOS simulator long-press + voice bug reports into Claude Code",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/alan890104/claude-code-paste-preview",
+    "title": "claude-code-paste-preview \u2014 see and mark up pasted images in Claude Code",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/danyuchn/claude-mods",
+    "title": "claude-mods \u2014 screen-guard masks names/secrets while screen-sharing",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/kkdai/agent-backup",
+    "title": "agent-backup \u2014 back up coding-agent settings to Google Drive, E2E",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/markneonin/paneline",
+    "title": "paneline \u2014 Claude Code side pane mod",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/antondanv/treeyard",
+    "title": "treeyard \u2014 goal tree with done-when per node",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/aldi949/truth-firewall",
+    "title": "Truth Firewall \u2014 verify the agent's DONE independently",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/hashd1ve/agent-charts",
+    "title": "agent-charts \u2014 inline terminal charts for coding agents",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/sisyphuslabs/omo-dori-mode-experimental",
+    "title": "omo-dori-mode \u2014 messenger agent that launches/tracks coding sessions",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/LosaLosSantos/aurelio-finance",
+    "title": "aurelio-finance \u2014 self-hosted net-worth tracking with AI insights",
+    "date_seen": "2026-10-08"
   }
 ]
