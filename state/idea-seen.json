@@ -1798,5 +1798,53 @@
   {
     "app": "ONLYOFFICE Docs (Document/Spreadsheet/Presentation Editors, Document Builder, DocSpace)",
     "date_seen": "2026-10-05"
+  },
+  {
+    "app": "Microsoft Excel: classic PivotTables, Slicers and Timelines (desktop and web, not Power Pivot/DAX)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Audacity (with mod-script-pipe scripting and Macros)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Salesforce Nonprofit Success Pack (NPSP) and Nonprofit Cloud, the 'accidental admin' layer",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Azure RBAC + Azure Resource Graph (ARM role assignments across management groups/subscriptions, deny assignments, custom roles, Resource Graph KQL inventory)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Krita (open-source digital painting, illustration and 2D animation)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Exact Online, with Fortnox and Visma e-conomic as sibling connectors (European SME cloud accounting/ERP)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Customer.io Journeys (behavioral messaging: campaigns, segments, Liquid personalization, broadcasts, data pipelines)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Atlassian Bitbucket (Cloud + Data Center: workspace/project permissions, branch restrictions, merge checks, Pipelines, deployments)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Microsoft Azure Cost Management + Billing (cost analysis, budgets, exports, reservations/savings plans, cost allocation rules)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "darktable (open-source RAW photo developer)",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Semantic MediaWiki (SMW) on MediaWiki, with Page Forms and Cargo as a second connector: the self-hosted structured-knowledge wiki behind many corporate intranets, engineering KBs and NASA/research knowledge bases",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "app": "Sage 100 (formerly MAS 90/200), with Sage 300 (Accpac) as a second connector",
+    "date_seen": "2026-10-08"
   }
 ]
