@@ -1846,5 +1846,53 @@
   {
     "app": "Sage 100 (formerly MAS 90/200), with Sage 300 (Accpac) as a second connector",
     "date_seen": "2026-10-08"
+  },
+  {
+    "app": "AWS CloudTrail (event history, multi-region org trails, Athena-over-S3 log queries, CloudTrail Lake where enabled)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Shopee Seller Centre (Shopee Open Platform API v2), with Lazada Seller Center (Lazada Open Platform) as a second connector",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Microsoft Word wildcard Find & Replace (with Google Docs/Apps Script regex and LibreOffice ICU regex as second connectors): the 'bulk text surgery' layer",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "impact.com (Partnership/Affiliate Cloud), with PartnerStack or Awin as a second connector",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Amazon DynamoDB (tables, GSIs/LSIs, capacity modes, Streams, TTL, PartiQL, Contributor Insights)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Amazon API Gateway (REST API v1 + HTTP API v2 + WebSocket APIs)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Framer (no-code site builder: CMS, breakpoints, Code Overrides, localization, effects)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Salesforce Data Cloud / Data 360 (data streams, data model mapping, identity resolution, calculated insights, segments and activations); distinct from Sales Cloud",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "VTEX (VTEX IO / Admin v4: Catalog, Pricing, Promotions & Taxes, Trade Policies, Logistics)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Ivanti Neurons for ITSM (and the Cherwell Service Management estates being forced onto it)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Oracle Analytics Publisher (formerly BI Publisher), the reporting engine in Oracle Fusion Cloud, E-Business Suite, PeopleSoft, JD Edwards and Oracle Analytics Server/Cloud",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Deltek Vantagepoint (project-based ERP/accounting for architecture, engineering & consulting firms; Deltek Ajera as second connector)",
+    "date_seen": "2026-10-10"
   }
 ]
