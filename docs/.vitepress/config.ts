@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-09', link: '/daily/2026-10-09' },
           { text: '2026-10-08', link: '/daily/2026-10-08' },
           { text: '2026-10-07', link: '/daily/2026-10-07' },
           { text: '2026-10-06', link: '/daily/2026-10-06' },
@@ -106,6 +107,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Chrome Devtools Mcp', link: '/projects/2026-10-09-chrome-devtools-mcp' },
+          { text: 'Agentlens Mcp Native Observability', link: '/projects/2026-10-09-agentlens-mcp-native-observability' },
+          { text: 'Scmd Claude Memory Manager', link: '/projects/2026-10-09-scmd-claude-memory-manager' },
+          { text: 'Rill Browser For Claude Code Codex', link: '/projects/2026-10-09-rill-browser-for-claude-code-codex' },
+          { text: 'Devpit Claude Agent Control Room', link: '/projects/2026-10-09-devpit-claude-agent-control-room' },
           { text: 'Codux Rust Gpui Workspace For Ai Coding Clis', link: '/projects/2026-10-07-codux-rust-gpui-workspace-for-ai-coding-clis' },
           { text: 'Claude Mem V13 1 0 Persistent Cross Session Memory For Claude Code', link: '/projects/2026-10-07-claude-mem-v13-1-0-persistent-cross-session-memory-for-claude-code' },
           { text: 'Impeccable Ai Design Language', link: '/projects/2026-10-06-impeccable-ai-design-language' },

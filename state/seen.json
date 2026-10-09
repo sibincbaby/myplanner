@@ -4268,5 +4268,55 @@
     "url": "https://github.com/LosaLosSantos/aurelio-finance",
     "title": "aurelio-finance \u2014 self-hosted net-worth tracking with AI insights",
     "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+    "title": "devpit \u2014 Native control room for Claude Code agents",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/weekly/2026/41",
+    "title": "Rill Browser \u2014 Browser where Claude Code & Codex work beside you",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/3",
+    "title": "SCMD \u2014 Manage what Claude Remembers and Keeps as Memory",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/kouweizhu/agents-radar/issues/3628",
+    "title": "AgentLens \u2014 MCP-native agent observability and audit trail",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "title": "Chrome DevTools MCP \u2014 Official Chrome DevTools as MCP for coding agents",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48453002",
+    "title": "Command Center \u2014 AI coding env for people who care about quality",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "title": "headroom \u2014 LLM context compression library + proxy + MCP",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/mksglu/context-mode",
+    "title": "context-mode \u2014 98% tool output reduction, 17-platform session persistence",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/3",
+    "title": "Cubicle \u2014 Live office for AI agents, read-only by design",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/FadiAbdElJawwad/FinTrack-AI",
+    "title": "FinTrack AI \u2014 Flutter AI expense tracker with Firebase + Gemini",
+    "date_seen": "2026-10-09"
   }
 ]
