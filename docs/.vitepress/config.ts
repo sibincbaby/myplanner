@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-11', link: '/daily/2026-10-11' },
           { text: '2026-10-10', link: '/daily/2026-10-10' },
           { text: '2026-10-09', link: '/daily/2026-10-09' },
           { text: '2026-10-08', link: '/daily/2026-10-08' },
@@ -101,7 +102,7 @@ export default defineConfig({
           { text: '2026-07-05', link: '/daily/2026-07-05' },
           { text: '2026-07-03', link: '/daily/2026-07-03' },
           { text: '2026-07-02', link: '/daily/2026-07-02' },
-          { text: '2026-07-01', link: '/daily/2026-07-01' },
+          { text: '2026-07-01', link: '/daily/2026-07-01' }
         ]
       },
       {
@@ -109,14 +110,14 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Trakli Flutter Ai Finance', link: '/projects/2026-10-10-trakli-flutter-ai-finance' },
-          { text: 'Actual Budget Mcp', link: '/projects/2026-10-10-actual-budget-mcp' },
-          { text: 'Cmux Parallel Agent Terminal', link: '/projects/2026-10-10-cmux-parallel-agent-terminal' },
           { text: 'Screenpipe Yc Agent Memory', link: '/projects/2026-10-10-screenpipe-yc-agent-memory' },
-          { text: 'Chrome Devtools Mcp', link: '/projects/2026-10-09-chrome-devtools-mcp' },
-          { text: 'Agentlens Mcp Native Observability', link: '/projects/2026-10-09-agentlens-mcp-native-observability' },
+          { text: 'Cmux Parallel Agent Terminal', link: '/projects/2026-10-10-cmux-parallel-agent-terminal' },
+          { text: 'Actual Budget Mcp', link: '/projects/2026-10-10-actual-budget-mcp' },
           { text: 'Scmd Claude Memory Manager', link: '/projects/2026-10-09-scmd-claude-memory-manager' },
           { text: 'Rill Browser For Claude Code Codex', link: '/projects/2026-10-09-rill-browser-for-claude-code-codex' },
           { text: 'Devpit Claude Agent Control Room', link: '/projects/2026-10-09-devpit-claude-agent-control-room' },
+          { text: 'Chrome Devtools Mcp', link: '/projects/2026-10-09-chrome-devtools-mcp' },
+          { text: 'Agentlens Mcp Native Observability', link: '/projects/2026-10-09-agentlens-mcp-native-observability' },
           { text: 'Codux Rust Gpui Workspace For Ai Coding Clis', link: '/projects/2026-10-07-codux-rust-gpui-workspace-for-ai-coding-clis' },
           { text: 'Claude Mem V13 1 0 Persistent Cross Session Memory For Claude Code', link: '/projects/2026-10-07-claude-mem-v13-1-0-persistent-cross-session-memory-for-claude-code' },
           { text: 'Impeccable Ai Design Language', link: '/projects/2026-10-06-impeccable-ai-design-language' },
@@ -138,7 +139,7 @@ export default defineConfig({
           { text: 'Dbx Ai Assisted Database Client With Mcp Server', link: '/projects/2026-10-02-dbx-ai-assisted-database-client-with-mcp-server' },
           { text: 'Claw Diary Agent Activity Recorder With Daily Summaries', link: '/projects/2026-10-02-claw-diary-agent-activity-recorder-with-daily-summaries' },
           { text: 'Agentnet Cross Harness Agent Communication Network', link: '/projects/2026-10-02-agentnet-cross-harness-agent-communication-network' },
-          { text: 'Rtk Rust Token Killer Cli Proxy That Cuts Llm Token Usage 60 90', link: '/projects/2026-09-30-rtk-rust-token-killer-cli-proxy-that-cuts-llm-token-usage-60-90-' },
+          { text: 'Rtk Rust Token Killer Cli Proxy That Cuts Llm Token Usage 60 90 ', link: '/projects/2026-09-30-rtk-rust-token-killer-cli-proxy-that-cuts-llm-token-usage-60-90-' },
           { text: 'Openrig Multi Agent Harness For Claude Code Codex', link: '/projects/2026-09-30-openrig-multi-agent-harness-for-claude-code-codex' },
           { text: 'Hindsight Agent Memory That Learns', link: '/projects/2026-09-30-hindsight-agent-memory-that-learns' },
           { text: 'Bulwark Real Time Monitor And Emergency Kill Switch For Ai Agents', link: '/projects/2026-09-30-bulwark-real-time-monitor-and-emergency-kill-switch-for-ai-agents' },
@@ -289,7 +290,7 @@ export default defineConfig({
           { text: 'Herdr Terminal Native Agent Multiplexer With Agent State Awareness', link: '/projects/2026-07-13-herdr-terminal-native-agent-multiplexer-with-agent-state-awareness' },
           { text: 'Aura Git Native Semantic Version Control Ide For Ai Coding Agents', link: '/projects/2026-07-13-aura-git-native-semantic-version-control-ide-for-ai-coding-agents' },
           { text: 'Context Warp Drive Deterministic Cache Preserving Context Folding', link: '/projects/2026-07-12-context-warp-drive-deterministic-cache-preserving-context-folding' },
-          { text: 'Paleo Composable Token Saving Skills For Claude Code Codex Gemini 50 70 Output Reduction', link: '/projects/2026-07-11-paleo-composable-token-saving-skills-for-claude-code-codex-gemini-50-70-output-reduction-' },
+          { text: 'Paleo Composable Token Saving Skills For Claude Code Codex Gemini 50 70 Output Reduction ', link: '/projects/2026-07-11-paleo-composable-token-saving-skills-for-claude-code-codex-gemini-50-70-output-reduction-' },
           { text: 'Memsync One Shared Encrypted Local First Memory For Claude Code And Codex', link: '/projects/2026-07-11-memsync-one-shared-encrypted-local-first-memory-for-claude-code-and-codex' },
           { text: 'Peek Cli', link: '/projects/2026-07-10-peek-cli' },
           { text: 'Frugon', link: '/projects/2026-07-10-frugon' },
@@ -316,7 +317,7 @@ export default defineConfig({
           { text: 'Openknowledge', link: '/projects/2026-07-01-openknowledge' },
           { text: 'Moodiary', link: '/projects/2026-07-01-moodiary' },
           { text: 'Cloudcli Claude Code Mobile Ui', link: '/projects/2026-07-01-cloudcli-claude-code-mobile-ui' },
-          { text: 'Agent Teams Ai', link: '/projects/2026-07-01-agent-teams-ai' },
+          { text: 'Agent Teams Ai', link: '/projects/2026-07-01-agent-teams-ai' }
         ]
       }
     ],
@@ -324,4 +325,3 @@ export default defineConfig({
     search: { provider: 'local' }
   }
 })
-
