@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-10', link: '/daily/2026-10-10' },
           { text: '2026-10-09', link: '/daily/2026-10-09' },
           { text: '2026-10-08', link: '/daily/2026-10-08' },
           { text: '2026-10-07', link: '/daily/2026-10-07' },
@@ -107,6 +108,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Trakli Flutter Ai Finance', link: '/projects/2026-10-10-trakli-flutter-ai-finance' },
+          { text: 'Actual Budget Mcp', link: '/projects/2026-10-10-actual-budget-mcp' },
+          { text: 'Cmux Parallel Agent Terminal', link: '/projects/2026-10-10-cmux-parallel-agent-terminal' },
+          { text: 'Screenpipe Yc Agent Memory', link: '/projects/2026-10-10-screenpipe-yc-agent-memory' },
           { text: 'Chrome Devtools Mcp', link: '/projects/2026-10-09-chrome-devtools-mcp' },
           { text: 'Agentlens Mcp Native Observability', link: '/projects/2026-10-09-agentlens-mcp-native-observability' },
           { text: 'Scmd Claude Memory Manager', link: '/projects/2026-10-09-scmd-claude-memory-manager' },

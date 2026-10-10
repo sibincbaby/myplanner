@@ -4191,32 +4191,32 @@
   },
   {
     "url": "https://hunted.space/dashboard/codux-2",
-    "title": "Codux — Rust+GPUI workspace for AI coding CLIs",
+    "title": "Codux \u2014 Rust+GPUI workspace for AI coding CLIs",
     "date_seen": "2026-10-07"
   },
   {
     "url": "https://github.com/affaan-m/ecc",
-    "title": "ECC — Everything Claude Code agent harness",
+    "title": "ECC \u2014 Everything Claude Code agent harness",
     "date_seen": "2026-10-07"
   },
   {
     "url": "https://github.com/santifer/career-ops",
-    "title": "career-ops — AI job search agent running inside Claude Code",
+    "title": "career-ops \u2014 AI job search agent running inside Claude Code",
     "date_seen": "2026-10-07"
   },
   {
     "url": "https://hunted.space/product/claudegpt",
-    "title": "claudegpt — Claude Code + OpenAI Codex CLI paired skill",
+    "title": "claudegpt \u2014 Claude Code + OpenAI Codex CLI paired skill",
     "date_seen": "2026-10-07"
   },
   {
     "url": "https://github.com/badgids/OpenMontage",
-    "title": "OpenMontage — agentic video production inside Claude Code",
+    "title": "OpenMontage \u2014 agentic video production inside Claude Code",
     "date_seen": "2026-10-07"
   },
   {
     "url": "https://msp-channel.com/news/24000-salt-security-launches-connector-for-mcp-server-visibility-in-claude-enterprise",
-    "title": "Salt Claude Connect — MCP server visibility for Claude Enterprise",
+    "title": "Salt Claude Connect \u2014 MCP server visibility for Claude Enterprise",
     "date_seen": "2026-10-07"
   },
   {
@@ -4318,5 +4318,55 @@
     "url": "https://github.com/FadiAbdElJawwad/FinTrack-AI",
     "title": "FinTrack AI \u2014 Flutter AI expense tracker with Firebase + Gemini",
     "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=49024620",
+    "title": "Screenpipe (YC S26) \u2014 Record how you work and turn that into agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/manaflow-ai/cmux",
+    "title": "cmux \u2014 Ghostty-based terminal for parallel AI coding agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/rk8s-collab/actual-budget-mcp",
+    "title": "actual-budget-mcp \u2014 LLM-ready Actual Budget MCP with write tools and correct semantics",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/sarveshtalele/personal-finance-mcp",
+    "title": "Personal Finance MCP \u2014 Hosted connector with 77 deterministic finance calculators",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/Cloudgeni-ai/opengeni",
+    "title": "Opengeni \u2014 Apache-2.0 infrastructure for production AI agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/opengeni",
+    "title": "Opengeni on Product Hunt Oct 6 2026",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/trakli/mobile",
+    "title": "Trakli mobile \u2014 AI-native Flutter income/expense tracker",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/tencent-cloud/octopus",
+    "title": "Tencent Octopus \u2014 Self-hosted multi-user multi-agent AI assistant",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://www.producthunt.com/p/ama2",
+    "title": "AMA2 \u2014 Slack for AI agents (Product Hunt)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47350516",
+    "title": "Axe \u2014 12MB CLI for single-purpose LLM agents (HN discussion)",
+    "date_seen": "2026-10-10"
   }
 ]
