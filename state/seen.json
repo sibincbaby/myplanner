@@ -4188,5 +4188,275 @@
     "url": "https://github.com/antirez/ds4",
     "title": "ds4: local LLM inference for DeepSeek V4 Flash on Apple Silicon",
     "date_seen": "2026-10-06"
+  },
+  {
+    "url": "https://hunted.space/dashboard/codux-2",
+    "title": "Codux \u2014 Rust+GPUI workspace for AI coding CLIs",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/affaan-m/ecc",
+    "title": "ECC \u2014 Everything Claude Code agent harness",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/santifer/career-ops",
+    "title": "career-ops \u2014 AI job search agent running inside Claude Code",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://hunted.space/product/claudegpt",
+    "title": "claudegpt \u2014 Claude Code + OpenAI Codex CLI paired skill",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/badgids/OpenMontage",
+    "title": "OpenMontage \u2014 agentic video production inside Claude Code",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://msp-channel.com/news/24000-salt-security-launches-connector-for-mcp-server-visibility-in-claude-enterprise",
+    "title": "Salt Claude Connect \u2014 MCP server visibility for Claude Enterprise",
+    "date_seen": "2026-10-07"
+  },
+  {
+    "url": "https://github.com/ostiums/fixkit",
+    "title": "fixkit \u2014 iOS simulator long-press + voice bug reports into Claude Code",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/alan890104/claude-code-paste-preview",
+    "title": "claude-code-paste-preview \u2014 see and mark up pasted images in Claude Code",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/danyuchn/claude-mods",
+    "title": "claude-mods \u2014 screen-guard masks names/secrets while screen-sharing",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/kkdai/agent-backup",
+    "title": "agent-backup \u2014 back up coding-agent settings to Google Drive, E2E",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/markneonin/paneline",
+    "title": "paneline \u2014 Claude Code side pane mod",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/antondanv/treeyard",
+    "title": "treeyard \u2014 goal tree with done-when per node",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/aldi949/truth-firewall",
+    "title": "Truth Firewall \u2014 verify the agent's DONE independently",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/hashd1ve/agent-charts",
+    "title": "agent-charts \u2014 inline terminal charts for coding agents",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/sisyphuslabs/omo-dori-mode-experimental",
+    "title": "omo-dori-mode \u2014 messenger agent that launches/tracks coding sessions",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://github.com/LosaLosSantos/aurelio-finance",
+    "title": "aurelio-finance \u2014 self-hosted net-worth tracking with AI insights",
+    "date_seen": "2026-10-08"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+    "title": "devpit \u2014 Native control room for Claude Code agents",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/weekly/2026/41",
+    "title": "Rill Browser \u2014 Browser where Claude Code & Codex work beside you",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/3",
+    "title": "SCMD \u2014 Manage what Claude Remembers and Keeps as Memory",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/kouweizhu/agents-radar/issues/3628",
+    "title": "AgentLens \u2014 MCP-native agent observability and audit trail",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "title": "Chrome DevTools MCP \u2014 Official Chrome DevTools as MCP for coding agents",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48453002",
+    "title": "Command Center \u2014 AI coding env for people who care about quality",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "title": "headroom \u2014 LLM context compression library + proxy + MCP",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/mksglu/context-mode",
+    "title": "context-mode \u2014 98% tool output reduction, 17-platform session persistence",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/3",
+    "title": "Cubicle \u2014 Live office for AI agents, read-only by design",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://github.com/FadiAbdElJawwad/FinTrack-AI",
+    "title": "FinTrack AI \u2014 Flutter AI expense tracker with Firebase + Gemini",
+    "date_seen": "2026-10-09"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=49024620",
+    "title": "Screenpipe (YC S26) \u2014 Record how you work and turn that into agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/manaflow-ai/cmux",
+    "title": "cmux \u2014 Ghostty-based terminal for parallel AI coding agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/rk8s-collab/actual-budget-mcp",
+    "title": "actual-budget-mcp \u2014 LLM-ready Actual Budget MCP with write tools and correct semantics",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/sarveshtalele/personal-finance-mcp",
+    "title": "Personal Finance MCP \u2014 Hosted connector with 77 deterministic finance calculators",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/Cloudgeni-ai/opengeni",
+    "title": "Opengeni \u2014 Apache-2.0 infrastructure for production AI agents",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/opengeni",
+    "title": "Opengeni on Product Hunt Oct 6 2026",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/trakli/mobile",
+    "title": "Trakli mobile \u2014 AI-native Flutter income/expense tracker",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/tencent-cloud/octopus",
+    "title": "Tencent Octopus \u2014 Self-hosted multi-user multi-agent AI assistant",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://www.producthunt.com/p/ama2",
+    "title": "AMA2 \u2014 Slack for AI agents (Product Hunt)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47350516",
+    "title": "Axe \u2014 12MB CLI for single-purpose LLM agents (HN discussion)",
+    "date_seen": "2026-10-10"
+  },
+  {
+    "url": "https://github.com/HieuDevs/yeqo",
+    "title": "Yeqo \u2014 desktop app that turns ideas into Flutter apps via coding agents (ACP)",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://plannotator.ai/inbox/",
+    "title": "Plannotator Inbox \u2014 async human/agent inbox for long-running agents",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/rociiu/talorys",
+    "title": "Talorys \u2014 personal AI agent running entirely in your own Cloudflare account",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/Atoll92/agent-standup",
+    "title": "Agent Standup \u2014 Claude Code session visualized as a live animated team call",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/ancs21/openleo",
+    "title": "OpenLeo \u2014 open-source Trello-style board where an agent harness works the cards",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/edgestorage/task-handoff",
+    "title": "TaskHandoff \u2014 self-hosted control plane for containerized AI agent workspaces",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/chetto1983/Aura",
+    "title": "Aura \u2014 self-hosted multi-user AI agent with graph memory and web cockpit (Go)",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/amone-labs/porch",
+    "title": "Porch \u2014 menu-bar work log and usage summary for Claude Code and Codex sessions",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/tallyhook/tallyhook-collector",
+    "title": "Tallyhook \u2014 price Claude Code and Codex logs per client you bill",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/Dicklesworthstone/franken_accounting",
+    "title": "franken_accounting \u2014 evidence-native double-entry accounting in Rust with MCP interface",
+    "date_seen": "2026-10-11"
+  },
+  {
+    "url": "https://github.com/dograh-hq/dograh",
+    "title": "Dograh \u2014 self-hosted voice AI platform with MCP",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/xyTom/coding-tools-mcp",
+    "title": "coding-tools-mcp \u2014 Give any AI agent the ability to code",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/kellyvv/PhoneClaw",
+    "title": "PhoneClaw \u2014 on-device iOS AI agent with Gemma 4",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/kage-core/Kage",
+    "title": "Kage \u2014 git-native memory for coding agents (OKF)",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/MiftahulH23/arthava",
+    "title": "Arthava \u2014 Flutter + Supabase personal finance with Gemini AI",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/Aayush-Ramrakhyani/Personal-Finance-Intelligence",
+    "title": "Personal Finance Intelligence \u2014 Flutter+FastAPI, Indian bank import",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/Abdanzaki/personal-finance-ai",
+    "title": "personal-finance-ai \u2014 Flutter + FastAPI + Postgres AI finance",
+    "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/Esa006/speak-logs",
+    "title": "speak-logs \u2014 bilingual voice agent daily work log (React/Vite)",
+    "date_seen": "2026-10-12"
   }
 ]
