@@ -4458,5 +4458,45 @@
     "url": "https://github.com/Esa006/speak-logs",
     "title": "speak-logs \u2014 bilingual voice agent daily work log (React/Vite)",
     "date_seen": "2026-10-12"
+  },
+  {
+    "url": "https://github.com/mvschwarz/openrig",
+    "title": "OpenRig \u2014 multi-agent harness unifying Claude Code and Codex",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://www.everydev.ai/tools/shadok-ai",
+    "title": "shadok-ai \u2014 browser cockpit for parallel Claude Code agents with worktrees",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/PleasePrompto/ductor",
+    "title": "ductor \u2014 control Claude Code/Codex CLI from Telegram/Matrix/Slack",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/kylesean/finvo",
+    "title": "Finvo \u2014 self-hosted AI expense tracker, Flutter + FastAPI + LangGraph + voice",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/morluto/rea",
+    "title": "rea \u2014 Reverse Engineer Anything MCP server (binaries, JS, Electron, .NET)",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "title": "OpenBot \u2014 self-hosted AI coworkers with governed sandboxed workstation",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://chatgate.ai/post/rill-browser",
+    "title": "Rill Browser \u2014 Mac browser with Claude Code and Codex built in (closed source)",
+    "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "title": "Ponytail \u2014 YAGNI prompt framework for Claude Code with MCP server (77k+ stars)",
+    "date_seen": "2026-10-13"
   }
 ]
