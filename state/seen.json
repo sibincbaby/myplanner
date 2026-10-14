@@ -4498,5 +4498,45 @@
     "url": "https://github.com/DietrichGebert/ponytail",
     "title": "Ponytail \u2014 YAGNI prompt framework for Claude Code with MCP server (77k+ stars)",
     "date_seen": "2026-10-13"
+  },
+  {
+    "url": "https://github.com/duongntbk/voice-to-code",
+    "title": "voice-to-code \u2014 local Whisper voice control for Claude Code and CLI agents",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/pxwang/mcp-agent-router",
+    "title": "mcp-agent-router \u2014 LLM tool-calling routing agent with MCP and Claude Sonnet 5",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/ryaraghav/personal-finance-agent",
+    "title": "personal-finance-agent \u2014 Claude-powered bank and credit card CSV statement analyzer",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/psuvraneel-cyber/Personal-Expense-Tracker",
+    "title": "Personal-Expense-Tracker \u2014 Flutter SMS auto-log expense tracker with Groq AI copilot",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/WazzanKhan30/mcp-multi-model-ai-agent",
+    "title": "mcp-multi-model-ai-agent \u2014 MCP multi-model AI agent coordinator",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/rachit-anand30/AI-Powered-Personal-Finance-Expense-Advisor-using-Multi-Agent-Architecture",
+    "title": "AI Finance Multi-Agent \u2014 multi-agent expense advisor with anomaly detection and spend forecasting",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/Krishna-Modi12/frontend-design-pro",
+    "title": "frontend-design-pro \u2014 19-skill frontend pack for AI agents with 61 machine-enforced quality gates",
+    "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=46928648",
+    "title": "Show HN: AI Agent Tool That Keeps You in the Loop",
+    "date_seen": "2026-10-14"
   }
 ]
