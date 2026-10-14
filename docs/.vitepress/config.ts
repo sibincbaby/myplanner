@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-15', link: '/daily/2026-10-15' },
           { text: '2026-10-14', link: '/daily/2026-10-14' },
           { text: '2026-10-13', link: '/daily/2026-10-13' },
           { text: '2026-10-12', link: '/daily/2026-10-12' },
@@ -112,6 +113,14 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Flutter Sms Expense Ai', link: '/projects/2026-10-14-flutter-sms-expense-ai' },
+          { text: 'Frontend Skill Pack Agents', link: '/projects/2026-10-14-frontend-skill-pack-agents' },
+          { text: 'Voice To Code Whisper Claude', link: '/projects/2026-10-14-voice-to-code-whisper-claude' },
+          { text: 'Ductor Claude Telegram Remote', link: '/projects/2026-10-13-ductor-claude-telegram-remote' },
+          { text: 'Finvo Flutter Ai Expense Tracker', link: '/projects/2026-10-13-finvo-flutter-ai-expense-tracker' },
+          { text: 'Openrig Multi Agent Claude Codex', link: '/projects/2026-10-13-openrig-multi-agent-claude-codex' },
+          { text: 'Rea Mcp Reverse Engineer', link: '/projects/2026-10-13-rea-mcp-reverse-engineer' },
+          { text: 'Shadok Ai Parallel Agent Cockpit', link: '/projects/2026-10-13-shadok-ai-parallel-agent-cockpit' },
           { text: 'Phoneclaw On Device Ios Ai Agent', link: '/projects/2026-10-12-phoneclaw-on-device-ios-ai-agent' },
           { text: 'Dograh Self Hosted Voice Ai', link: '/projects/2026-10-12-dograh-self-hosted-voice-ai' },
           { text: 'Kage Git Native Agent Memory', link: '/projects/2026-10-12-kage-git-native-agent-memory' },

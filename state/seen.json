@@ -4290,11 +4290,6 @@
     "date_seen": "2026-10-09"
   },
   {
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-    "title": "Chrome DevTools MCP \u2014 Official Chrome DevTools as MCP for coding agents",
-    "date_seen": "2026-10-09"
-  },
-  {
     "url": "https://news.ycombinator.com/item?id=48453002",
     "title": "Command Center \u2014 AI coding env for people who care about quality",
     "date_seen": "2026-10-09"
@@ -4302,21 +4297,6 @@
   {
     "url": "https://github.com/headroomlabs-ai/headroom",
     "title": "headroom \u2014 LLM context compression library + proxy + MCP",
-    "date_seen": "2026-10-09"
-  },
-  {
-    "url": "https://github.com/mksglu/context-mode",
-    "title": "context-mode \u2014 98% tool output reduction, 17-platform session persistence",
-    "date_seen": "2026-10-09"
-  },
-  {
-    "url": "https://www.producthunt.com/leaderboard/daily/2026/10/3",
-    "title": "Cubicle \u2014 Live office for AI agents, read-only by design",
-    "date_seen": "2026-10-09"
-  },
-  {
-    "url": "https://github.com/FadiAbdElJawwad/FinTrack-AI",
-    "title": "FinTrack AI \u2014 Flutter AI expense tracker with Firebase + Gemini",
     "date_seen": "2026-10-09"
   },
   {
@@ -4460,11 +4440,6 @@
     "date_seen": "2026-10-12"
   },
   {
-    "url": "https://github.com/mvschwarz/openrig",
-    "title": "OpenRig \u2014 multi-agent harness unifying Claude Code and Codex",
-    "date_seen": "2026-10-13"
-  },
-  {
     "url": "https://www.everydev.ai/tools/shadok-ai",
     "title": "shadok-ai \u2014 browser cockpit for parallel Claude Code agents with worktrees",
     "date_seen": "2026-10-13"
@@ -4475,16 +4450,6 @@
     "date_seen": "2026-10-13"
   },
   {
-    "url": "https://github.com/kylesean/finvo",
-    "title": "Finvo \u2014 self-hosted AI expense tracker, Flutter + FastAPI + LangGraph + voice",
-    "date_seen": "2026-10-13"
-  },
-  {
-    "url": "https://github.com/morluto/rea",
-    "title": "rea \u2014 Reverse Engineer Anything MCP server (binaries, JS, Electron, .NET)",
-    "date_seen": "2026-10-13"
-  },
-  {
     "url": "https://github.com/CopilotKit/OpenBot",
     "title": "OpenBot \u2014 self-hosted AI coworkers with governed sandboxed workstation",
     "date_seen": "2026-10-13"
@@ -4492,11 +4457,6 @@
   {
     "url": "https://chatgate.ai/post/rill-browser",
     "title": "Rill Browser \u2014 Mac browser with Claude Code and Codex built in (closed source)",
-    "date_seen": "2026-10-13"
-  },
-  {
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "title": "Ponytail \u2014 YAGNI prompt framework for Claude Code with MCP server (77k+ stars)",
     "date_seen": "2026-10-13"
   },
   {
@@ -4538,5 +4498,75 @@
     "url": "https://news.ycombinator.com/item?id=46928648",
     "title": "Show HN: AI Agent Tool That Keeps You in the Loop",
     "date_seen": "2026-10-14"
+  },
+  {
+    "url": "https://github.com/ymatrix1/vantage",
+    "title": "vantage \u2014 evidence-based Asked\u2192Verified board for AI-assisted work",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/hsqwq/journal-keeper",
+    "title": "journal-keeper (jk) \u2014 AI-organized terminal notebook & task log",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/LuisPCFialho/claude-fuel-gauge",
+    "title": "claude-fuel-gauge \u2014 Claude knows its usage limits, hard-stops at 95%",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/nitingupta955/expense-tracker-mcp",
+    "title": "expense-tracker-mcp \u2014 natural-language expense & budget MCP server",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/avestura/whiteboard-defense",
+    "title": "whiteboard-defense \u2014 brief on what your agent built and where it used defaults",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/lintsinghua/oops",
+    "title": "oops \u2014 Ctrl+Z for coding agents",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/Entelligence-AI/agentplay",
+    "title": "agentplay \u2014 replay coding-agent sessions as a map and timeline",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/dichotomouskeyz/capability-composer",
+    "title": "capability-composer \u2014 recommends skills/plugins for the current task",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/lcoutodemos/chums",
+    "title": "chums \u2014 talk to Claude Code / Codex from Apple Watch & iPhone",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/Kevin-Liu-01/headroom",
+    "title": "headroom \u2014 memory alerts for Macs running AI coding agents",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/theonly1me/shadowclone",
+    "title": "shadowclone \u2014 skills learned from coding agent corrections (repost, created 07-20)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/QingYunA/answer-me-with-html",
+    "title": "answer-me-with-html \u2014 agent answers with a one-page HTML (repost, created 10-02)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/luckmanqasim/sota-anchor",
+    "title": "sota-anchor \u2014 check what shipped since cutoff before rebuilding (repost, created 09-20)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/Obedience-Corp/fresh",
+    "title": "fresh \u2014 clean up branches/worktrees after merged agent PRs (repost, created 10-10)",
+    "date_seen": "2026-10-15"
   }
 ]
