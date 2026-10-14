@@ -1894,5 +1894,53 @@
   {
     "app": "Deltek Vantagepoint (project-based ERP/accounting for architecture, engineering & consulting firms; Deltek Ajera as second connector)",
     "date_seen": "2026-10-10"
+  },
+  {
+    "app": "Salesforce — Data Import Wizard, Data Loader & Bulk API 2.0 (mass insert/update/upsert layer)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "SurveyMonkey (survey logic + Analyze crosstab/filter layer)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "PostHog (insights, HogQL, cohorts/actions, feature flags & experiments)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "CapCut Desktop — timeline & draft layer (draft_content.json)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Gmail + Google One storage-quota reclaim layer (Outlook.com / OneDrive as second connector)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Microsoft 365 authoring-side accessibility (Word / PowerPoint / Excel Accessibility Checker), Google Docs/Slides as second connector",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Shopify — Metafields & Metaobjects (custom data modeling layer)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Jira Service Management — Assets (formerly Insight) CMDB & AQL layer",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Adobe Acrobat Pro — Redaction, Sanitize & Bates numbering (PyMuPDF / Stirling-PDF headless backend)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Bitwarden Business/Enterprise organization admin (1Password Business as second connector)",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Expensify — policy rules, approval workflows & custom export templates",
+    "date_seen": "2026-10-15"
+  },
+  {
+    "app": "Gusto — multi-state payroll setup, time-off policies & off-cycle payrolls",
+    "date_seen": "2026-10-15"
   }
 ]
