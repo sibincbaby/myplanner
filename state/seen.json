@@ -4568,5 +4568,55 @@
     "url": "https://github.com/Obedience-Corp/fresh",
     "title": "fresh \u2014 clean up branches/worktrees after merged agent PRs (repost, created 10-10)",
     "date_seen": "2026-10-15"
+  },
+  {
+    "url": "https://github.com/pro-vi/cc-stretch",
+    "title": "cc-stretch \u2014 stretchtext replies for Claude Code: short by default, click a phrase to expand it",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/sumervaid/reflex-tui",
+    "title": "reflex \u2014 finds workflows you keep re-explaining to agents and turns them into skills",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/n-pizzetta/blink",
+    "title": "blink \u2014 lights up the terminal pane of the coding agent that is waiting for you",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/Graphicle-AI/graphicle",
+    "title": "graphicle \u2014 code graph + memory for coding agents, one Rust binary, MCP",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/R44VC0RP/simplefin-cli",
+    "title": "simplefin-cli \u2014 local SimpleFIN bank sync, CLI and MCP server for agents",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://pulseos.finance",
+    "title": "Pulse Local \u2014 Mac budgeting app whose AI chat runs on-device",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/feixingyuan0831-creator/finance-assistant",
+    "title": "finance-assistant \u2014 Chinese personal-finance agent skill (ledger, budgets, Obsidian sync)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/Klaster1/vscode-bridge-for-claude-code",
+    "title": "vscode-bridge-for-claude-code \u2014 VS Code tools, browser pages and selections for Claude Code",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/dylan-murray/agent-desk",
+    "title": "agent-desk \u2014 run, coordinate and review coding agents from one browser tab",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/saintsun/mahmut-voice-assistant-macos",
+    "title": "mahmut \u2014 macOS menu-bar voice assistant for Claude Code and Codex",
+    "date_seen": "2026-10-16"
   }
 ]
