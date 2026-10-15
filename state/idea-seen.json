@@ -1942,5 +1942,53 @@
   {
     "app": "Gusto — multi-state payroll setup, time-off policies & off-cycle payrolls",
     "date_seen": "2026-10-15"
+  },
+  {
+    "app": "ComfyUI (node-graph runtime for diffusion / video / 3D generative models; Comfy Org, GPL-3.0)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Photopea (browser-based Photoshop clone, free with ads; embeddable via the Photopea API and Distributor program)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Microsoft Publisher (.pub), as a migration-and-rebuild operator targeting Word, PowerPoint, Scribus and Affinity Publisher",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Hancom Office Hangul (HWP/HWPX), the Korean word processor",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Bloomberg Terminal: BQL, BDP/BDH/BDS Excel formulas, and the Desktop API (LSEG Workspace and FactSet as later connectors)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "CaptivateIQ (Incentive Compensation Management), with Salesforce Spiff and Xactly Incent as second connectors",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Azure API Management (APIM): policies, products, subscriptions, backends and the AI gateway",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Google Cloud Load Balancing (Application/Network Load Balancers) + Cloud Armor + Certificate Manager",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Amazon Route 53 (public/private hosted zones, routing policies, health checks, Resolver endpoints/rules, DNS Firewall, Profiles)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Maxon ZBrush (digital sculpting; Python API added in ZBrush 2026.0, Sept 2025)",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "WPS Office (Writer / Spreadsheets / Presentation) plus WPS 365 / KDocs cloud docs",
+    "date_seen": "2026-10-16"
+  },
+  {
+    "app": "JasperReports Library + Jaspersoft Studio (open-source pixel-perfect reporting; JRXML), embedded in many Java business apps",
+    "date_seen": "2026-10-16"
   }
 ]
