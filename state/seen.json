@@ -4668,5 +4668,70 @@
     "url": "https://github.com/bubbletroubles/actual-budget-mcp",
     "title": "bubbletroubles/actual-budget-mcp \u2014 Actual Budget MCP: Natural-Language Finance Queries for Claude",
     "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/aicodeking/leanrea",
+    "title": "leanrea \u2014 One 8 KB Skill Replacing the REA MCP Server with Plain CLI Tools",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://fundstash.app",
+    "title": "Fundstash \u2014 On-Device Expense Tracker (Bank SMS, Receipt OCR, Voice Entry)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/wide3751/switchboard",
+    "title": "switchboard \u2014 Claude Code Mod Showing Every Local Session in One Board Pane",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/olivieropinotti/orchestrator-skill",
+    "title": "orchestrator-skill \u2014 Claude Code Skill Turning the Main Session into a Non-Blocking Dispatcher",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/AppulseSoftware/reaper",
+    "title": "Reaper \u2014 macOS Menu-Bar App That Kills Processes Coding Agents Leave Behind",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/mtr1920/opstrellis",
+    "title": "OpsTrellis \u2014 Offline Hold-to-Talk Voice Dictation for macOS and Linux",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/Amiyadesi/agent-session-bridge",
+    "title": "agent-session-bridge \u2014 Copy/Cut Conversation Context Between Coding Agents",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/Benpiaz/piaz-switch",
+    "title": "piaz-switch \u2014 One-Click Claude Code/Codex Account Switcher with Limits and Cost",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/yashMangal19/jarvis",
+    "title": "jarvis \u2014 macOS Menu-Bar App: AirPods to Transcripts to Notes to Voice Commands",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/speedydivid/TokenForge",
+    "title": "TokenForge \u2014 Suspected Lure Cloning context-mode's Description (zip download)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/hugomn/heldkeys",
+    "title": "heldkeys \u2014 Lists Credentials an AI Agent Can Reach Locally, in Sandbox, or CI",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://www.vibemetric.app",
+    "title": "Vibemetric \u2014 Mac App Grading Your Claude Code and Codex Sessions",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/peopleofproduct/Panini",
+    "title": "Panini \u2014 Zero-Dependency Grammar Engine for Indian Bank Narrations (ReBIT AA)",
+    "date_seen": "2026-10-18"
   }
 ]
