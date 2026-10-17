@@ -1990,5 +1990,61 @@
   {
     "app": "JasperReports Library + Jaspersoft Studio (open-source pixel-perfect reporting; JRXML), embedded in many Java business apps",
     "date_seen": "2026-10-16"
+  },
+  {
+    "app": "Salesforce Object Manager + Lightning App Builder / Dynamic Forms (custom fields, formula & validation rules, record types, page layouts, FlexiPages)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Jira Automation (Automation for Jira rules: triggers, conditions, branches, smart values)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Google Ads Performance Max (asset groups, retail listing-group partitions, audience signals)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "FL Studio (Image-Line): piano-roll and MIDI-controller scripting",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Tailscale (ACL / grants policy file, tags, Tailscale SSH, autoApprovers)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Azure App Service (deployment slots, app settings & Key Vault references, VNet integration, access restrictions, auto-heal)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Tableau Server / Tableau Cloud: permissions & locked-project default permissions",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Google Classroom + Microsoft Teams Assignments (rubrics, grade categories, grading periods)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Shopify Markets + Shopify B2B (markets, catalogs, price lists, company locations, payment terms)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Microsoft Teams Webinars & Town Halls (virtual events)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "ServiceNow Service Catalog (catalog items, variables, variable sets, catalog UI policies)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Xero Payroll (AU / UK / NZ: pay items, leave types, payroll calendars, pay runs)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "AWS Backup (backup plans, resource selections, cross-region/cross-account copies, vault lock, restore testing)",
+    "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Pinterest Ads (Ads Manager + catalog Shopping campaigns, product groups, audiences)",
+    "date_seen": "2026-10-18"
   }
 ]
