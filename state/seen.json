@@ -4618,5 +4618,55 @@
     "url": "https://github.com/saintsun/mahmut-voice-assistant-macos",
     "title": "mahmut \u2014 macOS menu-bar voice assistant for Claude Code and Codex",
     "date_seen": "2026-10-16"
+  },
+  {
+    "url": "https://github.com/henfrydls/actual-budget-mcp",
+    "title": "henfrydls/actual-budget-mcp \u2014 Actual Budget MCP v0.10.2 with write tools and reconciliation",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/letehaha/moneymatter",
+    "title": "letehaha/moneymatter \u2014 Self-Hosted Budget App with Bank Sync, Investments and MCP Server for Claude",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/DoganayBalaban/finance-mcp",
+    "title": "DoganayBalaban/finance-mcp (WealthGuard) \u2014 Google Sheets Finance MCP for Claude",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/madebygps/obsidian-diary-mcp",
+    "title": "madebygps/obsidian-diary-mcp \u2014 Obsidian Diary MCP with AI Reflection Prompts and Auto-Tags",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "title": "akitaonrails/ai-memory \u2014 Rust Four-Tier Memory Layer for AI Coding Agents (git-Markdown + SQLite FTS5)",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/wshobson/agents",
+    "title": "wshobson/agents \u2014 Multi-Harness Plugin Marketplace (Claude Code, Codex, Cursor, OpenCode, Copilot, Gemini)",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode",
+    "title": "anomalyco/opencode \u2014 Open-Source AI Coding Agent (Terminal + Desktop + IDE, MIT, 150K+ Stars)",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/CSOAI-ORG/personal-finance-ai-mcp",
+    "title": "CSOAI-ORG/personal-finance-ai-mcp \u2014 Personal Finance MCP with EU AI Act Compliance (Net Worth, Investments, Budget)",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/qufei1993/skills-hub",
+    "title": "qufei1993/skills-hub \u2014 Tauri+Rust Desktop GUI for AI Agent Skill Management and Cross-Tool Sync",
+    "date_seen": "2026-10-17"
+  },
+  {
+    "url": "https://github.com/bubbletroubles/actual-budget-mcp",
+    "title": "bubbletroubles/actual-budget-mcp \u2014 Actual Budget MCP: Natural-Language Finance Queries for Claude",
+    "date_seen": "2026-10-17"
   }
 ]
