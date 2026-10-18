@@ -2046,5 +2046,53 @@
   {
     "app": "Pinterest Ads (Ads Manager + catalog Shopping campaigns, product groups, audiences)",
     "date_seen": "2026-10-18"
+  },
+  {
+    "app": "Salesforce release management: Change Sets, DevOps Center, Metadata API and the sf CLI (moving config from sandbox to production)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Microsoft Excel: Python in Excel (=PY cells running pandas, matplotlib, seaborn and statsmodels on Microsoft's cloud runtime)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Amazon Cognito (User Pools, app clients, Managed Login, Lambda triggers, Identity Pools)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "GitHub Projects (v2): org/user project boards with custom fields, iterations, views, built-in workflows, sub-issues and issue types",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Tempo (Timesheets + Planner + Cost Tracker/Financial Manager) for Jira Cloud and Data Center",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Atlassian Opsgenie (on-call schedules, escalation policies, routing rules, alert policies, integrations, heartbeats), as a forced-exit operator to JSM Operations / Compass / PagerDuty / incident.io / Grafana IRM",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Salesforce Experience Cloud (customer/partner portals: sites, sharing sets, guest-user access, audiences)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Adobe Substance 3D Designer (with the Substance 3D Automation ToolKit)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Scribus: open-source desktop publishing, the free alternative to InDesign and Publisher",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Fishbowl Inventory (Fishbowl Advanced / Fishbowl Drive), the inventory/MRP add-on paired with QuickBooks",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Google Display & Video 360 + Campaign Manager 360 (Google Marketing Platform programmatic buying and ad serving)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Google Cloud Billing + FinOps surfaces (Cloud Billing detailed export to BigQuery, Budgets API, Recommender, CUDs/Spend-based commitments, FinOps Hub, labels)",
+    "date_seen": "2026-10-19"
   }
 ]
