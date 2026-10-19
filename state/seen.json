@@ -4733,5 +4733,45 @@
     "url": "https://github.com/peopleofproduct/Panini",
     "title": "Panini \u2014 Zero-Dependency Grammar Engine for Indian Bank Narrations (ReBIT AA)",
     "date_seen": "2026-10-18"
+  },
+  {
+    "url": "https://github.com/itsjrsa/vupai",
+    "title": "vupai \u2014 On-Device Parakeet/MLX Voice Control for tmux AI Agent Panes (macOS)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://github.com/OmidS/ccgram",
+    "title": "ccgram \u2014 Telegram \u2194 tmux Bridge: Monitor Output and Send Prompts to Coding Agents from Phone",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://github.com/GoogleCloudPlatform/scion",
+    "title": "GoogleCloudPlatform/scion \u2014 Experimental Multi-Agent Container Orchestration Testbed (Go, Apache 2.0)",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://github.com/google/genkit-dart",
+    "title": "Genkit Dart 1.0 \u2014 Google AI Agent Framework for Flutter/Dart, Stable Release Oct 8",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://github.com/shotwellj/air-blackbox",
+    "title": "AIR Blackbox \u2014 EU AI Act Compliance Scanner + MCP for Python AI Agents",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://dexicon.ai",
+    "title": "Dexicon \u2014 SaaS: Continuous Indexing of AI Coding Sessions into a Team Semantic Graph",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=49097727",
+    "title": "hwatu \u2014 Linux WebKitGTK Verification Browser with MCP for Agent UI Testing",
+    "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-17/",
+    "title": "Yobiru \u2014 Agent-to-Agent Messaging over Tailscale for Cross-Machine Coordination",
+    "date_seen": "2026-10-19"
   }
 ]

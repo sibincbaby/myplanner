@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-19', link: '/daily/2026-10-19' },
           { text: '2026-10-18', link: '/daily/2026-10-18' },
           { text: '2026-10-17', link: '/daily/2026-10-17' },
           { text: '2026-10-16', link: '/daily/2026-10-16' },
@@ -116,6 +117,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Ccgram Telegram Tmux Agent Bridge', link: '/projects/2026-10-19-ccgram' },
+          { text: 'Genkit Dart Flutter Ai Agent Framework', link: '/projects/2026-10-19-genkit-dart' },
           { text: 'Flutter Sms Expense Ai', link: '/projects/2026-10-14-flutter-sms-expense-ai' },
           { text: 'Frontend Skill Pack Agents', link: '/projects/2026-10-14-frontend-skill-pack-agents' },
           { text: 'Voice To Code Whisper Claude', link: '/projects/2026-10-14-voice-to-code-whisper-claude' },
