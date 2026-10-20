@@ -2094,5 +2094,53 @@
   {
     "app": "Google Cloud Billing + FinOps surfaces (Cloud Billing detailed export to BigQuery, Budgets API, Recommender, CUDs/Spend-based commitments, FinOps Hub, labels)",
     "date_seen": "2026-10-19"
+  },
+  {
+    "app": "Jira admin schemes: workflows, workflow schemes, screens, screen schemes, permission schemes (\"scheme hell\")",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Exchange Online + Outlook delegation and resource booking: shared mailboxes, SendAs/FullAccess, calendar delegates, room and equipment mailboxes, Set-CalendarProcessing",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Printify (print-on-demand catalog fan-out), with Printful and Gelato as second connectors",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Amazon Seller Central: Send to Amazon / FBA inbound shipments",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Salesforce Collaborative Forecasts, Quotas and Opportunity Splits",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Employment Hero Payroll (formerly KeyPay): award and enterprise-agreement pay condition rule sets",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "MuseScore Studio (music notation), with Sibelius and Dorico as later connectors",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "OriginLab Origin / OriginPro (scientific graphing and curve fitting)",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "SAP Analysis for Microsoft Office (Excel add-in over BW/BW4HANA/S/4), with Oracle Smart View as second connector",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Jira Plans (formerly Advanced Roadmaps)",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Akamai Property Manager (rule trees, versions, staging/production activation)",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Microsoft Configuration Manager (MECM / SCCM): collections, deployments, maintenance windows, software update groups",
+    "date_seen": "2026-10-21"
   }
 ]
