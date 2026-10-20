@@ -4780,11 +4780,6 @@
     "date_seen": "2026-10-20"
   },
   {
-    "url": "https://github.com/stablyai/orca",
-    "title": "Orca \u2014 Multi-Agent Parallel Coding IDE by Stablyai",
-    "date_seen": "2026-10-20"
-  },
-  {
     "url": "https://www.producthunt.com/p/inferock/inferock-bench",
     "title": "inferock-bench \u2014 Per-Call LLM Billing Receipt and Anomaly Detector",
     "date_seen": "2026-10-20"
@@ -4795,23 +4790,63 @@
     "date_seen": "2026-10-20"
   },
   {
-    "url": "https://github.com/diegosouzapw/OmniRoute",
-    "title": "OmniRoute \u2014 AI Gateway with 4-Tier LLM Provider Fallback",
-    "date_seen": "2026-10-20"
-  },
-  {
     "url": "https://github.com/browser-use/jev-ultrafast",
     "title": "jev-ultrafast \u2014 Screenshot-Free Python Browser Agent",
-    "date_seen": "2026-10-20"
-  },
-  {
-    "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
-    "title": "GenAI Expense Tracker MCP \u2014 FastMCP+SQLite Expense Logging for Claude",
     "date_seen": "2026-10-20"
   },
   {
     "url": "https://www.producthunt.com/posts/1220779",
     "title": "Pancake \u2014 GTM Toolkit with Claude/Codex MCP Connection",
     "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/khaledsharara/mula",
+    "title": "mula \u2014 bank SMS alerts become a budget, served to your own Claude account as a custom connector",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/LippInc/catnap",
+    "title": "catnap \u2014 Claude Code mod: Claude compacts itself at a clean break, not mid-task",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/joergmichno/modvet",
+    "title": "ModVet \u2014 offline pre-install security scanner for Claude Code mods",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/techsters-ai/finance-os-public",
+    "title": "Finance OS \u2014 personal finance PWA on your own Google Sheet, set up by an AI agent",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/epavanello/earshot",
+    "title": "earshot \u2014 spoken replies for Claude Code, AirPods nod-to-send (macOS)",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/JasonHMY/personal-finance-visualizer",
+    "title": "personal-finance-visualizer \u2014 agent skill that renders local interactive finance reports from CSV",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/siris9476/mnemoloci",
+    "title": "Mnemoloci \u2014 Markdown second brain for Claude Code with cited wiki pages",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/statico/claudeweaver",
+    "title": "claudeweaver \u2014 kanban over Markdown tickets plus click-to-note dev overlay, as an agent skill",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/linwanwanwa/config2mcp",
+    "title": "config2mcp \u2014 turn any CLI into an MCP server from one YAML file",
+    "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/dominikmartn/harp",
+    "title": "Harp \u2014 Warp fork with a sidebar for many Claude Code / Codex agents",
+    "date_seen": "2026-10-21"
   }
 ]
