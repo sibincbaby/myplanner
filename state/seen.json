@@ -4773,5 +4773,45 @@
     "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-17/",
     "title": "Yobiru \u2014 Agent-to-Agent Messaging over Tailscale for Cross-Machine Coordination",
     "date_seen": "2026-10-19"
+  },
+  {
+    "url": "https://github.com/SaarthurR/atticus-mac",
+    "title": "Atticus \u2014 Hold-to-Talk macOS Voice Assistant on Claude Plan",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/stablyai/orca",
+    "title": "Orca \u2014 Multi-Agent Parallel Coding IDE by Stablyai",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://www.producthunt.com/p/inferock/inferock-bench",
+    "title": "inferock-bench \u2014 Per-Call LLM Billing Receipt and Anomaly Detector",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/ChrisColeTech/claude-wrapper",
+    "title": "claude-wrapper \u2014 OpenAI-Compatible HTTP API for Claude Code CLI",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "title": "OmniRoute \u2014 AI Gateway with 4-Tier LLM Provider Fallback",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/browser-use/jev-ultrafast",
+    "title": "jev-ultrafast \u2014 Screenshot-Free Python Browser Agent",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/GenAIwithMS/Expense-tracker-MCP",
+    "title": "GenAI Expense Tracker MCP \u2014 FastMCP+SQLite Expense Logging for Claude",
+    "date_seen": "2026-10-20"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/1220779",
+    "title": "Pancake \u2014 GTM Toolkit with Claude/Codex MCP Connection",
+    "date_seen": "2026-10-20"
   }
 ]

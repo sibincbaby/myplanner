@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-20', link: '/daily/2026-10-20' },
           { text: '2026-10-19', link: '/daily/2026-10-19' },
           { text: '2026-10-18', link: '/daily/2026-10-18' },
           { text: '2026-10-17', link: '/daily/2026-10-17' },
@@ -117,6 +118,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Atticus Macos Claude Voice Assistant', link: '/projects/2026-10-20-atticus' },
+          { text: 'Orca Multi Agent Parallel Coding Ide', link: '/projects/2026-10-20-orca' },
+          { text: 'Inferock Bench Llm Billing Receipt', link: '/projects/2026-10-20-inferock-bench' },
+          { text: 'Claude Wrapper Openai Compat Claude Code', link: '/projects/2026-10-20-claude-wrapper' },
           { text: 'Ccgram Telegram Tmux Agent Bridge', link: '/projects/2026-10-19-ccgram' },
           { text: 'Genkit Dart Flutter Ai Agent Framework', link: '/projects/2026-10-19-genkit-dart' },
           { text: 'Flutter Sms Expense Ai', link: '/projects/2026-10-14-flutter-sms-expense-ai' },
