@@ -2142,5 +2142,53 @@
   {
     "app": "Microsoft Configuration Manager (MECM / SCCM): collections, deployments, maintenance windows, software update groups",
     "date_seen": "2026-10-21"
+  },
+  {
+    "app": "Discord server admin (roles, channel permission overwrites, AutoMod, Onboarding)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Google Sheets + Excel sheet protection and team setup (protected ranges, Allow Edit Ranges, filter views, named ranges)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Salesforce Approval Processes (multi-step discount and deal-desk approvals)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Confluence Cloud access layer: space permissions + inherited page restrictions",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "NetSuite Advanced PDF/HTML Templates (FreeMarker invoice, statement and packing-slip layouts)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Power BI service operations: refresh schedules, gateway binding, deployment pipelines",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Google Ads conversion value rules and rule sets (value-based bidding)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Xero Fixed Assets register (asset types, depreciation settings, opening balances)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Dynamics 365 / Dataverse Word and Excel document templates (quotes, orders, invoices)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Microsoft Outlook search folders + master category list (retrieval views and category cleanup)",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Magento Open Source / Adobe Commerce cart price rules and coupon generation",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Tableau Cloud delivery layer: extract refresh tasks, subscriptions, data-driven alerts",
+    "date_seen": "2026-10-22"
   }
 ]
