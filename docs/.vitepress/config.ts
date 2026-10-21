@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-22', link: '/daily/2026-10-22' },
           { text: '2026-10-21', link: '/daily/2026-10-21' },
           { text: '2026-10-20', link: '/daily/2026-10-20' },
           { text: '2026-10-19', link: '/daily/2026-10-19' },
@@ -119,6 +120,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Landmines Pub Flutter Known Bugs Hook', link: '/projects/2026-10-22-landmines-pub' },
           { text: 'Mula India Bank Sms Claude Connector', link: '/projects/2026-10-21-mula-india' },
           { text: 'Atticus Macos Claude Voice Assistant', link: '/projects/2026-10-20-atticus' },
           { text: 'Orca Multi Agent Parallel Coding Ide', link: '/projects/2026-10-20-orca' },

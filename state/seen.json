@@ -4848,5 +4848,55 @@
     "url": "https://github.com/dominikmartn/harp",
     "title": "Harp \u2014 Warp fork with a sidebar for many Claude Code / Codex agents",
     "date_seen": "2026-10-21"
+  },
+  {
+    "url": "https://github.com/unknownprocess/wristle",
+    "title": "Wristle \u2014 Wear OS watch as a push-to-talk mic for your PC's local dictation app",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/swastij/claude-log-skill",
+    "title": "claude-log-skill \u2014 /log skill that writes per-task decisions, questions and a quiz to Notion",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/Mel0nidas/spark-hud",
+    "title": "Spark HUD \u2014 Claude Code mod: live context bar, 5h/7d limit pace forecast, agent list",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/noah-j12/ai-expense-tracker",
+    "title": "AI Expense Tracker \u2014 phone web app: snap a receipt or say what you spent, Claude logs it",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/goldyndevs/agent-traffic",
+    "title": "agent-traffic \u2014 Claude Code plugin that queues heavy builds and blocks clashing commands across parallel agents",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/talayash/learn",
+    "title": "learn \u2014 /learn turns your session and diff into a visual lesson with a quiz",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/pedrowillen/claude-agent-tree",
+    "title": "claude-agent-tree \u2014 Claude Code mod with a live orchestrator/subagent tree pane",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/smallnest/agentty",
+    "title": "agentty \u2014 coding-agent CLIs in PTYs, reachable from a browser/phone as a terminal",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/migasrias2/geckobox",
+    "title": "Geckobox \u2014 run Claude Code/Codex on any of your computers, jobs across all at once",
+    "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/devanshranjan10/landmines",
+    "title": "landmines \u2014 known open bugs in your exact pinned dependency versions, stopped at the agent's pre-edit hook",
+    "date_seen": "2026-10-22"
   }
 ]
