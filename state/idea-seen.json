@@ -2190,5 +2190,53 @@
   {
     "app": "Tableau Cloud delivery layer: extract refresh tasks, subscriptions, data-driven alerts",
     "date_seen": "2026-10-22"
+  },
+  {
+    "app": "Google Ads offline conversion import + enhanced conversions for leads (Data Manager API)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Jira Service Management customer portal + Forms (request types, conditional forms, customer organizations)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Microsoft Entra app provisioning (SCIM attribute mappings, expressions, scoping filters)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "SharePoint Online / OneDrive version-history storage reclaim (version limits, batch trim jobs)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Meta Lead Ads Instant Forms (qualifying forms, per-market variants, CRM routing)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Azure Virtual Desktop + Windows 365 (host pools, scaling plans, Cloud PC provisioning policies)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "DaVinci Resolve Fusion page (node-based titles and motion graphics)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Microsoft 365 license optimizer (group-based licensing, service plans, inactive premium seats)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Excel CUBE formulas over Power BI semantic models (CUBEVALUE / CUBEMEMBER / CUBESET report grids)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Blackmagic ATEM switchers (SuperSource, keyers, DVE, macros)",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Zendesk data model: conditional ticket forms, custom objects, lookup relationships",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Katana MRP variant BOMs and operation routings",
+    "date_seen": "2026-10-23"
   }
 ]
