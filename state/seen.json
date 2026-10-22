@@ -4898,5 +4898,75 @@
     "url": "https://github.com/devanshranjan10/landmines",
     "title": "landmines \u2014 known open bugs in your exact pinned dependency versions, stopped at the agent's pre-edit hook",
     "date_seen": "2026-10-22"
+  },
+  {
+    "url": "https://github.com/formstep/claude-mod-comment-diff",
+    "title": "comment-diff \u2014 Claude Code mod: comment on lines of Claude's diffs and send them as a PR-style review",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/enes-ekrem-ergunesh/quick-budget",
+    "title": "Quick Budget \u2014 mobile-first web app: say or type a phrase, AI turns it into a budget entry",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/PederHP/one-board-two-hosts",
+    "title": "one-board-two-hosts \u2014 one MCP task board shown as an MCP App in claude.ai and as a Claude Code mod",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/Leeiio/claude-desktop-importer",
+    "title": "claude-desktop-importer \u2014 bring CLI sessions into the Claude Desktop sidebar with real titles and order",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/dcsCHUNWU/chamber",
+    "title": "Chamber \u2014 local-first Markdown \"thinking net\" for Android (Flutter); AI links notes, never writes for you",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/stariver2000/claude-voice-summary",
+    "title": "voice-summary \u2014 Claude Code mod: spoken English summary of every reply via local Kokoro TTS",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/ImP4blo/diario-de-bordo",
+    "title": "Di\u00e1rio de Bordo \u2014 listens to your mic all workday, AI turns the transcript into a Word diary",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/imetn/calends",
+    "title": "Calends \u2014 self-hosted AI-native subscription ledger with a built-in MCP server",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/rohanbeingsocial/showboard",
+    "title": "Showboard \u2014 MCP server: agent answers SQL/CSV questions with dashboards instead of paragraphs",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/kushvinth/crowbar",
+    "title": "crowbar \u2014 offline CVE + exploit index for your codebase, CLI + 20-tool MCP server",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/MartinG-38/claude-local-agents",
+    "title": "/local \u2014 Claude Code skill that hands big reads and code writing to local Ollama models",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/jesusventura2005/ask-form-mod-for-claude",
+    "title": "ask-form-mod \u2014 Claude Code mod that draws Claude's questions as a step-by-step form",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/rladr-org/reviewer-agent",
+    "title": "ReviewerAgent + StopContinue \u2014 automated commit review and stop supervision for Claude Code/Codex",
+    "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/Dr-xu193/syncnote-community",
+    "title": "SyncNote Community \u2014 Flutter workspace for notes, tasks, journals and an AI assistant (Windows/Android)",
+    "date_seen": "2026-10-23"
   }
 ]
