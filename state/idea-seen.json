@@ -2238,5 +2238,53 @@
   {
     "app": "Katana MRP variant BOMs and operation routings",
     "date_seen": "2026-10-23"
+  },
+  {
+    "app": "Microsoft Intune app protection policies (MAM for personal phones, no enrollment)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Exchange Online mailbox archiving (online archive, MRM retention tags, auto-expanding archive, Recoverable Items)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Office Link Fixer: broken Excel/PowerPoint/Word external links after a file-share to SharePoint move",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Salesforce Products, Price Books and revenue/quantity schedules (Pipedrive and Zoho CRM as second connectors)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Dynamics 365 Business Central RapidStart configuration-package migration (off QuickBooks/Sage/Excel)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Microsoft Entra cross-tenant access settings (B2B partners, B2B direct connect, M&A)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Qlik Sense Enterprise on Windows QMC security rules",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Brandfolder (Smartsheet) DAM schema and asset-lifecycle governance",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Windows Server Active Directory account hygiene and privileged-group cleanup (on-prem AD DS)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Cross-platform UTM, tracking-template and campaign-naming governance (fixes GA4 \"Unassigned\")",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Jira Cloud structural consolidation (cross-project bulk move, team-managed to company-managed, archiving)",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Adobe InDesign accessible EPUB 3 export for the European Accessibility Act",
+    "date_seen": "2026-10-24"
   }
 ]
