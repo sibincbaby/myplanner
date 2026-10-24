@@ -4968,5 +4968,45 @@
     "url": "https://github.com/Dr-xu193/syncnote-community",
     "title": "SyncNote Community \u2014 Flutter workspace for notes, tasks, journals and an AI assistant (Windows/Android)",
     "date_seen": "2026-10-23"
+  },
+  {
+    "url": "https://github.com/Mockapapella/tenex",
+    "title": "Tenex \u2014 Rust multi-agent runner with parallel worktrees and built-in PTY",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/monsieurkd/voice-debrief",
+    "title": "voice-debrief \u2014 agentic voice journaling: Zod extraction to structured queryable JSONL",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/d0ugal/graith",
+    "title": "graith \u2014 Go daemon: long-lived AI coding-agent sessions across git worktrees",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/yetone/magpie",
+    "title": "magpie \u2014 lightweight TUI router for any coding agent to any model provider",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://chatgate.ai/post/nova-cli-v1-0",
+    "title": "NOVA CLI v1.0 \u2014 AI developer terminal with PASS/FAIL/UNVERIFIED verdict per task",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/grouzen/flowmux",
+    "title": "flowmux \u2014 Rust TUI dashboard for running multiple AI coding agents in parallel",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "title": "pi-agent-dashboard \u2014 browser dashboard for pi coding-agent sessions, mobile-first",
+    "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/gilangsatria09/cc_expense_tracker",
+    "title": "cc_expense_tracker \u2014 Flutter credit-card tracker with split bills and Gemini receipt reading",
+    "date_seen": "2026-10-24"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-24', link: '/daily/2026-10-24' },
           { text: '2026-10-23', link: '/daily/2026-10-23' },
           { text: '2026-10-22', link: '/daily/2026-10-22' },
           { text: '2026-10-21', link: '/daily/2026-10-21' },
@@ -121,6 +122,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Nova Verify Pass Fail Hook Bundle Claude Code', link: '/projects/2026-10-24-nova-verify' },
+          { text: 'Magpie Coding Agent Model Router Switcher', link: '/projects/2026-10-24-magpie' },
           { text: 'Landmines Pub Flutter Known Bugs Hook', link: '/projects/2026-10-22-landmines-pub' },
           { text: 'Mula India Bank Sms Claude Connector', link: '/projects/2026-10-21-mula-india' },
           { text: 'Atticus Macos Claude Voice Assistant', link: '/projects/2026-10-20-atticus' },
