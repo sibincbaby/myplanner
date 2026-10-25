@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-25', link: '/daily/2026-10-25' },
           { text: '2026-10-24', link: '/daily/2026-10-24' },
           { text: '2026-10-23', link: '/daily/2026-10-23' },
           { text: '2026-10-22', link: '/daily/2026-10-22' },
@@ -122,6 +123,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Claude Mcp Browser Extension Mcp In Claudeai', link: '/projects/2026-10-25-claude-mcp' },
+          { text: 'Ccanvas Infinite Canvas Claude Code Agents Tauri', link: '/projects/2026-10-25-ccanvas' },
+          { text: 'Hivemind Parallel Agents Git Worktrees Mcp Kanban', link: '/projects/2026-10-25-hivemind' },
+          { text: 'Omnara Self Hosted Claude Managed Agents Control Plane', link: '/projects/2026-10-25-omnara' },
           { text: 'Nova Verify Pass Fail Hook Bundle Claude Code', link: '/projects/2026-10-24-nova-verify' },
           { text: 'Magpie Coding Agent Model Router Switcher', link: '/projects/2026-10-24-magpie' },
           { text: 'Landmines Pub Flutter Known Bugs Hook', link: '/projects/2026-10-22-landmines-pub' },

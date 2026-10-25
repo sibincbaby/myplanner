@@ -5008,5 +5008,40 @@
     "url": "https://github.com/gilangsatria09/cc_expense_tracker",
     "title": "cc_expense_tracker \u2014 Flutter credit-card tracker with split bills and Gemini receipt reading",
     "date_seen": "2026-10-24"
+  },
+  {
+    "url": "https://github.com/omnara-ai/omnara",
+    "title": "omnara \u2014 open-source self-hosted Claude Managed Agents alternative",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/DevoidSloth/ccanvas",
+    "title": "ccanvas \u2014 infinite canvas for Claude Code agents (Tauri)",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/dip497/hivemind",
+    "title": "hivemind \u2014 parallel Claude/Codex/Gemini CLI across git worktrees + SSH via MCP Kanban",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/dnakov/claude-mcp",
+    "title": "claude-mcp \u2014 browser extension: MCP support in claude.ai web UI",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/Kumario1/agentNotch",
+    "title": "agentNotch \u2014 macOS notch app for live Claude Code + Codex sessions",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/BasedHardware/omi",
+    "title": "omi \u2014 AI sees your screen, listens and acts (Flutter, voice)",
+    "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/PerinbaBuilds/Coinsight",
+    "title": "Coinsight \u2014 Flutter + Supabase finance app with AI chat consultant",
+    "date_seen": "2026-10-25"
   }
 ]
