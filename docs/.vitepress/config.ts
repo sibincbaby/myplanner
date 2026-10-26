@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-10-26', link: '/daily/2026-10-26' },
           { text: '2026-10-25', link: '/daily/2026-10-25' },
           { text: '2026-10-24', link: '/daily/2026-10-24' },
           { text: '2026-10-23', link: '/daily/2026-10-23' },
@@ -123,6 +124,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Terminator Playwright Computer Use Windows Mcp', link: '/projects/2026-10-26-terminator' },
+          { text: 'Claude Share Multiplayer Live Sessions Claude Code', link: '/projects/2026-10-26-claude-share' },
+          { text: 'Hermes Mobile App Android Hermes Agent Termux', link: '/projects/2026-10-26-hermes-mobile-app' },
+          { text: 'Herdr Rust Terminal Multiplexer Agent Era', link: '/projects/2026-10-26-herdr' },
+          { text: 'Ruflo AI Agent Meta Harness Claude Code Codex Swarms', link: '/projects/2026-10-26-ruflo' },
           { text: 'Claude Mcp Browser Extension Mcp In Claudeai', link: '/projects/2026-10-25-claude-mcp' },
           { text: 'Ccanvas Infinite Canvas Claude Code Agents Tauri', link: '/projects/2026-10-25-ccanvas' },
           { text: 'Hivemind Parallel Agents Git Worktrees Mcp Kanban', link: '/projects/2026-10-25-hivemind' },

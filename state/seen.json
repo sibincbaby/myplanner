@@ -5043,5 +5043,45 @@
     "url": "https://github.com/PerinbaBuilds/Coinsight",
     "title": "Coinsight \u2014 Flutter + Supabase finance app with AI chat consultant",
     "date_seen": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/ruvnet/ruflo",
+    "title": "ruflo \u2014 AI agent meta-harness for Claude Code/Codex/Hermes swarms",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/Deuz-AI/Deuz-SDK",
+    "title": "Deuz-SDK \u2014 zero-dep TypeScript AI agent framework with MCP and A2A",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/akapug/herdr",
+    "title": "herdr \u2014 Rust terminal multiplexer for AI coding agents",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/saidkaban/expo-ai-kit",
+    "title": "expo-ai-kit \u2014 on-device LLM/embeddings for Expo/React Native",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/omarqaterge/hermes-mobile-app",
+    "title": "hermes-mobile-app \u2014 native Android app for Hermes Agent via Termux",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/Paradigm-Study/claude-share",
+    "title": "claude-share \u2014 multiplayer live sessions for Claude Code",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/midday-ai/ai-sdk-tools",
+    "title": "midday-ai/ai-sdk-tools \u2014 production utilities for Vercel AI SDK",
+    "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/mediar-ai/terminator",
+    "title": "terminator \u2014 Playwright-style computer-use for Windows via MCP",
+    "date_seen": "2026-10-26"
   }
 ]
