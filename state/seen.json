@@ -5083,5 +5083,55 @@
     "url": "https://github.com/mediar-ai/terminator",
     "title": "terminator \u2014 Playwright-style computer-use for Windows via MCP",
     "date_seen": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/yetone/magpie",
+    "title": "magpie \u2014 Multi-model menu-bar gateway for AI coding agents",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/agentscope-ai/AgentTeams",
+    "title": "AgentTeams \u2014 Collaborative multi-agent OS with human-in-the-loop via Matrix rooms",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/reason-machines/reason-network",
+    "title": "reason-network \u2014 MCP server for agent-to-agent communication on a dev team",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/Louis-CFM/coucou",
+    "title": "coucou \u2014 Mac notch + iPhone companion that monitors AI coding agents",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47766370",
+    "title": "LangAlpha \u2014 Open-source agent harness for investment research",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/nightly-labs/openbot",
+    "title": "openbot \u2014 Desktop workspace that runs Claude Code, Codex, and Grok agents",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=49303046",
+    "title": "Mole \u2014 Terminal deep-research agent with budget cap and privacy boundary",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://tanstack.com/blog/tanstack-ai-1-0",
+    "title": "TanStack AI 1.0 \u2014 Stable, framework-agnostic AI SDK with subagents and MCP server exposure",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/Leonxlnx/earshot",
+    "title": "earshot \u2014 Voice and sound capabilities for AI coding agents",
+    "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/rehan-remade/universal-modder",
+    "title": "universal-modder \u2014 Claude Code skills and fal MCP toolkit for game modding",
+    "date_seen": "2026-10-27"
   }
 ]
