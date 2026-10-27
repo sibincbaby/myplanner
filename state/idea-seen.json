@@ -2286,5 +2286,53 @@
   {
     "app": "Adobe InDesign accessible EPUB 3 export for the European Accessibility Act",
     "date_seen": "2026-10-24"
+  },
+  {
+    "app": "Windows Server file server (NTFS + share permissions, access-based enumeration, DFS Namespaces, FSRM quotas and file screens)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Windows Server DNS + DHCP (AD-integrated zones, scopes, reservations, failover, scavenging)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Microsoft Word Table of Authorities and Index (TA / TOA / XE / INDEX fields)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Google Merchant Center local inventory ads and free local listings (omnichannel settings, store inventory)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Behringer X32 / Midas M32 / Behringer WING digital mixing consoles",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Microsoft Hyper-V + Failover Clustering (the VMware-exodus landing spot)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Mexico SAT CFDI 4.0 payment complements (REP / Pagos 2.0), Carta Porte and SAT reconciliation",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Tableau / Qlik Sense → Power BI migration operator (writes PBIP / TMDL / PBIR)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Salesforce Service Console Macros + Quick Text",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Salesforce Translation Workbench (multi-language orgs)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "ServiceNow Import Sets + Transform Maps (spreadsheet data onboarding)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Office pre-send metadata scrub (Word / Excel / PowerPoint hidden data, Document Inspector at folder scale)",
+    "date_seen": "2026-10-28"
   }
 ]
