@@ -5133,5 +5133,45 @@
     "url": "https://github.com/rehan-remade/universal-modder",
     "title": "universal-modder \u2014 Claude Code skills and fal MCP toolkit for game modding",
     "date_seen": "2026-10-27"
+  },
+  {
+    "url": "https://github.com/FrigadeHQ/hob",
+    "title": "Hob \u2014 open-source offline-first LLM desktop by Frigade",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/vigneshv1cky/harness-studio",
+    "title": "Harness Studio \u2014 macOS/Linux coding agent with UI element picking",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50249947",
+    "title": "Init \u2014 Rust self-modifying agent harness with hot-swap",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://www.npmjs.com/package/@caglarutkuguler/cubicle",
+    "title": "Cubicle \u2014 zero-dep animated agent office monitor for Node",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/makecindy/cindy",
+    "title": "cindy \u2014 open-source TypeScript agent (Claude/Codex/Pi)",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/dragfly/dictare",
+    "title": "dictare \u2014 voice-first local control layer for AI coding agents",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/Codewhale-hq/Codewhale",
+    "title": "Codewhale \u2014 provider-agnostic Rust terminal coding agent",
+    "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/devdotfast/whiteboard",
+    "title": "Whiteboard \u2014 YC W26 OSS IDE for human+agent software design",
+    "date_seen": "2026-10-28"
   }
 ]

@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-10-28', link: '/daily/2026-10-28' },
         { text: '2026-10-27', link: '/daily/2026-10-27' },
         { text: '2026-10-26', link: '/daily/2026-10-26' },
         { text: '2026-10-25', link: '/daily/2026-10-25' },
@@ -125,6 +126,8 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Harness Studio', link: '/projects/2026-10-28-harness-studio' },
+        { text: 'Dictare', link: '/projects/2026-10-28-dictare' },
         { text: 'Coucou Mac Notch Iphone Companion That Monitors Ai Coding Agents', link: '/projects/2026-10-27-coucou-mac-notch-iphone-companion-that-monitors-ai-coding-agents' },
         { text: 'Reason Network', link: '/projects/2026-10-27-reason-network' },
         { text: 'Earshot Voice And Sound Capabilities For Ai Coding Agents', link: '/projects/2026-10-27-earshot-voice-and-sound-capabilities-for-ai-coding-agents' },
