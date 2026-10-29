@@ -5173,5 +5173,40 @@
     "url": "https://github.com/devdotfast/whiteboard",
     "title": "Whiteboard \u2014 YC W26 OSS IDE for human+agent software design",
     "date_seen": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/lifrary/agent-tree",
+    "title": "agent-tree \u2014 Claude Code session file-tree navigator plugin",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/sourav-ojha/open-source-radar/issues/66",
+    "title": "Pare \u2014 240 structured-output MCP wrappers for dev CLIs",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://www.producthunt.com/products/bits-4",
+    "title": "Bits \u2014 open-source local-first personal AI agent (macOS)",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/blockchaindexico-cmyk/my-diary",
+    "title": "blockchaindexico-cmyk/my-diary \u2014 voice AI diary (Expo + FastAPI)",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/Emmyu/spendwise",
+    "title": "Emmyu/spendwise \u2014 Flutter AI expense tracker with MCP server",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/agentproto/ts",
+    "title": "agentproto/ts \u2014 TypeScript agentic runtime with MCP session management",
+    "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/sourav-ojha/open-source-radar/issues/66#misakanet",
+    "title": "MisakaNet \u2014 community agent failure/fix corpus served over MCP",
+    "date_seen": "2026-10-29"
   }
 ]

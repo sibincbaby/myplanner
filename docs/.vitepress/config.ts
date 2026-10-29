@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-10-29', link: '/daily/2026-10-29' },
         { text: '2026-10-28', link: '/daily/2026-10-28' },
         { text: '2026-10-27', link: '/daily/2026-10-27' },
         { text: '2026-10-26', link: '/daily/2026-10-26' },
@@ -126,6 +127,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'agent-tree', link: '/projects/2026-10-29-agent-tree' },
+        { text: 'Pare MCP Wrappers', link: '/projects/2026-10-29-pare-mcp-wrappers' },
+        { text: 'Bits Local Agent', link: '/projects/2026-10-29-bits-local-agent' },
+        { text: 'my-diary Voice AI', link: '/projects/2026-10-29-my-diary-voice-ai' },
+        { text: 'spendwise Flutter Finance', link: '/projects/2026-10-29-spendwise-flutter-finance' },
         { text: 'Harness Studio', link: '/projects/2026-10-28-harness-studio' },
         { text: 'Dictare', link: '/projects/2026-10-28-dictare' },
         { text: 'Coucou Mac Notch Iphone Companion That Monitors Ai Coding Agents', link: '/projects/2026-10-27-coucou-mac-notch-iphone-companion-that-monitors-ai-coding-agents' },
