@@ -5208,5 +5208,55 @@
     "url": "https://github.com/sourav-ojha/open-source-radar/issues/66#misakanet",
     "title": "MisakaNet \u2014 community agent failure/fix corpus served over MCP",
     "date_seen": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/respan-ai/respan",
+    "title": "Respan \u2014 open-source Rust AI gateway with MCP, fallbacks & routing",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?corgi-terminal-agent",
+    "title": "Corgi \u2014 agent+terminal multiplexer (HN 137pts, 46 comments)",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/journiv-app/journiv",
+    "title": "Journiv \u2014 local-first AI journal (iOS/Android, voice+text+photo)",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://devpick.it-araiguma.com/en/articles/60580",
+    "title": "Spec-first agentic dev plugin \u2014 spec-driven LLM workflow",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/proc-cli/proc-cli",
+    "title": "Proc-CLI \u2014 agent-friendly process & port management CLI",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+    "title": "GitHub Agentic Workflows \u2014 Markdown-defined coding agent automation (GA)",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/features/copilot",
+    "title": "GitHub Copilot Fusion \u2014 model router/orchestrator for coding tasks",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/YashVMonpara/frontier-connector",
+    "title": "Frontier Connector \u2014 local AI workspace for Claude & OpenAI",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?agent-relay",
+    "title": "Agent-relay \u2014 multi-vendor coding session relay",
+    "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?openshell-agent",
+    "title": "OpenShell \u2014 safe private runtime for autonomous AI agent fleets",
+    "date_seen": "2026-10-30"
   }
 ]
