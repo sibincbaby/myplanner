@@ -5085,23 +5085,8 @@
     "date_seen": "2026-10-26"
   },
   {
-    "url": "https://github.com/yetone/magpie",
-    "title": "magpie \u2014 Multi-model menu-bar gateway for AI coding agents",
-    "date_seen": "2026-10-27"
-  },
-  {
-    "url": "https://github.com/agentscope-ai/AgentTeams",
-    "title": "AgentTeams \u2014 Collaborative multi-agent OS with human-in-the-loop via Matrix rooms",
-    "date_seen": "2026-10-27"
-  },
-  {
     "url": "https://github.com/reason-machines/reason-network",
     "title": "reason-network \u2014 MCP server for agent-to-agent communication on a dev team",
-    "date_seen": "2026-10-27"
-  },
-  {
-    "url": "https://github.com/Louis-CFM/coucou",
-    "title": "coucou \u2014 Mac notch + iPhone companion that monitors AI coding agents",
     "date_seen": "2026-10-27"
   },
   {
@@ -5127,11 +5112,6 @@
   {
     "url": "https://github.com/Leonxlnx/earshot",
     "title": "earshot \u2014 Voice and sound capabilities for AI coding agents",
-    "date_seen": "2026-10-27"
-  },
-  {
-    "url": "https://github.com/rehan-remade/universal-modder",
-    "title": "universal-modder \u2014 Claude Code skills and fal MCP toolkit for game modding",
     "date_seen": "2026-10-27"
   },
   {
@@ -5258,5 +5238,55 @@
     "url": "https://news.ycombinator.com/item?openshell-agent",
     "title": "OpenShell \u2014 safe private runtime for autonomous AI agent fleets",
     "date_seen": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/CodeCombustion/injection-sentinel",
+    "title": "injection-sentinel \u2014 PostToolUse hook that flags prompt injections in WebFetch/WebSearch results",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/marciob/prompt-refiner",
+    "title": "prompt-refiner \u2014 type ++, a fresh headless Claude rewrites your prompt",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/overflowy/claude-scrub",
+    "title": "claude-scrub \u2014 redact secrets from Claude Code history on disk",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/Lukallo/hestia",
+    "title": "Hestia \u2014 /hestia:done ends your Claude Code workday",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/levzb/psst",
+    "title": "psst \u2014 plain words to the exact shell command",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/mandarvshinde/ai-bill-to-focus",
+    "title": "ai-bill-to-focus \u2014 Anthropic/OpenAI bills to FinOps FOCUS CSV",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/vanmiku/mydash",
+    "title": "mydash \u2014 self-hosted inbox for what your coding agents produce",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/hadiux0295/claude-code-mistake-guards",
+    "title": "claude-code-mistake-guards \u2014 hooks born from logged agent mistakes",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/agentmash-dev/agentmash-cli",
+    "title": "agentmash-cli \u2014 agents warn each other before editing the same file",
+    "date_seen": "2026-10-31"
+  },
+  {
+    "url": "https://github.com/Sheernox/cedr",
+    "title": "cedr \u2014 route work to the right coding agent, merge multi-vendor reviews",
+    "date_seen": "2026-10-31"
   }
 ]

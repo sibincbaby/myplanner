@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-10-31', link: '/daily/2026-10-31' },
         { text: '2026-10-30', link: '/daily/2026-10-30' },
         { text: '2026-10-29', link: '/daily/2026-10-29' },
         { text: '2026-10-28', link: '/daily/2026-10-28' },
@@ -128,6 +129,12 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Injection Sentinel Hook', link: '/projects/2026-10-31-injection-sentinel-hook' },
+        { text: 'Respan LLM Gateway', link: '/projects/2026-10-30-respan-llm-gateway' },
+        { text: 'Corgi Agent Multiplexer', link: '/projects/2026-10-30-corgi-agent-multiplexer' },
+        { text: 'Journiv Voice Journal', link: '/projects/2026-10-30-journiv-voice-journal' },
+        { text: 'Spec First Dev Plugin', link: '/projects/2026-10-30-spec-first-dev-plugin' },
+        { text: 'Proc CLI Agent Tools', link: '/projects/2026-10-30-proc-cli-agent-tools' },
         { text: 'agent-tree', link: '/projects/2026-10-29-agent-tree' },
         { text: 'Pare MCP Wrappers', link: '/projects/2026-10-29-pare-mcp-wrappers' },
         { text: 'Bits Local Agent', link: '/projects/2026-10-29-bits-local-agent' },
