@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-11-01', link: '/daily/2026-11-01' },
         { text: '2026-10-31', link: '/daily/2026-10-31' },
         { text: '2026-10-30', link: '/daily/2026-10-30' },
         { text: '2026-10-29', link: '/daily/2026-10-29' },
@@ -129,6 +130,10 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Stock Market MCP 130 Tools', link: '/projects/2026-11-01-stock-market-mcp-130-tools' },
+        { text: 'Optio Ticket To PR Automation', link: '/projects/2026-11-01-optio-ticket-to-pr-automation' },
+        { text: 'Open Finance Local Bank MCP', link: '/projects/2026-11-01-open-finance-local-bank-mcp' },
+        { text: 'Broker Analysis MCP Yahoo Finance', link: '/projects/2026-11-01-broker-analysis-mcp-yahoo-finance' },
         { text: 'Injection Sentinel Hook', link: '/projects/2026-10-31-injection-sentinel-hook' },
         { text: 'Respan LLM Gateway', link: '/projects/2026-10-30-respan-llm-gateway' },
         { text: 'Corgi Agent Multiplexer', link: '/projects/2026-10-30-corgi-agent-multiplexer' },
