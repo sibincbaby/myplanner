@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+        { text: '2026-11-02', link: '/daily/2026-11-02' },
         { text: '2026-11-01', link: '/daily/2026-11-01' },
         { text: '2026-10-31', link: '/daily/2026-10-31' },
         { text: '2026-10-30', link: '/daily/2026-10-30' },
@@ -130,6 +131,12 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+        { text: 'Ilse Visual Ui Code Agent', link: '/projects/2026-11-02-ilse-visual-ui-code-agent' },
+        { text: 'Memdoor Cli Agent', link: '/projects/2026-11-02-memdoor-cli-agent' },
+        { text: 'Orkas Local Agent Team', link: '/projects/2026-11-02-orkas-local-agent-team' },
+        { text: 'Fastbrowse Choice Model Browser', link: '/projects/2026-11-02-fastbrowse-choice-model-browser' },
+        { text: 'Ifixai Agent Audit', link: '/projects/2026-11-02-ifixai-agent-audit' },
+        { text: 'Xwiki Knowledge Mcp', link: '/projects/2026-11-02-xwiki-knowledge-mcp' },
         { text: 'Stock Market MCP 130 Tools', link: '/projects/2026-11-01-stock-market-mcp-130-tools' },
         { text: 'Optio Ticket To PR Automation', link: '/projects/2026-11-01-optio-ticket-to-pr-automation' },
         { text: 'Open Finance Local Bank MCP', link: '/projects/2026-11-01-open-finance-local-bank-mcp' },
