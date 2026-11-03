@@ -5403,5 +5403,45 @@
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "title": "daily_stock_analysis \u2014 LLM-powered multi-market stock analysis",
     "date_seen": "2026-11-02"
+  },
+  {
+    "url": "https://github.com/lightpanda-io/browser",
+    "title": "Lightpanda \u2014 headless browser for AI automation (Zig, CDP-compatible, 9-11x faster than Chrome, native MCP)",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/max-sixty/worktrunk",
+    "title": "worktrunk \u2014 Git worktree management CLI for parallel AI agents (Rust, LLM commit messages, Claude Code plugin)",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/Asymptote-Labs/agent-beacon",
+    "title": "agent-beacon (beacon.sh) \u2014 cross-harness memory layer: session history \u2192 reusable skills, works with Claude Code + 20 others",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "title": "agent-desktop \u2014 computer-use CLI for agents via accessibility trees (structured JSON, stable refs, Apache-2.0)",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/winfunc/opcode",
+    "title": "opcode \u2014 Tauri 2 + React 19 desktop GUI for Claude Code (custom agents, background agents, session tracking, MIT)",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/geosmart/lumma",
+    "title": "Lumma \u2014 AI-native Flutter voice journal: voice \u2192 structured Markdown for Obsidian",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "title": "VoiceStudio \u2014 fully local ElevenLabs alternative: voice cloning, dubbing, transcription, 646 languages",
+    "date_seen": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/t3-oss/t3-code",
+    "title": "T3 Code \u2014 unified multi-agent control plane for Claude Code, Codex, OpenCode, Cursor, Grok (MIT, Theo Browne)",
+    "date_seen": "2026-11-03"
   }
 ]
