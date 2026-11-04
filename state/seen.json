@@ -5493,5 +5493,55 @@
     "url": "https://github.com/wcook04/agent-trace-mechanism",
     "title": "Agent Trace: MCP server that lets agents search and read past Codex and Claude Code conversations",
     "date_seen": "2026-11-04"
+  },
+  {
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "title": "Agent Autoloop: background daemon that picks up work for CLI agents and sends decision cards when unsure",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/jihe520/agent-graph",
+    "title": "Agent Graph: git graph instead of a session list as the main view of an agent workspace (spec, prompt, prototype)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://smallprint.dev",
+    "title": "Small Print: flags MCP servers, skills and plugins whose tool descriptions change after you approved them",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/RiccardoCherchi/flutter-runner",
+    "title": "flutter-runner: runs flutter run detached with a machine-wide registry any terminal or agent can reload and stop",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/LucasMenezeslc/flutter-dead-code-audit",
+    "title": "flutter-dead-code-audit: review-first agent skill for removing dead code from Flutter and Dart projects",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/AlmogBaku/visual-plan",
+    "title": "visual-plan: agent skill that writes one change's design as an interactive page with decisions as controls",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/haithamexe/dx-toolkit",
+    "title": "dx toolkit: local dashboard, CLI and MCP tools for projects, dev servers, ports and a work journal",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/jeonghun917/readfirst",
+    "title": "readfirst: per-file notes on what to read and check before you or an agent change a file",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/wutlu/callmeclaude",
+    "title": "CallMeClaude: rings your iPhone when a Claude Code session gets stuck, and you answer by voice",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/DanielOu1208/portals",
+    "title": "Portals: native iPhone, iPad and Mac app for coding agents running on your own computers",
+    "date_seen": "2026-11-05"
   }
 ]
