@@ -2334,5 +2334,53 @@
   {
     "app": "Office pre-send metadata scrub (Word / Excel / PowerPoint hidden data, Document Inspector at folder scale)",
     "date_seen": "2026-10-28"
+  },
+  {
+    "app": "Windows Server IIS (sites, bindings, app pools, URL Rewrite)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Outlook bulk attachment filing to SharePoint / OneDrive (historical backlog)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "OneDrive / SharePoint sync repair (conflict copies, illegal names)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "TLS certificate renewal for the 200/100/47-day limits (Windows-first, CA-neutral)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Crystal Reports → Power BI paginated reports (RPT to RDL)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "IRS IRIS 1099 e-filing after FIRE retirement (A2A, high-volume filers)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Brazil NFS-e Nacional service invoices",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Windows Server Remote Desktop Services (on-prem RDS)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Active Directory Sites and Services (replication topology)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Shopify Plus expansion-store diff and promote",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "PowerPoint narrated video (speaker notes to voiceover, timings and video)",
+    "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Dynamics 365 / Dataverse server-side sync (mailbox rollout and repair)",
+    "date_seen": "2026-11-05"
   }
 ]
