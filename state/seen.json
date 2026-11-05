@@ -5543,5 +5543,55 @@
     "url": "https://github.com/DanielOu1208/portals",
     "title": "Portals: native iPhone, iPad and Mac app for coding agents running on your own computers",
     "date_seen": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/mishoko/claude-code-recursive-delete-guard",
+    "title": "claude-code-recursive-delete-guard: PreToolUse hook that blocks unsafe recursive deletes, even in bypassPermissions mode",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/delosvas/UsageResetter",
+    "title": "UsageResetter: alarm clock that pings your AI CLIs so the 5-hour usage window starts when you choose",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Faiziimam/Footnote",
+    "title": "Footnote: project tracker that updates itself from your notes, docs and git history",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/onlyreadai/onlyread",
+    "title": "OnlyRead: Chrome extension that makes AI browser agents read-only by refusing writes before they leave the browser",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/danielrosehill/ASR-Recursive-Improvement-Loop",
+    "title": "ASR Recursive Improvement Loop: playbook for improving a personal speech model from its own transcript history",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/krika2810/agent-trace",
+    "title": "agent-trace: Claude Code mod that lists every model request, tool call and subagent in a side pane",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Mohammed-051/AIVault",
+    "title": "AIVault: lockfile and permission labels for agent skills",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Axi404/todo",
+    "title": "ToDo: self-hosted board for one person and the AI agents they hand work to",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/josephismikhail/gboard-openai-dictation",
+    "title": "gboard-openai-dictation: unofficial patch that adds OpenAI dictation to a locally built Gboard",
+    "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/FernandoZorek/family_finances_ai",
+    "title": "Family Finances: self-hosted, mobile-first household dashboard that reads bank statements, with optional AI",
+    "date_seen": "2026-11-06"
   }
 ]
