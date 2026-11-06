@@ -2382,5 +2382,49 @@
   {
     "app": "Dynamics 365 / Dataverse server-side sync (mailbox rollout and repair)",
     "date_seen": "2026-11-05"
+  },
+  {
+    "app": "Confluence Data Center → Cloud macro and page repair",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Azure Key Vault access-policy → RBAC migration and API-version audit",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Salesforce SOAP `login()` retirement (cutover to External Client Apps)",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Cross-channel promo rollout (Shopify, eBay, Google Merchant Center, Klaviyo)",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "EU marketplace GPSR listing compliance (eBay, Amazon, Shopify)",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Zendesk Sell forced exit to Pipedrive",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Poland KSeF 2.0 inbox and reconciliation",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "SQL Server 2016 side-by-side instance upgrade",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Microsoft Access back-end upsizing to SQL Server (SSMA console + front-end repair)",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Power BI real-time streaming exit to Fabric Real-Time Intelligence",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "app": "ERP vendor-master address remediation for Swift structured addresses",
+    "date_seen": "2026-11-07"
   }
 ]
