@@ -5593,5 +5593,55 @@
     "url": "https://github.com/FernandoZorek/family_finances_ai",
     "title": "Family Finances: self-hosted, mobile-first household dashboard that reads bank statements, with optional AI",
     "date_seen": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/BhuwanJoshi-01/ifinjected",
+    "title": "ifinjected: shows what a prompt-injected coding agent could reach on your machine",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/mhrezaei/Zemzeme",
+    "title": "Zemzeme: Linux dictation at the cursor, using OpenRouter speech-to-text",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/OpenProjectDev/OpenFinances",
+    "title": "OpenFinances: Flutter finance app for Android with no internet permission",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/mohamedsabith/setupscore",
+    "title": "setupscore: checks your CLAUDE.md, then benchmarks it on your own commits",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/cenkerarin/coban",
+    "title": "coban: terminal app where one orchestrator hands work to many coding agents and accounts",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/captjt/rex-inbox",
+    "title": "rex-inbox: one inbox for coding agents, on top of the Rex terminal",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/seb-astian-wieser/claude-workflow-kit",
+    "title": "claude-workflow-kit: Claude Code skills that keep token use down",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/tlpinney/dictation-lab",
+    "title": "dictation-lab: review dictation recordings in the terminal and train a correction model",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/Nam0101/rexc",
+    "title": "rexc: Android client for the Rex terminal multiplexer",
+    "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/YassineSawahi/voice-foreman",
+    "title": "Voice foreman: Claude phones you over Tailscale when a session needs you",
+    "date_seen": "2026-11-07"
   }
 ]
