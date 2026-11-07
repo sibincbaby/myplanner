@@ -5643,5 +5643,55 @@
     "url": "https://github.com/YassineSawahi/voice-foreman",
     "title": "Voice foreman: Claude phones you over Tailscale when a session needs you",
     "date_seen": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/lukachi/openGPUI",
+    "title": "openGPUI: a coding agent writes a short UI file and it opens as a real form beside it",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/temet-ai/mike",
+    "title": "mike: records every Claude Code request and answer so you can browse and search them",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/jaredchu/proclease",
+    "title": "ProcLease: dev servers started by an agent get a deadline and stop when it passes",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/jiaqinq/agentcheckup",
+    "title": "agentcheckup: grades your MCP setup for tool-name clashes, risky config and context cost",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/cahian/baton",
+    "title": "baton: hands a long coding goal to the next vendor's agent when one hits its limit",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/Agentic-System-Lab/harness-relay",
+    "title": "Harness Relay: a group chat where Claude Code, Codex and Grok take turns",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/rupe120/plan-tool",
+    "title": "plan-tool: turns a rough idea into an audited plan, then runs it step by step",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/Saekisui/claude-p-pipeline",
+    "title": "claude-p-pipeline: tutorial for a streaming chat app on top of `claude -p` and your subscription",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/Rickaym/seti",
+    "title": "Seti: talk to a swarm of Claude Code agents by voice, from any browser",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/drost-ai/tinker-ai-skill",
+    "title": "tinker-ai-skill: fine-tune a model on your own Claude Code sessions",
+    "date_seen": "2026-11-08"
   }
 ]
