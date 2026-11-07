@@ -2426,5 +2426,29 @@
   {
     "app": "ERP vendor-master address remediation for Swift structured addresses",
     "date_seen": "2026-11-07"
+  },
+  {
+    "app": "Windows Server 2016 end-of-support exit planner (in-place upgrade vs Storage Migration Service vs Arc ESU, per server)",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "app": "Twitch channel modes (AutoMod level, blocked terms, Channel Points rewards, stream schedule)",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "app": "Zendesk Guide help-center restructuring (sections, article placement, user segments, translation gaps)",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "app": "SAP Business Network supplier operator (PO-flip invoices, order confirmations, ship notices across customers)",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "app": "Windows Task Scheduler (with macOS launchd as a second connector)",
+    "date_seen": "2026-11-08"
+  },
+  {
+    "app": "Asana custom-field consolidation (merge duplicate fields and remap values)",
+    "date_seen": "2026-11-08"
   }
 ]
