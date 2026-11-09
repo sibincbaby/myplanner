@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-11-09', link: '/daily/2026-11-09' },
           { text: '2026-11-08', link: '/daily/2026-11-08' },
           { text: '2026-11-07', link: '/daily/2026-11-07' },
           { text: '2026-11-06', link: '/daily/2026-11-06' },
@@ -137,6 +138,12 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Billion Context Infinite Session Proxy', link: '/projects/2026-11-09-billion-context' },
+          { text: 'My Expance Flutter Claude Expense Tracker', link: '/projects/2026-11-09-my-expance-flutter' },
+          { text: 'Lorekit Portable Agent Memory Mcp Server', link: '/projects/2026-11-09-lorekit-agent-memory' },
+          { text: 'AegisKernel Tool Call Safety Gateway', link: '/projects/2026-11-09-aegiskernel-safety' },
+          { text: 'LEANN Local RAG For Claude Code', link: '/projects/2026-11-09-leann-local-rag' },
+          { text: 'Caveman Token Reduction For Coding Agents', link: '/projects/2026-11-09-caveman-tokens' },
           { text: 'Worktrunk Git Worktree Agents', link: '/projects/2026-11-03-worktrunk-git-worktree-agents' },
           { text: 'T3 Code Multi Agent Control', link: '/projects/2026-11-03-t3-code-multi-agent-control' },
           { text: 'Opcode Tauri Claude Gui', link: '/projects/2026-11-03-opcode-tauri-claude-gui' },
