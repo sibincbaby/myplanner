@@ -13,6 +13,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-11-10', link: '/daily/2026-11-10' },
           { text: '2026-11-09', link: '/daily/2026-11-09' },
           { text: '2026-11-08', link: '/daily/2026-11-08' },
           { text: '2026-11-07', link: '/daily/2026-11-07' },
@@ -138,6 +139,11 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Beacon Self-Improving Agent Memory', link: '/projects/2026-11-10-beacon-agent-memory' },
+          { text: 'Agent Inbox Email Chat Handles For Agents', link: '/projects/2026-11-10-agent-inbox' },
+          { text: 'Jotsy Offline-First AI Flutter Journal', link: '/projects/2026-11-10-jotsy-flutter-journal' },
+          { text: 'Glasshand MacOS Computer Use Agent', link: '/projects/2026-11-10-glasshand-device-agent' },
+          { text: 'Hyperplane Eval Property-Based Agent Testing', link: '/projects/2026-11-10-hyperplane-eval' },
           { text: 'Billion Context Infinite Session Proxy', link: '/projects/2026-11-09-billion-context' },
           { text: 'My Expance Flutter Claude Expense Tracker', link: '/projects/2026-11-09-my-expance-flutter' },
           { text: 'Lorekit Portable Agent Memory Mcp Server', link: '/projects/2026-11-09-lorekit-agent-memory' },

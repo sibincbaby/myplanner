@@ -5738,5 +5738,45 @@
     "url": "https://maxxbench.unlap.ai",
     "title": "MaxxBench \u2014 Benchmark for Coding-Agent Score Validity",
     "date_seen": "2026-11-09"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/beacon-sh",
+    "title": "beacon.sh \u2014 self-improving memory for AI coding agents",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/agent-inbox",
+    "title": "Agent Inbox \u2014 email and chat handles for AI agents",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://jotsy.app",
+    "title": "Jotsy \u2014 offline-first Flutter journal with mood tracking",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://www.producthunt.com/posts/glasshand",
+    "title": "Glasshand \u2014 agent with real iPhone and Mac access",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://hyperplane.dev/eval",
+    "title": "Hyperplane Eval \u2014 property-based testing for AI agents",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/google/skills",
+    "title": "google/skills \u2014 MCP-native skills framework for 20+ agent harnesses",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://thunderduck.io",
+    "title": "Thunderduck \u2014 DuckDB-powered modular data warehouse for AI agents",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/PurpleDoubleD/locally-uncensored",
+    "title": "locally-uncensored \u2014 all-in-one local AI desktop app",
+    "date_seen": "2026-11-10"
   }
 ]
