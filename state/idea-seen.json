@@ -2450,5 +2450,41 @@
   {
     "app": "Asana custom-field consolidation (merge duplicate fields and remap values)",
     "date_seen": "2026-11-08"
+  },
+  {
+    "app": "Windows power management: overnight sleep-drain diagnosis and repair (powercfg)",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Active Directory account-lockout root-cause investigator (on-prem DCs and endpoints)",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Windows Server Network Policy Server (NPS): RADIUS for 802.1X Wi-Fi, VPN and network devices",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Sage Intacct Dynamic Allocations (allocation definitions and runs)",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Salesforce PRM channel programs, partner tiers and MDF allocation",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Salesforce Action Plan templates (Industries clouds) from an SOP",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "SAP Business One pricing engine (special prices, period and volume discounts)",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Microsoft Purview Information Barriers + Slack Enterprise Grid barriers (one ethical-wall model for both)",
+    "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Microsoft PowerToys configuration (Keyboard Manager remaps and module settings via PowerToys DSC)",
+    "date_seen": "2026-11-10"
   }
 ]
