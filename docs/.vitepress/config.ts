@@ -3,6 +3,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'AI Discovery',
   description: 'Daily AI project discovery dashboard',
+  markdown: {
+    // AI-written digests contain literal <TAGS> and {{...}}; treat both as text, not HTML/Vue
+    html: false,
+    config: (md) => {
+      for (const rule of ['text', 'code_inline'] as const) {
+        const orig = md.renderer.rules[rule]!
+        md.renderer.rules[rule] = (...args) => orig(...args).replace(/{{/g, '&#123;&#123;')
+      }
+    }
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
