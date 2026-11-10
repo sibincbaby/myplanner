@@ -5778,5 +5778,55 @@
     "url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "title": "locally-uncensored \u2014 all-in-one local AI desktop app",
     "date_seen": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/TinkeringDao/satori",
+    "title": "satori: offline Android voice recorder and journal, with Malayalam \u2192 English notes made on the phone",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/SwashBuckler104/budget-widget",
+    "title": "Budget Widget: bank, card and UPI SMS become an inbox you sort in one tap from a home-screen widget",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/YusufSizmaz/bekci",
+    "title": "bekci: offline scanner for skills, plugins, MCP servers, hooks and permissions",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/scrogson/aye",
+    "title": "Aye: approve sudo and Claude Code prompts from your phone with a passkey, over Tailscale",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/latent-spaces/codesk",
+    "title": "Codesk: a browser desktop for coding agents that the agent reshapes while you work",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/HugoLopes45/lmsk",
+    "title": "lmsk: masks keys, `.env` values and emails before Claude Code sends them, restores them in tool calls",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/alexeyw/lot-map",
+    "title": "lot-map: a live map beside the chat of what Claude Code is doing",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/ArduusLabs/wilfred",
+    "title": "wilfred: an always-on-top butler showing what each Claude desktop Code session is doing",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/Rajvardhman05/claude-model-router",
+    "title": "claude-model-router: a skill that picks the Claude model for each piece of work",
+    "date_seen": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/distronode-corporation/mcp-patchbay",
+    "title": "mcp-patchbay: switch MCP servers on and off mid-session, with a person confirming new ones",
+    "date_seen": "2026-11-11"
   }
 ]
