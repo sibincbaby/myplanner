@@ -1,4 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { readdirSync } from 'node:fs'
+
+// Page slugs in docs/<dir>, newest first. Ideas sidebar is built from this so the ideas cron needn't edit this file.
+const pages = (dir: string) =>
+  readdirSync(new URL(`../${dir}`, import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3)).sort().reverse()
+const ideas = pages('ideas')
 
 export default defineConfig({
   title: 'AI Discovery',
@@ -16,8 +22,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Daily', link: '/daily/' },
-      { text: 'Projects', link: '/projects/' }
+      { text: 'Daily', link: `/daily/${pages('daily')[0]}` },
+      { text: 'Projects', link: `/projects/${pages('projects')[0]}` },
+      { text: 'Ideas', link: `/ideas/${ideas[0]}` }
     ],
     sidebar: [
       {
@@ -432,6 +439,12 @@ export default defineConfig({
           { text: 'Cloudcli Claude Code Mobile Ui', link: '/projects/2026-07-01-cloudcli-claude-code-mobile-ui' },
           { text: 'Agent Teams Ai', link: '/projects/2026-07-01-agent-teams-ai' }
         ]
+      },
+      {
+        // Generated from docs/ideas/ — do not hand-edit
+        text: 'AI-Operator Ideas',
+        collapsed: true,
+        items: ideas.map((d) => ({ text: d, link: `/ideas/${d}` }))
       }
     ],
     socialLinks: [],

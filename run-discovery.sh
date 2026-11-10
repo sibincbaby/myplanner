@@ -49,7 +49,7 @@ Step 5 — Write files:
 - docs/daily/$DATE.md with candidates table and viable project links
 - docs/projects/$DATE-<slug>.md for each viable project
 - Update state/seen.json: append {url, title, date_seen: '$DATE'} for ALL candidates
-- Update docs/.vitepress/config.ts sidebar (list docs/daily/ and docs/projects/ newest first)
+- Update docs/.vitepress/config.ts sidebar (list docs/daily/ and docs/projects/ newest first; leave the nav, the pages() helper and the generated AI-Operator Ideas section untouched)
 
 Step 6 — Commit:
 git add -A
