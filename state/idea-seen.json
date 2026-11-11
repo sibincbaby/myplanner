@@ -2486,5 +2486,53 @@
   {
     "app": "Microsoft PowerToys configuration (Keyboard Manager remaps and module settings via PowerToys DSC)",
     "date_seen": "2026-11-10"
+  },
+  {
+    "app": "Atlassian Cloud organization admin (admin.atlassian.com): managed accounts, product access, groups, seat reclamation, API-token and audit-log hygiene",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Shiprocket (with Delhivery/Shipway-style Indian shipping aggregators): NDR, RTO and COD operations",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Open Policy Agent (OPA) / Rego, with Conftest, Gatekeeper and Kyverno as enforcement points (policy-as-code for Kubernetes, Terraform plans, CI configs and APIs)",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Amazon EC2 Auto Scaling + Launch Templates + Elastic Load Balancing (ASG fleets behind ALB/NLB target groups)",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Office File Doctor: Excel/Word/PowerPoint (OOXML .xlsx/.docx/.pptx) bloat, slowness and corruption repair",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Apache Kafka cluster operations (brokers, topics, consumer groups, ACLs, quotas; Confluent / MSK / Redpanda / Strimzi, with AKHQ or Kafka UI)",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Apache Fineract (Mifos X / Mifos Web App): open-source core banking and microfinance platform",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Arelle (open-source XBRL/iXBRL platform), with Workiva Wdesk as a second connector",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Salesforce CRM Analytics (formerly Tableau CRM / Einstein Analytics): datasets, recipes, SAQL, dashboard JSON",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Flipkart Seller Hub (Flipkart Marketplace Seller API): catalog listing, inventory/price sync, returns and settlements",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Ghost (open-source publishing, membership and newsletter platform, MIT, self-hostable or Ghost(Pro))",
+    "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Lago (open-source usage-based billing; Kill Bill, Orb and Metronome as secondary connectors)",
+    "date_seen": "2026-11-12"
   }
 ]
