@@ -2534,5 +2534,53 @@
   {
     "app": "Lago (open-source usage-based billing; Kill Bill, Orb and Metronome as secondary connectors)",
     "date_seen": "2026-11-12"
+  },
+  {
+    "app": "Amazon Lightsail (VPS, WordPress blueprints, static IPs, DNS zones, HTTPS, snapshots, CDN)",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Yahoo! Shopping Japan (Store Creator Pro): item edits, sale pricing and publish",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Fatture in Cloud (TeamSystem, Italy): reverse-charge self-invoices (TD17/TD18/TD19) and SDI rejection repair",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Blackbaud Raiser's Edge NXT: gift-batch processing (Neon CRM as a second connector)",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Adobe Acrobat digital IDs: certificate PDF signing (PAdES-LTV, USB-token DSCs), with pyHanko as the headless engine",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "KoboToolbox (with ODK Central as a second connector): XLSForm field-survey authoring and deployment",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Yahoo! JAPAN Ads / LINE Yahoo Ads (Search Ads)",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Cisco IOS XE (CLI-managed Catalyst switches and ISR routers, not Meraki)",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "DHIS2 (national health information system): metadata configuration",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Chatwoot (open-source omnichannel support inbox): automation rules, routing and labels",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "PowerPoint slide-library sync after the Reuse Slides retirement",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Pipedrive bulk-change undo (\"CRM undo\"), with Dynamics 365 / Dataverse as a second connector",
+    "date_seen": "2026-11-13"
   }
 ]
