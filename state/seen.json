@@ -5878,5 +5878,55 @@
     "url": "https://github.com/code4161/memgit",
     "title": "Memgit — versioned memory for Claude Code across all your machines",
     "date_seen": "2026-11-12"
+  },
+  {
+    "url": "https://koenvangilst.nl/lab/captains-log",
+    "title": "Captain's Log — local Mac voice journal (Whisper + Qwen cleanup to Markdown)",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/ghosthat-studio/handoffs",
+    "title": "Handoffs — Claude Code mod that turns Claude's asks into checklist cards",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/sofumel/reinwatch",
+    "title": "Reinwatch — watchdog that sees, warns about and stops runaway Claude Code subagents",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/IluvatarLabs/sitrep",
+    "title": "SITREP — live console for Claude Code and Codex sessions across machines",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/iamnotstatic/vibetime",
+    "title": "Vibetime — wraps Claude Code/Codex and prints a git-based 'what you shipped' endcard",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://apps.apple.com/us/app/halyard-ai-agent-terminal/id6809046638",
+    "title": "Halyard — Mac and iPhone app for AI agents running in tmux",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/izumedonabe/chengzhang",
+    "title": "Chengzhang (成章) — on-device push-to-talk voice typing for macOS on MLX",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/mamrezme/30yr-uptime",
+    "title": "30yr-uptime — Claude Code mod that turns wait time into movement breaks",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/aicon-hub/hisab",
+    "title": "Hisab — local-first Android expense and lent/borrowed ledger",
+    "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/ELU-Labs/elu",
+    "title": "ELU — full-screen terminal app running coding sessions over your AI CLIs with review bots",
+    "date_seen": "2026-11-13"
   }
 ]

@@ -30,6 +30,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-11-13', link: '/daily/2026-11-13' },
           { text: '2026-11-12', link: '/daily/2026-11-12' },
           { text: '2026-11-11', link: '/daily/2026-11-11' },
           { text: '2026-11-10', link: '/daily/2026-11-10' },
