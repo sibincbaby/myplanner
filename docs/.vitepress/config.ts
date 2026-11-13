@@ -30,6 +30,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-11-14', link: '/daily/2026-11-14' },
           { text: '2026-11-13', link: '/daily/2026-11-13' },
           { text: '2026-11-12', link: '/daily/2026-11-12' },
           { text: '2026-11-11', link: '/daily/2026-11-11' },
@@ -159,6 +160,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'Agent Receipts Cron Run Verifier', link: '/projects/2026-11-14-agent-receipts-cron-run-verifier' },
           { text: 'Aq Attention Queue Tui For Claude Code Sessions', link: '/projects/2026-11-12-aq-attention-queue-tui-for-claude-code-sessions' },
           { text: 'Jotsy Flutter Journal', link: '/projects/2026-11-10-jotsy-flutter-journal' },
           { text: 'Hyperplane Eval', link: '/projects/2026-11-10-hyperplane-eval' },

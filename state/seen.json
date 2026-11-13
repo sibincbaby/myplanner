@@ -5928,5 +5928,55 @@
     "url": "https://github.com/ELU-Labs/elu",
     "title": "ELU — full-screen terminal app running coding sessions over your AI CLIs with review bots",
     "date_seen": "2026-11-13"
+  },
+  {
+    "url": "https://github.com/hmzamlla21/Agent-Reciept",
+    "title": "Agent Receipts — plain-English receipt of what a coding agent really did",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/pqhaz3925/diktat",
+    "title": "Diktat — macOS dictation on Claude Code's /voice speech-to-text backend",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/clumsy-ug/agentview-chat",
+    "title": "Agentview Chat — chat UI for Claude Code background sessions (Windows)",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/dror-zalstein/ReceiptExtractor",
+    "title": "ReceiptExtractor — bank/wallet notifications → Sheets + Gemini + Telegram",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/eeshir/money-tracker-android",
+    "title": "Money Tracker — on-device SMS expense tracker (PennyWise AI fork)",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/harjotsbhatia/localledger-ai",
+    "title": "LocalLedger AI — local-LLM macOS finance assistant with validated tools",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/ahmadkhidir/harness",
+    "title": "Harness — mobile-first agent runtime in Flutter",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/metravod/omut",
+    "title": "omut — markdown project memory with a freshness-checking CLI",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/EreoTorres/lore-cli",
+    "title": "Lore — ADRs you can ask questions to (hybrid search + MCP)",
+    "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/jindraregal/analyse-bottleneck",
+    "title": "analyse-bottleneck — Claude Code wall-clock attribution skill",
+    "date_seen": "2026-11-14"
   }
 ]
