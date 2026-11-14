@@ -2582,5 +2582,49 @@
   {
     "app": "Pipedrive bulk-change undo (\"CRM undo\"), with Dynamics 365 / Dataverse as a second connector",
     "date_seen": "2026-11-13"
+  },
+  {
+    "app": "Active Directory service accounts → gMSA / dMSA conversion (on-prem Windows Server)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Mews PMS: rate restrictions and stay-rule strategy (min stay, closed to arrival, lead time)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "HPE Zerto: DR protection groups and test failovers (VMware Live Site Recovery as a second connector)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "New Outlook for Windows cutover readiness (COM add-ins, client-only rules, opt-in waves)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Oracle OPERA Cloud: rate plan and package builder via OHIP",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "IRIS Staffology Payroll: April 2027 payrolling of benefits in kind (company cars, medical)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Active Directory Kerberos SPN and delegation fixer (double-hop, unconstrained → RBCD)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "ShootProof: price sheets and print storefront setup for photographers",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Printavo: messy customer requests → structured print-shop quotes",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Fiix CMMS: building the preventive-maintenance program from manuals",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Twinfield (Wolters Kluwer): firm-wide dimension setup across client companies",
+    "date_seen": "2026-11-15"
   }
 ]
