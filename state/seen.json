@@ -5978,5 +5978,55 @@
     "url": "https://github.com/jindraregal/analyse-bottleneck",
     "title": "analyse-bottleneck — Claude Code wall-clock attribution skill",
     "date_seen": "2026-11-14"
+  },
+  {
+    "url": "https://github.com/Sung-eon/facetshot",
+    "title": "facetshot — screenshots of every screen on several devices × display settings in one contact sheet, plus what looks broken (CLI, MCP, skill)",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/hossam1244/llm_outbox",
+    "title": "llm_outbox — offline-first persistence layer for Dart/Flutter LLM apps: persisted prompt queue, dead-letter, resumable transcripts, BYOK vault",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/noambrand/ai-time-estimator",
+    "title": "AI Time Estimator — Claude Code plugin that estimates tasks in Claude's own working minutes, measured from your transcripts",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/MBotirjonDev/flutter-senior-review",
+    "title": "flutter-senior-review — write/review/port skills with 40 Flutter rules and a zero-dependency checker",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/AIwithhassan/likhari-ai",
+    "title": "likhari-ai — cross-platform push-to-talk dictation on local faster-whisper with optional LLM cleanup",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/allen-hsu/claude-code-sketch",
+    "title": "sketch — Claude Code mod that answers with diagrams, charts, roadmaps and wireframes in the terminal",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/graiz/KittyBrowser",
+    "title": "KittyBrowser — real headless-Chrome browser drawn in a terminal pane via the kitty graphics protocol, for use beside agents",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/challapradyumna/claude-sessions",
+    "title": "claude-sessions — save named sets of Claude Code sessions and restore each in its own terminal tab",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/disinfeqt/rulebook",
+    "title": "Rulebook — native macOS app to find and edit CLAUDE.md / AGENTS.md across projects",
+    "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/nikkexe0-del/blew-os",
+    "title": "Blew OS — ₹ money + ops OS for agencies: cashflow forecast, budgets, alerts, voice AI agent",
+    "date_seen": "2026-11-15"
   }
 ]
