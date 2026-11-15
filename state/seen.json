@@ -6028,5 +6028,55 @@
     "url": "https://github.com/nikkexe0-del/blew-os",
     "title": "Blew OS — ₹ money + ops OS for agencies: cashflow forecast, budgets, alerts, voice AI agent",
     "date_seen": "2026-11-15"
+  },
+  {
+    "url": "https://github.com/8tdknpvgt2-prog/diary",
+    "title": "日迹 Riji — one input box: a sentence is split into an expense, a work-log entry and a diary line",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/seuthootDev/claude-gh-guard",
+    "title": "claude-gh-guard — block commits/pushes under the wrong GitHub account in Claude Code",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/cycanics/session-sentinel",
+    "title": "session-sentinel — list and reopen Claude Code sessions killed by reboot/OOM",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/quiqqe/fill-me-in",
+    "title": "Fill Me In — Claude Code plugin for answers you can follow without watching the work",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/userfypp/phasewise",
+    "title": "phasewise — run a Markdown plan with Claude Code/Codex one verified phase at a time",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/abhinay-hat/voice-reader",
+    "title": "voice-reader — Claude Code replies read aloud with offline Kokoro voice",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/igun997/rflutter",
+    "title": "rflutter — build/test/run Flutter on remote sandboxes, MCP server + skill",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/hnvy/receiptdroid",
+    "title": "Receiptdroid — offline Android receipt OCR into hledger",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/maanit-gupta/csuper",
+    "title": "csuper — Claude Code supervisor with phase cycles and usage-limit auto-resume",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/satiricalguru/ledgerlite",
+    "title": "LedgerLite — privacy-first India finance PWA with a Gemini assistant",
+    "date_seen": "2026-11-16"
   }
 ]
