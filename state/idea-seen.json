@@ -2626,5 +2626,53 @@
   {
     "app": "Twinfield (Wolters Kluwer): firm-wide dimension setup across client companies",
     "date_seen": "2026-11-15"
+  },
+  {
+    "app": "Salesforce Lead and Case Assignment Rules, with Escalation Rules, Auto-Response Rules and Queues (lead and case routing)",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Sonatype Nexus Repository (Community Edition / Pro): cleanup policies, blob stores, content selectors and CE usage limits",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "TestRail (Idera / Sembi), with Xray and Zephyr Scale for Jira as second connectors",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Google Ad Grants (the nonprofit $10k/month Google Ads program): compliance and build operator",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "AWS KMS: key policies, grants and cross-account / cross-region encryption workflows",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "AWS Elastic Beanstalk: forced Amazon Linux 2 to Amazon Linux 2023 platform migration",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Gerrit Code Review: admin layer (project.config access sections, inherited ACLs, labels, submit requirements, groups)",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Salesforce Quip (docs, spreadsheets, Quip for Salesforce): forced-exit operator before the 2027 retirement",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "BookStack (open-source self-hosted wiki, MIT, Laravel), with Wiki.js as a second connector",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "QLab 5 (Figure 53): theater and live-event cue playback for sound, video, projection mapping, lighting and network/show control (macOS)",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Autodesk Flow Production Tracking (formerly ShotGrid/Shotgun); ftrack Studio as a second connector",
+    "date_seen": "2026-11-16"
+  },
+  {
+    "app": "SugarCRM (Sugar Sell / Serve / Enterprise): Studio, dropdown editor, SugarLogic dependencies and record-view layouts",
+    "date_seen": "2026-11-16"
   }
 ]
