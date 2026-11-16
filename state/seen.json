@@ -6078,5 +6078,55 @@
     "url": "https://github.com/satiricalguru/ledgerlite",
     "title": "LedgerLite — privacy-first India finance PWA with a Gemini assistant",
     "date_seen": "2026-11-16"
+  },
+  {
+    "url": "https://github.com/diegomarzaa/claude-code-dictation",
+    "title": "claude-code-dictation — global X11 dictation via Claude Code's /voice",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/codersanjay3/spend-leash",
+    "title": "spend-leash — per-task budgets and loop breaker for Claude Code",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/szmichalczyk/focus-app",
+    "title": "Focus — macOS time tracker with Claude Code/Codex session activity",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/tatsavi22/moneytracker",
+    "title": "MoneyTracker — offline Android bank/UPI SMS expense tracker",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/Eyeyuel/muday",
+    "title": "Muday — voice-first Telegram expense bot with Flutter SMS companion",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/fareezjasmi/classify_poc",
+    "title": "classify_poc — Flutter on-device OCR vs OCR + Qwen3 0.6B on receipts",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/skanehira/claude-timeline",
+    "title": "claude-timeline — Claude Code task-tree timeline mod",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/garrettlish/pi-ui",
+    "title": "pi-ui — local web UI and inspector for the pi coding agent",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/cr8297408/agent-voice",
+    "title": "agent-voice — local STT/TTS for Claude Code and pi on a Linux GPU",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://github.com/s3onghyun/agent-otel-kit",
+    "title": "agent-otel-kit — local OTel stack and dashboards for AI coding agents",
+    "date_seen": "2026-11-17"
   }
 ]
