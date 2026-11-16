@@ -2674,5 +2674,65 @@
   {
     "app": "SugarCRM (Sugar Sell / Serve / Enterprise): Studio, dropdown editor, SugarLogic dependencies and record-view layouts",
     "date_seen": "2026-11-16"
+  },
+  {
+    "app": "Subtitle Edit (open-source subtitle editor plus seconv CLI), with Aegisub as a second connector",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Company email signatures across Gmail (Google Workspace) and Outlook (Microsoft 365), as an open alternative to Exclaimer/CodeTwo",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Act! CRM (Act! Premium desktop / Act! Premium Cloud, with Act! Marketing Automation)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "bol.com Retailer API + Advertising API (Sponsored Products), the dominant Netherlands and Belgium marketplace",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Hugin (open-source panorama stitcher, Panorama Tools CLI chain), with PTGui Pro as a second connector",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "ArgyllCMS (open-source color-management engine) with DisplayCAL (community Python 3 fork) as the GUI layer",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Oracle JD Edwards EnterpriseOne (9.2, via the AIS Server)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Apache JMeter (load and performance testing: .jmx test plans, non-GUI and distributed runs, HTML dashboard reports)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "SQL Server Analysis Services Multidimensional (OLAP cubes, MDX, the cubes behind many companies' Excel PivotTables). Distinct from the already-covered SSAS Tabular card: the job here is MD explanation and MD→Tabular migration.",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "AWS Lake Formation (with Glue Data Catalog permissions, LF-Tags, data cell filters and cross-account RAM sharing)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "think-cell (the PowerPoint/Excel charting and layout add-in used by consulting firms, banks and corporate strategy teams)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "AWS Batch (compute environments, job queues, job definitions, array jobs, Spot, fair-share scheduling; EC2, Fargate and EKS back ends)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Eclipse BIRT (Business Intelligence and Reporting Tools) as embedded in IBM Maximo / Maximo Application Suite and many Java business apps; OpenText Analytics (ex-Actuate iHub) as second connector",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "OpenStack (Horizon dashboard + openstack CLI: Nova, Neutron, Cinder, Glance, Keystone, Heat, Octavia)",
+    "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Salla (Saudi and GCC e-commerce platform, Merchant API v2)",
+    "date_seen": "2026-11-17"
   }
 ]
