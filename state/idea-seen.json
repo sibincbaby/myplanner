@@ -2734,5 +2734,49 @@
   {
     "app": "Salla (Saudi and GCC e-commerce platform, Merchant API v2)",
     "date_seen": "2026-11-17"
+  },
+  {
+    "app": "Okta → Microsoft Entra ID: SSO app-integration exit",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Tableau Server / Cloud: connection re-pointer and embedded-credential rotator",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Poland KSeF 2.0: permissions and authorization manager",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Microsoft 365 rebrand / domain change (UPN, primary SMTP, SharePoint tenant rename)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Exchange Online public folders → Microsoft 365 Groups / shared mailboxes, before the EWS shutdown",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Tableau Catalog trust labels: data-quality warnings, certifications and labels",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Cross-CRM SLA holiday calendars: Salesforce Business Hours / Holidays and Zoho CRM holidays",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "AzuraCast: station programming (playlist rotation, schedules, DJ slots)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Azure Automation State Configuration (DSC) → Azure Machine Configuration (retires 2027-09-30)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Dynamics 365 Unified Service Desk → Customer Service workspace rebuild",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "app": "UrbanPiper (India/MENA restaurant aggregator hub): per-channel availability, store toggles and channel pricing",
+    "date_seen": "2026-11-18"
   }
 ]
