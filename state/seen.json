@@ -6128,5 +6128,55 @@
     "url": "https://github.com/s3onghyun/agent-otel-kit",
     "title": "agent-otel-kit — local OTel stack and dashboards for AI coding agents",
     "date_seen": "2026-11-17"
+  },
+  {
+    "url": "https://fardesk.franzai.com/",
+    "title": "Fardesk - iPhone/iPad/Mac app to monitor and drive Claude Code sessions across machines",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/antoniolg/remote-sessions",
+    "title": "Remote Sessions - list and resume Claude Code sessions from your phone (Go server + iOS/Android apps)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/estebanjc78/expenditures-control",
+    "title": "expenditures-control - MCP server that turns bank notification emails into a live spending report inside Claude",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/Tencent/LoopForge",
+    "title": "Tencent LoopForge - self-hosted coding-agent delivery workflows with SOP canvas and human approval gates",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50535157",
+    "title": "Faros Desktop - local app that visualizes Claude Code/Codex/Copilot/Cursor session traces and cuts subscription spend",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://superint.ai/en/agent-chat",
+    "title": "polyroom - shared workspace where Claude Code/Codex agents claim cards and bring decisions to humans",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://pushr.sh",
+    "title": "pushr - iPhone push alerts, Live Activities and Lock Screen replies from any script or AI agent (MCP)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/yocontra/pulsar",
+    "title": "Pulsar - cross-harness agent-to-agent messaging MCP daemon (Claude Code, Codex, OpenCode, pi, Cursor, Gemini CLI)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/blumalex/eso-box",
+    "title": "eso-box - turn a spare laptop into an always-on Claude Code server (tmux + Tailscale + Remote Control)",
+    "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/jigjoy-ai/seshka",
+    "title": "seshka - macOS menu bar app that kills dev servers and watchers Claude Code left behind",
+    "date_seen": "2026-11-18"
   }
 ]
