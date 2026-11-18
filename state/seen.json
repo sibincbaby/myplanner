@@ -6178,5 +6178,55 @@
     "url": "https://github.com/jigjoy-ai/seshka",
     "title": "seshka - macOS menu bar app that kills dev servers and watchers Claude Code left behind",
     "date_seen": "2026-11-18"
+  },
+  {
+    "url": "https://github.com/5m0k3/cache-maxxing",
+    "title": "cache-maxxing — Claude prompt-cache expiry and next-message cost bar",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/Terminess/terminess",
+    "title": "Terminess — agent harness and terminal for Claude Code and Codex with iPhone app",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/yvgui2004/pocket-book",
+    "title": "Pocket Book — Flutter one-line expense entry with daily budget allowance",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/mrmello06/vault-spend-android",
+    "title": "Raizen (vault-spend-android) — offline Indian bank SMS expense tracker",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/aiwithremy/session-skill-audit",
+    "title": "session-skill-audit — Claude skill that root-causes session mistakes and edits skills",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/makspost5/Flagman",
+    "title": "Flagman — Claude Code plugin with live dependency graph for multi-session tasks",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/yazinsai/audio-keyboard",
+    "title": "My Board — AI-first Android keyboard with voice instructions and per-contact memory",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://github.com/faustinoaq/xcontrol",
+    "title": "xcontrol — tmux groups for coding agents with session resume and peer messaging",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://app.getgoldcrest.com",
+    "title": "Goldcrest — conversational household financial plan with Monte-Carlo projections",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://printf.app/cmdbook/",
+    "title": "cmdbook — desktop command library runnable by click, schedule or AI agent",
+    "date_seen": "2026-11-19"
   }
 ]
