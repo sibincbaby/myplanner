@@ -281,43 +281,7 @@ await agent(
   { label: 'update-seen', phase: 'Write', effort: 'low' }
 )
 
-await agent(`
-Regenerate ${REPO_ROOT}/docs/.vitepress/config.ts with an updated sidebar.
-
-Steps:
-1. List all .md files in ${REPO_ROOT}/docs/daily/ sorted newest first by filename
-2. List all .md files in ${REPO_ROOT}/docs/projects/ sorted newest first by filename
-3. Write the complete config.ts:
-
-import { defineConfig } from 'vitepress'
-
-export default defineConfig({
-  title: 'AI Discovery',
-  description: 'Daily AI project discovery dashboard',
-  themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Daily', link: '/daily/' },
-      { text: 'Projects', link: '/projects/' }
-    ],
-    sidebar: [
-      {
-        text: 'Daily Digests',
-        items: [ /* one per daily file: { text: 'YYYY-MM-DD', link: '/daily/YYYY-MM-DD' } */ ]
-      },
-      {
-        text: 'Project Plans',
-        collapsed: false,
-        items: [ /* one per project file: { text: 'title from filename', link: '/projects/YYYY-MM-DD-slug' } */ ]
-      }
-    ],
-    socialLinks: [],
-    search: { provider: 'local' }
-  }
-})
-
-For project item text: strip the date prefix and convert hyphens to spaces, title-case the result.
-`, { label: 'update-sidebar', phase: 'Write', effort: 'low' })
+// The sidebar is generated from docs/daily and docs/projects by config.ts; never edit config.ts here.
 
 await agent(
   `Run: cd ${REPO_ROOT} && git add -A && git commit -m "chore: daily discovery ${DATE} — ${viable.length} viable project(s)". Report the commit hash.`,
