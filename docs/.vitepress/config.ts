@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
-import { readdirSync } from 'node:fs'
+import { existsSync, readdirSync } from 'node:fs'
 
 // Page slugs in docs/<dir>, newest first. Ideas sidebar is built from this so the ideas cron needn't edit this file.
-const pages = (dir: string) =>
-  readdirSync(new URL(`../${dir}`, import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3)).sort().reverse()
+const pages = (dir: string, url = new URL(`../${dir}`, import.meta.url)) =>
+  (existsSync(url) ? readdirSync(url) : []).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3)).sort().reverse()
 const ideas = pages('ideas')
+const hw = pages('hardware-revival/reports')
 
 export default defineConfig({
   title: 'AI Discovery',
@@ -24,7 +25,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Daily', link: `/daily/${pages('daily')[0]}` },
       { text: 'Projects', link: `/projects/${pages('projects')[0]}` },
-      { text: 'Ideas', link: `/ideas/${ideas[0]}` }
+      { text: 'Ideas', link: `/ideas/${ideas[0]}` },
+      { text: 'Hardware', link: '/hardware-revival/' }
     ],
     sidebar: [
       {
@@ -459,6 +461,17 @@ export default defineConfig({
         text: 'AI-Operator Ideas',
         collapsed: true,
         items: ideas.map((d) => ({ text: d, link: `/ideas/${d}` }))
+      },
+      {
+        // Generated from docs/hardware-revival/reports/ — do not hand-edit
+        text: 'Hardware Revival',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/hardware-revival/' },
+          { text: 'India watchlist', link: '/hardware-revival/watchlist' },
+          { text: 'Research log', link: '/hardware-revival/research-log' },
+          ...hw.map((d) => ({ text: d, link: `/hardware-revival/reports/${d}` }))
+        ]
       }
     ],
     socialLinks: [],
