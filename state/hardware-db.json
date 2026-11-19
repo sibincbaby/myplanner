@@ -1,5 +1,782 @@
 {
-  "devices": [],
-  "projects": [],
-  "discussions": []
+  "devices": [
+    {
+      "id": "dev-proscenic-m6pro-crl200s",
+      "name": "Proscenic M6 Pro (3irobotix CRL-200S platform)",
+      "maker": "Proscenic",
+      "model": "M6 Pro",
+      "revision": "CRL-200S",
+      "sector": "D",
+      "soc": "CRL-200S: GD32 motor controller MCU + Delta-2D lidar (per VacuumTiger README); main SoC not verified today",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "serial (GD32 on /dev/ttyS3, lidar on /dev/ttyS1 per sangamio.toml)",
+        "SSH after root"
+      ],
+      "bootloader": "Rootable; root tutorial at makerspet.com (not fetched today)",
+      "secure_boot": "unknown",
+      "alt_firmware": [
+        "Valetudo (CRL-200S family)",
+        "VacuumTiger/SangamIO + vacuum_ros2_bridge (ROS 2)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "high",
+      "score": 7,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Placeholder robot for OOMWOO; ROS 2 description + Nav2/Cartographer config in makerspet/proscenic-m6pro. Valetudo buying guide (2026-10-18): all CRL200S 'fine, great spare-part supply, easy root'."
+        }
+      ]
+    },
+    {
+      "id": "dev-roborock-s5max",
+      "name": "Roborock S5 Max",
+      "maker": "Roborock",
+      "model": "S5 Max",
+      "revision": "",
+      "sector": "D",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [],
+      "bootloader": "Rootable, 'quite involved rooting procedure' (Valetudo buying guide)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "Valetudo",
+        "VacuumTiger SangamIO driver (feat/roborock-s5max branch)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Second OOMWOO placeholder; ROS 2 driver contributed by @gkfabs on an unmerged branch of kaiaai/VacuumTiger."
+        }
+      ]
+    },
+    {
+      "id": "dev-mova-v50",
+      "name": "Mova V50",
+      "maker": "Mova (Dreame group)",
+      "model": "V50",
+      "revision": "",
+      "sector": "D",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [],
+      "bootloader": "Dreame-family PCB/breakout root (per Valetudo guide: Dreames require PCB rooting route)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "Valetudo"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Valetudo maintainer's current top recommendation (buying guide last updated 2026-10-18)."
+        }
+      ]
+    },
+    {
+      "id": "dev-eureka-j15max",
+      "name": "Eureka J15 Max",
+      "maker": "Eureka (Midea)",
+      "model": "J15 Max",
+      "revision": "",
+      "sector": "D",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [],
+      "bootloader": "'Easy root' per Valetudo buying guide",
+      "secure_boot": "",
+      "alt_firmware": [
+        "Valetudo"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Recommended if you want to avoid Dreame PCB rooting; Valetudo 2026.08.0 fixed a crashlooping component on J15 Max firmware."
+        }
+      ]
+    },
+    {
+      "id": "dev-dreame-l40ultra-r2492",
+      "name": "Dreame L40 Ultra (dreame.vacuum.r2492)",
+      "maker": "Dreame",
+      "model": "L40 Ultra",
+      "revision": "R2492 serial prefix only; AE and L40s NOT supported",
+      "sector": "D",
+      "soc": "Allwinner-family (FEL boot ROM via sunxi-fel)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [
+        "debug header + Valetudo Dreame breakout PCB",
+        "UART 3.3V",
+        "USB FEL/fastboot"
+      ],
+      "bootloader": "FEL in boot ROM; dustbuilder image",
+      "secure_boot": "",
+      "alt_firmware": [
+        "Valetudo"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "3h4x/dreame-l40-ultra-macos-root: rooted from Apple Silicon Mac on 2026-09-26 (one robot); hit eMMC write timeout visible only on UART."
+        }
+      ]
+    },
+    {
+      "id": "dev-unitree-go2",
+      "name": "Unitree Go2",
+      "maker": "Unitree",
+      "model": "Go2",
+      "revision": "fw 1.1.7-1.1.11",
+      "sector": "D",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [
+        "Wi-Fi",
+        "BLE",
+        "DDS"
+      ],
+      "bootloader": "No official unlock",
+      "secure_boot": "Firmware update key protection weak (CVE-2026-1442)",
+      "alt_firmware": [],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "CVE-2026-27509 (unauthenticated DDS root RCE, same network) and CVE-2026-27510; arXiv 2512.06387 lists hard-coded keys, static SSH password. Security risk more than an unlock path; patch status inconsistent across sources."
+        }
+      ]
+    },
+    {
+      "id": "dev-xiaomi-cyberdog2",
+      "name": "Xiaomi CyberDog 2",
+      "maker": "Xiaomi",
+      "model": "CyberDog 2",
+      "revision": "",
+      "sector": "D",
+      "soc": "NVIDIA NX-class module + 2 co-processors, ~21 TOPS (New Atlas)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [
+        "RGB/ToF/depth/LiDAR/UWB sensors"
+      ],
+      "bootloader": "",
+      "secure_boot": "",
+      "alt_firmware": [
+        "MiRoboticsLab/cyberdog_ros2 (Ubuntu + ROS 2, partial; some packages closed)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Open ROS 2 stack but cyberdog_ros2 repo last pushed 2023-12-12 — vendor code dormant. Watch for used units."
+        }
+      ]
+    },
+    {
+      "id": "dev-eevblog-121gw",
+      "name": "EEVblog 121GW multimeter",
+      "maker": "EEVblog / UEI",
+      "model": "121GW",
+      "revision": "fw v2.05 base",
+      "sector": "G",
+      "soc": "STM32L152ZD + HY3131 ADC",
+      "ram": "",
+      "storage": "",
+      "connectivity": "BLE112 (USART2 19200)",
+      "interfaces": [
+        "SWD (CN3)",
+        "SD card bootloader"
+      ],
+      "bootloader": "SD-card bootloader, HOLD+MEM at power-on; unchanged",
+      "secure_boot": "",
+      "alt_firmware": [
+        "121GW-OSS (EEVblog/121GW-Firmware-Claude) v0.10, bench-untested"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Claude-assisted firmware rewrite; README says never run on a real meter — conflicts with Circuit Digest 'it works'."
+        }
+      ]
+    },
+    {
+      "id": "dev-nintendo-switch2",
+      "name": "Nintendo Switch 2",
+      "maker": "Nintendo",
+      "model": "Switch 2",
+      "revision": "",
+      "sector": "G",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [],
+      "bootloader": "HEN launched from separate 'acquisition tools' (not in repo)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "kaiHEN (ouncebrew) homebrew enabler + minimal CFW"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "ouncebrew org repos created 2026-11-13; kaiHEN 364 stars by 2026-11-19. WIP, full NAND access, brick risk."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-github-hypfer-valetudo",
+      "name": "Valetudo",
+      "url": "https://github.com/Hypfer/Valetudo",
+      "devices": [
+        "dev-proscenic-m6pro-crl200s",
+        "dev-roborock-s5max",
+        "dev-mova-v50",
+        "dev-eureka-j15max",
+        "dev-dreame-l40ultra-r2492"
+      ],
+      "stars": 10017,
+      "last_commit": "2026-11-18",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Production: local-only cloud replacement for supported vacuums",
+      "ai_assisted": false,
+      "score": 8,
+      "confidence": "high",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Latest tag 2026.10.0 (2026-10-18). 2026.08.0 added camera streaming."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-makerspet-oomwoo",
+      "name": "OOMWOO",
+      "url": "https://github.com/makerspet/oomwoo",
+      "devices": [
+        "dev-proscenic-m6pro-crl200s",
+        "dev-roborock-s5max"
+      ],
+      "stars": 13152,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Simulation only; 'not buildable yet'",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Created 2026-06-10; 13k stars in ~5 months. RFC/modular community build."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-codetiger-vacuumtiger",
+      "name": "VacuumTiger / SangamIO",
+      "url": "https://github.com/codetiger/VacuumTiger",
+      "devices": [
+        "dev-proscenic-m6pro-crl200s",
+        "dev-roborock-s5max"
+      ],
+      "stars": 42,
+      "last_commit": "2026-09-20",
+      "archived": false,
+      "momentum": "steady",
+      "works": "CRL-200S driver marked verified; Rust daemon streaming sensors over TCP/protobuf",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "~4K lines Rust; 110 Hz sensor updates claimed."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-remakeai-vacuum_ros2_bridge",
+      "name": "vacuum_ros2_bridge",
+      "url": "https://github.com/remakeai/vacuum_ros2_bridge",
+      "devices": [
+        "dev-proscenic-m6pro-crl200s"
+      ],
+      "stars": 7,
+      "last_commit": "2026-10-13",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Bridges SangamIO to ROS 2 topics",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Small repo, created 2026-02-06."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-makerspet-proscenic-m6pro",
+      "name": "proscenic-m6pro ROS 2 description",
+      "url": "https://github.com/makerspet/proscenic-m6pro",
+      "devices": [
+        "dev-proscenic-m6pro-crl200s"
+      ],
+      "stars": 5,
+      "last_commit": "2026-07-21",
+      "archived": false,
+      "momentum": "steady",
+      "works": "URDF + EKF + Cartographer/Nav2 config; bring-up launch",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Requires robot running SangamIO on LAN."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-cschalle-hw-harness",
+      "name": "hw-harness",
+      "url": "https://github.com/cschalle/hw-harness",
+      "devices": [],
+      "stars": 257,
+      "last_commit": "2026-10-14",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Used for a Plustek film scanner SANE backend and Intel IPU7+IMX471 camera fix",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Windows-VM + host usbmon trace comparison method; Christian Schaller, 2026-10-15 write-up."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-eevblog-121gw-firmware-claude",
+      "name": "121GW-OSS (121GW-Firmware-Claude)",
+      "url": "https://github.com/EEVblog/121GW-Firmware-Claude",
+      "devices": [
+        "dev-eevblog-121gw"
+      ],
+      "stars": 5,
+      "last_commit": "2026-10-31",
+      "archived": false,
+      "momentum": "steady",
+      "works": "v0.10 bench-untested per README; emulator pin-level verification only",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Repo description says it does not work; press says it works. Conflict unresolved."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-3h4x-dreame-l40-ultra-macos-root",
+      "name": "dreame-l40-ultra-macos-root",
+      "url": "https://github.com/3h4x/dreame-l40-ultra-macos-root",
+      "devices": [
+        "dev-dreame-l40ultra-r2492"
+      ],
+      "stars": 0,
+      "last_commit": "2026-09-26",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Worked on one robot 2026-09-26",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "libusb fastboot client replaces Google fastboot on macOS."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-ouncebrew-kaihen",
+      "name": "kaiHEN",
+      "url": "https://github.com/ouncebrew/kaihen",
+      "devices": [
+        "dev-nintendo-switch2"
+      ],
+      "stars": 364,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "WIP homebrew enabler; needs separate acquisition tool",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Companion ounce-devkit ports libnx homebrew to Switch 2; ouncevk Vulkan driver."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-o-gs-dji-firmware-tools",
+      "name": "dji-firmware-tools",
+      "url": "https://github.com/o-gs/dji-firmware-tools",
+      "devices": [],
+      "stars": 2307,
+      "last_commit": "2026-11-11",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Analysis/RE toolkit, not an unlock; newer signatures reportedly unsupported",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "high",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Still maintained."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-kercre123-wire-pod",
+      "name": "wire-pod",
+      "url": "https://github.com/kercre123/wire-pod",
+      "devices": [],
+      "stars": 849,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Production: local server replacing Anki/DDL Vector cloud",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "high",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Plus os-vector/wire-os (98 stars, pushed 2026-11-03) custom Vector OS."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-kaiaai-lds",
+      "name": "kaiaai/LDS",
+      "url": "https://github.com/kaiaai/LDS",
+      "devices": [],
+      "stars": 238,
+      "last_commit": "2026-08-25",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Arduino/ROS 2 drivers for low-cost LDS lidars incl. vacuum units",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Reuse path for salvaged vacuum lidars."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-pybricks-pybricks-micropython",
+      "name": "Pybricks",
+      "url": "https://github.com/pybricks/pybricks-micropython",
+      "devices": [],
+      "stars": 354,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Production for SPIKE/Inventor hubs",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Relevant if LEGO Robot Inventor app was discontinued 2026-10-01 (single-source claim, Brickfact)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-koalazak-dorita980",
+      "name": "dorita980",
+      "url": "https://github.com/koalazak/dorita980",
+      "devices": [],
+      "stars": 1211,
+      "last_commit": "2026-02-27",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Local LAN control for Roomba i/j-series",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Hedge against iRobot restructuring."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-huggingface-lerobot",
+      "name": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "devices": [],
+      "stars": 28984,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Production framework; v0.6.0 2026-07-07",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "high",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "SO-ARM100 repo 8,172 stars, pushed 2026-10-06."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-miroboticslab-cyberdog_ros2",
+      "name": "cyberdog_ros2",
+      "url": "https://github.com/MiRoboticsLab/cyberdog_ros2",
+      "devices": [
+        "dev-xiaomi-cyberdog2"
+      ],
+      "stars": 739,
+      "last_commit": "2023-12-12",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Partial open ROS 2 stack",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-19",
+      "last_verified": "2026-11-19",
+      "notes": [
+        {
+          "date": "2026-11-19",
+          "text": "Vendor repo dormant since 2023-12."
+        }
+      ]
+    }
+  ],
+  "discussions": [
+    {
+      "id": "disc-phoronix-ai-reverse-engineer-linux-hw",
+      "url": "https://phoronix.com/news/AI-Reverse-Engineer-Linux-HW",
+      "title": "Claude Code / AI Shows Potential For Reverse-Engineering Hardware For Linux Support",
+      "date": "2026-10-15",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-eevblog-using-claude-code-embedded",
+      "url": "https://www.eevblog.com/forum/microcontrollers/using-claude-code-for-embedded-work/msg6260308/",
+      "title": "Using Claude Code for embedded work (EEVblog forum)",
+      "date": "",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-circuitdigest-121gw-claude",
+      "url": "https://circuitdigest.com/news/eevblog-had-claude-code-rebuild-his-121gw-multimeter-firmware-in-c-overnight-and-it-works",
+      "title": "EEVblog Had Claude Code Rebuild His 121GW Multimeter Firmware",
+      "date": "2026-10",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-openrobotics-ros2-lidar-vacuum",
+      "url": "https://discourse.openrobotics.org/t/open-source-ros2-lidar-robot-vacuum-cleaner/55621",
+      "title": "Open-source ROS2 LiDAR robot vacuum cleaner",
+      "date": "2026-06-22",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-hackaday-if-irobot-falls",
+      "url": "https://hackaday.com/2025/11/13/if-irobot-falls-hackers-are-ready-to-wrangle-roombas",
+      "title": "If iRobot Falls, Hackers Are Ready To Wrangle Roombas",
+      "date": "2025-11-13",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-ieee-spectrum-unitree-exploit",
+      "url": "https://spectrum.ieee.org/unitree-robot-exploit",
+      "title": "Unitree robot exploit (IEEE Spectrum)",
+      "date": "2026",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-ha-community-mowers-local-2025",
+      "url": "https://community.home-assistant.io/t/robotic-lawn-mowers-with-local-communication-2025/917247?page=2",
+      "title": "Robotic lawn mowers with local communication 2025",
+      "date": "2025",
+      "first_seen": "2026-11-19"
+    }
+  ]
 }
