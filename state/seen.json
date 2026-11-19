@@ -6228,5 +6228,55 @@
     "url": "https://printf.app/cmdbook/",
     "title": "cmdbook — desktop command library runnable by click, schedule or AI agent",
     "date_seen": "2026-11-19"
+  },
+  {
+    "url": "https://adeindex.com",
+    "title": "ADE Index - sourced, ranked index of ~1,000 agentic coding tools with capability tags and \"alternatives\" pages",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/dayfile/dayfile",
+    "title": "dayfile - append-only personal event log served as feeds, with an MCP server and heartbeats that open a to-do when a source goes quiet",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/tdotlab/wake",
+    "title": "Wake - nightly journal of what your agents did (Claude Code, Hermes), with every claim tied to a quoted transcript ref",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/rishadbaniya/justless",
+    "title": "justless - compact command output, a local code graph and exact recall so the coding agent reads up to 148× less",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://www.daksha.life",
+    "title": "Daksha - assistant that remembers your life from journal entries and voice notes, and cites the entry behind each answer",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/vicfei/agentdiary",
+    "title": "agentdiary - agents append diary entries to your own git repo; append/sync/scan/verify CLI",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/TMFPink/find-tools",
+    "title": "find-tools - agent skill that researches existing skills, repos, MCP servers and platforms before you build",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/svaraborut/work3",
+    "title": "work3 - one command from branch name to a set-up worktree with Claude Code running in it",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/hsynozdamar-byte/open-playgrounds",
+    "title": "Playgrounds - local-first planner (worlds, tasks, calendar, posts) with a CLI and an in-app assistant that drives Claude Code",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "url": "https://github.com/icons8/hub",
+    "title": "Hub by Icons8 - run 100 Claude Code or Codex sessions and get only the decisions, in a browser or Telegram",
+    "date_seen": "2026-11-20"
   }
 ]

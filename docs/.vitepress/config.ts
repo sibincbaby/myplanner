@@ -32,6 +32,7 @@ export default defineConfig({
       {
         text: 'Daily Digests',
         items: [
+          { text: '2026-11-20', link: '/daily/2026-11-20' },
           { text: '2026-11-19', link: '/daily/2026-11-19' },
           { text: '2026-11-18', link: '/daily/2026-11-18' },
           { text: '2026-11-17', link: '/daily/2026-11-17' },
@@ -167,6 +168,7 @@ export default defineConfig({
         text: 'Project Plans',
         collapsed: false,
         items: [
+          { text: 'ADE Index Lane-Depth Lookup', link: '/projects/2026-11-20-ade-index-lane-depth-lookup' },
           { text: 'Seshka for Linux (claude-ps procs/reap)', link: '/projects/2026-11-18-seshka-linux-claude-ps-procs-reaper' },
           { text: 'Expenditures Control: India Bank Email MCP', link: '/projects/2026-11-18-expenditures-control-india-bank-email-mcp' },
           { text: 'PesaPilot Split Capture', link: '/projects/2026-11-16-pesapilot-split-capture' },
