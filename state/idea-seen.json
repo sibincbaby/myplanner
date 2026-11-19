@@ -2778,5 +2778,57 @@
   {
     "app": "UrbanPiper (India/MENA restaurant aggregator hub): per-channel availability, store toggles and channel pricing",
     "date_seen": "2026-11-18"
+  },
+  {
+    "app": "Salesforce sandbox post-refresh operator (Sandbox refresh plus SandboxPostCopy, Named Credentials, users, scheduled jobs, integrations)",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Adobe Media Encoder (AME), the render and transcode engine behind Premiere Pro and After Effects",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Dataiku DSS (Dataiku Universal AI Platform)",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Sigma Computing (cloud BI and spreadsheet-style analytics on Snowflake, Databricks and BigQuery)",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Gmail: 'Check mail from other accounts' (POP fetch) and Gmailify retirement. A 'Mailbox Moving Day' operator that rebuilds the unified inbox before existing users lose it in January 2027.",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Meta GeoLift (open-source geo incrementality testing library), with Google's matched-markets / trimmed_match as a second engine, driving holdouts through the Meta Marketing API and Google Ads API",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Harbor (CNCF graduated container registry), with registry cleanup ideas extendable to GHCR/ECR later",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Microsoft Word: multi-reviewer comment adjudication into a Comment Resolution Matrix (CRM), with Google Docs as the second connector",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Mattermost (System Console + mmctl + Playbooks), with Rocket.Chat as a second connector",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "PaperCut NG / PaperCut MF (print management: quotas, charging, shared accounts, secure release)",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Checkmk (Raw/Community + Enterprise/Cloud editions), with Icinga 2 + Icinga Director as a second connector",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "JetBrains TeamCity (On-Premises + TeamCity Cloud)",
+    "date_seen": "2026-11-19"
+  },
+  {
+    "app": "SAP CRM 7.0 (on-premise): customizing archaeology and exit planner, targeting SAP Sales/Service Cloud V2 or Salesforce",
+    "date_seen": "2026-11-19"
   }
 ]
