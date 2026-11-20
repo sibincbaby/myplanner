@@ -290,7 +290,8 @@
       "bootloader": "SD-card bootloader, HOLD+MEM at power-on; unchanged",
       "secure_boot": "",
       "alt_firmware": [
-        "121GW-OSS (EEVblog/121GW-Firmware-Claude) v0.10, bench-untested"
+        "121GW-OSS (EEVblog/121GW-Firmware-Claude) v0.10, bench-untested",
+        "121GW-Multimeter-Firmware-RE (rebuilt stock v2.05 in C)"
       ],
       "power": "",
       "evidence": "experimental",
@@ -304,11 +305,15 @@
       "confidence": "low",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Claude-assisted firmware rewrite; README says never run on a real meter — conflicts with Circuit Digest 'it works'."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Stock firmware now reconstructed into buildable C, tested on the meter (EEVblog/121GW-Multimeter-Firmware-RE, 2026-11-03). Makes modified firmware realistic."
         }
       ]
     },
@@ -348,6 +353,256 @@
           "text": "ouncebrew org repos created 2026-11-13; kaiHEN 364 stars by 2026-11-19. WIP, full NAND access, brick risk."
         }
       ]
+    },
+    {
+      "name": "Stratacache Spectra NG-4-64 signage player",
+      "maker": "Stratacache",
+      "model": "Spectra NG-4-64",
+      "revision": "board reports NVIDIA Tegra124 PM375 / jetson-tk1",
+      "sector": "E",
+      "soc": "NVIDIA Tegra K1 (T124), 4x Cortex-A15 + Kepler GK20A GPU",
+      "ram": "2 GiB",
+      "storage": "58.2 GiB eMMC (~15 GB partitioned from factory)",
+      "connectivity": "Gigabit Ethernet (RTL8168g)",
+      "interfaces": [
+        "2x HDMI",
+        "RS-232 DB9 console",
+        "USB host",
+        "SATA",
+        "SD/MMC",
+        "HDA audio"
+      ],
+      "bootloader": "Mainline U-Boot 2018.05, distro_bootcmd/extlinux; interrupt at serial console",
+      "secure_boot": "None observed (boots unsigned extlinux from USB per field notes)",
+      "alt_firmware": [
+        "NVIDIA L4T R21.8 (Ubuntu 14.04) repaired",
+        "Debian armhf with mainline kernel (unverified)"
+      ],
+      "power": "not verified",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Field notes (repo created 2026-10-08) report the factory image is broken (rootfs owned by UID 1000) and fixable via U-Boot USB boot + chown; board is effectively a Jetson TK1. Single-author, one unit model; mainline Debian path marked unverified."
+        }
+      ],
+      "id": "dev-stratacache-spectra-ng-4-64"
+    },
+    {
+      "name": "Lululemon MIRROR (Studio Mirror) 1.1",
+      "maker": "Lululemon (MIRROR)",
+      "model": "M1.1-10090080",
+      "revision": "Mirror V1.1 EVT rev A08 (one unit)",
+      "sector": "G",
+      "soc": "NXP i.MX8M Mini (4x Cortex-A53)",
+      "ram": "2 GiB",
+      "storage": "16 GiB eMMC",
+      "connectivity": "Wi-Fi + Bluetooth (BCM4345 / brcmfmac43455)",
+      "interfaces": [
+        "UART 115200",
+        "USB boot",
+        "LVDS 1080p panel",
+        "OV5645 camera",
+        "mic",
+        "TAS5805M amps"
+      ],
+      "bootloader": "USB boot reachable without JTAG/UART on author's unit",
+      "secure_boot": "not verified",
+      "alt_firmware": [
+        "LemonadeMirror (Debian + mainline Linux 6.18)"
+      ],
+      "power": "mains",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Lululemon is winding down Mirror hardware (press reports, 2026). LemonadeMirror repo created 2026-10-31; second independent user journal (jmurzy/mirror1.1) created 2026-11-08 reports 20/20 hardware checks passing. Rare in India; priority low for acquisition."
+        }
+      ],
+      "id": "dev-lululemon-mirror-1-1"
+    },
+    {
+      "name": "Sunmi V2 handheld Android POS",
+      "maker": "Sunmi",
+      "model": "V2",
+      "revision": "ex-Deliveroo units (Australia) per repo",
+      "sector": "E",
+      "soc": "MediaTek (exact part not verified)",
+      "ram": "not verified",
+      "storage": "not verified",
+      "connectivity": "Wi-Fi/4G (not verified per unit)",
+      "interfaces": [
+        "built-in 58 mm thermal printer",
+        "USB"
+      ],
+      "bootloader": "Flashable with SP Flash Tool + auth file per community repo",
+      "secure_boot": "MTK auth file needed for SP Flash Tool",
+      "alt_firmware": [
+        "Magisk-rooted stock (Android 7.1)",
+        "TWRP (requires root)"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 5,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Community repo dafish7/Sunmi-v2-Firmware- (73 stars, last push 2024-08-03) documents root + TWRP; firmware hosted off-GitHub. V2 Pro specific unlock not verified. Sunmi devices are common in Indian retail; used price not checked."
+        }
+      ],
+      "id": "dev-sunmi-v2"
+    },
+    {
+      "name": "SumUp Solo card terminal",
+      "maker": "SumUp",
+      "model": "Solo",
+      "revision": "USB VID 345B PID 0002",
+      "sector": "E",
+      "soc": "not verified",
+      "ram": "not verified",
+      "storage": "not verified",
+      "connectivity": "Wi-Fi/SIM (vendor spec, not verified)",
+      "interfaces": [
+        "USB (vendor bulk interface MI_01)",
+        "UART (U-Boot exposed per Hackster report)"
+      ],
+      "bootloader": "U-Boot reachable over UART (secondary report)",
+      "secure_boot": "not verified",
+      "alt_firmware": [
+        "Doom demo (Aaron Christophel, secondary report)"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 3,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Payment device: tampering with live payment terminals is out of scope. jssystemcz/SumUpSoloExplorer (created 2026-07-23) only enumerates USB and sends one experimental non-payment frame. Not sold widely in India."
+        }
+      ],
+      "id": "dev-sumup-solo"
+    },
+    {
+      "name": "PicoBrew Pico Pro / Pico S",
+      "maker": "PicoBrew (defunct)",
+      "model": "Pico Pro / Pico S",
+      "revision": "OEM firmware 0.1.34",
+      "sector": "G",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [],
+      "bootloader": "not verified",
+      "secure_boot": "not verified",
+      "alt_firmware": [
+        "chiefwigms/picobrew_pico local server (2021 beta)",
+        "jeffreydwalter custom v1.1.0 firmware (new, unvalidated recovery)"
+      ],
+      "power": "mains",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Cloud-dead appliance. New repo created 2026-11-15 reconstructs OEM firmware and adds a Go Hub server; recovery image explicitly not validated on hardware."
+        }
+      ],
+      "id": "dev-picobrew-pico-pro"
+    },
+    {
+      "name": "ZNP Z01 AI badge",
+      "maker": "ZNP (BagiBagi app)",
+      "model": "Z01",
+      "revision": "",
+      "sector": "A",
+      "soc": "BLE smartwatch-class chip (not identified in README)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "BLE",
+      "interfaces": [
+        "mic",
+        "speaker",
+        "round screen",
+        "button"
+      ],
+      "bootloader": "n/a (protocol replacement, no reflash)",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "Milo app via znp-re BLE protocol"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "devniz/znp-re (created 2026-11-17) documents full BLE protocol; phone-side replacement with Claude. No firmware change needed."
+        }
+      ],
+      "id": "dev-znp-z01-badge"
     }
   ],
   "projects": [
@@ -362,7 +617,7 @@
         "dev-eureka-j15max",
         "dev-dreame-l40ultra-r2492"
       ],
-      "stars": 10017,
+      "stars": 10023,
       "last_commit": "2026-11-18",
       "archived": false,
       "momentum": "steady",
@@ -371,11 +626,15 @@
       "score": 8,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Latest tag 2026.10.0 (2026-10-18). 2026.08.0 added camera streaming."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Re-verified: last push 2026-11-18, latest tag still 2026.10.0. No material change."
         }
       ]
     },
@@ -387,7 +646,7 @@
         "dev-proscenic-m6pro-crl200s",
         "dev-roborock-s5max"
       ],
-      "stars": 13152,
+      "stars": 13153,
       "last_commit": "2026-11-19",
       "archived": false,
       "momentum": "rising",
@@ -396,7 +655,7 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
@@ -491,11 +750,15 @@
       "score": 8,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Windows-VM + host usbmon trace comparison method; Christian Schaller, 2026-10-15 write-up."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Re-verified: 257 stars, no push since 2026-10-14. No change."
         }
       ]
     },
@@ -515,11 +778,15 @@
       "score": 4,
       "confidence": "low",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Repo description says it does not work; press says it works. Conflict unresolved."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Material change: a second EEVblog repo, 121GW-Multimeter-Firmware-RE (created 2026-11-03), reconstructs the stock v2.05 firmware into C and says 'tested on the meter'. The 121GW-OSS repo itself is unchanged (last push 2026-10-31, 5 stars)."
         }
       ]
     },
@@ -598,7 +865,7 @@
       "name": "wire-pod",
       "url": "https://github.com/kercre123/wire-pod",
       "devices": [],
-      "stars": 849,
+      "stars": 848,
       "last_commit": "2026-11-17",
       "archived": false,
       "momentum": "steady",
@@ -607,11 +874,15 @@
       "score": 6,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-20",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Plus os-vector/wire-os (98 stars, pushed 2026-11-03) custom Vector OS."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "Re-verified: last push 2026-11-17. No material change."
         }
       ]
     },
@@ -726,6 +997,275 @@
           "text": "Vendor repo dormant since 2023-12."
         }
       ]
+    },
+    {
+      "name": "Stratacache Spectra NG-4-64 → Linux field notes",
+      "url": "https://github.com/arthurotieno/Stratacache-Spectra-NG-4-64",
+      "devices": [
+        "dev-stratacache-spectra-ng-4-64"
+      ],
+      "stars": 0,
+      "last_commit": "2026-10-08",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Repair of factory L4T image and kiosk setup verified on author's hardware; Debian/mainline marked unverified",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-arthurotieno-stratacache-spectra-ng-4-64"
+    },
+    {
+      "name": "VMflow / mdb-esp32-cashless",
+      "url": "https://github.com/nodestark/mdb-esp32-cashless",
+      "devices": [],
+      "stars": 193,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "rising",
+      "works": "ESP32-S3 MDB cashless peripheral + DEX/DDCMP telemetry; firmware-v1.3.9 2026-11-08, android-v1.2.7 2026-11-15; web installer; KiCad boards",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "README positions it as 'designed for AI agents' (vmflow-cli for Claude Code/Codex; AGENTS.md). PCBWay Popular Prize 2026 badge. Dashboard uses OpenAI diagnostics (cloud)."
+        }
+      ],
+      "id": "proj-github-nodestark-mdb-esp32-cashless"
+    },
+    {
+      "name": "openzk",
+      "url": "https://github.com/kengggg/openzk",
+      "devices": [],
+      "stars": 0,
+      "last_commit": "2026-06-03",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Read-only client for ZKTeco standalone terminals over TCP 4370; opcodes from SDK disassembly; no writes/unlock",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-kengggg-openzk"
+    },
+    {
+      "name": "pyzkaccess",
+      "url": "https://github.com/bdragon300/pyzkaccess",
+      "devices": [],
+      "stars": 69,
+      "last_commit": "2026-10-25",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Library + CLI for ZKAccess C3-100/200/400 panels (local control)",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-bdragon300-pyzkaccess"
+    },
+    {
+      "name": "LemonadeMirror",
+      "url": "https://github.com/ikiiftekhar2/lemonademirror",
+      "devices": [
+        "dev-lululemon-mirror-1-1"
+      ],
+      "stars": 6,
+      "last_commit": "2026-11-08",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Debian + mainline 6.18 on i.MX8M Mini; D1-D10 checklist mostly working per README",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-ikiiftekhar2-lemonademirror"
+    },
+    {
+      "name": "Repurposing a Lululemon MIRROR (journal)",
+      "url": "https://github.com/jmurzy/mirror1.1",
+      "devices": [
+        "dev-lululemon-mirror-1-1"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Independent reproduction of LemonadeMirror on a second unit; 20/20 automated hardware checks; written to be read by an AI agent",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-jmurzy-mirror1-1"
+    },
+    {
+      "name": "Sunmi-v2-Firmware",
+      "url": "https://github.com/dafish7/Sunmi-v2-Firmware-",
+      "devices": [
+        "dev-sunmi-v2"
+      ],
+      "stars": 73,
+      "last_commit": "2024-08-03",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Root via Magisk-patched boot with SP Flash Tool; TWRP image; files hosted off-GitHub",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-dafish7-sunmi-v2-firmware"
+    },
+    {
+      "name": "SumUp Solo Explorer",
+      "url": "https://github.com/jssystemcz/SumUpSoloExplorer",
+      "devices": [
+        "dev-sumup-solo"
+      ],
+      "stars": 0,
+      "last_commit": "2026-07-24",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "USB enumeration + one experimental non-payment frame only",
+      "ai_assisted": false,
+      "score": 2,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-jssystemcz-sumupsoloexplorer"
+    },
+    {
+      "name": "PicoBrew firmware and Hub",
+      "url": "https://github.com/jeffreydwalter/picobrew-pico-pro-firmware",
+      "devices": [
+        "dev-picobrew-pico-pro"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "OEM reconstruction (not byte-identical) + modified v1.1.0 firmware + Go Hub server; recovery image untested on hardware",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "Repo includes AGENTS.md; whether AI agents wrote it is not stated."
+        }
+      ],
+      "id": "proj-github-jeffreydwalter-picobrew-pico-pro-firmware"
+    },
+    {
+      "name": "ZNP-RE (Z01 AI badge protocol)",
+      "url": "https://github.com/devniz/znp-re",
+      "devices": [
+        "dev-znp-z01-badge"
+      ],
+      "stars": 7,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Full BLE protocol doc + iOS/Android/Python; author's Milo app replaces vendor app and uses Claude",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-devniz-znp-re"
+    },
+    {
+      "name": "121GW-Multimeter-Firmware-RE",
+      "url": "https://github.com/EEVblog/121GW-Multimeter-Firmware-RE",
+      "devices": [
+        "dev-eevblog-121gw"
+      ],
+      "stars": 58,
+      "last_commit": "2026-11-03",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Bootloader and v2.05 app reconstructed into C (691 functions); equivalent in Unicorn emulation; README says tested on the meter",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [
+        {
+          "date": "2026-11-20",
+          "text": "README does not state AI involvement; link to the press 'Claude rebuilt firmware' story is plausible but unconfirmed."
+        }
+      ],
+      "id": "proj-github-eevblog-121gw-multimeter-firmware-re"
+    },
+    {
+      "name": "NiimBlue",
+      "url": "https://github.com/MultiMote/niimblue",
+      "devices": [],
+      "stars": 838,
+      "last_commit": "2026-11-06",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Web/Android/Windows client for NIIMBOT label printers via reverse-engineered protocol; v2026.10.1 tagged 2026-11-06",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "high",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-multimote-niimblue"
+    },
+    {
+      "name": "hp-laser-1008a-macos",
+      "url": "https://github.com/Kuberwastaken/hp-laser-1008a-macos",
+      "devices": [],
+      "stars": 176,
+      "last_commit": "2026-10-04",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Native macOS driver for HP Laser 1003-1008 (SPL3), reportedly decoded with Claude Code in one session (2026-08-17, secondary sources)",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-kuberwastaken-hp-laser-1008a-macos"
+    },
+    {
+      "name": "ripcord",
+      "url": "https://github.com/DavidClawson/ripcord",
+      "devices": [],
+      "stars": 2,
+      "last_commit": "2026-05-30",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Ghidra+DuckDB+Renode/Unicorn firmware RE pipeline driven by Claude Code skills; target FNIRSI 2C53T",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-20",
+      "last_verified": "2026-11-20",
+      "notes": [],
+      "id": "proj-github-davidclawson-ripcord"
     }
   ],
   "discussions": [
@@ -777,6 +1317,41 @@
       "title": "Robotic lawn mowers with local communication 2025",
       "date": "2025",
       "first_seen": "2026-11-19"
+    },
+    {
+      "id": "disc-kaspersky-barcode-scanner-ble",
+      "url": "https://www.kaspersky.com/about/press-releases/your-order-is-delayed-kaspersky-identifies-vulnerabilities-in-barcode-scanners-posing-potential-threat-for-the-warehouse-industry",
+      "title": "Kaspersky: wireless barcode scanners lack scanner-to-base authentication (SAS 2026)",
+      "date": "2026-10-20",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "id": "disc-openwrt-signage-players",
+      "url": "https://forum.openwrt.org/t/a-potentially-interesting-hardware-class-digital-signage-players/249916",
+      "title": "OpenWrt forum: a potentially interesting hardware class: digital signage players",
+      "date": "unknown (thread not fetchable)",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "id": "disc-hackster-sumup-solo-doom",
+      "url": "https://hackster.io/news/hacking-a-sumup-solo-payment-terminal-to-run-doom-da953844f910",
+      "title": "Hacking a SumUp Solo payment terminal to run Doom",
+      "date": "unknown (search snippet)",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "id": "disc-screenly-scala-migration",
+      "url": "https://www.screenly.io/assets/whitepapers/screenly-the-hardware-question.pdf",
+      "title": "Screenly: The hardware question (Stratacache-owned signage platforms, spring 2026)",
+      "date": "2026 (spring, per document)",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "id": "disc-zebra-tc520k-bootloader",
+      "url": "https://developer.zebra.com/content/tc520k-bootloader-unlock-possibility-or-pipe-dream",
+      "title": "Zebra developer forum: TC520K bootloader unlock, possibility or pipe dream?",
+      "date": "unknown",
+      "first_seen": "2026-11-20"
     }
   ]
 }
