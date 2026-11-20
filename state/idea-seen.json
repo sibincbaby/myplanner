@@ -2830,5 +2830,53 @@
   {
     "app": "SAP CRM 7.0 (on-premise): customizing archaeology and exit planner, targeting SAP Sales/Service Cloud V2 or Salesforce",
     "date_seen": "2026-11-19"
+  },
+  {
+    "app": "Bulk-sender email authentication and deliverability stack (SPF/DKIM/DMARC/BIMI + Google Postmaster Tools v2 + Microsoft/Yahoo sender rules) across Klaviyo, Mailchimp, Shopify Email, SendGrid, Postmark",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Amazon EKS upgrade pilot (control plane, managed node groups, add-ons, access entries, Karpenter)",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "SharePoint Online information architecture (content types, site columns, managed metadata / term store, views, metadata navigation) via CLI for Microsoft 365 / PnP / Graph",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "OWASP Dependency-Track (CycloneDX SBOMs, VEX, Trivy/Grype feeds): SBOM and VEX triage operator",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Camunda 8 (BPMN/DMN orchestration; Camunda 7 CE, Operaton and Flowable as alternates): Process Wright",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Product feed management rules engines (Channable, Feedonomics, DataFeedWatch) for multi-channel shopping feeds (Meta, Pinterest, TikTok, Idealo, Bing, Criteo)",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "OpenTimelineIO (OTIO) editorial turnover/conform across Avid, Premiere, Resolve and FCP (AAF / FCPXML / EDL / Premiere XML)",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "HMRC Making Tax Digital for Income Tax (MTD ITSA): quarterly updates, final declaration and crystallisation via HMRC MTD APIs and spreadsheet/bank-CSV bridging",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Informatica PowerCenter (mappings, workflows) and migration to IDMC",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Vercel (projects, env vars across targets, domains, Firewall/WAF, Edge Config, caching, Spend Management): Vercel Ops Copilot",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Beancount + Fava (hledger / ledger-cli as sibling connectors): plain-text double-entry accounting",
+    "date_seen": "2026-11-20"
+  },
+  {
+    "app": "Google Sheets web-data import (IMPORTXML, IMPORTHTML, IMPORTDATA, GOOGLEFINANCE, with Apps Script or headless-browser fallback)",
+    "date_seen": "2026-11-20"
   }
 ]
