@@ -6318,5 +6318,55 @@
     "url": "https://github.com/dallay/agentsync",
     "title": "agentsync \u2014 Rust CLI that syncs MCP server configs across Claude Code, Cursor and VS Code",
     "date_seen": "2026-11-21"
+  },
+  {
+    "url": "https://github.com/krispuckett/rounds",
+    "title": "rounds \u2014 local canvas of everything your Claude Code sessions make, pin notes on screens and the session gets them, MIT, 61\u2605",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/JimLiu/open-artifact",
+    "title": "open-artifact \u2014 agent-agnostic local artifacts (slides, designs, whiteboards, docs) you edit and comment on, then \"Send to agent\", Apache-2.0, 129\u2605",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/seira-bot/seira",
+    "title": "seira \u2014 desktop chat app running Claude Code, Codex, Gemini and 25+ engines as bots with approvals, Windows/Linux, Apache-2.0",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/ismasan/sourced_expenses",
+    "title": "sourced_expenses \u2014 event-sourced, LLM-scanned receipts and invoices expense tracker in Ruby",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/SZoloth/agent-journal",
+    "title": "agent-journal \u2014 private diary your coding agents write (Claude Code, Codex, Gemini hooks), Markdown files, optional Git sync, MIT",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/locvel/voite",
+    "title": "voite \u2014 Flutter offline-first encrypted voice recorder and diary with on-device speech-to-text, MIT, 47\u2605",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/ACNoonan/hex-upsert",
+    "title": "hex-upsert \u2014 Claude Code plugin that turns the dictation mishearings Claude already corrects into Hex replacements",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/nebigoktug/android-agent",
+    "title": "android-agent \u2014 let an AI agent use your Android phone via the accessibility tree, CLI + MCP server, Termux mode",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/sw-cho-serious/Local-First-Offline-AI-Agent-with-Persistent-Room-Based-Memory-Android-Flutter-Gemma-4-LiteRT-L",
+    "title": "HAKO \u2014 Flutter + Gemma 4 LiteRT-LM offline Android agent with room-based memory, MIT",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "url": "https://github.com/bluesky-social/diderot",
+    "title": "diderot \u2014 self-hosted search-and-ask over Slack, coding-agent sessions, docs and tickets (Go, Postgres, Qdrant), Apache-2.0",
+    "date_seen": "2026-11-22"
   }
 ]
