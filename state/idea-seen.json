@@ -2878,5 +2878,53 @@
   {
     "app": "Google Sheets web-data import (IMPORTXML, IMPORTHTML, IMPORTDATA, GOOGLEFINANCE, with Apps Script or headless-browser fallback)",
     "date_seen": "2026-11-20"
+  },
+  {
+    "app": "MySQL / MariaDB query and index tuning (performance_schema, sys schema, slow query log, EXPLAIN ANALYZE; Percona Toolkit, RDS/Aurora MySQL, Cloud SQL for MySQL)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Stirling-PDF (self-hosted open-source PDF toolkit with REST API and Pipeline automation)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Excel / Google Sheets report bursting (split one master workbook into per-recipient files, then export and send)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Redis / Valkey (Redis OSS, ElastiCache, Memorystore, Azure Cache; Redis Insight as the UI)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Google Cloud Run (services, revisions, jobs; Cloud Build and Artifact Registry alongside)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "imapsync (open-source IMAP mailbox migration CLI) for moving mailboxes between Gmail/Workspace, Microsoft 365, GoDaddy, cPanel, Zoho and similar hosts",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Twenty CRM (twentyhq/twenty, open-source CRM)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "LeadSquared (India / SEA / MENA sales-execution CRM)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "OpenMetadata (with DataHub as a second connector)",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "ProPresenter 7 (Renewed Vision): live presentation and lyric software used by churches, venues and corporate AV teams",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Trendyol Seller Center (Marketplace Integration API), with Hepsiburada as a second connector",
+    "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Outlook Contacts + Google Contacts + CardDAV address books (dedupe, normalization, groups and distribution lists)",
+    "date_seen": "2026-11-21"
   }
 ]
