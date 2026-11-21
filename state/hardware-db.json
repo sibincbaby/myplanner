@@ -346,11 +346,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-21",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "ouncebrew org repos created 2026-11-13; kaiHEN 364 stars by 2026-11-19. WIP, full NAND access, brick risk."
+        },
+        {
+          "date": "2026-11-21",
+          "text": "Material change: per Wccftech/eTeknix (search summaries, not fetched) firmware 23.5.0 (released 2026-11-09 US) patches the ns2jb SmileBASIC+fs software exploit (worked on 23.0.1). Do not update consoles you want to mod. ns2jb ecosystem on GitHub is large (modloader, savekit, kaiHEN bridge)."
         }
       ]
     },
@@ -603,6 +607,283 @@
         }
       ],
       "id": "dev-znp-z01-badge"
+    },
+    {
+      "id": "dev-hyundai-kia-gen5w-s5w-m",
+      "name": "Hyundai/Kia/Genesis Gen5W AVNT head unit (Android, S5W_M)",
+      "maker": "Hyundai Mobis / HMG",
+      "model": "Gen5W AVNT",
+      "revision": "S5W_M (S5W_L not supported)",
+      "sector": "F",
+      "soc": "not verified today (Android 4.4.2 / API 19 userland per Gen5WAutoLock README)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi/BT (Wi-Fi absent on Korean 5W firmware per korea-projection)",
+      "interfaces": [
+        "USB",
+        "Engineering Mode USB update"
+      ],
+      "bootloader": "Root via NEMESIS OTA-package or USB entrypoint, no hardware mod",
+      "secure_boot": "OTA packages accepted from USB via Engineering Mode",
+      "alt_firmware": [
+        "NEMESIS (xwtk)",
+        "HMG-API mod manager"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 8,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "NEMESIS root (729 stars, created 2026-09-27) needs S5W_M firmware 250818+. Large package ecosystem (wireless CarPlay/AA, auto-lock, EQ, launchers). Firmware updates wipe HMG-API system files."
+        }
+      ]
+    },
+    {
+      "id": "dev-70mai-a800s-dr2800",
+      "name": "70mai A800S dash cam",
+      "maker": "70mai",
+      "model": "A800S",
+      "revision": "DR2800",
+      "sector": "F",
+      "soc": "not verified today",
+      "ram": "",
+      "storage": "SD card",
+      "connectivity": "Wi-Fi AP + STA (with mod)",
+      "interfaces": [
+        "Wi-Fi",
+        "telnet (mod, off by default)"
+      ],
+      "bootloader": "Unsigned-looking firmware path: modified FW_DR2800.bin + FORCEUPD.txt flashed from SD",
+      "secure_boot": "none observed (custom image flashes)",
+      "alt_firmware": [
+        "70mai-a800s-map-firmware v3.5.1"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Unofficial firmware built on official 2.2.31ww adds offline map, speed-camera alerts, web admin, ADAS master switch, telnet. Official recovery image provided. Single developer."
+        }
+      ]
+    },
+    {
+      "id": "dev-surfsight-ai12",
+      "name": "Surfsight / Lytx / GEO AI-12 fleet dashcam",
+      "maker": "Surfsight (Lytx)",
+      "model": "AI-12",
+      "revision": "n/a",
+      "sector": "F",
+      "soc": "Qualcomm SDM450 (MSM8953) + PMI632",
+      "ram": "2 GB LPDDR3",
+      "storage": "16 GB eMMC + microSD up to 128 GB",
+      "connectivity": "LTE, GPS, Wi-Fi, dual cameras",
+      "interfaces": [
+        "USB-C (EDL/PBL only)",
+        "5V/2A pin",
+        "EDL 9008"
+      ],
+      "bootloader": "Unlocked (verifiedbootstate=orange); no fastboot; EDL is the only low-level path",
+      "secure_boot": "ABOOT secure-boot stage blocks Firehose on bricked unit",
+      "alt_firmware": [
+        "Magisk LEGACYSAR root (stock Android)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "E-waste fleet dashcam. One of two units bricked writing aboot. Hidden 300 mAh LiPo keeps EDL flag in IMEM. Factory 'enable root' activity left in firmware. LTE fault unresolved."
+        }
+      ]
+    },
+    {
+      "id": "dev-ddpai-z50",
+      "name": "DDPAI Z50 dash cam",
+      "maker": "DDPAI",
+      "model": "Z50",
+      "revision": "firmware v7.2.0.24 Overseas",
+      "sector": "F",
+      "soc": "Rockchip (per ddpai-z50-api README; RTSP banner says HiSilicon)",
+      "ram": "",
+      "storage": "SD card",
+      "connectivity": "Wi-Fi AP",
+      "interfaces": [
+        "Wi-Fi CGI API",
+        "RTSP"
+      ],
+      "bootloader": "not investigated",
+      "secure_boot": "unknown",
+      "alt_firmware": [
+        "ddpai-z50-api (local client, no firmware change)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Local Wi-Fi CGI API reverse engineered: clips, GPS/IMU, settings the app hides, ADAS toggle. Built with AI coding agents under human direction."
+        }
+      ]
+    },
+    {
+      "id": "dev-chrysler-sbec-56030117",
+      "name": "Chrysler/Jeep SBEC engine computer (1991-95 OBD1)",
+      "maker": "Chrysler",
+      "model": "SBEC",
+      "revision": "56030117 (1994 Cherokee XJ 4.0L)",
+      "sector": "F",
+      "soc": "Motorola 68HC11-family (not verified today)",
+      "ram": "",
+      "storage": "EEPROM",
+      "connectivity": "SCI serial diagnostic plug",
+      "interfaces": [
+        "6-cavity diagnostic plug (cavity 6 = 12 V)"
+      ],
+      "bootloader": "n/a",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "xj-scanner (read + actuator tests)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 6,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Tested on one car only. Protocol data from ChryslerScanner (GPLv3)."
+        }
+      ]
+    },
+    {
+      "id": "dev-renault-carminat-tomtom-live",
+      "name": "Renault Carminat TomTom LIVE navigation (2014 Latitude)",
+      "maker": "Renault / TomTom",
+      "model": "Carminat TomTom LIVE",
+      "revision": "2014 Latitude fitment",
+      "sector": "F",
+      "soc": "Samsung SoC (per coverage)",
+      "ram": "",
+      "storage": "SD map card",
+      "connectivity": "",
+      "interfaces": [
+        "SD card"
+      ],
+      "bootloader": "Root via script-parser path traversal + core_pattern (local only)",
+      "secure_boot": "n/a",
+      "alt_firmware": [],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Rasmus Moorats, blog 2026-11-02. Clock menu was hidden without the map SD card. Linux 2.6.28.10."
+        }
+      ]
+    },
+    {
+      "id": "dev-gm-aaos-ev-headunit",
+      "name": "GM Android Automotive (AAOS 12L) EV head unit",
+      "maker": "General Motors",
+      "model": "Ultium EV infotainment (e.g. 2024 Blazer EV)",
+      "revision": "AAOS 12L",
+      "sector": "F",
+      "soc": "not verified today",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi/BT",
+      "interfaces": [
+        "Play Console internal test track (no sideload)"
+      ],
+      "bootloader": "Locked; no sideloading",
+      "secure_boot": "locked",
+      "alt_firmware": [
+        "OpenAutoLink (app, not firmware)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "GM dropped phone projection; OpenAutoLink restores AA/CarPlay via a personal Play internal-test AAB. Maintainer-validated on 2024 Blazer EV."
+        }
+      ]
     }
   ],
   "projects": [
@@ -674,17 +955,21 @@
       "stars": 42,
       "last_commit": "2026-09-20",
       "archived": false,
-      "momentum": "steady",
+      "momentum": "stalled",
       "works": "CRL-200S driver marked verified; Rust daemon streaming sensors over TCP/protobuf",
       "ai_assisted": false,
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-21",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "~4K lines Rust; 110 Hz sensor updates claimed."
+        },
+        {
+          "date": "2026-11-21",
+          "text": "Re-verified: 42 stars, last push still 2026-09-20 (2 months quiet)."
         }
       ]
     },
@@ -821,7 +1106,7 @@
       "devices": [
         "dev-nintendo-switch2"
       ],
-      "stars": 364,
+      "stars": 372,
       "last_commit": "2026-11-17",
       "archived": false,
       "momentum": "rising",
@@ -830,11 +1115,15 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-21",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Companion ounce-devkit ports libnx homebrew to Switch 2; ouncevk Vulkan driver."
+        },
+        {
+          "date": "2026-11-21",
+          "text": "New tags 20261117.1/20261117b. nicholasyoannou/switch2-modbridge (2026-11-20) loads ns2jb-modloader mods through kaiHEN."
         }
       ]
     },
@@ -843,7 +1132,7 @@
       "name": "dji-firmware-tools",
       "url": "https://github.com/o-gs/dji-firmware-tools",
       "devices": [],
-      "stars": 2307,
+      "stars": 2309,
       "last_commit": "2026-11-11",
       "archived": false,
       "momentum": "steady",
@@ -852,11 +1141,15 @@
       "score": 5,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-21",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Still maintained."
+        },
+        {
+          "date": "2026-11-21",
+          "text": "Re-verified: 2309 stars, last push 2026-11-11. No material change."
         }
       ]
     },
@@ -1266,6 +1559,336 @@
       "last_verified": "2026-11-20",
       "notes": [],
       "id": "proj-github-davidclawson-ripcord"
+    },
+    {
+      "id": "proj-github-xwtk-hmg_nemesis",
+      "name": "NEMESIS",
+      "url": "https://github.com/xwtk/hmg_nemesis",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 729,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Root entrypoint + package store for Gen5W S5W_M; tags to v1.16.9",
+      "ai_assisted": false,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-09-27, 86 forks, AGPL-3.0. Two install routes (Engineering Mode OTA, USB)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-open-hmg-hmg-api",
+      "name": "HMG-API",
+      "url": "https://github.com/Open-HMG/HMG-API",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 145,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Mod manager hooking HU software at runtime; reversible mods",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-10-31. Installs via USB, NEMESIS or adb."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-open-hmg-hmgapi-wireless-cp-aa",
+      "name": "hmgapi-wireless-cp-aa",
+      "url": "https://github.com/Open-HMG/hmgapi-wireless-cp-aa",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 19,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Wireless CarPlay/AA with cluster turn-by-turn",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-11-07."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-stopdragon-korea-projection",
+      "name": "Korea Projection",
+      "url": "https://github.com/StopDragon/korea-projection",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 175,
+      "last_commit": "2026-11-18",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Wireless CarPlay/AA on Korean Gen5W via USB Wi-Fi dongle",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-11-05. README has affiliate (Coupang) links."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-dvwburner-gen5wautolock",
+      "name": "Gen5W Timed Auto-Lock",
+      "url": "https://github.com/DVWburner/Gen5WAutoLock",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 5,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Walk-away auto lock via IBCMService.lockDoor; tested '22 Ioniq 5",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "README says entire project is AI-generated. Does not detect key fob inside car."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-cantcs-hkg_gen5w_reverseengineer",
+      "name": "HKG_Gen5W_ReverseEngineer",
+      "url": "https://github.com/cantcs/HKG_Gen5W_ReverseEngineer",
+      "devices": [
+        "dev-hyundai-kia-gen5w-s5w-m"
+      ],
+      "stars": 62,
+      "last_commit": "2024-09-23",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Firmware patching for adb/root (older approach)",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Predecessor research; last push 2024-09-23."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-hsnk2011-70mai-a800s-map-firmware",
+      "name": "70mai A800S Map Firmware",
+      "url": "https://github.com/hsnk2011/70mai-a800s-map-firmware",
+      "devices": [
+        "dev-70mai-a800s-dr2800"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Working mod firmware v3.5.1 with recovery image",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-11-05. Persian/English/Russian; Windows map builder."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-khanlabs-surfsight-ai12-reverse-engineering",
+      "name": "Surfsight AI-12 RE log",
+      "url": "https://github.com/KhanLabs/surfsight-ai12-reverse-engineering",
+      "devices": [
+        "dev-surfsight-ai12"
+      ],
+      "stars": 1,
+      "last_commit": "2026-10-04",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Root + cloud removal on one unit; one bricked",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "CC-BY-4.0. Confidence tags per claim. Open asks: eMMC DAT0 test point, FTM RxAGC formats."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-johnkuruvila-ddpai-z50-api",
+      "name": "ddpai-z50-api",
+      "url": "https://github.com/JohnKuruvila/ddpai-z50-api",
+      "devices": [
+        "dev-ddpai-z50"
+      ],
+      "stars": 0,
+      "last_commit": "2026-10-16",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Local client/CLI + firmware API reference; companion Android app z50-bridge",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "MIT. Built with AI coding agents under human direction."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mzulali-xj-scanner",
+      "name": "xj-scanner",
+      "url": "https://github.com/MZULALI/xj-scanner",
+      "devices": [
+        "dev-chrysler-sbec-56030117"
+      ],
+      "stars": 318,
+      "last_commit": "2026-11-10",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Reads codes/live data, actuator tests via $3 Nano; tested on one car",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "GPL-3.0, created 2026-11-10. AGENTS.md + .claude/skills playbooks. Smog-test outcome reported inconsistently in press."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-css-electronics-can-bus-reverse-engineering-skills",
+      "name": "CAN bus reverse engineering skills",
+      "url": "https://github.com/CSS-Electronics/can-bus-reverse-engineering-skills",
+      "devices": [],
+      "stars": 260,
+      "last_commit": "2026-11-13",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Claude Code skills to turn raw CAN logs into DBC signals",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Vendor repo (CANsub hardware). Self-described as illustration, not polished tool."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-october-dev-car-use",
+      "name": "car-use",
+      "url": "https://github.com/october-dev/car-use",
+      "devices": [],
+      "stars": 7,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Agent-driven OBD-II diagnostics with simulator; pip/uv tool",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-11-11. Has cloud early-access upsell."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mossyhub-openautolink",
+      "name": "OpenAutoLink",
+      "url": "https://github.com/mossyhub/openautolink",
+      "devices": [
+        "dev-gm-aaos-ev-headunit"
+      ],
+      "stars": 204,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Wireless AA + USB CarPlay on GM AAOS; maintainer-validated 2024 Blazer EV",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Created 2026-04-01; tag v0.1.94. Install via own Play Console internal test; CarPlay needs own MFi auth pair."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-aditya-ramabadran-drivingbench_harness_code",
+      "name": "DrivingBench harness",
+      "url": "https://github.com/aditya-ramabadran/drivingbench_harness_code",
+      "devices": [],
+      "stars": 63,
+      "last_commit": "2026-11-11",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Research: AI models drive real cars at parking-lot speed via MCP on comma/openpilot",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "notes": [
+        {
+          "date": "2026-11-21",
+          "text": "Closed-course research only; human at brake. Not a revival project; logged for AI-agent context."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -1352,6 +1975,34 @@
       "title": "Zebra developer forum: TC520K bootloader unlock, possibility or pipe dream?",
       "date": "unknown",
       "first_seen": "2026-11-20"
+    },
+    {
+      "id": "disc-gbhackers-renault-navigation",
+      "url": "https://gbhackers.com/renault-navigation-system/amp/",
+      "title": "Researcher roots Renault TomTom Carminat LIVE to change clock",
+      "date": "2026-11-02",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "disc-securelist-android-head-unit-malware",
+      "url": "https://securelist.com/android-head-unit-malware/121106/",
+      "title": "Kaspersky: first trojan for Android car head units via DoFun TWCore updater",
+      "date": "2026-08-24",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "disc-thedrive-jeep-claude-smog",
+      "url": "https://www.thedrive.com/news/cant-pass-emissions-with-your-pre-obd-ii-car-have-claude-tune-it-for-you",
+      "title": "Pre-OBD-II Jeep owner uses Claude to read/tune ECU",
+      "date": "2026-11",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "disc-wccftech-switch2-23-5-0",
+      "url": "https://wccftech.com/nintendo-switch-2-jailbreak-patched-firmware-23-5-0/",
+      "title": "Switch 2 firmware 23.5.0 patches ns2jb",
+      "date": "2026-11-10",
+      "first_seen": "2026-11-21"
     }
   ]
 }
