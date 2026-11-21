@@ -2926,5 +2926,37 @@
   {
     "app": "Outlook Contacts + Google Contacts + CardDAV address books (dedupe, normalization, groups and distribution lists)",
     "date_seen": "2026-11-21"
+  },
+  {
+    "app": "Exchange Server hybrid: 'Last Exchange Server' retirement operator (2016/2019/SE to Exchange Online)",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Yeastar P-Series PBX (with Grandstream UCM as a second connector): call-flow architect",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Jamf Pro / Workspace ONE UEM to Microsoft Intune macOS migration mapper",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Power Platform data policies (formerly DLP): layered policy designer for Power Automate, Power Apps and Copilot Studio",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "PostgreSQL native partitioning + pg_partman: big-table partitioning retrofit and retention (SQL Server and MySQL as sibling connectors)",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Zimbra Collaboration (and Zextras Carbonio): effective-settings explainer and bulk provisioning",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "VICIdial (open-source outbound/blended dialer): campaign tuner and compliance operator",
+    "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Unity Gaming Services Economy (PlayFab Economy v2 stores as a second connector): live-ops economy operator",
+    "date_seen": "2026-11-22"
   }
 ]
