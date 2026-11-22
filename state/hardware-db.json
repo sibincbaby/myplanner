@@ -33,11 +33,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Placeholder robot for OOMWOO; ROS 2 description + Nav2/Cartographer config in makerspet/proscenic-m6pro. Valetudo buying guide (2026-10-18): all CRL200S 'fine, great spare-part supply, easy root'."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: Valetudo last push 2026-11-21, latest tag still 2026.10.0; makerspet/proscenic-m6pro last push 2026-07-21. No change."
         }
       ]
     },
@@ -71,11 +75,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Second OOMWOO placeholder; ROS 2 driver contributed by @gkfabs on an unmerged branch of kaiaai/VacuumTiger."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: Valetudo active (push 2026-11-21), no new release since 2026.10.0. No change."
         }
       ]
     },
@@ -108,11 +116,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Valetudo maintainer's current top recommendation (buying guide last updated 2026-10-18)."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: Valetudo active (push 2026-11-21), no new release since 2026.10.0. No change."
         }
       ]
     },
@@ -346,7 +358,7 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
@@ -355,6 +367,10 @@
         {
           "date": "2026-11-21",
           "text": "Material change: per Wccftech/eTeknix (search summaries, not fetched) firmware 23.5.0 (released 2026-11-09 US) patches the ns2jb SmileBASIC+fs software exploit (worked on 23.0.1). Do not update consoles you want to mod. ns2jb ecosystem on GitHub is large (modloader, savekit, kaiHEN bridge)."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "alula/Ozone (created 2026-11-03, 54 stars) ports parts of Atmosphere to Switch 2 ('Ounce' target). The README warns it is not a full CFW and very likely never will be."
         }
       ]
     },
@@ -884,6 +900,402 @@
           "text": "GM dropped phone projection; OpenAutoLink restores AA/CarPlay via a personal Play internal-test AAB. Maintainer-validated on 2024 Blazer EV."
         }
       ]
+    },
+    {
+      "id": "dev-mvave-fm1",
+      "name": "M-VAVE FM-1 pocket FM synth",
+      "maker": "M-VAVE",
+      "model": "FM-1",
+      "revision": "older flash units safest; newer UC25HQ80-flash units need compatible firmware",
+      "sector": "G",
+      "soc": "JieLi AC791N",
+      "ram": "on-chip",
+      "storage": "SPI NOR flash",
+      "connectivity": "USB-MIDI",
+      "interfaces": [
+        "USB-C (MIDI and chip download mode)"
+      ],
+      "bootloader": "Stock bootloader starts firmware unchecked; open MIT replacement (m-bootloader) adds recovery menu",
+      "secure_boot": "none",
+      "alt_firmware": [
+        "fm1_open (official GPL SDK)",
+        "Felucca",
+        "SLOOP",
+        "X0X",
+        "Skiff",
+        "Melodee",
+        "270+ listed in community hub"
+      ],
+      "power": "USB / battery",
+      "evidence": "proven",
+      "acquisition_priority": "high",
+      "score": 8,
+      "confidence": "high",
+      "status": "recommended",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Vendor published fm1_open SDK on 2026-10-13. The community hub lists 270+ firmwares. Caution: one unexplained brick report on newer UC25HQ80-flash units."
+        }
+      ]
+    },
+    {
+      "id": "dev-magcubic-hy310-h713",
+      "name": "MagCubic HY310 / HY300PRO-G-EU / L018 projectors (Allwinner H713)",
+      "maker": "MagCubic and white-label",
+      "model": "HY310, HY300PRO-G-EU, L018",
+      "revision": "boards hy310, hy200-qz713df-a1, l018 verified",
+      "sector": "G",
+      "soc": "Allwinner H713 (sun50iw12p1), Mali GPU",
+      "ram": "DDR3 (792 MHz on HY310)",
+      "storage": "eMMC",
+      "connectivity": "Wi-Fi/BT (AIC8800)",
+      "interfaces": [
+        "HDMI in",
+        "USB",
+        "FEL boot ROM"
+      ],
+      "bootloader": "Open chain via FEL: U-Boot SPL + TF-A + U-Boot",
+      "secure_boot": "not blocking per project (FEL always available)",
+      "alt_firmware": [
+        "H713 Linux v0.97-beta (mainline Linux 6.18, Debian 13, Kodi)"
+      ],
+      "power": "mains; 2.9 W in 'off' state",
+      "evidence": "experimental",
+      "acquisition_priority": "high",
+      "score": 8,
+      "confidence": "medium",
+      "status": "recommended",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "v0.97-beta (2026-10-22) is verified on HY310 and HY300PRO-G-EU, and v0.97.1-beta (2026-10-26) on L018. The code is AI-generated and not yet human-reviewed. The other H713 boards have profiles only."
+        }
+      ]
+    },
+    {
+      "id": "dev-txcz-hy300-rk3326",
+      "name": "'HY300' projector clones on Rockchip RK3326 (TXCZ firmware)",
+      "maker": "TXCZ (sold as Magcubic/HY300)",
+      "model": "HY300 clone",
+      "revision": "rk3326_sgo, Android 12 Go",
+      "sector": "G",
+      "soc": "Rockchip RK3326",
+      "ram": "not checked",
+      "storage": "eMMC",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB",
+        "HDMI in"
+      ],
+      "bootloader": "not documented",
+      "secure_boot": "release-keys",
+      "alt_firmware": [
+        "Hy300-Root (persistent ADB + root, one device)"
+      ],
+      "power": "mains",
+      "evidence": "experimental",
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Same 'HY300' name as the H713 models but a different SoC, and the H713 Linux port does not apply. One owner reports serious security problems in the stock firmware (see BruBread/Hy300-Root README). Avoid it, or isolate it on the network."
+        }
+      ]
+    },
+    {
+      "id": "dev-meta-quest1",
+      "name": "Meta (Oculus) Quest 1",
+      "maker": "Meta",
+      "model": "Quest (2019)",
+      "revision": "firmware 49845030443200410",
+      "sector": "G",
+      "soc": "Qualcomm Snapdragon 835",
+      "ram": "4 GB",
+      "storage": "64/128 GB",
+      "connectivity": "Wi-Fi, BT",
+      "interfaces": [
+        "USB-C"
+      ],
+      "bootloader": "Unlockable via QuestStack (CVE-2021-1931 in ABL fastboot)",
+      "secure_boot": "bypassed by exploit",
+      "alt_firmware": [],
+      "power": "battery",
+      "evidence": "proven",
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "QuestStack (released 2026-08) gives root and a bootloader unlock on the latest Quest 1 firmware. No alternative OS ships yet."
+        }
+      ]
+    },
+    {
+      "id": "dev-meta-quest2",
+      "name": "Meta Quest 2",
+      "maker": "Meta",
+      "model": "Quest 2",
+      "revision": "only specific old firmware builds",
+      "sector": "G",
+      "soc": "Qualcomm XR2",
+      "ram": "6 GB",
+      "storage": "64-256 GB",
+      "connectivity": "Wi-Fi 6, BT",
+      "interfaces": [
+        "USB-C"
+      ],
+      "bootloader": "Unlock only on listed firmware builds (darknight1050 tool; QuestStack website on 50670960048600150)",
+      "secure_boot": "patched on current firmware",
+      "alt_firmware": [],
+      "power": "battery",
+      "evidence": "experimental",
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "darknight1050 added Quest 2 build 12018400103000000 on 2026-11-20. The QuestStack README lists Quest 2 as website-only on one build that requires sideloading that firmware. Brick risk."
+        }
+      ]
+    },
+    {
+      "id": "dev-nikon-z5-c150",
+      "name": "Nikon Z 5 (first gen) on firmware C 1.50",
+      "maker": "Nikon",
+      "model": "Z 5",
+      "revision": "firmware C 1.50 only",
+      "sector": "G",
+      "soc": "Nikon EXPEED 6",
+      "ram": "not checked",
+      "storage": "SD/CFexpress",
+      "connectivity": "Wi-Fi, BT",
+      "interfaces": [
+        "USB-C",
+        "HDMI"
+      ],
+      "bootloader": "Patched official update file accepted (patch.py checks SHA-256 of stock file)",
+      "secure_boot": "not documented",
+      "alt_firmware": [
+        "Z5 Extensions (WonderLantern) A39"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Card-loaded feature modules: timed bulb, zebras, battery %, faster burst (test). Tested on the author's camera plus a few user reports."
+        }
+      ]
+    },
+    {
+      "id": "dev-akai-mpc-sample",
+      "name": "Akai MPC Sample",
+      "maker": "Akai",
+      "model": "MPC Sample",
+      "revision": "not checked",
+      "sector": "G",
+      "soc": "not checked",
+      "ram": "not checked",
+      "storage": "SD card",
+      "connectivity": "not checked",
+      "interfaces": [
+        "SD"
+      ],
+      "bootloader": "Boots custom OS from an SD 'autorun' folder",
+      "secure_boot": "not documented",
+      "alt_firmware": [
+        "Melodee",
+        "SampQOL OS",
+        "MPC Simple",
+        "SampleBoot boot selector"
+      ],
+      "power": "not checked",
+      "evidence": "experimental",
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Custom OSes run from SD autorun. SampleBoot (2026-11-16) adds a multi-OS boot menu."
+        }
+      ]
+    },
+    {
+      "id": "dev-icom-ic705",
+      "name": "Icom IC-705 / IC-9700 transceivers",
+      "maker": "Icom",
+      "model": "IC-705, IC-9700",
+      "revision": "official files 705E140, 705J140, 9700E150",
+      "sector": "G",
+      "soc": "not checked",
+      "ram": "not checked",
+      "storage": "SD",
+      "connectivity": "Wi-Fi, BT (IC-705)",
+      "interfaces": [
+        "USB",
+        "SD"
+      ],
+      "bootloader": "Patched official .dat accepted; custom A/B bootloader keeps the previous firmware",
+      "secure_boot": "not documented",
+      "alt_firmware": [
+        "icom-custom-firmware 20261119v14"
+      ],
+      "power": "battery/DC",
+      "evidence": "experimental",
+      "acquisition_priority": "none",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Transverter support, A/B bootloader, FT8/Q65 decoders. Licence rules on TX ranges are the user's responsibility."
+        }
+      ]
+    },
+    {
+      "id": "dev-insta360-link",
+      "name": "Insta360 Link webcam",
+      "maker": "Insta360",
+      "model": "Link",
+      "revision": "not checked",
+      "sector": "G",
+      "soc": "not checked",
+      "ram": "not checked",
+      "storage": "not checked",
+      "connectivity": "USB",
+      "interfaces": [
+        "USB-C (UVC + vendor extension unit)"
+      ],
+      "bootloader": "not documented",
+      "secure_boot": "not documented",
+      "alt_firmware": [],
+      "power": "USB",
+      "evidence": "proven",
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Vendor control protocol documented with AI help (schlarpc, 2026-08). Open controllers now exist (open-360-link, Rust)."
+        }
+      ]
+    },
+    {
+      "id": "dev-apple-airpods-3",
+      "name": "Apple AirPods 3 / AirPods Pro 2 (head-tracking sensors)",
+      "maker": "Apple",
+      "model": "AirPods 3, AirPods Pro 2",
+      "revision": "not checked",
+      "sector": "G",
+      "soc": "Apple H1/H2",
+      "ram": "n/a",
+      "storage": "n/a",
+      "connectivity": "Bluetooth",
+      "interfaces": [
+        "Bluetooth (RemoteHID)"
+      ],
+      "bootloader": "n/a (protocol-level use only)",
+      "secure_boot": "n/a",
+      "alt_firmware": [],
+      "power": "battery",
+      "evidence": "proven",
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "MousePods reads head-tracking data on Linux without an Apple device."
+        }
+      ]
     }
   ],
   "projects": [
@@ -898,8 +1310,8 @@
         "dev-eureka-j15max",
         "dev-dreame-l40ultra-r2492"
       ],
-      "stars": 10023,
-      "last_commit": "2026-11-18",
+      "stars": 10037,
+      "last_commit": "2026-11-21",
       "archived": false,
       "momentum": "steady",
       "works": "Production: local-only cloud replacement for supported vacuums",
@@ -907,7 +1319,7 @@
       "score": 8,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
@@ -916,6 +1328,10 @@
         {
           "date": "2026-11-20",
           "text": "Re-verified: last push 2026-11-18, latest tag still 2026.10.0. No material change."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: 10037 stars, push 2026-11-21, tag 2026.10.0. No change."
         }
       ]
     },
@@ -989,11 +1405,15 @@
       "score": 5,
       "confidence": "low",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Small repo, created 2026-02-06."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: last push 2026-10-13. No change."
         }
       ]
     },
@@ -1007,17 +1427,21 @@
       "stars": 5,
       "last_commit": "2026-07-21",
       "archived": false,
-      "momentum": "steady",
+      "momentum": "stalled",
       "works": "URDF + EKF + Cartographer/Nav2 config; bring-up launch",
       "ai_assisted": false,
       "score": 6,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Requires robot running SangamIO on LAN."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: last push 2026-07-21; momentum stalled."
         }
       ]
     },
@@ -1091,11 +1515,15 @@
       "score": 4,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "libusb fastboot client replaces Google fastboot on macOS."
+        },
+        {
+          "date": "2026-11-22",
+          "text": "Re-verified: single push 2026-09-26. No change."
         }
       ]
     },
@@ -1889,6 +2317,484 @@
           "text": "Closed-course research only; human at brake. Not a revival project; logged for AI-agent context."
         }
       ]
+    },
+    {
+      "id": "proj-github-starseed12345-queststack",
+      "name": "QuestStack",
+      "url": "https://github.com/starseed12345/QuestStack",
+      "devices": [
+        "dev-meta-quest1",
+        "dev-meta-quest2"
+      ],
+      "stars": 232,
+      "last_commit": "2026-08-28",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Released: Quest 1 root + bootloader unlock on latest firmware",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "GPL-3.0, created 2026-07-31."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-darknight1050-quest-bootloader-unlocker",
+      "name": "quest-bootloader-unlocker",
+      "url": "https://github.com/darknight1050/quest-bootloader-unlocker",
+      "devices": [
+        "dev-meta-quest1",
+        "dev-meta-quest2"
+      ],
+      "stars": 108,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Works only on listed old firmware builds",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Commit on 2026-11-20 adds Quest 2 build 12018400103000000, carries a Claude co-author trailer, and adds a release CI workflow."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-m-vave-fm1_open",
+      "name": "fm1_open",
+      "url": "https://github.com/m-vave/fm1_open",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 390,
+      "last_commit": "2026-10-21",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Official vendor SDK for FM-1 custom firmware",
+      "ai_assisted": false,
+      "score": 8,
+      "confidence": "high",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-10-13. The GitHub license field shows NOASSERTION; the community hub calls it GPL-3.0."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-aroum-fm1-custom-fw",
+      "name": "fm1-custom-fw",
+      "url": "https://github.com/aroum/fm1-custom-fw",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 432,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Resource hub: 270+ firmwares, flasher, SysEx docs",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "high",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Includes a caution about newer flash-chip units."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-hugelton-felucca",
+      "name": "Felucca",
+      "url": "https://github.com/hugelton/Felucca",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 763,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Custom firmware, base for many forks",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "high",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "README says it is developed with AI coding agents."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-isod89-sloop-fm1",
+      "name": "sloop-fm1",
+      "url": "https://github.com/isod89/sloop-fm1",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 851,
+      "last_commit": "2026-11-04",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Live groovebox firmware",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-10-04."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-charlesvestal-fm1-x0x",
+      "name": "fm1-x0x",
+      "url": "https://github.com/charlesvestal/fm1-x0x",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 246,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "909/808/303 groovebox firmware",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-10-04."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-joakimeriksson-fm1-emu",
+      "name": "fm1-emu",
+      "url": "https://github.com/joakimeriksson/fm1-emu",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 304,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Emulator running FM-1 firmwares unchanged in browser",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-10-12."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-jvitkauskas-m-bootloader",
+      "name": "m-bootloader",
+      "url": "https://github.com/jvitkauskas/m-bootloader",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 60,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Open recovery bootloader for FM-1 and SMK-37 Pro/Elite",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Adds key-combo download mode and MIDI reinstall."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-al-255-fm-1-re",
+      "name": "FM-1-RE",
+      "url": "https://github.com/AL-255/FM-1-RE",
+      "devices": [
+        "dev-mvave-fm1"
+      ],
+      "stars": 143,
+      "last_commit": "2026-09-08",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Firmware disassembly + OTA protocol RE",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-07-19 (pre-SDK)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-well0nez-allwinner-h713-linux",
+      "name": "allwinner-h713-linux",
+      "url": "https://github.com/well0nez/allwinner-h713-linux",
+      "devices": [
+        "dev-magcubic-hy310-h713"
+      ],
+      "stars": 35,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "v0.97-beta: Debian 13 on verified boards",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "All code is AI-generated (Claude) per README. Help wanted for testers and reviewers."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-brubread-hy300-root",
+      "name": "Hy300-Root",
+      "url": "https://github.com/BruBread/Hy300-Root",
+      "devices": [
+        "dev-txcz-hy300-rk3326"
+      ],
+      "stars": 8,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Persistent ADB + root on one RK3326 unit",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Also documents security problems in the stock firmware."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-starman-tech-mousepods",
+      "name": "mousepods",
+      "url": "https://github.com/starman-tech/mousepods",
+      "devices": [
+        "dev-apple-airpods-3"
+      ],
+      "stars": 558,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Flatpak app: AirPods head tracking as Linux mouse / game tracker",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-11-04. Press reports say Claude Code was used; the README does not say."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-schlarpc-insta360-link-firmware-re",
+      "name": "insta360-link-firmware-re",
+      "url": "https://github.com/schlarpc/insta360-link-firmware-re",
+      "devices": [
+        "dev-insta360-link"
+      ],
+      "stars": 34,
+      "last_commit": "2026-08-02",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Analysis only",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "One of five AI-assisted peripheral RE repos (also Cam Link 4K, Shure MV7, Key Light Mini, ASUS PG42UQ)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-schlarpc-re-shell",
+      "name": "re-shell",
+      "url": "https://github.com/schlarpc/re-shell",
+      "devices": [],
+      "stars": 541,
+      "last_commit": "2026-08-29",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Nix-based agentic RE environment for Claude Code",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Tooling used for the peripheral RE series."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-wonderlantern-wonder-lantern-z5",
+      "name": "wonder-lantern-z5",
+      "url": "https://github.com/WonderLantern/wonder-lantern-z5",
+      "devices": [
+        "dev-nikon-z5-c150"
+      ],
+      "stars": 19,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Release A39 (2026-11-17)",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Tested on the author's camera and a few users."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-pxcm-sampleboot",
+      "name": "SampleBoot",
+      "url": "https://github.com/pxcm/SampleBoot",
+      "devices": [
+        "dev-akai-mpc-sample"
+      ],
+      "stars": 24,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Boot selector for MPC Sample custom OSes",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-11-16."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-sq6emm-icom-custom-firmware",
+      "name": "icom-custom-firmware",
+      "url": "https://github.com/sq6emm/icom-custom-firmware",
+      "devices": [
+        "dev-icom-ic705"
+      ],
+      "stars": 37,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Web patcher; MD5-checked output",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Release 20261119v14."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-nineodernein-hisense-vidaa-clean-home",
+      "name": "hisense-vidaa-clean-home",
+      "url": "https://github.com/nineodernein/hisense-vidaa-clean-home",
+      "devices": [],
+      "stars": 34,
+      "last_commit": "2026-11-18",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Custom VIDAA home dock; native install needs root access",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Built for coding agents (Codex). One reference unit plus 2 owner reports."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-alula-ozone",
+      "name": "Ozone",
+      "url": "https://github.com/alula/Ozone",
+      "devices": [
+        "dev-nintendo-switch2"
+      ],
+      "stars": 54,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Partial Atmosphere port to Switch 2; explicitly not a full CFW",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-22",
+      "last_verified": "2026-11-22",
+      "notes": [
+        {
+          "date": "2026-11-22",
+          "text": "Created 2026-11-03."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -2003,6 +2909,41 @@
       "title": "Switch 2 firmware 23.5.0 patches ns2jb",
       "date": "2026-11-10",
       "first_seen": "2026-11-21"
+    },
+    {
+      "id": "disc-hackaday-quest-unlocked-hardware",
+      "url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/",
+      "title": "Quest VR headset becomes unlocked hardware",
+      "date": "2026-08-25",
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "disc-synthtopia-open-firmware-trend",
+      "url": "https://www.synthtopia.com/content/2026/10/28/will-open-firmware-become-the-next-big-trend-in-electronic-music-gear/",
+      "title": "Will open firmware become the next big trend in electronic music gear?",
+      "date": "2026-10-28",
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "disc-schlarp-everything-i-own-owned",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "title": "Everything I own, owned (AI-assisted peripheral firmware RE)",
+      "date": "2026-08",
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "disc-hackaday-mousepods",
+      "url": "https://hackaday.com/?p=1398217",
+      "title": "MousePods reverse engineers head tracking data from stubborn AirPods",
+      "date": "2026-11-06",
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "disc-toml0006-firewire-disc-changer",
+      "url": "https://toml0006.github.io/blog/i-reverse-engineered-a-20-year-old-disc-changer-before-firewire-dies-forever.html",
+      "title": "I reverse-engineered a 20-year-old disc changer before FireWire dies forever",
+      "date": "not dated in fetched data",
+      "first_seen": "2026-11-22"
     }
   ]
 }
