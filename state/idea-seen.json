@@ -2958,5 +2958,53 @@
   {
     "app": "Unity Gaming Services Economy (PlayFab Economy v2 stores as a second connector): live-ops economy operator",
     "date_seen": "2026-11-22"
+  },
+  {
+    "app": "Camelot / pdfplumber (open-source PDF table extraction; Tabula as GUI sibling) feeding Excel / Google Sheets",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "EN 16931 e-invoicing formats: Factur-X/ZUGFeRD, XRechnung and Peppol BIS Billing 3 (France 2026 reform, Germany phase-in, Belgium Peppol), across ERPs and accounting tools",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "ClickHouse (open-source columnar OLAP DB; self-hosted, ClickHouse Cloud, Altinity) - schema and query tuning operator",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Cilium + Hubble (eBPF CNI and network observability; CNCF graduated) - Zero-Trust Network Policy Writer for Kubernetes",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "RabbitMQ (management plugin + HTTP API + rabbitmqctl; also CloudAMQP/Amazon MQ) - Broker Doctor and the 4.x classic-mirroring exit",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Salesforce org metadata cleanup: unused fields, flows, Apex, reports and layouts (Optimizer successor job, via Tooling and Metadata APIs)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "ThoughtSpot (Models, Liveboards, Sets/Formulas via TML)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Aha! Roadmaps (Productboard as second connector)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Jira Data Center to Cloud migration operator (Jira DC + JCMA + ScriptRunner/Groovy post-functions and listeners)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Amazon Vendor Central (1P wholesale: Vendor Orders, Shipments, Invoices, Chargebacks, Retail Analytics)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Mirakl Marketplace (seller side, across retailer-operated marketplaces such as Best Buy, Macy's, Lowe's, Carrefour, Leroy Merlin)",
+    "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Microsoft 365 Apps policy and deployment layer (Office Deployment Tool config.xml, Office ADMX / Trust Center policies, macro blocking, update channels, add-in inventory)",
+    "date_seen": "2026-11-23"
   }
 ]
