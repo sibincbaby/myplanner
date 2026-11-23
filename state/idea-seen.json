@@ -3006,5 +3006,53 @@
   {
     "app": "Microsoft 365 Apps policy and deployment layer (Office Deployment Tool config.xml, Office ADMX / Trust Center policies, macro blocking, update channels, add-in inventory)",
     "date_seen": "2026-11-23"
+  },
+  {
+    "app": "Vector (Datadog, MPL-2.0) + Fluent Bit as a second connector: observability/log pipeline configs (VRL transforms, routing, sampling, redaction)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Excel / Google Sheets: two-source reconciliation and tie-out (vendor statement vs ledger, HR roster vs payroll, stock count vs system, CRM export vs billing)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "ZoomInfo (Admin Portal + Enterprise API + CRM sync) - 'Credit-Aware Prospecting Operator'",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Sage Accounting (cloud, formerly Sage Business Cloud Accounting; UK/IE/ES/DE/FR/CA/US editions). This is the cloud product, not Sage 50 desktop.",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "ServiceNow CMDB (CSDM data model, Identification & Reconciliation Engine, CMDB Health)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Meta Robyn + Google Meridian (open-source Marketing Mix Modeling)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Argo Workflows (with Argo Events) and Tekton Pipelines as a second connector (CNCF, Apache-2.0): Kubernetes-native workflow and CI/CD YAML",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Falco (CNCF graduated, Apache-2.0) + Falcosidekick: runtime security rules for containers and hosts",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "GitLab Plan (issues, epics, work items, boards, scoped labels, iteration cadences, milestones)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Excel / Google Sheets: multi-submitter workbook collection and roll-up ('Workbook Roundup'): budgets, forecasts, timesheets, site reports, supplier questionnaires",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Linear (issue tracker; target of Jira exits and team restructures)",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Microsoft Word: tables (layout, header rows, merged cells, column widths, number alignment, tables that split across pages, text-to-table conversion)",
+    "date_seen": "2026-11-24"
   }
 ]
