@@ -943,6 +943,10 @@
         {
           "date": "2026-11-22",
           "text": "Vendor published fm1_open SDK on 2026-10-13. The community hub lists 270+ firmwares. Caution: one unexplained brick report on newer UC25HQ80-flash units."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "weasel79/fm1-echo-show (2026-11-21) ports fm1-emu to a Linux Echo Show 8 2021."
         }
       ]
     },
@@ -1296,6 +1300,443 @@
           "text": "MousePods reads head-tracking data on Linux without an Apple device."
         }
       ]
+    },
+    {
+      "id": "dev-amazon-echoshow5-cronos-2gen",
+      "name": "Amazon Echo Show 5 (2nd gen, 2021)",
+      "maker": "Amazon",
+      "model": "Echo Show 5",
+      "revision": "2nd gen C76N8S (cronos)",
+      "sector": "A",
+      "soc": "MediaTek MT8163",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi, Bluetooth",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "Unlockable via amonet-cronos (BROM/preloader/LK exploit)",
+      "secure_boot": "Bypassed by amonet",
+      "alt_firmware": [
+        "LineageOS 18.1",
+        "TECHO5 (Alpine Linux + Go daemon, HA voice satellite)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "high",
+      "score": 8,
+      "confidence": "high",
+      "status": "recommended",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "TECHO5 v1.6.49 'in daily use'. Mainline 7.2.13 kernel build in nuno407/linux-amazon-echo."
+        }
+      ]
+    },
+    {
+      "id": "dev-amazon-echoshow8-athena-2gen",
+      "name": "Amazon Echo Show 8 (2nd gen, 2021)",
+      "maker": "Amazon",
+      "model": "Echo Show 8",
+      "revision": "2nd gen A8H3N2 (athena)",
+      "sector": "A",
+      "soc": "MediaTek MT8183 (4xA73+4xA53)",
+      "ram": "2 GB",
+      "storage": "8 GB eMMC",
+      "connectivity": "Wi-Fi, Bluetooth",
+      "interfaces": [
+        "UART pads (techo5-athena README)",
+        "USB"
+      ],
+      "bootloader": "Unlocked via saiyaku-athena + kaeru (R0rt1z2, bengris32; XDA thread not fetched)",
+      "secure_boot": "Bypassed",
+      "alt_firmware": [
+        "TECHO5 ATHENA on 64-bit mainline Linux 6.18",
+        "linux-amazon-echo 7.2.13 kernels"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "high",
+      "score": 8,
+      "confidence": "medium",
+      "status": "recommended",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Newer than 2026-01 coverage that called it unsupported. Camera OV13855 13 MP working under TECHO5. Author: in daily use on two units."
+        }
+      ]
+    },
+    {
+      "id": "dev-skylight-calendar15-150cal",
+      "name": "Skylight Calendar 15\" (150-CAL / D156)",
+      "maker": "Skylight",
+      "model": "Calendar 15",
+      "revision": "150-CAL; firmware varies (D156.V0.10 userdebug seen)",
+      "sector": "A",
+      "soc": "Rockchip RK3566 (rk356x)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB (Rockchip loader mode)"
+      ],
+      "bootloader": "D156.V0.10 build: flash.locked=0, verified boot orange; other units locked user build",
+      "secure_boot": "Varies by firmware",
+      "alt_firmware": [
+        "Rooted Android 12 + kiosk (photo-frame-dashboard)",
+        "TECHO5 on mainline Linux 6.18 (one unit)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "No microphone. Check firmware string before buying."
+        }
+      ]
+    },
+    {
+      "id": "dev-generic-pf1007l-a33",
+      "name": "PF1007L / AiMOR 10.1\" photo frames (many brands)",
+      "maker": "various (Shenzhen OEM)",
+      "model": "PF1007L",
+      "revision": "AiMOR firmware 2025-07..2026-05 builds",
+      "sector": "A",
+      "soc": "Allwinner A33",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB (USB-A to C data cable)",
+        "SD card"
+      ],
+      "bootloader": "ADB/root routes documented per firmware string",
+      "secure_boot": "none effective",
+      "alt_firmware": [
+        "Rooted Android + kiosk dashboard",
+        "Omarchy Linux (community build)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "high",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "SECURITY: stock app com.efercro.os.aimor gives vendor server a root shell over unencrypted TCP (photo-frame-dashboard/docs/aimor-remote-root-shell.md)."
+        }
+      ]
+    },
+    {
+      "id": "dev-frameo-114k-a33",
+      "name": "Frameo 114K photo frame",
+      "maker": "Shenzhen Kejinming",
+      "model": "114K",
+      "revision": "M33-V4.0 board, firmware v1.29.13_20260114",
+      "sector": "A",
+      "soc": "Allwinner A33 (sun8i)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi (XR819)",
+      "interfaces": [
+        "SD card (boots before eMMC)"
+      ],
+      "bootloader": "SD-card U-Boot can back up and patch boot partition",
+      "secure_boot": "none",
+      "alt_firmware": [
+        "Patched boot: authenticated root ADB over Wi-Fi"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Worked on one unit (ahilles107/frameo-114k-root)."
+        }
+      ]
+    },
+    {
+      "id": "dev-xiaomi-tvboxs-mdz28aa-2gen",
+      "name": "Xiaomi TV Box S (2nd Gen)",
+      "maker": "Xiaomi",
+      "model": "MDZ-28-AA",
+      "revision": "jaws, Android 11 build 683, u-boot 01.01.230202",
+      "sector": "A",
+      "soc": "Amlogic S905X4 (4xA55)",
+      "ram": "2 GB",
+      "storage": "8 GB eMMC",
+      "connectivity": "Wi-Fi 5 + BT (MediaTek MT7663, internal USB)",
+      "interfaces": [
+        "USB-A (OTG)",
+        "HDMI"
+      ],
+      "bootloader": "Locked (AVB); Linux boots from USB without unlock per xiaomibox-ubuntu",
+      "secure_boot": "AVB locked",
+      "alt_firmware": [
+        "Ubuntu 26.10 kernel 6.18.59 from USB (PoC)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "No HDMI audio; Wi-Fi firmware bug mitigated; single developer."
+        }
+      ]
+    },
+    {
+      "id": "dev-amazon-kindle-paperwhite-3-4",
+      "name": "Amazon Kindle Paperwhite 3 (7th gen) / 4 (10th gen)",
+      "maker": "Amazon",
+      "model": "Kindle Paperwhite",
+      "revision": "PW3 2015 / PW4 2018",
+      "sector": "A",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "Software jailbreaks by firmware: SpiderCat 5.16.3-5.19.5 (patched 5.19.6), WinterBreak, Vera",
+      "secure_boot": "Amazon bootloader/kernel retained",
+      "alt_firmware": [
+        "Inkwell (Alpine userspace, offline SmolLM2 via llama.cpp)",
+        "KOReader"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Keep offline to avoid OTA patches."
+        }
+      ]
+    },
+    {
+      "id": "dev-samsung-galaxyfit3-smr390",
+      "name": "Samsung Galaxy Fit3",
+      "maker": "Samsung",
+      "model": "SM-R390",
+      "revision": "firmware R390XXU0AZA3 only",
+      "sector": "A",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Bluetooth",
+      "interfaces": [
+        "Bluetooth RFCOMM firmware update"
+      ],
+      "bootloader": "Firmware package rebuilt from own stock image, flashed over BT",
+      "secure_boot": "unknown",
+      "alt_firmware": [
+        "fit3-toolkit app hub + firmware patches"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Tested on one watch; build refuses other firmware."
+        }
+      ]
+    },
+    {
+      "id": "dev-yandex-stationlite-yandexmicro",
+      "name": "Yandex Station Lite",
+      "maker": "Yandex",
+      "model": "Station Lite",
+      "revision": "Quasar platform yandexmicro",
+      "sector": "A",
+      "soc": "Amlogic quad-core",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "ADB (after root)"
+      ],
+      "bootloader": "Root via firmware trusting leaked CA certs (owner's LAN)",
+      "secure_boot": "n/a (Buildroot Linux 4.9.68)",
+      "alt_firmware": [
+        "None; glagol LAN protocol reversed"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Mainly sold in Russia; pattern (stale trust store -> root) is the takeaway."
+        }
+      ]
+    },
+    {
+      "id": "dev-lenovo-tb323fu-y700gen5",
+      "name": "Lenovo Legion Tab Gen 5 / Y700 5th Gen",
+      "maker": "Lenovo",
+      "model": "TB323FU",
+      "revision": "ZUI 18.0.12.104 tested",
+      "sector": "A",
+      "soc": "Qualcomm Snapdragon 8 Elite Gen 5 (SM8850)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB-C"
+      ],
+      "bootloader": "Root without unlock (LTBox, KernelSU) per tb323fu-linux",
+      "secure_boot": "Locked",
+      "alt_firmware": [
+        "Mainline Linux kernel port; Ubuntu 26.04, Arch ARM, Fedora"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Linux hangs on ZUI 18.0.12.187; keep OTA disabled."
+        }
+      ]
+    },
+    {
+      "id": "dev-ulanzi-tc001",
+      "name": "Ulanzi TC001 pixel clock",
+      "maker": "Ulanzi",
+      "model": "TC001",
+      "revision": "",
+      "sector": "A",
+      "soc": "ESP32",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "Open ESP32 flashing",
+      "secure_boot": "none",
+      "alt_firmware": [
+        "tc001-unlocked (Claude Code-built)"
+      ],
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Small but reproducible Claude Code recipe with prompts."
+        }
+      ]
     }
   ],
   "projects": [
@@ -1534,7 +1975,7 @@
       "devices": [
         "dev-nintendo-switch2"
       ],
-      "stars": 372,
+      "stars": 390,
       "last_commit": "2026-11-17",
       "archived": false,
       "momentum": "rising",
@@ -1543,7 +1984,7 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-23",
       "notes": [
         {
           "date": "2026-11-19",
@@ -1552,6 +1993,10 @@
         {
           "date": "2026-11-21",
           "text": "New tags 20261117.1/20261117b. nicholasyoannou/switch2-modbridge (2026-11-20) loads ns2jb-modloader mods through kaiHEN."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "390 stars; last push still 2026-11-17. No material change."
         }
       ]
     },
@@ -1621,11 +2066,15 @@
       "score": 6,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-23",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Reuse path for salvaged vacuum lidars."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "Re-verified: 238 stars, last push 2026-08-25. No change."
         }
       ]
     },
@@ -1635,7 +2084,7 @@
       "url": "https://github.com/pybricks/pybricks-micropython",
       "devices": [],
       "stars": 354,
-      "last_commit": "2026-11-15",
+      "last_commit": "2026-11-22",
       "archived": false,
       "momentum": "steady",
       "works": "Production for SPIKE/Inventor hubs",
@@ -1643,11 +2092,15 @@
       "score": 6,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-23",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Relevant if LEGO Robot Inventor app was discontinued 2026-10-01 (single-source claim, Brickfact)."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "Re-verified: 354 stars, last push 2026-11-22 (routine). No material change."
         }
       ]
     },
@@ -1665,11 +2118,15 @@
       "score": 5,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-23",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Hedge against iRobot restructuring."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "Re-verified: 1211 stars, last push 2026-02-27. No change."
         }
       ]
     },
@@ -2795,6 +3252,481 @@
           "text": "Created 2026-11-03."
         }
       ]
+    },
+    {
+      "id": "proj-github-gathin23-cleanyourtv",
+      "name": "CleanYourTV",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "devices": [],
+      "stars": 60390,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Agent-driven no-root Android TV debloat + launcher; 508 models/139 brands",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "high",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-17; v3.6.0; 7,931 forks. Fire TV debloat only; no Tizen/webOS/Roku/VIDAA."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-man15h-tellyscope",
+      "name": "Tellyscope",
+      "url": "https://github.com/man15h/tellyscope",
+      "devices": [],
+      "stars": 2208,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Phone app: debloat/install/files on Android TV over ADB, no root",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-22; protected-package list; Play closed testing."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-johnwayneeee-cleantv",
+      "name": "CleanTV",
+      "url": "https://github.com/JohnWayneeee/cleantv",
+      "devices": [],
+      "stars": 53,
+      "last_commit": "2026-11-06",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Claude Code skill: TV debloat + picture/sound calibration",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-24."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-huskerminion-techo5",
+      "name": "TECHO5",
+      "url": "https://github.com/HuskerMinion/techo5",
+      "devices": [
+        "dev-amazon-echoshow5-cronos-2gen",
+        "dev-amazon-echoshow8-athena-2gen",
+        "dev-skylight-calendar15-150cal"
+      ],
+      "stars": 810,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Alpine Linux HA voice satellite firmware for unlocked Echos",
+      "ai_assisted": false,
+      "score": 9,
+      "confidence": "high",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-09-14; tag v1.6.49. Built on EchoLocal."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-huskerminion-techo5-athena",
+      "name": "TECHO5 ATHENA",
+      "url": "https://github.com/HuskerMinion/techo5-athena",
+      "devices": [
+        "dev-amazon-echoshow8-athena-2gen"
+      ],
+      "stars": 23,
+      "last_commit": "2026-11-06",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Echo Show 8 2nd gen on 64-bit mainline Linux 6.18",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-15."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-huskerminion-techo5-dot",
+      "name": "TECHO5 Dot",
+      "url": "https://github.com/HuskerMinion/techo5-dot",
+      "devices": [],
+      "stars": 300,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Echo Dot 2nd/3rd gen, Echo 2nd gen, Echo Input as HA satellites",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-09-16."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-r0rt1z2-amonet",
+      "name": "amonet",
+      "url": "https://github.com/R0rt1z2/amonet",
+      "devices": [
+        "dev-amazon-echoshow5-cronos-2gen"
+      ],
+      "stars": 199,
+      "last_commit": "2026-09-11",
+      "archived": false,
+      "momentum": "steady",
+      "works": "BROM/Preloader/LK exploit for MediaTek Amazon devices",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "high",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Base unlock for most Echos and Fire tablets."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-nuno407-linux-amazon-echo",
+      "name": "linux-amazon-echo",
+      "url": "https://github.com/nuno407/linux-amazon-echo",
+      "devices": [
+        "dev-amazon-echoshow5-cronos-2gen",
+        "dev-amazon-echoshow8-athena-2gen"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Kernel.org 7.2.13 builds for athena (MT8183) and cronos (MT8163)",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-29."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-wesbos-photo-frame-dashboard",
+      "name": "photo-frame-dashboard",
+      "url": "https://github.com/wesbos/photo-frame-dashboard",
+      "devices": [
+        "dev-generic-pf1007l-a33",
+        "dev-skylight-calendar15-150cal"
+      ],
+      "stars": 1828,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "rising",
+      "works": "ADB/root/backup/kiosk for locked Android photo frames",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "high",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-08; 70+ community builds; documents AiMOR vendor remote root shell."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-ahilles107-frameo-114k-root",
+      "name": "frameo-114k-root",
+      "url": "https://github.com/ahilles107/frameo-114k-root",
+      "devices": [
+        "dev-frameo-114k-a33"
+      ],
+      "stars": 1,
+      "last_commit": "2026-10-12",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "SD-card root of Frameo 114K",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "One unit."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-jhonnrodr-xiaomibox-ubuntu",
+      "name": "xiaomibox-ubuntu",
+      "url": "https://github.com/jhonnrodr/xiaomibox-ubuntu",
+      "devices": [
+        "dev-xiaomi-tvboxs-mdz28aa-2gen"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-03",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Ubuntu 26.10 USB boot on locked S905X4 box; runs Claude Code",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-11-02; overnight stability run pending."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-kindlemodding-spidercat",
+      "name": "SpiderCat",
+      "url": "https://github.com/KindleModding/SpiderCat",
+      "devices": [
+        "dev-amazon-kindle-paperwhite-3-4"
+      ],
+      "stars": 20,
+      "last_commit": "2026-10-08",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Kindle jailbreak 5.16.3-5.19.5 (WebKit JSArray::sort UAF)",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "high",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Patched in 5.19.6 per README."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-pragyaangaur-inkwell",
+      "name": "Inkwell",
+      "url": "https://github.com/pragyaangaur/Inkwell",
+      "devices": [
+        "dev-amazon-kindle-paperwhite-3-4"
+      ],
+      "stars": 37,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Alpine userspace on PW3/PW4 with offline LLM, Doom, terminal",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Hackaday feature 2026-11-06 (per README)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-liamzju-kindle-weread-skill",
+      "name": "kindle-weread-skill",
+      "url": "https://github.com/LiamZJU/kindle-weread-skill",
+      "devices": [
+        "dev-amazon-kindle-paperwhite-3-4"
+      ],
+      "stars": 16,
+      "last_commit": "2026-10-25",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Agent skill: jailbreak + KOReader + WeRead plugins",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-22."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-yksen-fit3-toolkit",
+      "name": "fit3-toolkit",
+      "url": "https://github.com/yksen/fit3-toolkit",
+      "devices": [
+        "dev-samsung-galaxyfit3-smr390"
+      ],
+      "stars": 18,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Custom firmware + app hub for Galaxy Fit3",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "README credits Claude Code for firmware RE, code, tests, docs."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-ilia-ershov-yandex-station-lite-research",
+      "name": "yandex-station-lite-research",
+      "url": "https://github.com/ilia-ershov/yandex-station-lite-research",
+      "devices": [
+        "dev-yandex-stationlite-yandexmicro"
+      ],
+      "stars": 4,
+      "last_commit": "2026-10-27",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Root, firmware RE and glagol protocol write-up",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-24."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-yzddmr6-android-mainline-port",
+      "name": "android-mainline-port",
+      "url": "https://github.com/yzddmr6/android-mainline-port",
+      "devices": [],
+      "stars": 126,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Agent skill for porting mainline Linux to Android tablets/phones",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "From Xiaomi Pad 6 Pro / OnePlus Pad 2 Pro / Xiaomi Pad 8 Pro ports."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-joonhoekim-tb323fu-linux",
+      "name": "tb323fu-linux",
+      "url": "https://github.com/joonhoekim/tb323fu-linux",
+      "devices": [
+        "dev-lenovo-tb323fu-y700gen5"
+      ],
+      "stars": 35,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Mainline Linux on Legion Y700 5th Gen",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-10-01; in daily use, still in development."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-petersameh-tc001-unlocked",
+      "name": "tc001-unlocked",
+      "url": "https://github.com/petersameh/tc001-unlocked",
+      "devices": [
+        "dev-ulanzi-tc001"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-04",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Custom Ulanzi TC001 firmware built with Claude Code, prompts published",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Created 2026-11-04."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-weasel79-fm1-echo-show",
+      "name": "fm1-echo-show",
+      "url": "https://github.com/weasel79/fm1-echo-show",
+      "devices": [
+        "dev-amazon-echoshow8-athena-2gen",
+        "dev-mvave-fm1"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "FM-1 synth emulator on a Linux Echo Show 8 2021",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "notes": [
+        {
+          "date": "2026-11-23",
+          "text": "Combines two revivals (Linux Echo + FM-1)."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -2944,6 +3876,34 @@
       "title": "I reverse-engineered a 20-year-old disc changer before FireWire dies forever",
       "date": "not dated in fetched data",
       "first_seen": "2026-11-22"
+    },
+    {
+      "id": "disc-hackaday-inkwell-kindle-pw3",
+      "url": "https://hackaday.com/2026/11/06/its-alpine-linux-on-a-kindle-paperwhite-3/",
+      "title": "It's Alpine Linux, On A Kindle Paperwhite 3",
+      "date": "2026-11-06",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "disc-hackaday-echo-show-8-3rd-gen-uart",
+      "url": "https://hackaday.com/2026/07/08/hacking-amazon-echo-show-8-3rd-gen-via-uart-and-emmc/",
+      "title": "Hacking Amazon Echo Show 8 3rd Gen Via UART And EMMC",
+      "date": "2026-07-08",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "disc-androidcentral-skylight-calendar-help",
+      "url": "https://forums.androidcentral.com/threads/help-with-skylight-calendar.1073370",
+      "title": "Help with Skylight Calendar (ADB, launcher)",
+      "date": "",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "disc-toolbit-claude-codex-own-device",
+      "url": "https://www.toolbit.ai/blog/claude-codex-reverse-engineer-own-device",
+      "title": "Can I Use Claude or Codex to Reverse Engineer My Device?",
+      "date": "2026-11",
+      "first_seen": "2026-11-23"
     }
   ]
 }
