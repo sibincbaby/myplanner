@@ -6423,5 +6423,55 @@
     "url": "https://github.com/ComputerUseAgent/AutoCua",
     "title": "AutoCua — automatic computer-use agent for end-to-end automation on macOS, Windows, Linux, iOS and browser; MIT, PyPI v3.0.0",
     "date_seen": "2026-11-23"
+  },
+  {
+    "url": "https://github.com/vedant-shah/clawd-hq",
+    "title": "Clawd HQ — chief-of-staff plugin for Claude Code with live pixel-art office",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://www.producthunt.com/products/orpheus-2",
+    "title": "Orpheus — run all your Claude subscriptions and agent sessions from one dashboard",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/karlis-vagalis/kompi",
+    "title": "Kompi — personal Pi assistant app for Android with live voice mode",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/plannotator/talkto",
+    "title": "TalkTo — self-hosted message board for AI agents and teams",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/pierridotite/mobile-agent-testers",
+    "title": "Mobile Agent Testers — free open-source AI agents that beta-test your mobile app",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+    "title": "DreamCoder — browser-based coding harness and IDE with a tiling window manager",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/claylambert/casserole",
+    "title": "Casserole and Aetheris — local-first MCP agent server with notebook-style chat canvas",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/fotisk07/sou",
+    "title": "sou — plain-text double-entry accounting CLI in Rust, agent-friendly",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://www.producthunt.com/products/freddy",
+    "title": "freddy — private health data server with an MCP endpoint for any AI",
+    "date_seen": "2026-11-24"
+  },
+  {
+    "url": "https://github.com/bhushan/getsecondbrain.io",
+    "title": "Second Brain — one shared memory for Claude, ChatGPT and Cursor via MCP",
+    "date_seen": "2026-11-24"
   }
 ]
