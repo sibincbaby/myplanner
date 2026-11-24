@@ -1737,6 +1737,522 @@
           "text": "Small but reproducible Claude Code recipe with prompts."
         }
       ]
+    },
+    {
+      "id": "dev-google-nest-learning-thermostat-3gen",
+      "name": "Google Nest Learning Thermostat (3rd gen)",
+      "maker": "Google Nest",
+      "model": "Learning Thermostat",
+      "revision": "3rd gen (diamond3)",
+      "sector": "B",
+      "soc": "NXP i.MX6SoloX",
+      "ram": "",
+      "storage": "NAND",
+      "connectivity": "Wi-Fi, BLE, 802.15.4 (EM3581 on SPI)",
+      "interfaces": [
+        "USB (micro)"
+      ],
+      "bootloader": "Rootable over USB via i.MX ROM recovery mode (unfr0zen)",
+      "secure_boot": "Some secure-boot revisions refused by unfr0zen app",
+      "alt_firmware": "unfr0zen (nestlocal: MQTT, Matter Wi-Fi/Thread, Zigbee); Fledge (HA on screen)",
+      "power": "24V HVAC / backplate",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 8,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "unfr0zen roots 3rd gen (fw 5.9.4-5, 6.3-5, 6.4-8, 6.5-14) over USB; Fledge fork tested on one EU unit. Not sold officially in India."
+        }
+      ]
+    },
+    {
+      "id": "dev-google-nest-learning-thermostat-2gen",
+      "name": "Google Nest Learning Thermostat (2nd gen)",
+      "maker": "Google Nest",
+      "model": "Learning Thermostat",
+      "revision": "2nd gen (j49)",
+      "sector": "B",
+      "soc": "TI AM3703",
+      "ram": "58 MB usable (per Fledge README)",
+      "storage": "NAND",
+      "connectivity": "Wi-Fi, 802.15.4 (EM357)",
+      "interfaces": [
+        "USB (micro)"
+      ],
+      "bootloader": "OMAP boot ROM USB (DFU)",
+      "secure_boot": "none known",
+      "alt_firmware": "unfr0zen; Fledge (MQTT tested); NoLongerEvil",
+      "power": "24V HVAC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Google cloud features ended 2025-10-25. unfr0zen supports fw 5.9.4-5; Zigbee-only mode revives units with dead Wi-Fi."
+        }
+      ]
+    },
+    {
+      "id": "dev-bluestar-ie518tnur-md50bs",
+      "name": "Blue Star smart-ready inverter split AC",
+      "maker": "Blue Star",
+      "model": "IE518TNUR / IA318MXU",
+      "revision": "Megmeet MD50BS display board",
+      "sector": "B",
+      "soc": "Tuya MCU protocol on display board (MCU not identified)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "none stock; empty Wi-Fi module header",
+      "interfaces": [
+        "UART 9600 8N1 4-pin JST-XH (R_WIFI T_WIFI GND 5V)"
+      ],
+      "bootloader": "n/a (no firmware change; plug-in module)",
+      "secure_boot": "n/a",
+      "alt_firmware": "bluestar-ac-esphome (ESP32-C3 ESPHome)",
+      "power": "mains",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "high",
+      "score": 7,
+      "confidence": "medium",
+      "status": "recommended",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "First public Blue Star Wi-Fi port protocol (Tuya MCU + DP101 records, CRC-16/MODBUS). Two models in daily use; others unverified. ESP32-C3 ~Rs 250 per README, not a fetched listing."
+        }
+      ]
+    },
+    {
+      "id": "dev-avatto-zdms16-2",
+      "name": "AVATTO ZDMS16-2 two-channel Zigbee dimmer",
+      "maker": "AVATTO",
+      "model": "ZDMS16-2",
+      "revision": "_TZE284_jtbgusdc / _TZE204_jtbgusdc",
+      "sector": "B",
+      "soc": "Tuya Zigbee module + PY32 dimmer MCU",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Zigbee",
+      "interfaces": [
+        "SWD (PY32)",
+        "2-wire link Zigbee module to PY32"
+      ],
+      "bootloader": "PY32 flashable via 2 soldered wires, then OTA over Zigbee",
+      "secure_boot": "none",
+      "alt_firmware": "Open Dimmer (PY32); tuya-zigbee-switch fork (Zigbee side)",
+      "power": "mains 230V/50Hz",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Open Dimmer v2.2.8 (2026-11-24). 60 Hz untested; third variant _TZE204_o9gyszw2 converted on one unit."
+        }
+      ]
+    },
+    {
+      "id": "dev-sesimagotag-hrd3-0210-a-contrd010a",
+      "name": "SES-imagotag HRD3-0210-A e-paper shelf label",
+      "maker": "SES-imagotag / VusionGroup",
+      "model": "HRD3-0210-A",
+      "revision": "PCB ContRD010A",
+      "sector": "B",
+      "soc": "Silicon Labs EFR32FG22C121F512GM40",
+      "ram": "32 KB",
+      "storage": "512 KB flash",
+      "connectivity": "2.4 GHz radio (unused by open fw)",
+      "interfaces": [
+        "SWD test pads",
+        "rail contacts GND/3.3V/signal"
+      ],
+      "bootloader": "Debug-locked; device erase unlocks (factory fw lost)",
+      "secure_boot": "debug lock",
+      "alt_firmware": "hacking-imagotags firmware",
+      "power": "3.3V rail, no battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Unlock+flash+draw working; rail-signal image upload not working yet. eBay lots mix revisions."
+        }
+      ]
+    },
+    {
+      "id": "dev-solum-el016-el022-efr32bg22",
+      "name": "Solum EL016 / EL022 e-paper shelf labels (BG22)",
+      "maker": "SoluM",
+      "model": "EL016F5W4C / EL016F6W4A / EL022F5C4C",
+      "revision": "EFR32BG22 board",
+      "sector": "B",
+      "soc": "EFR32BG22C224F512IM40",
+      "ram": "",
+      "storage": "512 KB + 512 KB SPI flash",
+      "connectivity": "BLE, NFC",
+      "interfaces": [
+        "SWD"
+      ],
+      "bootloader": "Locked; SWD unlock erases factory fw (no backup)",
+      "secure_boot": "debug lock",
+      "alt_firmware": "pin16 (Web Bluetooth slideshow, OTA)",
+      "power": "CR2450",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "pin16 v20 (created 2026-11-16). BWRY panels."
+        }
+      ]
+    },
+    {
+      "id": "dev-solum-zbs243-29-154",
+      "name": "Solum 2.9in / 1.54in e-paper shelf labels (ZBS243)",
+      "maker": "SoluM",
+      "model": "2.9in / 1.54in",
+      "revision": "ZBS243",
+      "sector": "B",
+      "soc": "ZBS243 (8051)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "802.15.4",
+      "interfaces": [
+        "programming pads"
+      ],
+      "bootloader": "Flashable with programmer",
+      "secure_boot": "none",
+      "alt_firmware": "OpenEPaperLink; openESL",
+      "power": "coin cell",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "high",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Mature OpenEPaperLink target; new MIT alternative openESL (v0.11.0, 2026-11-23) with ESP32-C6/S3/Linux AP and HA integration."
+        }
+      ]
+    },
+    {
+      "id": "dev-wyze-camv3-t31",
+      "name": "Wyze Cam v3 (and v4 / T41)",
+      "maker": "Wyze",
+      "model": "Cam v3 / Cam v4",
+      "revision": "T31 / T41",
+      "sector": "B",
+      "soc": "Ingenic T31 (v3); Ingenic T41 with NNA (v4)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "UART",
+        "SD card"
+      ],
+      "bootloader": "Flashable to Thingino",
+      "secure_boot": "none known on T31",
+      "alt_firmware": "Thingino; thingino-ai detectors",
+      "power": "5V USB",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "thingino-ai: person/pet/package detector on-camera (T31 ~104 ms CPU, T41 ~37 ms NNA); not wired into streamer yet; pet/package accuracy low."
+        }
+      ]
+    },
+    {
+      "id": "dev-qubo-q400-hph",
+      "name": "QUBO Q400 smart air purifier",
+      "maker": "Hero Electronix (QUBO)",
+      "model": "Q400",
+      "revision": "HPH family",
+      "sector": "B",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi (MQTT over TLS, port 8883)",
+      "interfaces": [],
+      "bootloader": "n/a (no reflash)",
+      "secure_boot": "cert checking may tighten in future firmware",
+      "alt_firmware": "qubo-local-bridge (cloud path tested; local path via DNS redirect + private CA)",
+      "power": "mains",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Indian brand. Local path untested by author beyond description; device port 8883 has no login."
+        }
+      ]
+    },
+    {
+      "id": "dev-meross-mss110-v7",
+      "name": "Meross MSS110 smart plug",
+      "maker": "Meross",
+      "model": "MSS110",
+      "revision": "hw v7.0.0",
+      "sector": "B",
+      "soc": "Realtek RTL8710CM (AmebaZ2)",
+      "ram": "",
+      "storage": "4 MB",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "UART (PA15/PA16)",
+        "download strap pads PA0+PA13"
+      ],
+      "bootloader": "UART download mode via test pads",
+      "secure_boot": "none noted",
+      "alt_firmware": "meross-mss110-fw (LibreTiny)",
+      "power": "mains",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "AI-written (Claude Code), hardware-verified by author on one plug."
+        }
+      ]
+    },
+    {
+      "id": "dev-aciq-midea-tl04-1",
+      "name": "ACiQ / Midea TL04-1 Wi-Fi thermostat",
+      "maker": "ACiQ / Midea / Carrier",
+      "model": "TL04-1 (KSACN1701AAA)",
+      "revision": "",
+      "sector": "B",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "ADB (open)"
+      ],
+      "bootloader": "Linux with open ADB",
+      "secure_boot": "n/a",
+      "alt_firmware": "ha-aciq-thermostat (local API pushed via ADB)",
+      "power": "24V HVAC",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "US market. Exposes compressor Hz, outdoor temp, coil temps, fault codes."
+        }
+      ]
+    },
+    {
+      "id": "dev-philips-avent-scd923",
+      "name": "Philips Avent SCD923/26 connected baby monitor",
+      "maker": "Philips Avent",
+      "model": "SCD923/26",
+      "revision": "",
+      "sector": "B",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi (Tuya-based)",
+      "interfaces": [],
+      "bootloader": "n/a",
+      "secure_boot": "n/a",
+      "alt_firmware": "ha-local-babyphone (local video/audio)",
+      "power": "mains",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Local key extracted from handheld QR; HA and handheld cannot stream at once."
+        }
+      ]
+    },
+    {
+      "id": "dev-levoit-core300s",
+      "name": "Levoit Core 300S air purifier",
+      "maker": "Levoit",
+      "model": "Core 300S",
+      "revision": "",
+      "sector": "B",
+      "soc": "ESP32 (per levoit-matter README)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi, BLE",
+      "interfaces": [
+        "UART"
+      ],
+      "bootloader": "ESP32 serial flash",
+      "secure_boot": "unknown",
+      "alt_firmware": "levoit-matter (untested on hardware)",
+      "power": "mains",
+      "evidence": "theoretical",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "levoit-matter compiles and passes unit tests but has never run on hardware (created 2026-11-23)."
+        }
+      ]
+    },
+    {
+      "id": "dev-shark-matrix-vacuum",
+      "name": "Shark Matrix robot vacuum",
+      "maker": "SharkNinja",
+      "model": "Matrix",
+      "revision": "",
+      "sector": "B",
+      "soc": "",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi; local mosquitto on tcp/1883 (no auth/TLS)",
+      "interfaces": [],
+      "bootloader": "n/a",
+      "secure_boot": "n/a",
+      "alt_firmware": "sharkboard (read-only console, 3 captured frames)",
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Unauthenticated local MQTT exposes telemetry and LiDAR map; labels inferred. Also a LAN security exposure."
+        }
+      ]
     }
   ],
   "projects": [
@@ -1784,8 +2300,8 @@
         "dev-proscenic-m6pro-crl200s",
         "dev-roborock-s5max"
       ],
-      "stars": 13153,
-      "last_commit": "2026-11-19",
+      "stars": 13197,
+      "last_commit": "2026-11-23",
       "archived": false,
       "momentum": "rising",
       "works": "Simulation only; 'not buildable yet'",
@@ -1793,7 +2309,7 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-24",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2135,8 +2651,8 @@
       "name": "LeRobot",
       "url": "https://github.com/huggingface/lerobot",
       "devices": [],
-      "stars": 28984,
-      "last_commit": "2026-11-19",
+      "stars": 29053,
+      "last_commit": "2026-11-23",
       "archived": false,
       "momentum": "rising",
       "works": "Production framework; v0.6.0 2026-07-07",
@@ -2144,7 +2660,7 @@
       "score": 6,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-24",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2168,7 +2684,7 @@
       "score": 4,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-24",
       "notes": [
         {
           "date": "2026-11-19",
@@ -3727,6 +4243,506 @@
           "text": "Combines two revivals (Linux Echo + FM-1)."
         }
       ]
+    },
+    {
+      "id": "proj-github-unfr0zen-unfr0zen",
+      "name": "unfr0zen",
+      "url": "https://github.com/unfr0zen/unfr0zen",
+      "devices": [
+        "dev-google-nest-learning-thermostat-3gen",
+        "dev-google-nest-learning-thermostat-2gen"
+      ],
+      "stars": 137,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Roots Nest gen1-3 over USB; local MQTT/Matter/Zigbee; tested across 4 gen3 firmwares",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-26, tag v0.5.4. Claude Code used for GUI, docs, tests."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-sysmoon14-fledge",
+      "name": "Fledge",
+      "url": "https://github.com/sysmoon14/fledge",
+      "devices": [
+        "dev-google-nest-learning-thermostat-3gen",
+        "dev-google-nest-learning-thermostat-2gen"
+      ],
+      "stars": null,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Fork of unfr0zen; HA on Nest screen; tested on one EU gen3 unit",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Tag v0.13.0-rc.10; star count not retrievable (search API did not index). Claude Code used throughout."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-sysmoon14-fledge-homeassistant",
+      "name": "Fledge Home Assistant integration",
+      "url": "https://github.com/sysmoon14/fledge-homeassistant",
+      "devices": [
+        "dev-google-nest-learning-thermostat-3gen"
+      ],
+      "stars": 6,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "HACS integration for Fledge cards",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-08."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-unfr0zen-qemu",
+      "name": "unfr0zen qemu",
+      "url": "https://github.com/unfr0zen/qemu",
+      "devices": [
+        "dev-google-nest-learning-thermostat-3gen",
+        "dev-google-nest-learning-thermostat-2gen"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Boots stock Nest firmware from NAND dump in QEMU; MCP server for agents",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-26. Agent-ready device emulator."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-unfr0zen-homeassistant-unfr0zen",
+      "name": "homeassistant-unfr0zen",
+      "url": "https://github.com/unfr0zen/homeassistant-unfr0zen",
+      "devices": [
+        "dev-google-nest-learning-thermostat-3gen",
+        "dev-google-nest-learning-thermostat-2gen"
+      ],
+      "stars": 2,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Nest schedules as HA calendars",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-22."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-vikk20-bluestar-ac-esphome",
+      "name": "bluestar-ac-esphome",
+      "url": "https://github.com/Vikk20/bluestar-ac-esphome",
+      "devices": [
+        "dev-bluestar-ie518tnur-md50bs"
+      ],
+      "stars": 11,
+      "last_commit": "2026-11-03",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Two Blue Star models in daily use",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-02. First public Blue Star Wi-Fi port protocol."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-patapovich-open-dimmer",
+      "name": "Open Dimmer",
+      "url": "https://github.com/patapovich/open-dimmer",
+      "devices": [
+        "dev-avatto-zdms16-2"
+      ],
+      "stars": 9,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Working; v2.2.8; OTA over Zigbee after 2-wire mod",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-17."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-georgestephanis-hacking-imagotags",
+      "name": "hacking-imagotags",
+      "url": "https://github.com/georgestephanis/hacking-imagotags",
+      "devices": [
+        "dev-sesimagotag-hrd3-0210-a-contrd010a"
+      ],
+      "stars": 11,
+      "last_commit": "2026-10-08",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Unlock/flash/draw work; rail upload not",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Built with Claude Code over 3 days (5-7 Oct 2026), detailed human/AI split."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-steanlab-pin16",
+      "name": "pin16",
+      "url": "https://github.com/steanlab/pin16",
+      "devices": [
+        "dev-solum-el016-el022-efr32bg22"
+      ],
+      "stars": 5,
+      "last_commit": "2026-11-18",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Web Bluetooth slideshow firmware; v20",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-16."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mathiasbk-openesl",
+      "name": "openESL",
+      "url": "https://github.com/mathiasbk/openESL",
+      "devices": [
+        "dev-solum-zbs243-29-154"
+      ],
+      "stars": 2,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Tag fw + ESP32/Linux AP, HTTP API, HA integration; v0.11.0",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-14. MIT, from scratch."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-catskull-meross-mss110-fw",
+      "name": "meross-mss110-fw",
+      "url": "https://github.com/catskull/meross-mss110-fw",
+      "devices": [
+        "dev-meross-mss110-v7"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-18",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Relay/LED/button/recovery AP/OTA verified on one plug",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-18. AI-written, hardware-verified."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-oxn0r-ha-aciq-thermostat",
+      "name": "ha-aciq-thermostat",
+      "url": "https://github.com/oxn0r/ha-aciq-thermostat",
+      "devices": [
+        "dev-aciq-midea-tl04-1"
+      ],
+      "stars": 6,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Local HA control via ADB-installed API",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-20."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-hemantkamalakar-qubo-local-bridge",
+      "name": "qubo-local-bridge",
+      "url": "https://github.com/hemantkamalakar/qubo-local-bridge",
+      "devices": [
+        "dev-qubo-q400-hph"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Cloud path tested on Q400; socket untested",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-21. Rust CLI + MCP server."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-h3adsho0ot-ha-local-babyphone",
+      "name": "ha-local-babyphone",
+      "url": "https://github.com/H3adsho0ot/ha-local-babyphone",
+      "devices": [
+        "dev-philips-avent-scd923"
+      ],
+      "stars": 5,
+      "last_commit": "2026-11-02",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Local video/audio/controls",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-01."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-tadhglewis-levoit-matter",
+      "name": "levoit-matter",
+      "url": "https://github.com/tadhglewis/levoit-matter",
+      "devices": [
+        "dev-levoit-core300s"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Never run on hardware",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-23."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-jcpsimmons-sharkboard",
+      "name": "sharkboard",
+      "url": "https://github.com/jcpsimmons/sharkboard",
+      "devices": [
+        "dev-shark-matrix-vacuum"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-07",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Telemetry/LiDAR map from open local broker",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-07."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-small6oy-thingino-ai",
+      "name": "thingino-ai",
+      "url": "https://github.com/Small6oy/thingino-ai",
+      "devices": [
+        "dev-wyze-camv3-t31"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Detector runs on T31/T41; not yet wired into raptor",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-11-23."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-opendevicedb-opendevicedb",
+      "name": "OpenDeviceDB",
+      "url": "https://github.com/opendevicedb/opendevicedb",
+      "devices": [],
+      "stars": 50,
+      "last_commit": "2026-11-22",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Directory of 32,110 devices from 42 sources; MCP server",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-17. Agent-oriented."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-seb5594-home-assistant-untuyaos3-app",
+      "name": "UnTuyaOS3 Home Assistant app",
+      "url": "https://github.com/seb5594/Home-Assistant-UnTuyaOS3-App",
+      "devices": [],
+      "stars": 0,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "steady",
+      "works": "1 worked, 1 partly, 1 accepted, 1 rejected",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-27, v1.0.5. Only AR9271 adapter has flashed."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-tuya-cloudcutter-untuyaos3",
+      "name": "UnTuyaOS3",
+      "url": "https://github.com/tuya-cloudcutter/UnTuyaOS3",
+      "devices": [],
+      "stars": 11,
+      "last_commit": "2026-10-30",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Some TuyaOS3 devices (T1, BK7231N, RTL8720CF) over Wi-Fi",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-02-07. Exploit by kuba2k2."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-esauvisky-tuyeasie",
+      "name": "Tuyeasie",
+      "url": "https://github.com/esauvisky/Tuyeasie",
+      "devices": [],
+      "stars": 33,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Local-first Tuya onboarding for HA (BLE pairing, tuya-local import, ONVIF/RTSP cameras)",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-24",
+      "last_verified": "2026-11-24",
+      "notes": [
+        {
+          "date": "2026-11-24",
+          "text": "Created 2026-10-29. README not reviewed in depth."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -3904,6 +4920,48 @@
       "title": "Can I Use Claude or Codex to Reverse Engineer My Device?",
       "date": "2026-11",
       "first_seen": "2026-11-23"
+    },
+    {
+      "id": "disc-404media-ai-re-crackdown",
+      "url": "https://404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai",
+      "title": "'Reverse Engineer Anything': AI companies crack down (404 Media)",
+      "date": "2026-11 (approx.)",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-tomshardware-claude-code-game-cloning-re",
+      "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+      "title": "Anthropic confirms Claude Code game-cloning limits; users report RE blocks",
+      "date": "2026-11 (approx.)",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-troopers26-priceless-esl",
+      "url": "https://troopers.de/downloads/troopers26/TR26_Priceless_DAARST.pdf",
+      "title": "Priceless: Hacking Electronic Shelf Labels (Troopers 26)",
+      "date": "2026",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-hackaday-ask-esl",
+      "url": "https://hackaday.com/2026/06/04/ask-hackaday-how-do-you-feel-about-electronic-shelf-labels/",
+      "title": "Ask Hackaday: how do you feel about electronic shelf labels",
+      "date": "2026-06-04",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-kunalkhosla-ecoplug-claude",
+      "url": "https://kunalkhosla.github.io/blogs/2026/04/20/ecoplug-pool-pump.html",
+      "title": "Claude Code reverse-engineers an EcoPlug pool-pump plug",
+      "date": "2026-04-20",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-ha-community-wipro-tuya-india",
+      "url": "https://community.home-assistant.io/t/wipro-garnet-smart-light/127027?page=3",
+      "title": "Wipro smart plugs/lights local Tuya and OpenBeken (HA forum)",
+      "date": "older thread",
+      "first_seen": "2026-11-24"
     }
   ]
 }
