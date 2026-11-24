@@ -3054,5 +3054,53 @@
   {
     "app": "Microsoft Word: tables (layout, header rows, merged cells, column widths, number alignment, tables that split across pages, text-to-table conversion)",
     "date_seen": "2026-11-24"
+  },
+  {
+    "app": "Supabase Security Operator (RLS policies, Storage policies, Auth config, advisors)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "ServiceNow Access Explainer and Safe-Change Author (ACLs, roles, groups)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "AWS IAM Identity Center Access Cartographer (permission sets, assignments, groups, ABAC)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Malaysia LHDN MyInvois e-invoice compliance operator (bookkeeper-firm console via intermediary mode)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Instantly.ai (plus Smartlead connector): Deliverability Ops Operator for cold outbound",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Jira Cloud Filter & Dashboard Doctor (shared filters, owner transfer, permissions, gadgets)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Auth0 Tenant Pilot (Actions, connections, Organizations, MFA, attack protection, Deploy CLI)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Cube semantic layer modeling agent (Cube Core + Cube Cloud)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Follow Up Boss Team Ops Operator (real-estate CRM)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "DuckDB 'Excel can't open it' large-file analyst (CSV / Parquet / multi-workbook)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Brazil NF-e IBS/CBS tax-reform readiness operator (ERP product masters: Omie, Bling, Tiny; SEFAZ homologation)",
+    "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Excel / Google Sheets Monte Carlo risk simulation layer (an @RISK / Crystal Ball replacement)",
+    "date_seen": "2026-11-25"
   }
 ]
