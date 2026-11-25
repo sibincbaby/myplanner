@@ -3102,5 +3102,53 @@
   {
     "app": "Excel / Google Sheets Monte Carlo risk simulation layer (an @RISK / Crystal Ball replacement)",
     "date_seen": "2026-11-25"
+  },
+  {
+    "app": "Apache Spark (Spark UI + History Server, on EMR/Dataproc/K8s/on-prem)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "SELinux on RHEL/Rocky/Alma/Fedora/Amazon Linux (auditd, semanage, setroubleshoot)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Meta Business Portfolio / Business Settings (Business Manager admin layer: ad accounts, Pages, pixels/datasets, catalogs, system users, partner access, domains)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Salesforce Omni-Channel and skills-based routing (Service Cloud, Sales Engagement, and Messaging)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Excel + Google Sheets version history (OneDrive/SharePoint versions, Excel 'Show Changes', Drive revisions): cell-level change forensics",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Cloud Custodian (c7n, CNCF incubating; AWS/Azure/GCP/Kubernetes governance engine)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Temporal (open-source durable-execution server; Temporal Cloud)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "PowerPoint / Word decks and memos tied to Excel models: number tie-out and internal-consistency checker",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Walmart Connect Advertising (Sponsored Search / Sponsored Brands / Sponsored Videos for Walmart.com)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Celonis Execution Management System (process mining: Data Pools, Data Models, Transformations, PQL, Studio analyses)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Conga Composer for Salesforce (the AppExchange document-generation standard; Nintex DocGen and Salesforce Document Generation as later connectors)",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Teamwork.com (project management / professional services automation for agencies and client-service firms)",
+    "date_seen": "2026-11-26"
   }
 ]
