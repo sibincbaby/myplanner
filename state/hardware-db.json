@@ -157,11 +157,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Recommended if you want to avoid Dreame PCB rooting; Valetudo 2026.08.0 fixed a crashlooping component on J15 Max firmware."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: no change (Valetudo still 2026.10.0; cyberdog_ros2 still stalled)."
         }
       ]
     },
@@ -198,11 +202,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "3h4x/dreame-l40-ultra-macos-root: rooted from Apple Silicon Mac on 2026-09-26 (one robot); hit eMMC write timeout visible only on UART."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: no change (Valetudo still 2026.10.0; cyberdog_ros2 still stalled)."
         }
       ]
     },
@@ -276,11 +284,15 @@
       "confidence": "low",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Open ROS 2 stack but cyberdog_ros2 repo last pushed 2023-12-12 — vendor code dormant. Watch for used units."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: no change (Valetudo still 2026.10.0; cyberdog_ros2 still stalled)."
         }
       ]
     },
@@ -2253,6 +2265,716 @@
           "text": "Unauthenticated local MQTT exposes telemetry and LiDAR map; labels inferred. Also a LAN security exposure."
         }
       ]
+    },
+    {
+      "id": "dev-drobo-5n",
+      "name": "Drobo 5N 5-bay NAS",
+      "maker": "Drobo",
+      "model": "5N",
+      "revision": "",
+      "sector": "C",
+      "soc": "Marvell Armada XP MV78460",
+      "ram": "2 GB",
+      "storage": "internal 1 GB eUSB stick; 5 SATA bays; mSATA slot",
+      "connectivity": "Gigabit Ethernet",
+      "interfaces": [
+        "UART J2 (U-Boot console, unpopulated)",
+        "UART J3 (stock Linux console)",
+        "mSATA"
+      ],
+      "bootloader": "stock Marvell U-Boot, bootdelay 0, interruptible over serial",
+      "secure_boot": "none observed; boots unsigned kernel via stub",
+      "alt_firmware": [
+        "drobo-5n kit: Debian 13 armhf from stock U-Boot (georgestephanis/drobo-5n)"
+      ],
+      "power": "12 V 8.33 A PSU",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 8,
+      "confidence": "medium",
+      "status": "recommended",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Debian 13 on one unit, AI-assisted (Claude Code). Limits: first 16 MB RAM unusable, CESA crypto off, ~2.5 min boot from eUSB. Maker defunct, so units are orphaned."
+        }
+      ]
+    },
+    {
+      "id": "dev-dlink-dns320l-a",
+      "name": "D-Link DNS-320L (and DNS-320 rev A/B, DNS-325 rev A)",
+      "maker": "D-Link",
+      "model": "DNS-320L",
+      "revision": "rev A (A2 = DNS-320LW)",
+      "sector": "C",
+      "soc": "not verified today",
+      "ram": "not verified today",
+      "storage": "NAND flash; 2 SATA bays",
+      "connectivity": "Gigabit Ethernet",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "stock U-Boot kept",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "ShareOS (Alt-F fork, beta)",
+        "Alt-F"
+      ],
+      "power": "external PSU",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "ShareOS installs from the stock or Alt-F web firmware page, no serial. DNS-320L tested every release; DNS-325 A1 boots; DNS-320 rev B untested."
+        }
+      ]
+    },
+    {
+      "id": "dev-netgear-readynas-duo-v1",
+      "name": "NETGEAR ReadyNAS Duo v1",
+      "maker": "NETGEAR",
+      "model": "ReadyNAS Duo",
+      "revision": "v1 (not v2)",
+      "sector": "C",
+      "soc": "Infrant SPARC (per README)",
+      "ram": "not verified today",
+      "storage": "2 SATA bays (X-RAID)",
+      "connectivity": "Gigabit Ethernet",
+      "interfaces": [
+        "USB",
+        "internal serial header 9600 baud"
+      ],
+      "bootloader": "RAIDiator 4.1.x boots first, relay hands over to USB stick",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "ReadyNasNextGen (Linux 6.18 from USB, experimental)"
+      ],
+      "power": "internal PSU",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Linux 6.18 via a RAIDiator add-on relay; stock flash untouched. Validated on one NAS. Signed SMB only ~4 MiB/s."
+        }
+      ]
+    },
+    {
+      "id": "dev-seagate-nas-2bay-srpd20",
+      "name": "Seagate NAS 2-Bay (SRPD20, board n090201 Dart 2-Bay)",
+      "maker": "Seagate",
+      "model": "NAS 2-Bay SRPD20",
+      "revision": "n090201",
+      "sector": "C",
+      "soc": "Marvell Armada 370 (88F6710) 1x1.2 GHz",
+      "ram": "512 MB DDR3",
+      "storage": "256 MB NAND; 2 SATA II",
+      "connectivity": "Gigabit Ethernet (mvneta)",
+      "interfaces": [
+        "2x USB 3.0 (ASM1042A)",
+        "UART"
+      ],
+      "bootloader": "U-Boot 2011.12 Seagate 4.0.15",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "seagate-nas2bay-omv (Debian 12 + OMV 7, installed over SSH, NAND untouched)"
+      ],
+      "power": "external PSU",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Tested on one unit. Native OMV plugins for fan, 6 LEDs, buttons. Discontinued product."
+        }
+      ]
+    },
+    {
+      "id": "dev-zyxel-nas326",
+      "name": "Zyxel NAS326 (MitraStar STG-328)",
+      "maker": "Zyxel",
+      "model": "NAS326",
+      "revision": "",
+      "sector": "C",
+      "soc": "Marvell Armada 380 1x1332 MHz",
+      "ram": "512 MB DDR3",
+      "storage": "256 MB NAND; 2 SATA III",
+      "connectivity": "1x Gigabit Ethernet",
+      "interfaces": [
+        "2x USB 3.0",
+        "1x USB 2.0",
+        "UART"
+      ],
+      "bootloader": "stock Marvell U-Boot, TFTP RAM boot",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "OpenWrt 25.12.6 (upstream support, commit 471dd1b)"
+      ],
+      "power": "external PSU",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "high",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Official OpenWrt target; fan control and buzzer not working."
+        }
+      ]
+    },
+    {
+      "id": "dev-cubbit-cell-espressobin-v7",
+      "name": "Cubbit Cell (ESPRESSObin V7 board)",
+      "maker": "Cubbit / Globalscale",
+      "model": "Cell",
+      "revision": "ESPRESSObin V7",
+      "sector": "C",
+      "soc": "not verified today",
+      "ram": "not verified today",
+      "storage": "eMMC; 1 SATA",
+      "connectivity": "Gigabit Ethernet",
+      "interfaces": [
+        "micro-USB serial console",
+        "SATA",
+        "SPI flash"
+      ],
+      "bootloader": "2019 boot firmware replaced with TF-A 2.9 + U-Boot 2024.10",
+      "secure_boot": "n/a",
+      "alt_firmware": [
+        "Debian 13 / Armbian on eMMC (pieroantonio/espressobin-v7-nas-case)"
+      ],
+      "power": "DC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Units left over after Cubbit deactivated Cells. One board, 40-min stress test; needs cpufreq.off=1. SPI write risk."
+        }
+      ]
+    },
+    {
+      "id": "dev-google-onhub-tgr1900",
+      "name": "Google OnHub (TP-Link TGR1900)",
+      "maker": "TP-Link / Google",
+      "model": "TGR1900",
+      "revision": "",
+      "sector": "C",
+      "soc": "Qualcomm IPQ8064",
+      "ram": "",
+      "storage": "",
+      "connectivity": "3x3 Wi-Fi 5",
+      "interfaces": [],
+      "bootloader": "",
+      "secure_boot": "",
+      "alt_firmware": [
+        "OpenWrt 25.12",
+        "unifi-openwrt (adopted as UAP-AC-Pro)"
+      ],
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Google ended support Jan 2023 (per unifi-openwrt README). Full feature set of unifi-openwrt tested on this unit."
+        }
+      ]
+    },
+    {
+      "id": "dev-lenovo-thinksmart-view-cd18781y",
+      "name": "Lenovo ThinkSmart View (Teams/Zoom display)",
+      "maker": "Lenovo",
+      "model": "CD-18781Y",
+      "revision": "",
+      "sector": "C",
+      "soc": "Qualcomm APQ8053 / MSM8953",
+      "ram": "",
+      "storage": "eMMC",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "USB (EDL)",
+        "2 microphones",
+        "speaker",
+        "proximity sensor"
+      ],
+      "bootloader": "EDL flashing; lk2nd chainloaded",
+      "secure_boot": "not blocking per projects",
+      "alt_firmware": [
+        "thinksmart-ubuntu-image (Ubuntu 24.04, pmOS kernel 6.19, local voice assistant)",
+        "jethac/lenovo-thinksmart-view (mainline 7.x, Arch ARM)",
+        "postmarketOS lenovo-cd18781y",
+        "LineageOS 15.1 (unofficial)"
+      ],
+      "power": "wall/USB PSU",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "medium",
+      "status": "recommended",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Surplus meeting-room display. Linux routes need full eMMC backup first (only way back to stock). Community reports: postmarketOS audio/touch-wake gaps on some builds."
+        }
+      ]
+    },
+    {
+      "id": "dev-zte-cloudbook-air-ct2000-24rtw",
+      "name": "ZTE / China Mobile CloudBook Air 14 (cloud-PC laptop)",
+      "maker": "ZTE",
+      "model": "CT2000-24RTW",
+      "revision": "board W620D V12.0",
+      "sector": "C",
+      "soc": "Rockchip RK3568B2, Mali-G52",
+      "ram": "4 GB LPDDR4",
+      "storage": "32 GB eMMC",
+      "connectivity": "MT7663S SDIO Wi-Fi/BT",
+      "interfaces": [
+        "USB-A OTG (Rockusb/UMS)",
+        "HDMI",
+        "USB-C PD"
+      ],
+      "bootloader": "signed idbloader/U-Boot/trust (RSA-2048, fused) but U-Boot does not check boot_a/boot_b",
+      "secure_boot": "fused secure boot; kernel slot unchecked",
+      "alt_firmware": [
+        "cloudbook-air-mainline-linux (Linux 6.12.117 + Armbian Debian 13, Android kept in slot B)"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 7,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Thin-client laptop for China Mobile cloud desktops. Must never write unsigned bootloader parts. Availability outside China unknown."
+        }
+      ]
+    },
+    {
+      "id": "dev-acer-cb311-11h-kenzo",
+      "name": "Acer Chromebook 311 CB311-11H/11HT (kenzo, jacuzzi)",
+      "maker": "Acer",
+      "model": "CB311-11H",
+      "revision": "HWID KENZO-IGRW",
+      "sector": "C",
+      "soc": "MediaTek MT8183, Mali-G72",
+      "ram": "",
+      "storage": "eMMC",
+      "connectivity": "QCA6174 Wi-Fi/BT",
+      "interfaces": [],
+      "bootloader": "stock depthcharge, developer mode, no WP removal",
+      "secure_boot": "verified boot off in dev mode",
+      "alt_firmware": [
+        "Debian 13 arm64 + XFCE (olamellberg/chromebook-311-linux)"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Debian kernel 6.12; Bluetooth unreliable; tested on one unit."
+        }
+      ]
+    },
+    {
+      "id": "dev-dell-wyse-3040",
+      "name": "Dell Wyse 3040 thin client",
+      "maker": "Dell",
+      "model": "Wyse 3040",
+      "revision": "",
+      "sector": "C",
+      "soc": "Intel x86 (Atom class; not verified today)",
+      "ram": "2 GB",
+      "storage": "8 or 16 GB eMMC",
+      "connectivity": "Ethernet",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "UEFI",
+      "secure_boot": "",
+      "alt_firmware": [
+        "iStoreOS + OpenClaw AI-agent install (iahuan/wyse-3040-ai-agent)",
+        "OpenWrt (Hackaday 2023)"
+      ],
+      "power": "5 V DC",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Well-known; new today only as a home AI-agent host. 2 GB RAM rules out a resident browser."
+        }
+      ]
+    },
+    {
+      "id": "dev-zte-b860av52u",
+      "name": "ZTE B860AV5.2-U IPTV box",
+      "maker": "ZTE",
+      "model": "B860AV5.2-U",
+      "revision": "",
+      "sector": "C",
+      "soc": "not verified today",
+      "ram": "1 GB",
+      "storage": "8 GB eMMC",
+      "connectivity": "100 Mbit Ethernet",
+      "interfaces": [
+        "USB",
+        "HDMI"
+      ],
+      "bootloader": "stock U-Boot with Android boot.img format",
+      "secure_boot": "",
+      "alt_firmware": [
+        "fnOS V1.1.31 on Linux 6.18.18-trim (liyongliao/b860av52u-fnos)"
+      ],
+      "power": "DC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Boots fnOS from eMMC as of 2026-11-12; HDMI, Wi-Fi, audio not ported; USB SSD enclosure fails to enumerate."
+        }
+      ]
+    },
+    {
+      "id": "dev-h3c-nx30-ipq50xx",
+      "name": "H3C NX30 and other IPQ50xx routers",
+      "maker": "H3C (and Xiaomi CR8806, TCL T30 Pro, Ruijie RG-MA3063, China Mobile RAX3000Q etc.)",
+      "model": "NX30 / RT3000 / RC3000 / RW3000",
+      "revision": "",
+      "sector": "C",
+      "soc": "Qualcomm IPQ50xx",
+      "ram": "",
+      "storage": "NAND",
+      "connectivity": "Wi-Fi 6",
+      "interfaces": [
+        "UART (TTL)"
+      ],
+      "bootloader": "replacement U-Boot with web recovery (IPQ50XX-Uboot)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "IPQ50XX-Uboot v0.2.0 (web rescue, dual-boot)"
+      ],
+      "power": "DC",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "H3C models install via a browser tool with no disassembly; others via TTL. PZ-L8 and RG-MA3063 V3 explicitly NOT to be flashed."
+        }
+      ]
+    },
+    {
+      "id": "dev-xiaomi-be6500pro-rd08",
+      "name": "Xiaomi BE6500 Pro router (RD08)",
+      "maker": "Xiaomi",
+      "model": "BE6500 Pro",
+      "revision": "RD08, MiWiFi 1.1.96",
+      "sector": "C",
+      "soc": "not verified today (aarch64, kernel 5.4.213)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi 7",
+      "interfaces": [],
+      "bootloader": "stock",
+      "secure_boot": "",
+      "alt_firmware": [
+        "root + built-in dropbear SSH via web-API command injection (TongenShen guide)"
+      ],
+      "power": "DC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Owner-auth exploit on firmware 1.1.96 only; root password derived from SN. Will likely be patched in later firmware."
+        }
+      ]
+    },
+    {
+      "id": "dev-clx-s20p",
+      "name": "CLX-S20P router",
+      "maker": "CLX",
+      "model": "S20P",
+      "revision": "",
+      "sector": "C",
+      "soc": "MediaTek MT7986A",
+      "ram": "2 GB DDR4",
+      "storage": "eMMC",
+      "connectivity": "AX6000 Wi-Fi",
+      "interfaces": [
+        "UART (TTL)"
+      ],
+      "bootloader": "U-Boot with GPT fix",
+      "secure_boot": "",
+      "alt_firmware": [
+        "ImmortalWrt 25.12 build (LucxXxifer/clx-s20p-firmware)"
+      ],
+      "power": "DC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Ships with an agent skill for provisioning. Vendor and availability outside China/Taiwan unknown."
+        }
+      ]
+    },
+    {
+      "id": "dev-airoha-an758x-onts",
+      "name": "Airoha AN7581/AN7583 fibre ONTs (12 models: FiberHome, Nokia Bell, Jiulian, ZNE, H3C, Gemtek)",
+      "maker": "various",
+      "model": "AN758x family",
+      "revision": "",
+      "sector": "C",
+      "soc": "Airoha AN7581 / AN7583",
+      "ram": "",
+      "storage": "NAND (UBI)",
+      "connectivity": "PON + Ethernet + Wi-Fi",
+      "interfaces": [],
+      "bootloader": "replacement BL2 + U-Boot FIP (uboot-an758x v2026.07-4)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "PonFlasher (AN758x-Auto-Flasher) backup/flash/restore tool"
+      ],
+      "power": "DC",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Tool flashes bootloaders without opening the case; system firmware must be sourced separately. ISP-owned units: check ownership."
+        }
+      ]
+    },
+    {
+      "id": "dev-zte-mf282",
+      "name": "ZTE MF282 (Drei HuiTube) 4G router",
+      "maker": "ZTE",
+      "model": "MF282",
+      "revision": "",
+      "sector": "C",
+      "soc": "not verified today",
+      "ram": "",
+      "storage": "",
+      "connectivity": "LTE + Wi-Fi",
+      "interfaces": [],
+      "bootloader": "from stock root shell",
+      "secure_boot": "",
+      "alt_firmware": [
+        "OpenWrt 25.12.5 official"
+      ],
+      "power": "DC",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "medium",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Install guide from stock root shell by laserbirdx."
+        }
+      ]
+    },
+    {
+      "id": "dev-acer-cp714-kano",
+      "name": "Acer Chromebook Spin 714 (KANO board)",
+      "maker": "Acer",
+      "model": "CP714-1WN / CP714-2WN",
+      "revision": "KANO",
+      "sector": "C",
+      "soc": "Intel Alder Lake-P / 13th gen",
+      "ram": "",
+      "storage": "",
+      "connectivity": "",
+      "interfaces": [],
+      "bootloader": "MrChromebox or developer mode (not verified today)",
+      "secure_boot": "",
+      "alt_firmware": [
+        "googlebook-anywhere (Googlebook OS from official recovery image)"
+      ],
+      "power": "battery",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": null
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "watching",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Only one KANO engineering sample verified; requires Intel 12th gen / AMD Zen 5 or newer."
+        }
+      ]
     }
   ],
   "projects": [
@@ -2267,7 +2989,7 @@
         "dev-eureka-j15max",
         "dev-dreame-l40ultra-r2492"
       ],
-      "stars": 10037,
+      "stars": 10055,
       "last_commit": "2026-11-21",
       "archived": false,
       "momentum": "steady",
@@ -2276,7 +2998,7 @@
       "score": 8,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2289,6 +3011,10 @@
         {
           "date": "2026-11-22",
           "text": "Re-verified: 10037 stars, push 2026-11-21, tag 2026.10.0. No change."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: Latest tag still 2026.10.0."
         }
       ]
     },
@@ -2407,7 +3133,7 @@
       "name": "hw-harness",
       "url": "https://github.com/cschalle/hw-harness",
       "devices": [],
-      "stars": 257,
+      "stars": 258,
       "last_commit": "2026-10-14",
       "archived": false,
       "momentum": "steady",
@@ -2416,7 +3142,7 @@
       "score": 8,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2425,6 +3151,10 @@
         {
           "date": "2026-11-20",
           "text": "Re-verified: 257 stars, no push since 2026-10-14. No change."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: No new commits since 2026-10-14."
         }
       ]
     },
@@ -2444,7 +3174,7 @@
       "score": 4,
       "confidence": "low",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2453,6 +3183,10 @@
         {
           "date": "2026-11-20",
           "text": "Material change: a second EEVblog repo, 121GW-Multimeter-Firmware-RE (created 2026-11-03), reconstructs the stock v2.05 firmware into C and says 'tested on the meter'. The 121GW-OSS repo itself is unchanged (last push 2026-10-31, 5 stars)."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: No new commits since 2026-10-31."
         }
       ]
     },
@@ -2547,7 +3281,7 @@
       "name": "wire-pod",
       "url": "https://github.com/kercre123/wire-pod",
       "devices": [],
-      "stars": 848,
+      "stars": 850,
       "last_commit": "2026-11-17",
       "archived": false,
       "momentum": "steady",
@@ -2556,7 +3290,7 @@
       "score": 6,
       "confidence": "high",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
@@ -2565,6 +3299,10 @@
         {
           "date": "2026-11-20",
           "text": "Re-verified: last push 2026-11-17. No material change."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: Alive; last push 2026-11-17."
         }
       ]
     },
@@ -2684,11 +3422,15 @@
       "score": 4,
       "confidence": "medium",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-25",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "Vendor repo dormant since 2023-12."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: Still stalled; last push 2023-12-12, not archived."
         }
       ]
     },
@@ -2707,8 +3449,13 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-20",
-      "last_verified": "2026-11-20",
-      "notes": [],
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Re-verified: No activity since creation."
+        }
+      ],
       "id": "proj-github-arthurotieno-stratacache-spectra-ng-4-64"
     },
     {
@@ -4743,6 +5490,596 @@
           "text": "Created 2026-10-29. README not reviewed in depth."
         }
       ]
+    },
+    {
+      "id": "proj-github-georgestephanis-drobo-5n",
+      "name": "drobo-5n",
+      "url": "https://github.com/georgestephanis/drobo-5n",
+      "devices": [
+        "dev-drobo-5n"
+      ],
+      "stars": 5,
+      "last_commit": "2026-11-12",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Debian 13 boots from stock U-Boot; 5 bays, fan, LEDs, Samba, dashboard",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-11. Claude Code wrote most scripts and the boot stub over ~24 h active time (9-12 Nov 2026); human did all hardware work. Ships an Agent Skill."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-uniquedroid-shareos",
+      "name": "ShareOS",
+      "url": "https://github.com/UniqueDroid/ShareOS",
+      "devices": [
+        "dev-dlink-dns320l-a"
+      ],
+      "stars": 18,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Beta alt firmware, flashes from stock/Alt-F web UI, self-updates",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Fork of Alt-F; README: all code, builds, tests and docs by Claude, owner tested on real box."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-beudbeud-readynasnextgen",
+      "name": "ReadyNasNextGen",
+      "url": "https://github.com/beudbeud/ReadyNasNextGen",
+      "devices": [
+        "dev-netgear-readynas-duo-v1"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Linux 6.18 from USB via RAIDiator relay; SMB3/NFS; experimental",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-16. One NAS validated."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-laserbirdx-seagate-nas2bay-omv",
+      "name": "seagate-nas2bay-omv",
+      "url": "https://github.com/laserbirdx/seagate-nas2bay-omv",
+      "devices": [
+        "dev-seagate-nas-2bay-srpd20"
+      ],
+      "stars": 10,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Debian 12 + OMV 7, installed over SSH, factory fallback",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-03. One unit tested."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-laserbirdx-zyxel-nas326-openwrt",
+      "name": "zyxel-nas326-openwrt",
+      "url": "https://github.com/laserbirdx/zyxel-nas326-openwrt",
+      "devices": [
+        "dev-zyxel-nas326"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "steady",
+      "works": "OpenWrt 25.12.6 install guide + UART pinout",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "high",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Guide for an upstream OpenWrt target."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-laserbirdx-zte-mf282-openwrt",
+      "name": "zte-mf282-openwrt",
+      "url": "https://github.com/laserbirdx/zte-mf282-openwrt",
+      "devices": [
+        "dev-zte-mf282"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-19",
+      "archived": false,
+      "momentum": "steady",
+      "works": "OpenWrt 25.12.5 install guide",
+      "ai_assisted": false,
+      "score": 3,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-05."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-pieroantonio-espressobin-v7-nas-case",
+      "name": "espressobin-v7-nas-case",
+      "url": "https://github.com/pieroantonio/espressobin-v7-nas-case",
+      "devices": [
+        "dev-cubbit-cell-espressobin-v7"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Debian 13 on eMMC done on one board; case is a draft",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-15."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-antoniocosta-unifi-openwrt",
+      "name": "unifi-openwrt",
+      "url": "https://github.com/antoniocosta/unifi-openwrt",
+      "devices": [
+        "dev-google-onhub-tgr1900"
+      ],
+      "stars": 154,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "OpenWrt APs adopted by a UniFi controller; 5 devices tested",
+      "ai_assisted": false,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-13, 154 stars in 12 days. Never applies Ubiquiti firmware; auto-rollback on failure."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-flyfish-go-ipq50xx-uboot",
+      "name": "IPQ50XX-Uboot",
+      "url": "https://github.com/FlyFish-go/IPQ50XX-Uboot",
+      "devices": [
+        "dev-h3c-nx30-ipq50xx"
+      ],
+      "stars": 13,
+      "last_commit": "2026-11-17",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Web-recovery U-Boot for IPQ50xx routers; browser installer for H3C",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-08."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-tongenshen-xiaomi-be6500pro-ssh-guide",
+      "name": "Xiaomi-BE6500Pro-SSH-Guide",
+      "url": "https://github.com/TongenShen/Xiaomi-BE6500Pro-SSH-Guide",
+      "devices": [
+        "dev-xiaomi-be6500pro-rd08"
+      ],
+      "stars": 4,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Root/SSH on RD08 firmware 1.1.96",
+      "ai_assisted": false,
+      "score": 3,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Uses a command injection in the web API (needs admin password). Repo redistributes vendor firmware and a repair tool."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-eastwoodnet-cloudbook-air-mainline-linux",
+      "name": "cloudbook-air-mainline-linux",
+      "url": "https://github.com/eastwoodnet/cloudbook-air-mainline-linux",
+      "devices": [
+        "dev-zte-cloudbook-air-ct2000-24rtw"
+      ],
+      "stars": 35,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Linux 6.12.117 LTS + Armbian Debian 13 on eMMC; daily desktop works",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-16, 11 forks."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-olamellberg-chromebook-311-linux",
+      "name": "chromebook-311-linux",
+      "url": "https://github.com/olamellberg/chromebook-311-linux",
+      "devices": [
+        "dev-acer-cb311-11h-kenzo"
+      ],
+      "stars": 2,
+      "last_commit": "2026-10-29",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Debian 13 arm64 USB image + eMMC installer",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-10-28."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-akari-sora-googlebook-anywhere",
+      "name": "googlebook-anywhere",
+      "url": "https://github.com/akari-sora/googlebook-anywhere",
+      "devices": [
+        "dev-acer-cp714-kano"
+      ],
+      "stars": 7,
+      "last_commit": "2026-11-15",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Builds bootable Googlebook OS USB from official recovery; one machine verified",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "GitHub is a read-only mirror of gitlab.com/aa22396584/googlebook-anywhere."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-isaiahscape-cros-sofaudio",
+      "name": "cros-sofaudio",
+      "url": "https://github.com/isaiahscape/cros-sofaudio",
+      "devices": [],
+      "stars": 5,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Windows 11 KMDF audio for SOF Chromebooks (MAX98373/NAU88L25)",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Credits Claude for diagnosing/fixing output drivers. Requires test-signing and disabling the vulnerable-driver blocklist (security trade-off)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-ferrellsl-chromebook-sof-audio",
+      "name": "Chromebook-SOF-Audio",
+      "url": "https://github.com/ferrellsl/Chromebook-SOF-Audio",
+      "devices": [],
+      "stars": 2,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Windows audio for Gemini Lake Chromebooks on MrChromebox UEFI; 2 boards tested",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-15."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-jethac-lenovo-thinksmart-view",
+      "name": "lenovo-thinksmart-view",
+      "url": "https://github.com/jethac/lenovo-thinksmart-view",
+      "devices": [
+        "dev-lenovo-thinksmart-view-cd18781y"
+      ],
+      "stars": 9,
+      "last_commit": "2026-11-05",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Mainline Linux 7.x + Arch ARM; EDL/lk2nd runbook",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-10-30."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-justhalfbit-thinksmart-ubuntu-image",
+      "name": "thinksmart-ubuntu-image",
+      "url": "https://github.com/justhalfbit/thinksmart-ubuntu-image",
+      "devices": [
+        "dev-lenovo-thinksmart-view-cd18781y"
+      ],
+      "stars": 103,
+      "last_commit": "2026-11-07",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Ubuntu 24.04 image turning the device into a wake-word voice assistant (Claude/DeepSeek backends)",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-01, 28 forks. README has a section written for AI agents doing the flashing. Chinese UI and wake word."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-justhalfbit-xiaozhi-thinksmart-client",
+      "name": "xiaozhi-thinksmart-client",
+      "url": "https://github.com/justhalfbit/xiaozhi-thinksmart-client",
+      "devices": [
+        "dev-lenovo-thinksmart-view-cd18781y"
+      ],
+      "stars": 35,
+      "last_commit": "2026-11-07",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Voice client: local wake word (sherpa-onnx), WebRTC AEC, kiosk UI",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Part of thinksmart-ubuntu-image."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-iahuan-wyse-3040-ai-agent",
+      "name": "wyse-3040-ai-agent",
+      "url": "https://github.com/iahuan/wyse-3040-ai-agent",
+      "devices": [
+        "dev-dell-wyse-3040"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Install script: OpenClaw agent + CodeBuddy CLI on iStoreOS",
+      "ai_assisted": true,
+      "score": 3,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-22."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-liyongliao-b860av52u-fnos",
+      "name": "b860av52u-fnos",
+      "url": "https://github.com/liyongliao/b860av52u-fnos",
+      "devices": [
+        "dev-zte-b860av52u"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-11",
+      "archived": false,
+      "momentum": "steady",
+      "works": "fnOS boots from eMMC; HDMI/Wi-Fi/audio not ported",
+      "ai_assisted": false,
+      "score": 3,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Documents failures in PITFALLS.md."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-luxinxin0378-create-an758x-auto-flasher",
+      "name": "AN758x-Auto-Flasher (PonFlasher)",
+      "url": "https://github.com/luxinxin0378-create/AN758x-Auto-Flasher",
+      "devices": [
+        "dev-airoha-an758x-onts"
+      ],
+      "stars": 5,
+      "last_commit": "2026-11-02",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Web UI backup/flash/restore for 12 AN758x ONT models",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Bundles uboot-an758x v2026.07-4 assets."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-lucxxxifer-clx-s20p-firmware",
+      "name": "clx-s20p-firmware",
+      "url": "https://github.com/LucxXxifer/clx-s20p-firmware",
+      "devices": [
+        "dev-clx-s20p"
+      ],
+      "stars": 7,
+      "last_commit": "2026-11-14",
+      "archived": false,
+      "momentum": "steady",
+      "works": "ImmortalWrt 25.12 builds + U-Boot GPT fix + agent provisioning skill",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Agent skill documented for Codex, Claude Code, Gemini CLI, Cursor etc."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-openthinrdp-openthinrdp",
+      "name": "OpenThinRdp",
+      "url": "https://github.com/OpenThinRdp/openthinrdp",
+      "devices": [],
+      "stars": 11,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Open thin-client OS with RDP over UDP",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-10-10. README not reviewed in depth."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mrjoechen-luci-theme-carbon",
+      "name": "luci-theme-carbon",
+      "url": "https://github.com/mrjoechen/luci-theme-carbon",
+      "devices": [],
+      "stars": 166,
+      "last_commit": "2026-11-24",
+      "archived": false,
+      "momentum": "rising",
+      "works": "LuCI theme",
+      "ai_assisted": false,
+      "score": 2,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Context only: LuCI UI work is the fastest-starring OpenWrt category this month."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-bidhata-untangled",
+      "name": "UnTangled",
+      "url": "https://github.com/bidhata/untangled",
+      "devices": [],
+      "stars": 157,
+      "last_commit": "2026-11-14",
+      "archived": false,
+      "momentum": "rising",
+      "works": "LuCI alternative web UI for OpenWrt",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-25",
+      "last_verified": "2026-11-25",
+      "notes": [
+        {
+          "date": "2026-11-25",
+          "text": "Created 2026-11-01. Not tested."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -4962,6 +6299,27 @@
       "title": "Wipro smart plugs/lights local Tuya and OpenBeken (HA forum)",
       "date": "older thread",
       "first_seen": "2026-11-24"
+    },
+    {
+      "id": "disc-ha-community-thinksmart-view-rom",
+      "url": "https://community.home-assistant.io/t/lenovo-thinksmart-view-rom-os-development/676324",
+      "title": "Lenovo ThinkSmart View ROM/OS Development (HA forum)",
+      "date": "long-running thread",
+      "first_seen": "2026-11-25"
+    },
+    {
+      "id": "disc-openwrt-forum-ai-agent-development",
+      "url": "https://forum.openwrt.org/t/ai-agent-for-development/254846",
+      "title": "AI agent for development (OpenWrt forum)",
+      "date": "2026-10 (per search summary)",
+      "first_seen": "2026-11-25"
+    },
+    {
+      "id": "disc-openwrt-forum-openwrt-unifi-controller",
+      "url": "https://forum.openwrt.org/t/openwrt-with-the-unifi-controller/128789",
+      "title": "OpenWrt with the UniFi controller (OpenWrt forum)",
+      "date": "older thread",
+      "first_seen": "2026-11-25"
     }
   ]
 }
