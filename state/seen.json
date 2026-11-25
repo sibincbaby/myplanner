@@ -6523,5 +6523,55 @@
     "url": "https://github.com/hendrikdemir/budget",
     "title": "Budget - private local budgeting app (Mac/Windows)",
     "date_seen": "2026-11-25"
+  },
+  {
+    "url": "https://github.com/rusty4444/ares",
+    "title": "Ares - Flutter Android client for Hermes Agent",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://github.com/martianacademy/olympus-coder",
+    "title": "Olympus Coder - one desktop app for Claude Code, Codex and other agents",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://github.com/anthod0/pontia",
+    "title": "Pontia - bot and remote web UI for local coding agents",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://github.com/click6067-ship-it/token-tv",
+    "title": "TokenTV - $5 desk clock turned into a Claude Code / Codex pet",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://clearfills.com/",
+    "title": "ClearFills - let AI agents trade without your broker password",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://warmy.dev/",
+    "title": "Warmy - keeps Claude's prompt cache warm while you're away",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://spendgap.ai/",
+    "title": "Spendgap - collect invoices and spot forgotten subscriptions",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://carry.md/",
+    "title": "Carry - save every AI conversation as Markdown in a folder you own",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://github.com/Orcaryn/Apargon",
+    "title": "Apargon - Claude-style 'Install as App' for any AI",
+    "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://usejotly.com",
+    "title": "Jotly - offline-first docs, issues, boards and calendar with MCP",
+    "date_seen": "2026-11-26"
   }
 ]
