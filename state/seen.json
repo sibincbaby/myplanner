@@ -6573,5 +6573,55 @@
     "url": "https://usejotly.com",
     "title": "Jotly - offline-first docs, issues, boards and calendar with MCP",
     "date_seen": "2026-11-26"
+  },
+  {
+    "url": "https://github.com/mehulmpt/bol",
+    "title": "bol - talk to your Mac, Claude does the work",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://www.producthunt.com/products/whipdesk",
+    "title": "WhipDesk - control AI coding agents from your phone",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/BetaYao/seahelm",
+    "title": "Seahelm - native Mac app for running Claude Code agents in parallel",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/fus3r/margincue",
+    "title": "MarginCue - preview how Claude Code or Codex will read your prompt, and switch its choices",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/yonivav/app-map",
+    "title": "app-map - agent skill that maps Flutter and native mobile apps",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/localixai/tokendoctor",
+    "title": "tokendoctor - the same Claude Code for up to 38% less",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/batanus/lip-dictation",
+    "title": "lip-dictation - silent dictation for Claude Code via on-device lip reading",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://session-vault.dev/",
+    "title": "session-vault - back up Claude Code sessions and use them on any machine",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/cleverbrush/xpenser",
+    "title": "Xpenser - open-source income/expense tracker with MCP access",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "url": "https://github.com/ertembiyik/xcslot",
+    "title": "xcslot - warm Xcode build slots for parallel coding agents",
+    "date_seen": "2026-11-27"
   }
 ]
