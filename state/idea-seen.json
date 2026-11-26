@@ -3150,5 +3150,53 @@
   {
     "app": "Teamwork.com (project management / professional services automation for agencies and client-service firms)",
     "date_seen": "2026-11-26"
+  },
+  {
+    "app": "Excel / Google Sheets CSV and text-import layer (Text Import Wizard, Data > From Text/CSV, automatic data conversion). The 'CSV Rescue' operator.",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Excel financial-model construction layer (three-statement / DCF / LBO / debt-schedule models built to FAST-style standards)",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "ISO 20022 bank files (pain.001, camt.053/054, pain.002) plus legacy MT940 / BAI2 / NACHA, as used by ERP bank-integration modules. 'Bankfile Doctor'.",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Semgrep (OSS CLI + AppSec Platform): custom rule authoring, autofix and findings triage",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Gradle (Build Tool + Build Scans / Develocity): build performance, dependency conflicts and build-logic migration",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Microsoft Word / Excel / PowerPoint right-to-left and multilingual layout (OOXML bidi, w:rtl, w:lang, Arabic-Indic/Hebrew numbering). 'Office Bidi Fixer'.",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Kit (formerly ConvertKit): creator email marketing with tags, segments, sequences, forms and automations",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Snipe-IT (open-source IT asset management)",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Airbyte (open-source core; Fivetran as second connector): connection, sync-mode and schema configuration",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Carta / Pulley / spreadsheet cap tables (SAFE and convertible-note conversion, option pool, exit waterfall)",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Kustomize + Flux CD (GitOps repo structure, overlays, reconciliation)",
+    "date_seen": "2026-11-27"
+  },
+  {
+    "app": "TouchDesigner (Derivative; free non-commercial tier)",
+    "date_seen": "2026-11-27"
   }
 ]
