@@ -245,11 +245,15 @@
       "confidence": "medium",
       "status": "watching",
       "first_seen": "2026-11-19",
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-26",
       "notes": [
         {
           "date": "2026-11-19",
           "text": "CVE-2026-27509 (unauthenticated DDS root RCE, same network) and CVE-2026-27510; arXiv 2512.06387 lists hard-coded keys, static SSH password. Security risk more than an unlock path; patch status inconsistent across sources."
+        },
+        {
+          "date": "2026-11-26",
+          "text": "Re-checked: no new Go2-specific disclosure found. Sibling G1 EDU got two root RCE chains (one over BLE) disclosed 2026-08-27 per The Hacker News search summary; Go2 impact unconfirmed."
         }
       ]
     },
@@ -2975,6 +2979,493 @@
           "text": "Only one KANO engineering sample verified; requires Intel 12th gen / AMD Zen 5 or newer."
         }
       ]
+    },
+    {
+      "id": "dev-ecovacs-deebot-t20omni-p1jij8",
+      "name": "Ecovacs Deebot T20 Omni",
+      "maker": "Ecovacs",
+      "model": "Deebot T20 Omni",
+      "revision": "class p1jij8, fw 1.24.0",
+      "sector": "D",
+      "soc": "Rockchip RK3326 (4x Cortex-A35)",
+      "ram": "512 MB",
+      "storage": "eMMC/NAND; squashfs rootfs ~59 MB + /data ext4 ~231 MB",
+      "connectivity": "Wi-Fi 2.4 GHz (RTL8189FS)",
+      "interfaces": [
+        "UART getty ttyFIQ0",
+        "USB gadget (adb/fastboot if re-enabled)",
+        "Wi-Fi"
+      ],
+      "bootloader": "Not touched; root via LAN",
+      "secure_boot": "A/B slots; read-only squashfs rootfs",
+      "alt_firmware": "ecovacs-t20-local-control (root via iot/p2p/shell, HA ~60 entities, local map)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "medium",
+      "score": 8,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Robot does not validate broker TLS cert; cloud 'iot/p2p/shell' command runs base64 sh as root -> LAN root without flashing. One unit, fw 1.24.0. Repo created 2026-11-20."
+        }
+      ]
+    },
+    {
+      "id": "dev-ecovacs-deebot-ozmo-t8aivi-px30",
+      "name": "Ecovacs Deebot OZMO T8 AIVI",
+      "maker": "Ecovacs",
+      "model": "Deebot OZMO T8 AIVI",
+      "revision": "class bs40nz, fw_arm 1.11.8 (UK 2020 unit)",
+      "sector": "D",
+      "soc": "Rockchip PX30 (4x Cortex-A35)",
+      "ram": "",
+      "storage": "NAND (GPT, rknand FTL)",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "8-pin JST header: UART 3V3 + SWD",
+        "micro-USB Rockchip download"
+      ],
+      "bootloader": "U-Boot bootdelay=0, Ctrl-C at power-on",
+      "secure_boot": "Not reported",
+      "alt_firmware": "Root via UART + reconstructed per-unit eco_passwd; persistence /data/autostart; local camera /dev/video0",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "medium",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Notes (2026-10-13) correct the 37C3 eco_passwd formula for px30 and document flash layout and local camera. dontvacuum calculator does not list this model (as of 2026-10)."
+        }
+      ]
+    },
+    {
+      "id": "dev-keyi-loona-petbot",
+      "name": "KEYi Loona pet robot",
+      "maker": "KEYi Robot",
+      "model": "Loona (Petbot)",
+      "revision": "",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi (mTLS TCP control, mDNS discovery, WebRTC intranet mode)",
+      "interfaces": [
+        "Wi-Fi"
+      ],
+      "bootloader": "Not reported",
+      "secure_boot": "mTLS with client cert extracted from app APK",
+      "alt_firmware": "project_loona SDK; loona-cloud self-hosted cloud (alpha)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 7,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Firmware has switchable cloud host (command 405). Both repos created 2026-11-25/26, alpha, TTS least verified. No sign KEYi is shutting down (Jan 2026 server migration only)."
+        }
+      ]
+    },
+    {
+      "id": "dev-embodied-moxie",
+      "name": "Embodied Moxie",
+      "maker": "Embodied (defunct)",
+      "model": "Moxie",
+      "revision": "fw 24.10.801 / 24.10.803",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi, MQTT/TLS",
+      "interfaces": [
+        "Camera QR setup"
+      ],
+      "bootloader": "Not reported",
+      "secure_boot": "Endpoints compiled into firmware; 803 honors disable_verify",
+      "alt_firmware": "OpenMoxie (jbeghtol); moxie-robot-saver (clean-room backend + simulator)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Only fw 24.10.803 is plug-and-play via QR (OPEN_MOXIE endpoint enum); older firmware needs reflash (not proven end to end per moxie-robot-saver). Embodied servers off since early 2025."
+        }
+      ]
+    },
+    {
+      "id": "dev-jibo-jibo",
+      "name": "Jibo social robot",
+      "maker": "Jibo Inc. (defunct)",
+      "model": "Jibo",
+      "revision": "",
+      "sector": "D",
+      "soc": "NVIDIA Tegra (RCM/ShofEL path mentioned; exact SoC not verified today)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi",
+      "interfaces": [
+        "Tegra RCM (USB)"
+      ],
+      "bootloader": "RCM/device patch path; OOBE OTA path under test",
+      "secure_boot": "Historical *.jibo.com cert chain accepted with 2017-era NTP time (candidate path)",
+      "alt_firmware": "OpenJibo cloud (runtime preview); 5x1 public server (BEefy)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "OpenJibo cloud release 1.0.20; physical OOBE/repeat deployment pending test units (README). 5x1.com not reachable from sandbox."
+        }
+      ]
+    },
+    {
+      "id": "dev-anki-cozmo",
+      "name": "Anki Cozmo",
+      "maker": "Anki / Digital Dream Labs",
+      "model": "Cozmo",
+      "revision": "",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi AP (robot hosts its own network)",
+      "interfaces": [
+        "Wi-Fi"
+      ],
+      "bootloader": "Not reported",
+      "secure_boot": "",
+      "alt_firmware": "PyCozmo (app-less SDK); cozmo-stack (C#/.NET reliable-UDP stack, private WIP); cozmo-roverd",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "medium",
+      "score": 5,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "cozmo-stack reconstructs Anki transport + 161-message catalog from libcozmoEngine.so; cozmo-roverd (2026-11-22) bridges Cozmo into MultiRoombaRover via PyCozmo."
+        }
+      ]
+    },
+    {
+      "id": "dev-anki-vector-1gen",
+      "name": "Anki Vector (1st gen)",
+      "maker": "Anki / Digital Dream Labs",
+      "model": "Vector",
+      "revision": "",
+      "sector": "D",
+      "soc": "Qualcomm APQ8009 (not re-verified today)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi, BLE",
+      "interfaces": [
+        "4 microphones",
+        "camera"
+      ],
+      "bootloader": "Unlockable via community (wire-pod / WireOS)",
+      "secure_boot": "",
+      "alt_firmware": "wire-pod; WireOS; MBot (PC-hosted mind, raw 4-mic audio shim)",
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 6,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "MBot (created 2026-11-24) streams raw audio from all 4 mics before the wake-word gate via an on-robot shim; Claude or Ollama drives behaviour."
+        }
+      ]
+    },
+    {
+      "id": "dev-parkside-pmrda20",
+      "name": "Parkside PMRDA 20 robot lawnmower",
+      "maker": "Parkside (Lidl)",
+      "model": "PMRDA 20",
+      "revision": "board with GD32F303ZET6 (one matched board)",
+      "sector": "D",
+      "soc": "GigaDevice GD32F303ZET6 (Cortex-M4)",
+      "ram": "",
+      "storage": "512 KiB flash",
+      "connectivity": "none stock; ESP32-CAM add-on adds Wi-Fi",
+      "interfaces": [
+        "SWD",
+        "UART (FinSH shell)"
+      ],
+      "bootloader": "Retained OEM bootloader; app at +0xA000",
+      "secure_boot": "None reported",
+      "alt_firmware": "BoB patched mower firmware + ESP32-CAM dashboard",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "none",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Repo 2026-10-14. Joystick drive, camera, schedules over local web. Public ESP image not hardware-commissioned; board-specific. Not sold in India."
+        }
+      ]
+    },
+    {
+      "id": "dev-sunseeker-snk-mainboard-cp-v11",
+      "name": "SNK_MAINBOARD_CP_V11 robot mower board (Villartec MI 302, likely Sunseeker OEM)",
+      "maker": "Sunseeker (probable OEM)",
+      "model": "SNK_MAINBOARD_CP_V11 / SNK_DISPLAY_CP_V11",
+      "revision": "V11",
+      "sector": "D",
+      "soc": "GD32F305 main + GD32F4xx boundary MCU + ESP32-WROOM-32UE display; 3x Fortior FU6832N BLDC",
+      "ram": "",
+      "storage": "",
+      "connectivity": "ESP32 on display board",
+      "interfaces": [
+        "SWD"
+      ],
+      "bootloader": "SWD dump/restore works",
+      "secure_boot": "None reported",
+      "alt_firmware": "mower-stock-reverse (decompiled; custom chip1 firmware boots but wheels never spun)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "none",
+      "score": 5,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Claude Code (Opus 4.8)-assisted RE; board died of water ingress, work stopped 2026-09-07."
+        }
+      ]
+    },
+    {
+      "id": "dev-mammotion-luba2-awd",
+      "name": "Mammotion LUBA 2 AWD",
+      "maker": "Mammotion",
+      "model": "LUBA 2 AWD",
+      "revision": "",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "BLE, Wi-Fi, 4G, RTK",
+      "interfaces": [
+        "BLE"
+      ],
+      "bootloader": "Not touched",
+      "secure_boot": "",
+      "alt_firmware": "DumbyLuba (BLE control via on-robot phone/ESP32 gateway)",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 7,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Only LUBA 2 AWD validated for motion; other Mammotion models read-only. No firmware change required."
+        }
+      ]
+    },
+    {
+      "id": "dev-yardforce-mowgli-chassis",
+      "name": "YardForce robot mower (stock Mowgli board) retrofit",
+      "maker": "YardForce",
+      "model": "Classic-series chassis with Mowgli STM32 board",
+      "revision": "",
+      "sector": "D",
+      "soc": "Stock STM32 mainboard + added ARM64 SBC (RK3566/RK3588 or RPi 4/5)",
+      "ram": "",
+      "storage": "",
+      "connectivity": "RTK-GNSS, Wi-Fi via SBC",
+      "interfaces": [
+        "UART",
+        "STM32 SWD"
+      ],
+      "bootloader": "STM32 reflash of stock board",
+      "secure_boot": "",
+      "alt_firmware": "MowgliNext v1.7.0 (ROS 2 Lyrical, Nav2, GTSAM, LiDAR)",
+      "power": "",
+      "evidence": "proven",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 8,
+      "confidence": "medium",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Beta, testers invited. Needs RTK GNSS + LiDAR + SBC added; also supports OpenMower v1 electronics or ArduRover/MAVROS."
+        }
+      ]
+    },
+    {
+      "id": "dev-dji-rc-n1",
+      "name": "DJI RC-N1 remote controller",
+      "maker": "DJI",
+      "model": "RC-N1",
+      "revision": "fw 4.04",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "USB serial",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "Not touched",
+      "secure_boot": "",
+      "alt_firmware": "rcn1-joystick (Linux uinput gamepad); dji-fcc-esp32",
+      "power": "",
+      "evidence": "experimental",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "low",
+      "score": 4,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "rcn1-joystick (2026-11-21) decodes sticks/buttons over USB serial on fw 4.04; repurposes drone remote as a PC gamepad."
+        }
+      ]
+    },
+    {
+      "id": "dev-dji-neo2",
+      "name": "DJI Neo 2",
+      "maker": "DJI",
+      "model": "Neo 2",
+      "revision": "",
+      "sector": "D",
+      "soc": "not verified",
+      "ram": "",
+      "storage": "",
+      "connectivity": "Wi-Fi, BLE, O4 link",
+      "interfaces": [
+        "USB"
+      ],
+      "bootloader": "Not touched",
+      "secure_boot": "",
+      "alt_firmware": "neo2-open-research (receive-only USB telemetry viewer)",
+      "power": "",
+      "evidence": "theoretical",
+      "india_price": {
+        "inr": null,
+        "source_url": null,
+        "checked": "2026-11-26"
+      },
+      "acquisition_priority": "none",
+      "score": 4,
+      "confidence": "low",
+      "status": "new",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Receive-only research; WebRTC camera preview verified in a separate fork; no flight SDK or replacement firmware."
+        }
+      ]
     }
   ],
   "projects": [
@@ -3462,8 +3953,8 @@
       "name": "VMflow / mdb-esp32-cashless",
       "url": "https://github.com/nodestark/mdb-esp32-cashless",
       "devices": [],
-      "stars": 193,
-      "last_commit": "2026-11-15",
+      "stars": 198,
+      "last_commit": "2026-11-25",
       "archived": false,
       "momentum": "rising",
       "works": "ESP32-S3 MDB cashless peripheral + DEX/DDCMP telemetry; firmware-v1.3.9 2026-11-08, android-v1.2.7 2026-11-15; web installer; KiCad boards",
@@ -3471,7 +3962,7 @@
       "score": 7,
       "confidence": "medium",
       "first_seen": "2026-11-20",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-26",
       "notes": [
         {
           "date": "2026-11-20",
@@ -3493,7 +3984,7 @@
       "score": 4,
       "confidence": "low",
       "first_seen": "2026-11-20",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-26",
       "notes": [],
       "id": "proj-github-kengggg-openzk"
     },
@@ -3510,7 +4001,7 @@
       "score": 5,
       "confidence": "medium",
       "first_seen": "2026-11-20",
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-26",
       "notes": [],
       "id": "proj-github-bdragon300-pyzkaccess"
     },
@@ -6080,6 +6571,454 @@
           "text": "Created 2026-11-01. Not tested."
         }
       ]
+    },
+    {
+      "id": "proj-github-syax89-ecovacs-t20-local-control",
+      "name": "ecovacs-t20-local-control",
+      "url": "https://github.com/Syax89/ecovacs-t20-local-control",
+      "devices": [
+        "dev-ecovacs-deebot-t20omni-p1jij8"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-20",
+      "archived": false,
+      "momentum": "rising",
+      "works": "LAN root (no flash/UART), persistent sshd, HA MQTT ~60 entities, local map, privacy mitigations; one unit fw 1.24.0",
+      "ai_assisted": false,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Created 2026-11-20. Relies on robot not validating TLS; firmware updates may close it."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-alpha162-deebot-t8-aivi-px30-notes",
+      "name": "deebot-t8-aivi-px30-notes",
+      "url": "https://github.com/Alpha162/deebot-t8-aivi-px30-notes",
+      "devices": [
+        "dev-ecovacs-deebot-ozmo-t8aivi-px30"
+      ],
+      "stars": 1,
+      "last_commit": "2026-10-13",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Root notes: corrected px30 eco_passwd, flash layout, /data/autostart persistence, local camera",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-eldoonnemar-project-loona",
+      "name": "project_loona",
+      "url": "https://github.com/EldoonNemar/project_loona",
+      "devices": [
+        "dev-keyi-loona-petbot"
+      ],
+      "stars": 2,
+      "last_commit": "2026-11-25",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Python SDK for Loona private protocol: mTLS control, discovery, WebRTC camera/mic, AI-friendly HTTP bridge",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Repo includes certs extracted from the app."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-eldoonnemar-project-loona-cloud",
+      "name": "loona-cloud",
+      "url": "https://github.com/EldoonNemar/project_loona-cloud",
+      "devices": [
+        "dev-keyi-loona-petbot"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-26",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Alpha self-hosted cloud shim (local LLM, Whisper); core verified on a real robot, conversation loop/TTS shaky",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Created 2026-11-26."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mvalancy-moxie-robot-saver",
+      "name": "moxie-robot-saver",
+      "url": "https://github.com/mvalancy/moxie-robot-saver",
+      "devices": [
+        "dev-embodied-moxie"
+      ],
+      "stars": 5,
+      "last_commit": "2026-10-28",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Clean-room Moxie backend + 3D simulator; real robot joined Wi-Fi via generated QR; broker untested with real robot",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-jbeghtol-openmoxie",
+      "name": "OpenMoxie",
+      "url": "https://github.com/jbeghtol/openmoxie",
+      "devices": [
+        "dev-embodied-moxie"
+      ],
+      "stars": 100,
+      "last_commit": "2026-10-26",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Local Moxie server (released around Embodied shutdown)",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-jibo-revival-group-jiboexperiments",
+      "name": "JiboExperiments / OpenJibo",
+      "url": "https://github.com/Jibo-Revival-Group/JiboExperiments",
+      "devices": [
+        "dev-jibo-jibo"
+      ],
+      "stars": 3,
+      "last_commit": "2026-11-25",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Replacement cloud (.NET, release 1.0.20) + Node protocol oracle; runtime preview; physical OOBE pending",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Uses Codex (.codex/ tree ignored in repo)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-jibo-revival-group-beefy",
+      "name": "BEefy (5x1 Jibo server)",
+      "url": "https://github.com/Jibo-Revival-Group/BEefy",
+      "devices": [
+        "dev-jibo-jibo"
+      ],
+      "stars": 1,
+      "last_commit": "2026-11-26",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Public no-account Jibo conversation server; Sherpa ASR; optional LLM Agent Mode skill",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-jimbuschman-cozmo-stack",
+      "name": "cozmo-stack",
+      "url": "https://github.com/jimbuschman/cozmo-stack",
+      "devices": [
+        "dev-anki-cozmo"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-26",
+      "archived": false,
+      "momentum": "rising",
+      "works": "C#/.NET Cozmo protocol + reliable-UDP transport reconstructed from official engine; conformance CLI; 'private working repository'",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-legop3-cozmo-roverd",
+      "name": "cozmo-roverd",
+      "url": "https://github.com/legop3/cozmo-roverd",
+      "devices": [
+        "dev-anki-cozmo"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-25",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Bridge that makes a Cozmo a rover on MultiRoombaRover via PyCozmo; Fedora installer + web console",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Description says 'Slopcoded' (AI-written)."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-zayfod-pycozmo",
+      "name": "PyCozmo",
+      "url": "https://github.com/zayfod/pycozmo",
+      "devices": [
+        "dev-anki-cozmo"
+      ],
+      "stars": 249,
+      "last_commit": "2026-11-16",
+      "archived": false,
+      "momentum": "steady",
+      "works": "App-less pure-Python Cozmo SDK",
+      "ai_assisted": false,
+      "score": 6,
+      "confidence": "high",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-lailoken-mbot",
+      "name": "MBot",
+      "url": "https://github.com/lailoken/MBot",
+      "devices": [
+        "dev-anki-vector-1gen"
+      ],
+      "stars": 8,
+      "last_commit": "2026-11-26",
+      "archived": false,
+      "momentum": "rising",
+      "works": "PC-hosted 'mind' for Vector: always-on 4-mic audio, local Whisper/vision, memory; Claude or Ollama",
+      "ai_assisted": true,
+      "score": 6,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Created 2026-11-24."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-dannyb131-parkside-pmrda20-bob",
+      "name": "Parkside PMRDA 20 'BoB the Mower'",
+      "url": "https://github.com/dannyb131/Parkside-Robot-Lawnmower-PMRDA-20-Bob-The-Mower",
+      "devices": [
+        "dev-parkside-pmrda20"
+      ],
+      "stars": 0,
+      "last_commit": "2026-10-14",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Patched GD32 mower firmware + ESP32-CAM local dashboard: camera, joystick, schedules; owner's unit works, public ESP image not commissioned",
+      "ai_assisted": true,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Ships AI-HANDOVER.md and AGENTS.md."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-salonnikov-mower-stock-reverse",
+      "name": "mower-stock-reverse",
+      "url": "https://github.com/salonnikov/mower-stock-reverse",
+      "devices": [
+        "dev-sunseeker-snk-mainboard-cp-v11"
+      ],
+      "stars": 2,
+      "last_commit": "2026-09-07",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Both GD32 firmwares decompiled, SWD toolchain, custom firmware runs but wheels never spun; board died",
+      "ai_assisted": true,
+      "score": 5,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Explicit honesty note: heavy Claude Code (Opus 4.8) use, findings hand-checked."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-mowglinext-mowglinext",
+      "name": "MowgliNext",
+      "url": "https://github.com/mowglinext/mowglinext",
+      "devices": [
+        "dev-yardforce-mowgli-chassis"
+      ],
+      "stars": 54,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "ROS 2 autonomous mower stack v1.7.0 beta on real hardware: RTK, LiDAR, docking, HA MQTT",
+      "ai_assisted": true,
+      "score": 8,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "CLAUDE.md + docs/claude codemaps for coding agents."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-lukislp-mowdeck",
+      "name": "MowDeck",
+      "url": "https://github.com/lukislp/mowdeck",
+      "devices": [],
+      "stars": 0,
+      "last_commit": "2026-11-26",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Self-hosted mower control centre; first adapter Mammotion (LUBA/YUKA), simulator",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-cleborgne-pro-dumbyluba",
+      "name": "DumbyLuba",
+      "url": "https://github.com/cleborgne-pro/DumbyLuba",
+      "devices": [
+        "dev-mammotion-luba2-awd"
+      ],
+      "stars": 14,
+      "last_commit": "2026-11-03",
+      "archived": false,
+      "momentum": "steady",
+      "works": "Android app: BLE control, on-phone route planning, camera remote; LUBA 2 AWD validated, others read-only",
+      "ai_assisted": false,
+      "score": 7,
+      "confidence": "medium",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-sdcnm-t100-lidar",
+      "name": "T100-LiDAR",
+      "url": "https://github.com/sdcnm/T100-LiDAR",
+      "devices": [],
+      "stars": 8,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Unofficial Python UDP driver/protocol for a DJI 'T100' LiDAR; simulator only demonstrates synthetic points",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Which DJI product carries this LiDAR not verified."
+        }
+      ]
+    },
+    {
+      "id": "proj-github-sidhantgoel-dronesmith",
+      "name": "Dronesmith",
+      "url": "https://github.com/sidhantgoel/dronesmith",
+      "devices": [],
+      "stars": 0,
+      "last_commit": "2026-11-23",
+      "archived": false,
+      "momentum": "rising",
+      "works": "Desktop DJI DUML service tool: board info, calibration, flashing, partition explorer, fastboot (Windows libusb)",
+      "ai_assisted": false,
+      "score": 5,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-skchdf-rcn1-joystick",
+      "name": "rcn1-joystick",
+      "url": "https://github.com/skchdf/rcn1-joystick",
+      "devices": [
+        "dev-dji-rc-n1"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-21",
+      "archived": false,
+      "momentum": "steady",
+      "works": "DJI RC-N1 as Linux uinput gamepad (fw 4.04)",
+      "ai_assisted": false,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": []
+    },
+    {
+      "id": "proj-github-arda-dinc04-neo2-open-research",
+      "name": "neo2-open-research",
+      "url": "https://github.com/Arda-Dinc04/neo2-open-research",
+      "devices": [
+        "dev-dji-neo2"
+      ],
+      "stars": 0,
+      "last_commit": "2026-11-07",
+      "archived": false,
+      "momentum": "stalled",
+      "works": "Receive-only USB telemetry viewer for DJI Neo 2; camera WebRTC in a codex/ branch fork",
+      "ai_assisted": true,
+      "score": 4,
+      "confidence": "low",
+      "first_seen": "2026-11-26",
+      "last_verified": "2026-11-26",
+      "notes": [
+        {
+          "date": "2026-11-26",
+          "text": "Camera fork branch named codex/macos-camera-preview."
+        }
+      ]
     }
   ],
   "discussions": [
@@ -6320,6 +7259,27 @@
       "title": "OpenWrt with the UniFi controller (OpenWrt forum)",
       "date": "older thread",
       "first_seen": "2026-11-25"
+    },
+    {
+      "id": "disc-adafruit-llm-assisted-re",
+      "url": "https://blog.adafruit.com/2026/11/19/llm-assisted-reverse-engineering/",
+      "title": "LLM assisted reverse engineering (Adafruit repost of Slow Chronicle post)",
+      "date": "2026-11-19",
+      "first_seen": "2026-11-26"
+    },
+    {
+      "id": "disc-thehackernews-unitree-g1-edu-flaws",
+      "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+      "title": "Two Unitree G1 EDU humanoid robot flaws enable root RCE, one over BLE",
+      "date": "2026-08-27",
+      "first_seen": "2026-11-26"
+    },
+    {
+      "id": "disc-xhack-ai-firmware-re-limits",
+      "url": "https://xhack.io/blog/ai-firmware-reverse-engineering",
+      "title": "AI firmware reverse engineering: what an agent can triage and the limits",
+      "date": "2026-11-13",
+      "first_seen": "2026-11-26"
     }
   ]
 }
