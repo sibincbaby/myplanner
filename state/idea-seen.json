@@ -3198,5 +3198,53 @@
   {
     "app": "TouchDesigner (Derivative; free non-commercial tier)",
     "date_seen": "2026-11-27"
+  },
+  {
+    "app": "Microsoft Planner + To Do + Outlook flagged-mail tasks (basic Planner via Microsoft Graph)",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Salesforce data and file storage reclaim (Storage Usage, EmailMessage, Task/Event, ContentVersion, Recycle Bin), with Dataverse capacity as a second connector",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Salesforce Account Hierarchy and relationship graph (ParentId, Ultimate Parent, Account-Contact Relations, Opportunity Contact Roles); HubSpot company associations and Dynamics parentaccountid as later connectors",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Adyen (Customer Area + Reporting/Management APIs): settlement and payout reconciliation",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Rotki (open-source, self-hosted crypto portfolio, accounting and tax reporting), with BittyTax and Koinly CSVs as sibling inputs",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Amazon Redshift (provisioned clusters + Serverless): performance and cost tuning",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Google Cloud VPC networking (firewall rules and hierarchical policies, Cloud NAT, Shared VPC, Private Service Connect, Connectivity Tests)",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Float / Runn / Forecast (resource and capacity planning for project teams)",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Faire (wholesale marketplace, Brand Portal + External API v2)",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Linux systemd + journald (units, timers, drop-ins, cgroup limits, sandboxing) on RHEL/Ubuntu/Debian/Amazon Linux fleets",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Aseprite (Igara Studio): sprite pipeline, palette and export automation",
+    "date_seen": "2026-11-28"
+  },
+  {
+    "app": "Octopus Deploy (Server self-hosted + Octopus Cloud): variable scoping and release-process sprawl",
+    "date_seen": "2026-11-28"
   }
 ]
